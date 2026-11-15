@@ -1,0 +1,202 @@
+{
+ "snapshot": "2026-11-15",
+ "query": "voynich",
+ "repos": 599,
+ "total_stars": 717,
+ "repos_10_plus_stars": 13,
+ "repos_50_plus_stars": 3,
+ "pushed_in_2026": 368,
+ "created_by_year": {
+  "2012": 1,
+  "2013": 1,
+  "2014": 6,
+  "2015": 11,
+  "2016": 12,
+  "2017": 15,
+  "2018": 14,
+  "2019": 14,
+  "2020": 15,
+  "2021": 22,
+  "2022": 15,
+  "2023": 12,
+  "2024": 31,
+  "2025": 88,
+  "2026": 342
+ },
+ "kind_by_year": {
+  "2012": {
+   "other": 1
+  },
+  "2013": {
+   "other": 1
+  },
+  "2014": {
+   "other": 5,
+   "tool/analysis": 1
+  },
+  "2015": {
+   "claim": 1,
+   "other": 7,
+   "tool/analysis": 3
+  },
+  "2016": {
+   "other": 7,
+   "claim": 3,
+   "tool/analysis": 2
+  },
+  "2017": {
+   "claim": 1,
+   "other": 12,
+   "tool/analysis": 2
+  },
+  "2018": {
+   "tool/analysis": 2,
+   "claim": 2,
+   "other": 10
+  },
+  "2019": {
+   "other": 10,
+   "tool/analysis": 3,
+   "claim": 1
+  },
+  "2020": {
+   "tool/analysis": 3,
+   "other": 11,
+   "claim": 1
+  },
+  "2021": {
+   "claim": 2,
+   "tool/analysis": 4,
+   "other": 16
+  },
+  "2022": {
+   "tool/analysis": 4,
+   "other": 10,
+   "claim": 1
+  },
+  "2023": {
+   "claim": 1,
+   "other": 7,
+   "tool/analysis": 4
+  },
+  "2024": {
+   "claim": 2,
+   "other": 27,
+   "tool/analysis": 2
+  },
+  "2025": {
+   "tool/analysis": 16,
+   "other": 46,
+   "claim": 26
+  },
+  "2026": {
+   "claim": 70,
+   "tool/analysis": 73,
+   "other": 199
+  }
+ },
+ "languages": {
+  "Python": 241,
+  "none": 124,
+  "HTML": 87,
+  "Jupyter Notebook": 34,
+  "JavaScript": 24,
+  "TypeScript": 20,
+  "Java": 18,
+  "TeX": 8,
+  "C#": 6,
+  "R": 5
+ },
+ "top": [
+  {
+   "name": "brianmg/voynich-nlp-analysis",
+   "stars": 130,
+   "created": "2025-05-18",
+   "pushed": "2025-05-26"
+  },
+  {
+   "name": "okesipoke/manuscript-phoneme-decipher",
+   "stars": 117,
+   "created": "2026-06-28",
+   "pushed": "2026-11-15"
+  },
+  {
+   "name": "lizadaly/nanogenmo2014",
+   "stars": 112,
+   "created": "2014-11-03",
+   "pushed": "2022-07-16"
+  },
+  {
+   "name": "voynichese/voynichese",
+   "stars": 30,
+   "created": "2016-01-26",
+   "pushed": "2016-04-03"
+  },
+  {
+   "name": "longwall/voynich_manchu_oradb",
+   "stars": 17,
+   "created": "2014-03-05",
+   "pushed": "2014-06-11"
+  },
+  {
+   "name": "chirila/Voynich-public",
+   "stars": 16,
+   "created": "2020-09-24",
+   "pushed": "2024-06-04"
+  },
+  {
+   "name": "YaleDHLab/voynich",
+   "stars": 12,
+   "created": "2019-04-10",
+   "pushed": "2024-09-04"
+  },
+  {
+   "name": "mzattera/v4j",
+   "stars": 12,
+   "created": "2018-08-25",
+   "pushed": "2026-11-14"
+  },
+  {
+   "name": "DethRaid/voynich-translation",
+   "stars": 11,
+   "created": "2016-02-11",
+   "pushed": "2023-06-30"
+  },
+  {
+   "name": "alephmembeth/voynich",
+   "stars": 11,
+   "created": "2022-05-30",
+   "pushed": "2024-10-03"
+  },
+  {
+   "name": "viking-sudo-rm/voynich2vec",
+   "stars": 11,
+   "created": "2018-03-23",
+   "pushed": "2021-04-26"
+  },
+  {
+   "name": "sravanareddy/deciphervoynich",
+   "stars": 10,
+   "created": "2015-07-30",
+   "pushed": "2015-07-30"
+  },
+  {
+   "name": "kreativekorp/voynich-unicode",
+   "stars": 10,
+   "created": "2019-07-10",
+   "pushed": "2019-07-10"
+  },
+  {
+   "name": "alexanderboxer/voynich-attack",
+   "stars": 9,
+   "created": "2021-10-20",
+   "pushed": "2026-09-10"
+  },
+  {
+   "name": "noah-chelednik/voynich-data",
+   "stars": 9,
+   "created": "2026-01-19",
+   "pushed": "2026-10-27"
+  }
+ ]
+}
