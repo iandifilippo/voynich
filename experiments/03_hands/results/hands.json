@@ -1,0 +1,545 @@
+{
+ "pairs": [
+  {
+   "a": "hand 1",
+   "b": "hand 2",
+   "jsd": 0.510892192673988
+  },
+  {
+   "a": "hand 1",
+   "b": "hand 3",
+   "jsd": 0.5062888728830132
+  },
+  {
+   "a": "hand 1",
+   "b": "hand 4",
+   "jsd": 0.5285276935624055
+  },
+  {
+   "a": "hand 1",
+   "b": "hand 5",
+   "jsd": 0.6121573583898707
+  },
+  {
+   "a": "hand 2",
+   "b": "hand 3",
+   "jsd": 0.2728927872675299
+  },
+  {
+   "a": "hand 2",
+   "b": "hand 4",
+   "jsd": 0.5183233684649262
+  },
+  {
+   "a": "hand 2",
+   "b": "hand 5",
+   "jsd": 0.4570635612011536
+  },
+  {
+   "a": "hand 3",
+   "b": "hand 4",
+   "jsd": 0.4958834850974071
+  },
+  {
+   "a": "hand 3",
+   "b": "hand 5",
+   "jsd": 0.5123959069494779
+  },
+  {
+   "a": "hand 4",
+   "b": "hand 5",
+   "jsd": 0.5934616803377102
+  }
+ ],
+ "cross": [
+  {
+   "hand": "1",
+   "A": 10749,
+   "B": 0
+  },
+  {
+   "hand": "2",
+   "A": 0,
+   "B": 11128
+  },
+  {
+   "hand": "3",
+   "A": 750,
+   "B": 10908
+  },
+  {
+   "hand": "4",
+   "A": 0,
+   "B": 528
+  },
+  {
+   "hand": "5",
+   "A": 0,
+   "B": 925
+  }
+ ],
+ "markers": {
+  "1": [
+   {
+    "word": "daiin",
+    "count": 492,
+    "elsewhere": 357,
+    "z": 18.522190036057463
+   },
+   {
+    "word": "chol",
+    "count": 268,
+    "elsewhere": 127,
+    "z": 15.791670504803315
+   },
+   {
+    "word": "chor",
+    "count": 176,
+    "elsewhere": 35,
+    "z": 13.8750804017979
+   },
+   {
+    "word": "s",
+    "count": 198,
+    "elsewhere": 152,
+    "z": 11.235737072979251
+   },
+   {
+    "word": "sho",
+    "count": 102,
+    "elsewhere": 23,
+    "z": 10.558508772748327
+   },
+   {
+    "word": "chy",
+    "count": 108,
+    "elsewhere": 56,
+    "z": 9.715177517158102
+   },
+   {
+    "word": "cthy",
+    "count": 94,
+    "elsewhere": 9,
+    "z": 9.516593716259479
+   },
+   {
+    "word": "shol",
+    "count": 113,
+    "elsewhere": 73,
+    "z": 9.188696329389046
+   },
+   {
+    "word": "shor",
+    "count": 68,
+    "elsewhere": 28,
+    "z": 8.145257076613532
+   },
+   {
+    "word": "qotchy",
+    "count": 49,
+    "elsewhere": 13,
+    "z": 7.284806263710402
+   },
+   {
+    "word": "shy",
+    "count": 63,
+    "elsewhere": 35,
+    "z": 7.250658926132828
+   },
+   {
+    "word": "cho",
+    "count": 55,
+    "elsewhere": 24,
+    "z": 7.236784970213008
+   },
+   {
+    "word": "cthol",
+    "count": 52,
+    "elsewhere": 4,
+    "z": 6.9113659569977095
+   },
+   {
+    "word": "d",
+    "count": 47,
+    "elsewhere": 20,
+    "z": 6.725746794148949
+   },
+   {
+    "word": "dol",
+    "count": 62,
+    "elsewhere": 47,
+    "z": 6.295797447000858
+   }
+  ],
+  "2": [
+   {
+    "word": "shedy",
+    "count": 293,
+    "elsewhere": 141,
+    "z": 16.210996377565653
+   },
+   {
+    "word": "qokedy",
+    "count": 200,
+    "elsewhere": 76,
+    "z": 14.040684968960152
+   },
+   {
+    "word": "chedy",
+    "count": 276,
+    "elsewhere": 231,
+    "z": 12.373448064544487
+   },
+   {
+    "word": "ol",
+    "count": 290,
+    "elsewhere": 271,
+    "z": 11.75335134434818
+   },
+   {
+    "word": "qokain",
+    "count": 172,
+    "elsewhere": 107,
+    "z": 11.332702088609404
+   },
+   {
+    "word": "qol",
+    "count": 109,
+    "elsewhere": 33,
+    "z": 10.64106006028694
+   },
+   {
+    "word": "qokal",
+    "count": 122,
+    "elsewhere": 75,
+    "z": 9.570000890179575
+   },
+   {
+    "word": "qokeedy",
+    "count": 165,
+    "elsewhere": 142,
+    "z": 9.339975058667635
+   },
+   {
+    "word": "qotedy",
+    "count": 61,
+    "elsewhere": 28,
+    "z": 7.420878571100739
+   },
+   {
+    "word": "qokar",
+    "count": 90,
+    "elsewhere": 69,
+    "z": 7.383376817307443
+   },
+   {
+    "word": "or",
+    "count": 175,
+    "elsewhere": 215,
+    "z": 6.989406541685314
+   },
+   {
+    "word": "sheedy",
+    "count": 52,
+    "elsewhere": 31,
+    "z": 6.311039549644334
+   },
+   {
+    "word": "otedy",
+    "count": 84,
+    "elsewhere": 81,
+    "z": 6.11087906952111
+   },
+   {
+    "word": "okedy",
+    "count": 65,
+    "elsewhere": 55,
+    "z": 5.90593184308293
+   },
+   {
+    "word": "chckhy",
+    "count": 73,
+    "elsewhere": 68,
+    "z": 5.850452869548488
+   }
+  ],
+  "3": [
+   {
+    "word": "qokeey",
+    "count": 167,
+    "elsewhere": 140,
+    "z": 8.923486061551698
+   },
+   {
+    "word": "al",
+    "count": 141,
+    "elsewhere": 120,
+    "z": 8.101240317341297
+   },
+   {
+    "word": "l",
+    "count": 102,
+    "elsewhere": 86,
+    "z": 6.925828666892512
+   },
+   {
+    "word": "qokaiin",
+    "count": 131,
+    "elsewhere": 134,
+    "z": 6.683466628208466
+   },
+   {
+    "word": "okeey",
+    "count": 97,
+    "elsewhere": 87,
+    "z": 6.445936573868306
+   },
+   {
+    "word": "aiin",
+    "count": 217,
+    "elsewhere": 287,
+    "z": 6.286130974590249
+   },
+   {
+    "word": "lkaiin",
+    "count": 39,
+    "elsewhere": 9,
+    "z": 6.265040793668443
+   },
+   {
+    "word": "otain",
+    "count": 58,
+    "elsewhere": 38,
+    "z": 6.061036236032748
+   },
+   {
+    "word": "okain",
+    "count": 76,
+    "elsewhere": 65,
+    "z": 5.912091236238421
+   },
+   {
+    "word": "lkeey",
+    "count": 34,
+    "elsewhere": 5,
+    "z": 5.825852512396525
+   },
+   {
+    "word": "otaiin",
+    "count": 81,
+    "elsewhere": 74,
+    "z": 5.801456416786875
+   },
+   {
+    "word": "okaiin",
+    "count": 102,
+    "elsewhere": 114,
+    "z": 5.366490659931432
+   },
+   {
+    "word": "lkeedy",
+    "count": 29,
+    "elsewhere": 8,
+    "z": 5.349296395516415
+   },
+   {
+    "word": "lkain",
+    "count": 27,
+    "elsewhere": 7,
+    "z": 5.18820198509888
+   },
+   {
+    "word": "oteedy",
+    "count": 57,
+    "elsewhere": 49,
+    "z": 5.099733730010863
+   }
+  ],
+  "4": [
+   {
+    "word": "oteody",
+    "count": 21,
+    "elsewhere": 20,
+    "z": 7.579779556280795
+   },
+   {
+    "word": "oteos",
+    "count": 19,
+    "elsewhere": 7,
+    "z": 7.558201161913173
+   },
+   {
+    "word": "ar",
+    "count": 78,
+    "elsewhere": 325,
+    "z": 6.9778658637416004
+   },
+   {
+    "word": "oteey",
+    "count": 37,
+    "elsewhere": 108,
+    "z": 6.502742191640782
+   },
+   {
+    "word": "okeo",
+    "count": 13,
+    "elsewhere": 6,
+    "z": 6.3283995165662645
+   },
+   {
+    "word": "oteo",
+    "count": 11,
+    "elsewhere": 6,
+    "z": 5.828897221466401
+   },
+   {
+    "word": "okody",
+    "count": 11,
+    "elsewhere": 6,
+    "z": 5.828897221466401
+   },
+   {
+    "word": "oteeos",
+    "count": 10,
+    "elsewhere": 4,
+    "z": 5.567383099857919
+   },
+   {
+    "word": "otody",
+    "count": 12,
+    "elsewhere": 14,
+    "z": 5.548299298137739
+   },
+   {
+    "word": "air",
+    "count": 22,
+    "elsewhere": 62,
+    "z": 5.164193119045072
+   },
+   {
+    "word": "al",
+    "count": 48,
+    "elsewhere": 213,
+    "z": 5.1063898159745165
+   },
+   {
+    "word": "okeos",
+    "count": 8,
+    "elsewhere": 4,
+    "z": 5.017288519052491
+   },
+   {
+    "word": "ykeody",
+    "count": 8,
+    "elsewhere": 8,
+    "z": 4.718671258127866
+   },
+   {
+    "word": "otaly",
+    "count": 9,
+    "elsewhere": 12,
+    "z": 4.680572788715224
+   },
+   {
+    "word": "okeody",
+    "count": 12,
+    "elsewhere": 25,
+    "z": 4.566145291761874
+   }
+  ],
+  "5": [
+   {
+    "word": "sheody",
+    "count": 8,
+    "elsewhere": 41,
+    "z": 5.661602502475357
+   },
+   {
+    "word": "cheky",
+    "count": 8,
+    "elsewhere": 58,
+    "z": 4.8702940039933065
+   },
+   {
+    "word": "okedy",
+    "count": 11,
+    "elsewhere": 109,
+    "z": 4.7262369839802
+   },
+   {
+    "word": "dal",
+    "count": 12,
+    "elsewhere": 230,
+    "z": 2.761545713067577
+   },
+   {
+    "word": "qokedy",
+    "count": 11,
+    "elsewhere": 265,
+    "z": 1.909713494188349
+   },
+   {
+    "word": "y",
+    "count": 10,
+    "elsewhere": 296,
+    "z": 1.184265457205034
+   },
+   {
+    "word": "chedy",
+    "count": 14,
+    "elsewhere": 493,
+    "z": 0.6916909924432288
+   },
+   {
+    "word": "shedy",
+    "count": 11,
+    "elsewhere": 423,
+    "z": 0.3481652476857427
+   },
+   {
+    "word": "daiin",
+    "count": 17,
+    "elsewhere": 832,
+    "z": -0.6474777943071225
+   },
+   {
+    "word": "ol",
+    "count": 9,
+    "elsewhere": 552,
+    "z": -1.0957288177160656
+   }
+  ]
+ },
+ "shared": [
+  {
+   "hand": "1",
+   "tokens": 10927,
+   "types": 3180,
+   "tokens_with_shared_word": 0.7689210213233275
+  },
+  {
+   "hand": "2",
+   "tokens": 11128,
+   "types": 2534,
+   "tokens_with_shared_word": 0.8777857656362329
+  },
+  {
+   "hand": "3",
+   "tokens": 11708,
+   "types": 3302,
+   "tokens_with_shared_word": 0.8211479330372395
+  },
+  {
+   "hand": "4",
+   "tokens": 3570,
+   "types": 1748,
+   "tokens_with_shared_word": 0.7319327731092437
+  },
+  {
+   "hand": "5",
+   "tokens": 925,
+   "types": 558,
+   "tokens_with_shared_word": 0.8216216216216217
+  }
+ ]
+}
