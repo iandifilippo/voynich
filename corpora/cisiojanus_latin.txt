@@ -1,0 +1,27 @@
+# Cisiojanus (Latin), medieval mnemonic calendar: one syllable per day.
+# Text as given in de.wikipedia.org/wiki/Cisiojanus (accents = rhythmic stress, | = pause).
+# Medieval text, public domain.
+01 císio jánus epí | sibi véndicat óc feli már an
+01 prísca fab ág vincén | ti páu po nóbile lúmen
+02 brí pur blásus ag dór | febru áp scolástica válent
+02 júli cónjungé | tunc pétrum mátthiam índe
+03 mártius ádria pér | decorátur grégorió cyr
+03 gértrud álba bené | junctá mariá genetríce
+04 ápril in ámbrosií | festís ovat átque tibúrci
+04 ét valér | sanctíque geór | marcíque vitális
+05 phílip crúx flor gót | johan látin epí ne ser ét soph
+05 május in hác serié | tenet úrban ín pede crís canb
+06 níc marcélle boní | dat jún primí ba cyríni
+06 vítique már prothas ál | sanctí johan jó dor le pé pau
+07 júl proces údal oc wíl | kili frá bene márgar apóst al
+07 árnolfús prax mág | ap chríst jacobíque sim ábdon
+08 pé steph stéph protho síx | don cýr ro láu tibur híp eus
+08 súmptio ágapití | timo bártholo rúf aug coll áucti
+09 égidiúm sep habét | nat górgon prótique crúx nic
+09 éu lampértique mát | maurícius ét da wen mích jer
+10 rémique fránciscús | marcús di ger árteque cálix
+10 gálle lucás vel und sé | seve críspiné simonís quin
+11 ómne novémbre leó | qua theó martín bricciíque
+11 póst haec élisá | ce cle crýs kathárina sát an
+12 décembér barbá | nico cóncep et álma lucía
+12 sánctus abínde thomás | modo nát steph jó pu thomáe sil
