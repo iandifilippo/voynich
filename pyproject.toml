@@ -1,0 +1,17 @@
+[project]
+name = "voynich"
+version = "0.1.0"
+description = "Load, measure and benchmark the Voynich Manuscript text"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["voynich"]
