@@ -1,0 +1,2782 @@
+{
+ "extra_glyph": {
+  "first_share": 0.6056860321384425,
+  "mid_share": 0.4041306796845663,
+  "by_glyph": {
+   "d": {
+    "first_n": 624,
+    "first_share": 0.8525641025641025,
+    "mid_n": 1961,
+    "mid_share": 0.7598164201937787
+   },
+   "s": {
+    "first_n": 599,
+    "first_share": 0.5242070116861436,
+    "mid_n": 3291,
+    "mid_share": 0.07718018839258584
+   },
+   "t": {
+    "first_n": 391,
+    "first_share": 0.6138107416879796,
+    "mid_n": 503,
+    "mid_share": 0.536779324055666
+   },
+   "y": {
+    "first_n": 590,
+    "first_share": 0.6220338983050847,
+    "mid_n": 973,
+    "mid_share": 0.5621788283658787
+   },
+   "p": {
+    "first_n": 375,
+    "first_share": 0.5226666666666666,
+    "mid_n": 138,
+    "mid_share": 0.7608695652173914
+   },
+   "k": {
+    "first_n": 104,
+    "first_share": 0.49038461538461536,
+    "mid_n": 983,
+    "mid_share": 0.5300101729399797
+   },
+   "f": {
+    "first_n": 33,
+    "first_share": 0.45454545454545453,
+    "mid_n": 65,
+    "mid_share": 0.7538461538461538
+   },
+   "o": {
+    "first_n": 547,
+    "first_share": 0.5137111517367459,
+    "mid_n": 5653,
+    "mid_share": 0.5471431098531753
+   }
+  }
+ },
+ "rows": [
+  {
+   "word": "daiin",
+   "count": 813,
+   "first_ratio": 1.6681216997584067,
+   "last_ratio": 1.3619474637268003,
+   "second_ratio": 0.6968103302788281,
+   "first": 158,
+   "last": 129
+  },
+  {
+   "word": "ol",
+   "count": 531,
+   "first_ratio": 0.5172692333656906,
+   "last_ratio": 0.6789158687924689,
+   "second_ratio": 1.4063257282129713,
+   "first": 32,
+   "last": 42
+  },
+  {
+   "word": "chedy",
+   "count": 493,
+   "first_ratio": 0.12187434967167038,
+   "last_ratio": 0.5745505055950175,
+   "second_ratio": 0.9401735546100287,
+   "first": 7,
+   "last": 33
+  },
+  {
+   "word": "aiin",
+   "count": 459,
+   "first_ratio": 0.01870029703956847,
+   "last_ratio": 0.7293115845431705,
+   "second_ratio": 1.1781187134928137,
+   "first": 1,
+   "last": 39
+  },
+  {
+   "word": "shedy",
+   "count": 423,
+   "first_ratio": 0.14204268176863713,
+   "last_ratio": 0.40583623362467747,
+   "second_ratio": 1.461010441048839,
+   "first": 7,
+   "last": 20
+  },
+  {
+   "word": "chol",
+   "count": 377,
+   "first_ratio": 0.4098192417530894,
+   "last_ratio": 0.09107094261179766,
+   "second_ratio": 1.866954323541852,
+   "first": 18,
+   "last": 4
+  },
+  {
+   "word": "or",
+   "count": 366,
+   "first_ratio": 0.7739163914162394,
+   "last_ratio": 0.3986842016386688,
+   "second_ratio": 1.1960526049160063,
+   "first": 33,
+   "last": 17
+  },
+  {
+   "word": "chey",
+   "count": 337,
+   "first_ratio": 0.15282082506519754,
+   "last_ratio": 0.4584624751955926,
+   "second_ratio": 1.7574394882497717,
+   "first": 6,
+   "last": 18
+  },
+  {
+   "word": "ar",
+   "count": 331,
+   "first_ratio": 0.12965915923205332,
+   "last_ratio": 0.6482957961602666,
+   "second_ratio": 1.607773574477461,
+   "first": 5,
+   "last": 25
+  },
+  {
+   "word": "s",
+   "count": 310,
+   "first_ratio": 0.44301606922126086,
+   "last_ratio": 0.996786155747837,
+   "second_ratio": 0.6091470951792337,
+   "first": 16,
+   "last": 36
+  },
+  {
+   "word": "qokeedy",
+   "count": 307,
+   "first_ratio": 0.8946904329549894,
+   "last_ratio": 0.13979538014921708,
+   "second_ratio": 1.0065267370743631,
+   "first": 32,
+   "last": 5
+  },
+  {
+   "word": "qokeey",
+   "count": 303,
+   "first_ratio": 0.9065015277794775,
+   "last_ratio": 0.3116099001741954,
+   "second_ratio": 0.764860664063934,
+   "first": 32,
+   "last": 11
+  },
+  {
+   "word": "dar",
+   "count": 286,
+   "first_ratio": 1.1404565767977388,
+   "last_ratio": 1.290516652692178,
+   "second_ratio": 0.5702282883988694,
+   "first": 38,
+   "last": 43
+  },
+  {
+   "word": "qokain",
+   "count": 279,
+   "first_ratio": 0.7691251201758,
+   "last_ratio": 0.30765004807032004,
+   "second_ratio": 0.738360115368768,
+   "first": 25,
+   "last": 10
+  },
+  {
+   "word": "qokedy",
+   "count": 275,
+   "first_ratio": 0.6242499157208675,
+   "last_ratio": 0.28091246207439036,
+   "second_ratio": 0.8739498820092145,
+   "first": 20,
+   "last": 9
+  },
+  {
+   "word": "shey",
+   "count": 269,
+   "first_ratio": 0.19145211169877907,
+   "last_ratio": 0.414812908680688,
+   "second_ratio": 2.1697905992528295,
+   "first": 6,
+   "last": 13
+  },
+  {
+   "word": "qokaiin",
+   "count": 265,
+   "first_ratio": 0.9393194486554562,
+   "last_ratio": 0.3886839097884647,
+   "second_ratio": 0.7773678195769294,
+   "first": 29,
+   "last": 12
+  },
+  {
+   "word": "y",
+   "count": 258,
+   "first_ratio": 2.062686252527285,
+   "last_ratio": 1.1976887917900365,
+   "second_ratio": 0.7651900614214122,
+   "first": 62,
+   "last": 36
+  },
+  {
+   "word": "dy",
+   "count": 245,
+   "first_ratio": 0.07006886809111779,
+   "last_ratio": 3.0479957619636235,
+   "second_ratio": 0.35034434045558893,
+   "first": 2,
+   "last": 87
+  },
+  {
+   "word": "al",
+   "count": 216,
+   "first_ratio": 0.039738131209083004,
+   "last_ratio": 1.1126676738543242,
+   "second_ratio": 1.1126676738543242,
+   "first": 1,
+   "last": 28
+  },
+  {
+   "word": "dal",
+   "count": 214,
+   "first_ratio": 0.20054757806453102,
+   "last_ratio": 1.9252567494194979,
+   "second_ratio": 0.44120467174196826,
+   "first": 5,
+   "last": 48
+  },
+  {
+   "word": "dain",
+   "count": 210,
+   "first_ratio": 2.002801812937783,
+   "last_ratio": 1.0627111660486197,
+   "second_ratio": 0.5722290894107952,
+   "first": 49,
+   "last": 26
+  },
+  {
+   "word": "chor",
+   "count": 208,
+   "first_ratio": 0.37139868783873725,
+   "last_ratio": 0.28886564609679566,
+   "second_ratio": 2.55852429400019,
+   "first": 9,
+   "last": 7
+  },
+  {
+   "word": "okaiin",
+   "count": 204,
+   "first_ratio": 0.631135025085436,
+   "last_ratio": 0.5469836884073778,
+   "second_ratio": 1.0518917084757264,
+   "first": 15,
+   "last": 13
+  },
+  {
+   "word": "qokal",
+   "count": 190,
+   "first_ratio": 0.5872877496584478,
+   "last_ratio": 0.6324637304014054,
+   "second_ratio": 0.9486955956021079,
+   "first": 13,
+   "last": 14
+  },
+  {
+   "word": "shol",
+   "count": 179,
+   "first_ratio": 0.8631388499492441,
+   "last_ratio": 0.19180863332205422,
+   "second_ratio": 2.2057992832036235,
+   "first": 18,
+   "last": 4
+  },
+  {
+   "word": "cheey",
+   "count": 176,
+   "first_ratio": 0.09753904933138553,
+   "last_ratio": 0.2926171479941566,
+   "second_ratio": 2.048320035959096,
+   "first": 2,
+   "last": 6
+  },
+  {
+   "word": "l",
+   "count": 165,
+   "first_ratio": 0.15606247893021685,
+   "last_ratio": 0.10404165262014457,
+   "second_ratio": 1.3525414840618795,
+   "first": 3,
+   "last": 2
+  },
+  {
+   "word": "cheol",
+   "count": 164,
+   "first_ratio": 0.366366185293497,
+   "last_ratio": 0.26169013235249783,
+   "second_ratio": 2.0411830323494833,
+   "first": 7,
+   "last": 5
+  },
+  {
+   "word": "okeey",
+   "count": 159,
+   "first_ratio": 0.6478065163141077,
+   "last_ratio": 0.2159355054380359,
+   "second_ratio": 1.2956130326282154,
+   "first": 12,
+   "last": 4
+  },
+  {
+   "word": "qokar",
+   "count": 156,
+   "first_ratio": 0.3301321669677664,
+   "last_ratio": 0.1650660834838832,
+   "second_ratio": 0.825330417419416,
+   "first": 6,
+   "last": 3
+  },
+  {
+   "word": "chy",
+   "count": 147,
+   "first_ratio": 0.11678144681852962,
+   "last_ratio": 0.5839072340926481,
+   "second_ratio": 1.4013773618223555,
+   "first": 2,
+   "last": 10
+  },
+  {
+   "word": "o",
+   "count": 146,
+   "first_ratio": 1.1170225375484704,
+   "last_ratio": 0.058790659870972116,
+   "second_ratio": 1.2933945171613865,
+   "first": 19,
+   "last": 1
+  },
+  {
+   "word": "qoky",
+   "count": 145,
+   "first_ratio": 0.29598056348834234,
+   "last_ratio": 1.7166872682323857,
+   "second_ratio": 0.4143727888836793,
+   "first": 5,
+   "last": 29
+  },
+  {
+   "word": "sheey",
+   "count": 144,
+   "first_ratio": 0.23842878725449798,
+   "last_ratio": 0.17882159044087348,
+   "second_ratio": 1.7286087075951102,
+   "first": 4,
+   "last": 3
+  },
+  {
+   "word": "qol",
+   "count": 142,
+   "first_ratio": 1.0275944915475548,
+   "last_ratio": 0.5440206131722348,
+   "second_ratio": 1.2089346959382998,
+   "first": 17,
+   "last": 9
+  },
+  {
+   "word": "otaiin",
+   "count": 140,
+   "first_ratio": 0.24524103831891225,
+   "last_ratio": 0.6744128553770087,
+   "second_ratio": 0.4291718170580965,
+   "first": 4,
+   "last": 11
+  },
+  {
+   "word": "otedy",
+   "count": 140,
+   "first_ratio": 0.24524103831891225,
+   "last_ratio": 0.3678615574783684,
+   "second_ratio": 0.3678615574783684,
+   "first": 4,
+   "last": 6
+  },
+  {
+   "word": "chdy",
+   "count": 139,
+   "first_ratio": 0.0,
+   "last_ratio": 1.049772789926279,
+   "second_ratio": 0.4940107246711901,
+   "first": 0,
+   "last": 17
+  },
+  {
+   "word": "r",
+   "count": 139,
+   "first_ratio": 0.12350268116779753,
+   "last_ratio": 0.4940107246711901,
+   "second_ratio": 1.1732754710940765,
+   "first": 2,
+   "last": 8
+  },
+  {
+   "word": "okain",
+   "count": 136,
+   "first_ratio": 0.5049080200683487,
+   "last_ratio": 0.6942485275939795,
+   "second_ratio": 0.9467025376281538,
+   "first": 8,
+   "last": 11
+  },
+  {
+   "word": "chckhy",
+   "count": 136,
+   "first_ratio": 0.06311350250854358,
+   "last_ratio": 0.6311350250854358,
+   "second_ratio": 0.6942485275939795,
+   "first": 1,
+   "last": 10
+  },
+  {
+   "word": "okal",
+   "count": 133,
+   "first_ratio": 0.12907423069416435,
+   "last_ratio": 0.8389824995120683,
+   "second_ratio": 0.38722269208249305,
+   "first": 2,
+   "last": 13
+  },
+  {
+   "word": "otar",
+   "count": 126,
+   "first_ratio": 0.13624502128828458,
+   "last_ratio": 0.4087350638648537,
+   "second_ratio": 0.476857574508996,
+   "first": 2,
+   "last": 6
+  },
+  {
+   "word": "otal",
+   "count": 125,
+   "first_ratio": 0.06866749072929543,
+   "last_ratio": 0.7553423980222497,
+   "second_ratio": 0.2746699629171817,
+   "first": 1,
+   "last": 11
+  },
+  {
+   "word": "okar",
+   "count": 122,
+   "first_ratio": 0.3517801779164724,
+   "last_ratio": 0.21106810674988347,
+   "second_ratio": 0.9146284625828284,
+   "first": 5,
+   "last": 3
+  },
+  {
+   "word": "sho",
+   "count": 118,
+   "first_ratio": 2.2549705642035573,
+   "last_ratio": 0.0,
+   "second_ratio": 1.7457836626092058,
+   "first": 31,
+   "last": 0
+  },
+  {
+   "word": "saiin",
+   "count": 118,
+   "first_ratio": 3.928013240870713,
+   "last_ratio": 0.5091869015943516,
+   "second_ratio": 0.07274098594205024,
+   "first": 54,
+   "last": 7
+  },
+  {
+   "word": "lchedy",
+   "count": 116,
+   "first_ratio": 0.44397084523251357,
+   "last_ratio": 1.257917394825455,
+   "second_ratio": 1.1099271130812838,
+   "first": 6,
+   "last": 17
+  },
+  {
+   "word": "okedy",
+   "count": 109,
+   "first_ratio": 0.07874712239598099,
+   "last_ratio": 0.551229856771867,
+   "second_ratio": 0.6299769791678479,
+   "first": 1,
+   "last": 7
+  },
+  {
+   "word": "oteey",
+   "count": 108,
+   "first_ratio": 0.715286361763494,
+   "last_ratio": 0.31790504967266403,
+   "second_ratio": 0.8742388865998261,
+   "first": 9,
+   "last": 4
+  },
+  {
+   "word": "ain",
+   "count": 108,
+   "first_ratio": 0.0,
+   "last_ratio": 0.7947626241816601,
+   "second_ratio": 1.351096461108822,
+   "first": 0,
+   "last": 10
+  },
+  {
+   "word": "qokey",
+   "count": 108,
+   "first_ratio": 0.7947626241816601,
+   "last_ratio": 0.5563338369271621,
+   "second_ratio": 0.8742388865998261,
+   "first": 10,
+   "last": 7
+  },
+  {
+   "word": "dol",
+   "count": 105,
+   "first_ratio": 1.1444581788215904,
+   "last_ratio": 0.4904820766378245,
+   "second_ratio": 0.40873506386485375,
+   "first": 14,
+   "last": 6
+  },
+  {
+   "word": "sheol",
+   "count": 104,
+   "first_ratio": 0.24759912522582486,
+   "last_ratio": 0.3301321669677665,
+   "second_ratio": 2.641057335742132,
+   "first": 3,
+   "last": 4
+  },
+  {
+   "word": "okeedy",
+   "count": 104,
+   "first_ratio": 0.4126652087097081,
+   "last_ratio": 0.7427973756774745,
+   "second_ratio": 0.5777312921935913,
+   "first": 5,
+   "last": 9
+  },
+  {
+   "word": "cthy",
+   "count": 103,
+   "first_ratio": 0.0,
+   "last_ratio": 2.1666926686428165,
+   "second_ratio": 1.2500150011400866,
+   "first": 0,
+   "last": 26
+  },
+  {
+   "word": "oty",
+   "count": 103,
+   "first_ratio": 0.3333373336373564,
+   "last_ratio": 2.0833583352334775,
+   "second_ratio": 0.2500030002280173,
+   "first": 4,
+   "last": 25
+  },
+  {
+   "word": "qokol",
+   "count": 96,
+   "first_ratio": 1.072929542645241,
+   "last_ratio": 0.0,
+   "second_ratio": 0.715286361763494,
+   "first": 12,
+   "last": 0
+  },
+  {
+   "word": "shor",
+   "count": 95,
+   "first_ratio": 1.716687268232386,
+   "last_ratio": 0.18070392297183008,
+   "second_ratio": 2.078095114176046,
+   "first": 19,
+   "last": 2
+  },
+  {
+   "word": "shy",
+   "count": 94,
+   "first_ratio": 0.27393945769665723,
+   "last_ratio": 0.9131315256555241,
+   "second_ratio": 1.9175762038766007,
+   "first": 3,
+   "last": 10
+  },
+  {
+   "word": "otain",
+   "count": 94,
+   "first_ratio": 0.09131315256555242,
+   "last_ratio": 0.8218183730899717,
+   "second_ratio": 0.5478789153933145,
+   "first": 1,
+   "last": 9
+  },
+  {
+   "word": "dair",
+   "count": 92,
+   "first_ratio": 2.3324555274896546,
+   "last_ratio": 0.6530875476971033,
+   "second_ratio": 0.5597893265975171,
+   "first": 25,
+   "last": 7
+  },
+  {
+   "word": "oky",
+   "count": 91,
+   "first_ratio": 0.28297042882951406,
+   "last_ratio": 2.0751164780831033,
+   "second_ratio": 0.1886469525530094,
+   "first": 3,
+   "last": 22
+  },
+  {
+   "word": "oteedy",
+   "count": 90,
+   "first_ratio": 0.2861145447053976,
+   "last_ratio": 0.3814860596071968,
+   "second_ratio": 0.7629721192143936,
+   "first": 3,
+   "last": 4
+  },
+  {
+   "word": "chody",
+   "count": 87,
+   "first_ratio": 0.09866018782944745,
+   "last_ratio": 0.887941690465027,
+   "second_ratio": 0.5919611269766847,
+   "first": 1,
+   "last": 9
+  },
+  {
+   "word": "qotedy",
+   "count": 87,
+   "first_ratio": 0.1973203756588949,
+   "last_ratio": 0.3946407513177898,
+   "second_ratio": 0.887941690465027,
+   "first": 2,
+   "last": 4
+  },
+  {
+   "word": "qoty",
+   "count": 86,
+   "first_ratio": 0.4990369965791819,
+   "last_ratio": 1.8963405870008911,
+   "second_ratio": 0.5988443958950183,
+   "first": 5,
+   "last": 19
+  },
+  {
+   "word": "dam",
+   "count": 84,
+   "first_ratio": 0.0,
+   "last_ratio": 5.517923362175525,
+   "second_ratio": 0.3065512978986403,
+   "first": 0,
+   "last": 54
+  },
+  {
+   "word": "cheor",
+   "count": 82,
+   "first_ratio": 0.2093521058819983,
+   "last_ratio": 0.2093521058819983,
+   "second_ratio": 2.6169013235249787,
+   "first": 2,
+   "last": 2
+  },
+  {
+   "word": "cheody",
+   "count": 82,
+   "first_ratio": 0.10467605294099915,
+   "last_ratio": 1.2561126352919898,
+   "second_ratio": 1.1514365823509907,
+   "first": 1,
+   "last": 12
+  },
+  {
+   "word": "sheedy",
+   "count": 82,
+   "first_ratio": 0.31402815882299745,
+   "last_ratio": 0.0,
+   "second_ratio": 2.4075492176429805,
+   "first": 3,
+   "last": 0
+  },
+  {
+   "word": "qotaiin",
+   "count": 79,
+   "first_ratio": 0.5432554646305019,
+   "last_ratio": 0.7605576504827026,
+   "second_ratio": 0.6519065575566022,
+   "first": 5,
+   "last": 7
+  },
+  {
+   "word": "chcthy",
+   "count": 79,
+   "first_ratio": 0.0,
+   "last_ratio": 0.8692087434088029,
+   "second_ratio": 0.8692087434088029,
+   "first": 0,
+   "last": 8
+  },
+  {
+   "word": "kaiin",
+   "count": 77,
+   "first_ratio": 0.1114731992358692,
+   "last_ratio": 0.4458927969434768,
+   "second_ratio": 0.6688391954152152,
+   "first": 1,
+   "last": 4
+  },
+  {
+   "word": "char",
+   "count": 76,
+   "first_ratio": 0.2258799037147876,
+   "last_ratio": 0.1129399518573938,
+   "second_ratio": 1.3552794222887257,
+   "first": 2,
+   "last": 1
+  },
+  {
+   "word": "qoteedy",
+   "count": 76,
+   "first_ratio": 1.129399518573938,
+   "last_ratio": 0.4517598074295752,
+   "second_ratio": 0.6776397111443628,
+   "first": 10,
+   "last": 4
+  },
+  {
+   "word": "am",
+   "count": 73,
+   "first_ratio": 0.0,
+   "last_ratio": 6.702135225290822,
+   "second_ratio": 0.11758131974194423,
+   "first": 0,
+   "last": 57
+  },
+  {
+   "word": "cho",
+   "count": 72,
+   "first_ratio": 0.23842878725449798,
+   "last_ratio": 0.11921439362724899,
+   "second_ratio": 2.1458590852904815,
+   "first": 2,
+   "last": 1
+  },
+  {
+   "word": "cheo",
+   "count": 70,
+   "first_ratio": 0.3678615574783684,
+   "last_ratio": 0.0,
+   "second_ratio": 2.3297898640296664,
+   "first": 3,
+   "last": 0
+  },
+  {
+   "word": "sar",
+   "count": 69,
+   "first_ratio": 3.731928843983447,
+   "last_ratio": 1.4927715375933788,
+   "second_ratio": 0.3731928843983447,
+   "first": 30,
+   "last": 12
+  },
+  {
+   "word": "qokchy",
+   "count": 67,
+   "first_ratio": 1.7935538623323433,
+   "last_ratio": 0.5124439606663838,
+   "second_ratio": 1.4092208918325553,
+   "first": 14,
+   "last": 4
+  },
+  {
+   "word": "dor",
+   "count": 66,
+   "first_ratio": 2.470989249728434,
+   "last_ratio": 0.7803123946510844,
+   "second_ratio": 0.6502603288759037,
+   "first": 19,
+   "last": 6
+  },
+  {
+   "word": "okol",
+   "count": 64,
+   "first_ratio": 0.5364647713226205,
+   "last_ratio": 0.6705809641532756,
+   "second_ratio": 0.5364647713226205,
+   "first": 4,
+   "last": 5
+  },
+  {
+   "word": "otol",
+   "count": 64,
+   "first_ratio": 0.8046971569839307,
+   "last_ratio": 0.40234857849196537,
+   "second_ratio": 0.40234857849196537,
+   "first": 6,
+   "last": 3
+  },
+  {
+   "word": "sol",
+   "count": 64,
+   "first_ratio": 4.96229913473424,
+   "last_ratio": 0.26823238566131025,
+   "second_ratio": 0.26823238566131025,
+   "first": 37,
+   "last": 2
+  },
+  {
+   "word": "sain",
+   "count": 64,
+   "first_ratio": 4.694066749072929,
+   "last_ratio": 0.9388133498145859,
+   "second_ratio": 0.5364647713226205,
+   "first": 35,
+   "last": 7
+  },
+  {
+   "word": "air",
+   "count": 64,
+   "first_ratio": 0.0,
+   "last_ratio": 0.13411619283065512,
+   "second_ratio": 1.207045735475896,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "raiin",
+   "count": 63,
+   "first_ratio": 0.0,
+   "last_ratio": 0.8174701277297074,
+   "second_ratio": 0.6812251064414229,
+   "first": 0,
+   "last": 6
+  },
+  {
+   "word": "qotar",
+   "count": 63,
+   "first_ratio": 0.27249004257656917,
+   "last_ratio": 0.8174701277297074,
+   "second_ratio": 0.4087350638648537,
+   "first": 2,
+   "last": 6
+  },
+  {
+   "word": "qotchy",
+   "count": 62,
+   "first_ratio": 2.491965389369592,
+   "last_ratio": 0.415327564894932,
+   "second_ratio": 1.5228677379480842,
+   "first": 18,
+   "last": 3
+  },
+  {
+   "word": "keedy",
+   "count": 62,
+   "first_ratio": 0.0,
+   "last_ratio": 0.830655129789864,
+   "second_ratio": 0.969097651421508,
+   "first": 0,
+   "last": 6
+  },
+  {
+   "word": "qotain",
+   "count": 60,
+   "first_ratio": 0.42917181705809637,
+   "last_ratio": 0.5722290894107952,
+   "second_ratio": 0.2861145447053976,
+   "first": 3,
+   "last": 4
+  },
+  {
+   "word": "shckhy",
+   "count": 59,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 2.3277115501456076,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "cheky",
+   "count": 59,
+   "first_ratio": 0.0,
+   "last_ratio": 0.8728918313046029,
+   "second_ratio": 1.4548197188410048,
+   "first": 0,
+   "last": 6
+  },
+  {
+   "word": "qotal",
+   "count": 59,
+   "first_ratio": 0.29096394376820095,
+   "last_ratio": 0.7274098594205024,
+   "second_ratio": 0.43644591565230145,
+   "first": 2,
+   "last": 5
+  },
+  {
+   "word": "odaiin",
+   "count": 57,
+   "first_ratio": 0.9035196148591504,
+   "last_ratio": 0.6023464099061002,
+   "second_ratio": 1.0541062173356754,
+   "first": 6,
+   "last": 4
+  },
+  {
+   "word": "okeol",
+   "count": 57,
+   "first_ratio": 0.15058660247652506,
+   "last_ratio": 0.7529330123826253,
+   "second_ratio": 0.9035196148591504,
+   "first": 1,
+   "last": 5
+  },
+  {
+   "word": "kar",
+   "count": 57,
+   "first_ratio": 0.15058660247652506,
+   "last_ratio": 0.4517598074295752,
+   "second_ratio": 1.0541062173356754,
+   "first": 1,
+   "last": 3
+  },
+  {
+   "word": "cheedy",
+   "count": 57,
+   "first_ratio": 0.0,
+   "last_ratio": 0.6023464099061002,
+   "second_ratio": 1.2046928198122004,
+   "first": 0,
+   "last": 4
+  },
+  {
+   "word": "cthol",
+   "count": 56,
+   "first_ratio": 0.3065512978986403,
+   "last_ratio": 0.9196538936959209,
+   "second_ratio": 1.072929542645241,
+   "first": 2,
+   "last": 6
+  },
+  {
+   "word": "oly",
+   "count": 56,
+   "first_ratio": 0.15327564894932014,
+   "last_ratio": 5.977750309023485,
+   "second_ratio": 0.0,
+   "first": 1,
+   "last": 39
+  },
+  {
+   "word": "okey",
+   "count": 55,
+   "first_ratio": 0.4681874367906506,
+   "last_ratio": 0.6242499157208675,
+   "second_ratio": 1.092437352511518,
+   "first": 3,
+   "last": 4
+  },
+  {
+   "word": "shody",
+   "count": 53,
+   "first_ratio": 0.8097581453926347,
+   "last_ratio": 1.6195162907852694,
+   "second_ratio": 2.267322807099377,
+   "first": 5,
+   "last": 10
+  },
+  {
+   "word": "qo",
+   "count": 52,
+   "first_ratio": 2.145859085290482,
+   "last_ratio": 0.16506608348388324,
+   "second_ratio": 0.8253304174194162,
+   "first": 13,
+   "last": 1
+  },
+  {
+   "word": "ykeey",
+   "count": 52,
+   "first_ratio": 1.8157269183227156,
+   "last_ratio": 0.16506608348388324,
+   "second_ratio": 1.485594751354949,
+   "first": 11,
+   "last": 1
+  },
+  {
+   "word": "keey",
+   "count": 50,
+   "first_ratio": 0.0,
+   "last_ratio": 0.3433374536464771,
+   "second_ratio": 1.3733498145859084,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "sor",
+   "count": 50,
+   "first_ratio": 5.321730531520395,
+   "last_ratio": 0.3433374536464771,
+   "second_ratio": 0.3433374536464771,
+   "first": 31,
+   "last": 2
+  },
+  {
+   "word": "qokeol",
+   "count": 50,
+   "first_ratio": 0.6866749072929542,
+   "last_ratio": 0.17166872682323855,
+   "second_ratio": 1.0300123609394314,
+   "first": 4,
+   "last": 1
+  },
+  {
+   "word": "opchedy",
+   "count": 49,
+   "first_ratio": 0.0,
+   "last_ratio": 0.35034434045558893,
+   "second_ratio": 0.7006886809111779,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "lchey",
+   "count": 49,
+   "first_ratio": 0.5255165106833835,
+   "last_ratio": 1.2262051915945613,
+   "second_ratio": 1.7517217022779448,
+   "first": 3,
+   "last": 7
+  },
+  {
+   "word": "qokchdy",
+   "count": 49,
+   "first_ratio": 0.5255165106833835,
+   "last_ratio": 0.17517217022779447,
+   "second_ratio": 0.5255165106833835,
+   "first": 3,
+   "last": 1
+  },
+  {
+   "word": "cthey",
+   "count": 48,
+   "first_ratio": 0.357643180881747,
+   "last_ratio": 0.8941079522043676,
+   "second_ratio": 1.2517511330861146,
+   "first": 2,
+   "last": 5
+  },
+  {
+   "word": "chaiin",
+   "count": 48,
+   "first_ratio": 0.0,
+   "last_ratio": 1.7882159044087351,
+   "second_ratio": 1.072929542645241,
+   "first": 0,
+   "last": 10
+  },
+  {
+   "word": "checkhy",
+   "count": 48,
+   "first_ratio": 0.1788215904408735,
+   "last_ratio": 0.1788215904408735,
+   "second_ratio": 0.5364647713226205,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "lkaiin",
+   "count": 48,
+   "first_ratio": 0.1788215904408735,
+   "last_ratio": 0.5364647713226205,
+   "second_ratio": 0.715286361763494,
+   "first": 1,
+   "last": 3
+  },
+  {
+   "word": "chear",
+   "count": 47,
+   "first_ratio": 0.0,
+   "last_ratio": 0.3652526102622097,
+   "second_ratio": 1.8262630513110483,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "chal",
+   "count": 47,
+   "first_ratio": 0.18262630513110484,
+   "last_ratio": 1.278384135917734,
+   "second_ratio": 0.9131315256555241,
+   "first": 1,
+   "last": 7
+  },
+  {
+   "word": "kedy",
+   "count": 47,
+   "first_ratio": 0.18262630513110484,
+   "last_ratio": 0.5478789153933145,
+   "second_ratio": 0.9131315256555241,
+   "first": 1,
+   "last": 3
+  },
+  {
+   "word": "ykaiin",
+   "count": 46,
+   "first_ratio": 2.052560864190896,
+   "last_ratio": 0.5597893265975171,
+   "second_ratio": 0.9329822109958619,
+   "first": 11,
+   "last": 3
+  },
+  {
+   "word": "d",
+   "count": 46,
+   "first_ratio": 0.37319288439834475,
+   "last_ratio": 2.2391573063900685,
+   "second_ratio": 1.1195786531950342,
+   "first": 2,
+   "last": 12
+  },
+  {
+   "word": "sheor",
+   "count": 46,
+   "first_ratio": 0.9329822109958619,
+   "last_ratio": 0.0,
+   "second_ratio": 3.3587359595851027,
+   "first": 5,
+   "last": 0
+  },
+  {
+   "word": "sheody",
+   "count": 45,
+   "first_ratio": 0.1907430298035984,
+   "last_ratio": 0.3814860596071968,
+   "second_ratio": 2.098173327839582,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "taiin",
+   "count": 45,
+   "first_ratio": 2.4796593874467794,
+   "last_ratio": 0.953715149017992,
+   "second_ratio": 0.5722290894107952,
+   "first": 13,
+   "last": 5
+  },
+  {
+   "word": "otam",
+   "count": 45,
+   "first_ratio": 0.1907430298035984,
+   "last_ratio": 5.340804834500755,
+   "second_ratio": 0.1907430298035984,
+   "first": 1,
+   "last": 28
+  },
+  {
+   "word": "aiiin",
+   "count": 45,
+   "first_ratio": 0.0,
+   "last_ratio": 0.5722290894107952,
+   "second_ratio": 0.953715149017992,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "chodaiin",
+   "count": 44,
+   "first_ratio": 0.7803123946510843,
+   "last_ratio": 0.7803123946510843,
+   "second_ratio": 1.7557028879649397,
+   "first": 4,
+   "last": 4
+  },
+  {
+   "word": "qotol",
+   "count": 44,
+   "first_ratio": 1.7557028879649397,
+   "last_ratio": 0.0,
+   "second_ratio": 0.5852342959883132,
+   "first": 9,
+   "last": 0
+  },
+  {
+   "word": "sheo",
+   "count": 43,
+   "first_ratio": 0.19961479863167275,
+   "last_ratio": 0.0,
+   "second_ratio": 2.5949923822117458,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "cthor",
+   "count": 43,
+   "first_ratio": 0.3992295972633455,
+   "last_ratio": 0.5988443958950183,
+   "second_ratio": 2.395377583580073,
+   "first": 2,
+   "last": 3
+  },
+  {
+   "word": "qodaiin",
+   "count": 43,
+   "first_ratio": 0.19961479863167275,
+   "last_ratio": 0.19961479863167275,
+   "second_ratio": 1.3973035904217093,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "tol",
+   "count": 43,
+   "first_ratio": 5.389599563055165,
+   "last_ratio": 0.0,
+   "second_ratio": 0.19961479863167275,
+   "first": 27,
+   "last": 0
+  },
+  {
+   "word": "otey",
+   "count": 43,
+   "first_ratio": 0.0,
+   "last_ratio": 0.19961479863167275,
+   "second_ratio": 0.5988443958950183,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "olaiin",
+   "count": 43,
+   "first_ratio": 0.798459194526691,
+   "last_ratio": 0.19961479863167275,
+   "second_ratio": 1.3973035904217093,
+   "first": 4,
+   "last": 1
+  },
+  {
+   "word": "shdy",
+   "count": 43,
+   "first_ratio": 0.5988443958950183,
+   "last_ratio": 0.5988443958950183,
+   "second_ratio": 0.798459194526691,
+   "first": 3,
+   "last": 3
+  },
+  {
+   "word": "kain",
+   "count": 43,
+   "first_ratio": 0.0,
+   "last_ratio": 0.5988443958950183,
+   "second_ratio": 0.9980739931583638,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "olkeedy",
+   "count": 43,
+   "first_ratio": 0.5988443958950183,
+   "last_ratio": 0.5988443958950183,
+   "second_ratio": 1.9961479863167275,
+   "first": 3,
+   "last": 3
+  },
+  {
+   "word": "otchy",
+   "count": 41,
+   "first_ratio": 1.0467605294099913,
+   "last_ratio": 0.2093521058819983,
+   "second_ratio": 0.0,
+   "first": 5,
+   "last": 1
+  },
+  {
+   "word": "tar",
+   "count": 41,
+   "first_ratio": 3.558985799993971,
+   "last_ratio": 0.4187042117639966,
+   "second_ratio": 0.6280563176459949,
+   "first": 17,
+   "last": 2
+  },
+  {
+   "word": "qoteey",
+   "count": 41,
+   "first_ratio": 0.8374084235279932,
+   "last_ratio": 0.0,
+   "second_ratio": 1.6748168470559863,
+   "first": 4,
+   "last": 0
+  },
+  {
+   "word": "sal",
+   "count": 40,
+   "first_ratio": 2.3604449938195304,
+   "last_ratio": 2.145859085290482,
+   "second_ratio": 0.4291718170580964,
+   "first": 11,
+   "last": 10
+  },
+  {
+   "word": "ody",
+   "count": 40,
+   "first_ratio": 0.2145859085290482,
+   "last_ratio": 2.3604449938195304,
+   "second_ratio": 0.6437577255871446,
+   "first": 1,
+   "last": 11
+  },
+  {
+   "word": "tedy",
+   "count": 40,
+   "first_ratio": 0.2145859085290482,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 1.5021013597033375,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "lshedy",
+   "count": 40,
+   "first_ratio": 0.4291718170580964,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 1.7166872682323857,
+   "first": 2,
+   "last": 2
+  },
+  {
+   "word": "qokchedy",
+   "count": 40,
+   "first_ratio": 0.8583436341161929,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 1.072929542645241,
+   "first": 4,
+   "last": 2
+  },
+  {
+   "word": "ytaiin",
+   "count": 38,
+   "first_ratio": 1.129399518573938,
+   "last_ratio": 1.129399518573938,
+   "second_ratio": 0.6776397111443628,
+   "first": 5,
+   "last": 5
+  },
+  {
+   "word": "lor",
+   "count": 38,
+   "first_ratio": 1.3552794222887257,
+   "last_ratio": 1.3552794222887257,
+   "second_ratio": 0.4517598074295752,
+   "first": 6,
+   "last": 6
+  },
+  {
+   "word": "lkeey",
+   "count": 38,
+   "first_ratio": 0.2258799037147876,
+   "last_ratio": 0.4517598074295752,
+   "second_ratio": 0.2258799037147876,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "olkeey",
+   "count": 38,
+   "first_ratio": 1.5811593260035133,
+   "last_ratio": 0.0,
+   "second_ratio": 2.0329191334330887,
+   "first": 7,
+   "last": 0
+  },
+  {
+   "word": "kol",
+   "count": 37,
+   "first_ratio": 0.6959542979320482,
+   "last_ratio": 0.4639695319546988,
+   "second_ratio": 0.6959542979320482,
+   "first": 3,
+   "last": 2
+  },
+  {
+   "word": "lol",
+   "count": 37,
+   "first_ratio": 1.3919085958640964,
+   "last_ratio": 3.7117562556375905,
+   "second_ratio": 0.4639695319546988,
+   "first": 6,
+   "last": 16
+  },
+  {
+   "word": "chos",
+   "count": 37,
+   "first_ratio": 0.4639695319546988,
+   "last_ratio": 0.6959542979320482,
+   "second_ratio": 1.623893361841446,
+   "first": 2,
+   "last": 3
+  },
+  {
+   "word": "lkeedy",
+   "count": 37,
+   "first_ratio": 0.0,
+   "last_ratio": 0.6959542979320482,
+   "second_ratio": 1.623893361841446,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "choty",
+   "count": 36,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.9537151490179919,
+   "second_ratio": 1.19214393627249,
+   "first": 2,
+   "last": 4
+  },
+  {
+   "word": "cheos",
+   "count": 36,
+   "first_ratio": 0.0,
+   "last_ratio": 0.47685757450899596,
+   "second_ratio": 1.19214393627249,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "olchedy",
+   "count": 36,
+   "first_ratio": 0.23842878725449798,
+   "last_ratio": 2.1458590852904815,
+   "second_ratio": 0.7152863617634939,
+   "first": 1,
+   "last": 9
+  },
+  {
+   "word": "pchedy",
+   "count": 36,
+   "first_ratio": 3.3380030215629715,
+   "last_ratio": 0.23842878725449798,
+   "second_ratio": 0.7152863617634939,
+   "first": 14,
+   "last": 1
+  },
+  {
+   "word": "sy",
+   "count": 35,
+   "first_ratio": 0.24524103831891225,
+   "last_ratio": 4.414338689740421,
+   "second_ratio": 0.4904820766378245,
+   "first": 1,
+   "last": 18
+  },
+  {
+   "word": "ckhy",
+   "count": 35,
+   "first_ratio": 0.0,
+   "last_ratio": 1.961928306551298,
+   "second_ratio": 1.961928306551298,
+   "first": 0,
+   "last": 8
+  },
+  {
+   "word": "choky",
+   "count": 35,
+   "first_ratio": 0.24524103831891225,
+   "last_ratio": 1.716687268232386,
+   "second_ratio": 1.716687268232386,
+   "first": 1,
+   "last": 7
+  },
+  {
+   "word": "kchy",
+   "count": 34,
+   "first_ratio": 0.0,
+   "last_ratio": 0.757362030102523,
+   "second_ratio": 1.7671780702392204,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "chees",
+   "count": 34,
+   "first_ratio": 0.25245401003417434,
+   "last_ratio": 0.0,
+   "second_ratio": 1.0098160401366973,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "tchedy",
+   "count": 34,
+   "first_ratio": 6.311350250854359,
+   "last_ratio": 0.0,
+   "second_ratio": 0.5049080200683487,
+   "first": 25,
+   "last": 0
+  },
+  {
+   "word": "olkain",
+   "count": 34,
+   "first_ratio": 0.25245401003417434,
+   "last_ratio": 1.0098160401366973,
+   "second_ratio": 1.0098160401366973,
+   "first": 1,
+   "last": 4
+  },
+  {
+   "word": "lkain",
+   "count": 34,
+   "first_ratio": 0.0,
+   "last_ratio": 0.757362030102523,
+   "second_ratio": 0.25245401003417434,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "chedaiin",
+   "count": 33,
+   "first_ratio": 0.26010413155036144,
+   "last_ratio": 0.5202082631007229,
+   "second_ratio": 2.0808330524028915,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "otchedy",
+   "count": 33,
+   "first_ratio": 0.5202082631007229,
+   "last_ratio": 0.7803123946510844,
+   "second_ratio": 0.7803123946510844,
+   "first": 2,
+   "last": 3
+  },
+  {
+   "word": "sheckhy",
+   "count": 33,
+   "first_ratio": 0.0,
+   "last_ratio": 0.26010413155036144,
+   "second_ratio": 3.1212495786043375,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "otor",
+   "count": 32,
+   "first_ratio": 1.072929542645241,
+   "last_ratio": 0.26823238566131025,
+   "second_ratio": 0.8046971569839307,
+   "first": 4,
+   "last": 1
+  },
+  {
+   "word": "qokor",
+   "count": 32,
+   "first_ratio": 1.072929542645241,
+   "last_ratio": 0.26823238566131025,
+   "second_ratio": 0.8046971569839307,
+   "first": 4,
+   "last": 1
+  },
+  {
+   "word": "ches",
+   "count": 32,
+   "first_ratio": 0.0,
+   "last_ratio": 0.26823238566131025,
+   "second_ratio": 1.6093943139678615,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "shcthy",
+   "count": 32,
+   "first_ratio": 0.0,
+   "last_ratio": 0.26823238566131025,
+   "second_ratio": 0.5364647713226205,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "ykar",
+   "count": 32,
+   "first_ratio": 1.3411619283065512,
+   "last_ratio": 0.26823238566131025,
+   "second_ratio": 0.26823238566131025,
+   "first": 5,
+   "last": 1
+  },
+  {
+   "word": "chedar",
+   "count": 32,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 1.3411619283065512,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "dshedy",
+   "count": 32,
+   "first_ratio": 7.778739184177997,
+   "last_ratio": 0.0,
+   "second_ratio": 0.26823238566131025,
+   "first": 29,
+   "last": 0
+  },
+  {
+   "word": "sheky",
+   "count": 31,
+   "first_ratio": 0.0,
+   "last_ratio": 0.276885043263288,
+   "second_ratio": 1.107540173053152,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "okchey",
+   "count": 31,
+   "first_ratio": 1.38442521631644,
+   "last_ratio": 0.553770086526576,
+   "second_ratio": 1.38442521631644,
+   "first": 5,
+   "last": 2
+  },
+  {
+   "word": "oraiin",
+   "count": 31,
+   "first_ratio": 0.830655129789864,
+   "last_ratio": 1.661310259579728,
+   "second_ratio": 1.38442521631644,
+   "first": 3,
+   "last": 6
+  },
+  {
+   "word": "otchey",
+   "count": 31,
+   "first_ratio": 1.38442521631644,
+   "last_ratio": 0.0,
+   "second_ratio": 1.938195302843016,
+   "first": 5,
+   "last": 0
+  },
+  {
+   "word": "qokeody",
+   "count": 31,
+   "first_ratio": 0.553770086526576,
+   "last_ratio": 0.276885043263288,
+   "second_ratio": 0.830655129789864,
+   "first": 2,
+   "last": 1
+  },
+  {
+   "word": "lkar",
+   "count": 31,
+   "first_ratio": 0.0,
+   "last_ratio": 0.553770086526576,
+   "second_ratio": 0.276885043263288,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "qopchedy",
+   "count": 31,
+   "first_ratio": 0.276885043263288,
+   "last_ratio": 0.553770086526576,
+   "second_ratio": 0.0,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "shar",
+   "count": 30,
+   "first_ratio": 0.8583436341161927,
+   "last_ratio": 0.2861145447053976,
+   "second_ratio": 3.1472599917593738,
+   "first": 3,
+   "last": 1
+  },
+  {
+   "word": "oteol",
+   "count": 30,
+   "first_ratio": 0.8583436341161927,
+   "last_ratio": 0.5722290894107952,
+   "second_ratio": 2.002801812937783,
+   "first": 3,
+   "last": 2
+  },
+  {
+   "word": "oiin",
+   "count": 30,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 3.1472599917593738,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "ky",
+   "count": 30,
+   "first_ratio": 0.0,
+   "last_ratio": 0.8583436341161927,
+   "second_ratio": 0.8583436341161927,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "chl",
+   "count": 30,
+   "first_ratio": 0.0,
+   "last_ratio": 0.2861145447053976,
+   "second_ratio": 0.5722290894107952,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "chckhey",
+   "count": 30,
+   "first_ratio": 0.0,
+   "last_ratio": 0.5722290894107952,
+   "second_ratio": 0.8583436341161927,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "checthy",
+   "count": 30,
+   "first_ratio": 0.0,
+   "last_ratio": 0.8583436341161927,
+   "second_ratio": 1.1444581788215904,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "otchol",
+   "count": 29,
+   "first_ratio": 2.663825071395081,
+   "last_ratio": 0.0,
+   "second_ratio": 0.5919611269766847,
+   "first": 9,
+   "last": 0
+  },
+  {
+   "word": "okam",
+   "count": 29,
+   "first_ratio": 0.0,
+   "last_ratio": 5.919611269766848,
+   "second_ratio": 0.29598056348834234,
+   "first": 0,
+   "last": 20
+  },
+  {
+   "word": "ykeedy",
+   "count": 29,
+   "first_ratio": 1.479902817441712,
+   "last_ratio": 0.29598056348834234,
+   "second_ratio": 1.479902817441712,
+   "first": 5,
+   "last": 1
+  },
+  {
+   "word": "ckhey",
+   "count": 28,
+   "first_ratio": 0.0,
+   "last_ratio": 0.9196538936959209,
+   "second_ratio": 2.145859085290482,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "okor",
+   "count": 28,
+   "first_ratio": 0.9196538936959209,
+   "last_ratio": 0.3065512978986403,
+   "second_ratio": 1.5327564894932015,
+   "first": 3,
+   "last": 1
+  },
+  {
+   "word": "cheal",
+   "count": 28,
+   "first_ratio": 0.0,
+   "last_ratio": 0.6131025957972805,
+   "second_ratio": 2.145859085290482,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "opchey",
+   "count": 28,
+   "first_ratio": 0.0,
+   "last_ratio": 0.3065512978986403,
+   "second_ratio": 1.8393077873918418,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "olkaiin",
+   "count": 28,
+   "first_ratio": 0.3065512978986403,
+   "last_ratio": 0.6131025957972805,
+   "second_ratio": 1.5327564894932015,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "dchedy",
+   "count": 28,
+   "first_ratio": 5.211372064276885,
+   "last_ratio": 0.3065512978986403,
+   "second_ratio": 0.9196538936959209,
+   "first": 17,
+   "last": 1
+  },
+  {
+   "word": "qokeeey",
+   "count": 28,
+   "first_ratio": 1.226205191594561,
+   "last_ratio": 0.0,
+   "second_ratio": 0.9196538936959209,
+   "first": 4,
+   "last": 0
+  },
+  {
+   "word": "tchy",
+   "count": 27,
+   "first_ratio": 0.953715149017992,
+   "last_ratio": 0.31790504967266403,
+   "second_ratio": 0.6358100993453281,
+   "first": 3,
+   "last": 1
+  },
+  {
+   "word": "oldy",
+   "count": 27,
+   "first_ratio": 0.31790504967266403,
+   "last_ratio": 4.768575745089961,
+   "second_ratio": 0.0,
+   "first": 1,
+   "last": 15
+  },
+  {
+   "word": "qokchey",
+   "count": 27,
+   "first_ratio": 1.2716201986906561,
+   "last_ratio": 0.0,
+   "second_ratio": 1.5895252483633202,
+   "first": 4,
+   "last": 0
+  },
+  {
+   "word": "yteedy",
+   "count": 27,
+   "first_ratio": 2.5432403973813122,
+   "last_ratio": 0.6358100993453281,
+   "second_ratio": 0.6358100993453281,
+   "first": 8,
+   "last": 2
+  },
+  {
+   "word": "lkedy",
+   "count": 27,
+   "first_ratio": 0.31790504967266403,
+   "last_ratio": 0.6358100993453281,
+   "second_ratio": 0.953715149017992,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "olor",
+   "count": 27,
+   "first_ratio": 0.6358100993453281,
+   "last_ratio": 1.907430298035984,
+   "second_ratio": 0.31790504967266403,
+   "first": 2,
+   "last": 6
+  },
+  {
+   "word": "kor",
+   "count": 26,
+   "first_ratio": 1.320528667871066,
+   "last_ratio": 0.0,
+   "second_ratio": 0.9903965009032994,
+   "first": 4,
+   "last": 0
+  },
+  {
+   "word": "sair",
+   "count": 26,
+   "first_ratio": 3.961586003613198,
+   "last_ratio": 0.0,
+   "second_ratio": 0.0,
+   "first": 12,
+   "last": 0
+  },
+  {
+   "word": "yteey",
+   "count": 26,
+   "first_ratio": 1.980793001806599,
+   "last_ratio": 0.0,
+   "second_ratio": 0.9903965009032994,
+   "first": 6,
+   "last": 0
+  },
+  {
+   "word": "dchy",
+   "count": 26,
+   "first_ratio": 1.6506608348388323,
+   "last_ratio": 0.660264333935533,
+   "second_ratio": 0.3301321669677665,
+   "first": 5,
+   "last": 2
+  },
+  {
+   "word": "qotor",
+   "count": 26,
+   "first_ratio": 3.631453836645431,
+   "last_ratio": 0.3301321669677665,
+   "second_ratio": 0.3301321669677665,
+   "first": 11,
+   "last": 1
+  },
+  {
+   "word": "olkedy",
+   "count": 26,
+   "first_ratio": 0.0,
+   "last_ratio": 0.9903965009032994,
+   "second_ratio": 1.320528667871066,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "okeody",
+   "count": 25,
+   "first_ratio": 0.0,
+   "last_ratio": 0.3433374536464771,
+   "second_ratio": 1.0300123609394314,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "qokam",
+   "count": 25,
+   "first_ratio": 0.0,
+   "last_ratio": 7.210086526576019,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 21
+  },
+  {
+   "word": "kal",
+   "count": 25,
+   "first_ratio": 0.0,
+   "last_ratio": 0.3433374536464771,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "kchol",
+   "count": 25,
+   "first_ratio": 0.6866749072929542,
+   "last_ratio": 0.0,
+   "second_ratio": 2.0600247218788628,
+   "first": 2,
+   "last": 0
+  },
+  {
+   "word": "daly",
+   "count": 25,
+   "first_ratio": 0.0,
+   "last_ratio": 4.463386897404202,
+   "second_ratio": 0.3433374536464771,
+   "first": 0,
+   "last": 13
+  },
+  {
+   "word": "olchey",
+   "count": 25,
+   "first_ratio": 1.0300123609394314,
+   "last_ratio": 0.6866749072929542,
+   "second_ratio": 1.3733498145859084,
+   "first": 3,
+   "last": 2
+  },
+  {
+   "word": "qotchedy",
+   "count": 25,
+   "first_ratio": 0.3433374536464771,
+   "last_ratio": 0.3433374536464771,
+   "second_ratio": 1.0300123609394314,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "os",
+   "count": 24,
+   "first_ratio": 0.715286361763494,
+   "last_ratio": 0.357643180881747,
+   "second_ratio": 1.072929542645241,
+   "first": 2,
+   "last": 1
+  },
+  {
+   "word": "she",
+   "count": 24,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 2.145859085290482,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "dchor",
+   "count": 24,
+   "first_ratio": 3.934074989699217,
+   "last_ratio": 0.357643180881747,
+   "second_ratio": 0.715286361763494,
+   "first": 11,
+   "last": 1
+  },
+  {
+   "word": "oaiin",
+   "count": 24,
+   "first_ratio": 3.5764318088174702,
+   "last_ratio": 0.357643180881747,
+   "second_ratio": 1.430572723526988,
+   "first": 10,
+   "last": 1
+  },
+  {
+   "word": "okchy",
+   "count": 24,
+   "first_ratio": 1.7882159044087351,
+   "last_ratio": 1.430572723526988,
+   "second_ratio": 0.715286361763494,
+   "first": 5,
+   "last": 4
+  },
+  {
+   "word": "tal",
+   "count": 24,
+   "first_ratio": 0.715286361763494,
+   "last_ratio": 0.715286361763494,
+   "second_ratio": 0.0,
+   "first": 2,
+   "last": 2
+  },
+  {
+   "word": "okeeey",
+   "count": 24,
+   "first_ratio": 0.357643180881747,
+   "last_ratio": 1.430572723526988,
+   "second_ratio": 1.072929542645241,
+   "first": 1,
+   "last": 4
+  },
+  {
+   "word": "otchdy",
+   "count": 24,
+   "first_ratio": 0.357643180881747,
+   "last_ratio": 1.430572723526988,
+   "second_ratio": 0.357643180881747,
+   "first": 1,
+   "last": 4
+  },
+  {
+   "word": "ldy",
+   "count": 24,
+   "first_ratio": 0.0,
+   "last_ratio": 6.437577255871446,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 18
+  },
+  {
+   "word": "shear",
+   "count": 23,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 1.492771537593379,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "qotey",
+   "count": 23,
+   "first_ratio": 0.7463857687966895,
+   "last_ratio": 0.0,
+   "second_ratio": 1.492771537593379,
+   "first": 2,
+   "last": 0
+  },
+  {
+   "word": "cheeky",
+   "count": 23,
+   "first_ratio": 0.37319288439834475,
+   "last_ratio": 0.0,
+   "second_ratio": 1.1195786531950342,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "ytedy",
+   "count": 23,
+   "first_ratio": 0.7463857687966895,
+   "last_ratio": 0.37319288439834475,
+   "second_ratio": 0.7463857687966895,
+   "first": 2,
+   "last": 1
+  },
+  {
+   "word": "chedal",
+   "count": 23,
+   "first_ratio": 0.37319288439834475,
+   "last_ratio": 0.37319288439834475,
+   "second_ratio": 0.7463857687966895,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "shodaiin",
+   "count": 22,
+   "first_ratio": 1.5606247893021685,
+   "last_ratio": 1.5606247893021685,
+   "second_ratio": 3.121249578604337,
+   "first": 4,
+   "last": 4
+  },
+  {
+   "word": "qoaiin",
+   "count": 22,
+   "first_ratio": 1.9507809866277106,
+   "last_ratio": 0.0,
+   "second_ratio": 0.39015619732554213,
+   "first": 5,
+   "last": 0
+  },
+  {
+   "word": "tor",
+   "count": 22,
+   "first_ratio": 3.901561973255421,
+   "last_ratio": 0.39015619732554213,
+   "second_ratio": 0.7803123946510843,
+   "first": 10,
+   "last": 1
+  },
+  {
+   "word": "ytar",
+   "count": 22,
+   "first_ratio": 2.340937183953253,
+   "last_ratio": 0.39015619732554213,
+   "second_ratio": 0.39015619732554213,
+   "first": 6,
+   "last": 1
+  },
+  {
+   "word": "kchedy",
+   "count": 22,
+   "first_ratio": 0.39015619732554213,
+   "last_ratio": 0.0,
+   "second_ratio": 2.340937183953253,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "aiir",
+   "count": 22,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 0.7803123946510843,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "okchedy",
+   "count": 22,
+   "first_ratio": 0.39015619732554213,
+   "last_ratio": 0.7803123946510843,
+   "second_ratio": 1.5606247893021685,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "otair",
+   "count": 22,
+   "first_ratio": 0.39015619732554213,
+   "last_ratio": 0.39015619732554213,
+   "second_ratio": 0.39015619732554213,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "olshedy",
+   "count": 22,
+   "first_ratio": 0.7803123946510843,
+   "last_ratio": 1.1704685919766264,
+   "second_ratio": 0.39015619732554213,
+   "first": 2,
+   "last": 3
+  },
+  {
+   "word": "rain",
+   "count": 22,
+   "first_ratio": 0.39015619732554213,
+   "last_ratio": 1.9507809866277106,
+   "second_ratio": 0.7803123946510843,
+   "first": 1,
+   "last": 5
+  },
+  {
+   "word": "tchey",
+   "count": 21,
+   "first_ratio": 0.8174701277297074,
+   "last_ratio": 0.4087350638648537,
+   "second_ratio": 2.0436753193242683,
+   "first": 2,
+   "last": 1
+  },
+  {
+   "word": "tchor",
+   "count": 21,
+   "first_ratio": 4.904820766378244,
+   "last_ratio": 0.0,
+   "second_ratio": 1.6349402554594148,
+   "first": 12,
+   "last": 0
+  },
+  {
+   "word": "ykchy",
+   "count": 21,
+   "first_ratio": 1.6349402554594148,
+   "last_ratio": 0.8174701277297074,
+   "second_ratio": 0.8174701277297074,
+   "first": 4,
+   "last": 2
+  },
+  {
+   "word": "kchey",
+   "count": 21,
+   "first_ratio": 0.8174701277297074,
+   "last_ratio": 0.0,
+   "second_ratio": 0.4087350638648537,
+   "first": 2,
+   "last": 0
+  },
+  {
+   "word": "qokeor",
+   "count": 21,
+   "first_ratio": 1.6349402554594148,
+   "last_ratio": 0.8174701277297074,
+   "second_ratio": 0.4087350638648537,
+   "first": 4,
+   "last": 2
+  },
+  {
+   "word": "qotchdy",
+   "count": 21,
+   "first_ratio": 0.0,
+   "last_ratio": 0.8174701277297074,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 2
+  },
+  {
+   "word": "qokair",
+   "count": 21,
+   "first_ratio": 0.4087350638648537,
+   "last_ratio": 0.0,
+   "second_ratio": 1.226205191594561,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "odar",
+   "count": 20,
+   "first_ratio": 1.7166872682323857,
+   "last_ratio": 1.2875154511742892,
+   "second_ratio": 0.4291718170580964,
+   "first": 4,
+   "last": 3
+  },
+  {
+   "word": "shaiin",
+   "count": 20,
+   "first_ratio": 0.8583436341161929,
+   "last_ratio": 0.0,
+   "second_ratio": 3.004202719406675,
+   "first": 2,
+   "last": 0
+  },
+  {
+   "word": "ycheey",
+   "count": 20,
+   "first_ratio": 7.725092707045736,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 0.0,
+   "first": 18,
+   "last": 1
+  },
+  {
+   "word": "dchol",
+   "count": 20,
+   "first_ratio": 3.4333745364647714,
+   "last_ratio": 0.0,
+   "second_ratio": 0.4291718170580964,
+   "first": 8,
+   "last": 0
+  },
+  {
+   "word": "keol",
+   "count": 20,
+   "first_ratio": 0.4291718170580964,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 1.7166872682323857,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "chety",
+   "count": 20,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 1.2875154511742892,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "kchor",
+   "count": 20,
+   "first_ratio": 2.5750309023485785,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 2.145859085290482,
+   "first": 6,
+   "last": 1
+  },
+  {
+   "word": "ckhol",
+   "count": 20,
+   "first_ratio": 0.4291718170580964,
+   "last_ratio": 0.0,
+   "second_ratio": 2.5750309023485785,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "yty",
+   "count": 20,
+   "first_ratio": 0.8583436341161929,
+   "last_ratio": 1.2875154511742892,
+   "second_ratio": 0.4291718170580964,
+   "first": 2,
+   "last": 3
+  },
+  {
+   "word": "kchdy",
+   "count": 20,
+   "first_ratio": 0.4291718170580964,
+   "last_ratio": 0.8583436341161929,
+   "second_ratio": 0.0,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "rol",
+   "count": 20,
+   "first_ratio": 0.0,
+   "last_ratio": 2.5750309023485785,
+   "second_ratio": 0.8583436341161929,
+   "first": 0,
+   "last": 6
+  },
+  {
+   "word": "qor",
+   "count": 20,
+   "first_ratio": 2.5750309023485785,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 1.2875154511742892,
+   "first": 6,
+   "last": 1
+  },
+  {
+   "word": "om",
+   "count": 20,
+   "first_ratio": 0.4291718170580964,
+   "last_ratio": 6.00840543881335,
+   "second_ratio": 0.0,
+   "first": 1,
+   "last": 14
+  },
+  {
+   "word": "lo",
+   "count": 20,
+   "first_ratio": 0.0,
+   "last_ratio": 4.291718170580964,
+   "second_ratio": 0.4291718170580964,
+   "first": 0,
+   "last": 10
+  },
+  {
+   "word": "olky",
+   "count": 20,
+   "first_ratio": 0.0,
+   "last_ratio": 2.145859085290482,
+   "second_ratio": 0.8583436341161929,
+   "first": 0,
+   "last": 5
+  },
+  {
+   "word": "oteody",
+   "count": 20,
+   "first_ratio": 0.4291718170580964,
+   "last_ratio": 0.4291718170580964,
+   "second_ratio": 0.8583436341161929,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "ols",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 3.6140784594366018,
+   "second_ratio": 0.4517598074295752,
+   "first": 0,
+   "last": 8
+  },
+  {
+   "word": "ctho",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 0.4517598074295752,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "daiiin",
+   "count": 19,
+   "first_ratio": 0.9035196148591504,
+   "last_ratio": 1.8070392297183009,
+   "second_ratio": 1.3552794222887257,
+   "first": 2,
+   "last": 4
+  },
+  {
+   "word": "chockhy",
+   "count": 19,
+   "first_ratio": 0.4517598074295752,
+   "last_ratio": 1.3552794222887257,
+   "second_ratio": 1.8070392297183009,
+   "first": 1,
+   "last": 3
+  },
+  {
+   "word": "chain",
+   "count": 19,
+   "first_ratio": 0.4517598074295752,
+   "last_ratio": 0.4517598074295752,
+   "second_ratio": 2.7105588445774513,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "ty",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 0.4517598074295752,
+   "second_ratio": 0.4517598074295752,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "shecthy",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 0.4517598074295752,
+   "second_ratio": 0.4517598074295752,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "chdal",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "aly",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 4.065838266866177,
+   "second_ratio": 0.4517598074295752,
+   "first": 0,
+   "last": 9
+  },
+  {
+   "word": "cheeo",
+   "count": 19,
+   "first_ratio": 1.8070392297183009,
+   "last_ratio": 0.0,
+   "second_ratio": 2.258799037147876,
+   "first": 4,
+   "last": 0
+  },
+  {
+   "word": "lky",
+   "count": 19,
+   "first_ratio": 0.0,
+   "last_ratio": 1.8070392297183009,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 4
+  },
+  {
+   "word": "qoeedy",
+   "count": 19,
+   "first_ratio": 1.3552794222887257,
+   "last_ratio": 0.0,
+   "second_ratio": 1.8070392297183009,
+   "first": 3,
+   "last": 0
+  },
+  {
+   "word": "soiin",
+   "count": 18,
+   "first_ratio": 6.199148468616947,
+   "last_ratio": 0.0,
+   "second_ratio": 0.0,
+   "first": 13,
+   "last": 0
+  },
+  {
+   "word": "sh",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.0,
+   "second_ratio": 4.291718170580963,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "chocthy",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.9537151490179919,
+   "second_ratio": 1.9074302980359839,
+   "first": 1,
+   "last": 2
+  },
+  {
+   "word": "pol",
+   "count": 18,
+   "first_ratio": 7.152863617634939,
+   "last_ratio": 0.0,
+   "second_ratio": 0.0,
+   "first": 15,
+   "last": 0
+  },
+  {
+   "word": "qotchey",
+   "count": 18,
+   "first_ratio": 0.9537151490179919,
+   "last_ratio": 0.0,
+   "second_ratio": 0.47685757450899596,
+   "first": 2,
+   "last": 0
+  },
+  {
+   "word": "daldy",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 4.291718170580963,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 9
+  },
+  {
+   "word": "dl",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 3.8148605960719677,
+   "second_ratio": 0.47685757450899596,
+   "first": 1,
+   "last": 8
+  },
+  {
+   "word": "keody",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 2.38428787254498,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "qockhy",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.0,
+   "second_ratio": 2.38428787254498,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "ykedy",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.47685757450899596,
+   "second_ratio": 0.0,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "ary",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 7.629721192143935,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 16
+  },
+  {
+   "word": "chedain",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 0.47685757450899596,
+   "second_ratio": 0.9537151490179919,
+   "first": 0,
+   "last": 1
+  },
+  {
+   "word": "okair",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.0,
+   "second_ratio": 1.4305727235269878,
+   "first": 1,
+   "last": 0
+  },
+  {
+   "word": "lchdy",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 2.38428787254498,
+   "second_ratio": 0.9537151490179919,
+   "first": 0,
+   "last": 5
+  },
+  {
+   "word": "qokeed",
+   "count": 18,
+   "first_ratio": 1.4305727235269878,
+   "last_ratio": 0.0,
+   "second_ratio": 0.9537151490179919,
+   "first": 3,
+   "last": 0
+  },
+  {
+   "word": "opchdy",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 1.9074302980359839,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 4
+  },
+  {
+   "word": "shed",
+   "count": 18,
+   "first_ratio": 0.47685757450899596,
+   "last_ratio": 0.47685757450899596,
+   "second_ratio": 1.4305727235269878,
+   "first": 1,
+   "last": 1
+  },
+  {
+   "word": "qockhey",
+   "count": 18,
+   "first_ratio": 0.0,
+   "last_ratio": 0.0,
+   "second_ratio": 0.9537151490179919,
+   "first": 0,
+   "last": 0
+  },
+  {
+   "word": "qokeeo",
+   "count": 18,
+   "first_ratio": 1.4305727235269878,
+   "last_ratio": 0.0,
+   "second_ratio": 1.4305727235269878,
+   "first": 3,
+   "last": 0
+  },
+  {
+   "word": "cthar",
+   "count": 17,
+   "first_ratio": 0.0,
+   "last_ratio": 1.514724060205046,
+   "second_ratio": 1.0098160401366973,
+   "first": 0,
+   "last": 3
+  },
+  {
+   "word": "odain",
+   "count": 17,
+   "first_ratio": 0.5049080200683487,
+   "last_ratio": 2.5245401003417434,
+   "second_ratio": 0.5049080200683487,
+   "first": 1,
+   "last": 5
+  },
+  {
+   "word": "cham",
+   "count": 17,
+   "first_ratio": 0.0,
+   "last_ratio": 5.553988220751836,
+   "second_ratio": 0.0,
+   "first": 0,
+   "last": 11
+  },
+  {
+   "word": "ydaiin",
+   "count": 17,
+   "first_ratio": 4.039264160546789,
+   "last_ratio": 1.514724060205046,
+   "second_ratio": 0.0,
+   "first": 8,
+   "last": 3
+  }
+ ],
+ "max_ratio_shuffled": [
+  2.8611454470539757,
+  2.8611454470539757,
+  3.1623186520070266,
+  2.7310933812787948,
+  3.3380030215629715,
+  2.8611454470539757,
+  3.029448120410092,
+  3.4333745364647714,
+  3.004202719406675,
+  3.0518884768575743,
+  2.452410383189122,
+  2.38428787254498,
+  3.1623186520070266,
+  3.004202719406675,
+  3.4333745364647714,
+  3.3380030215629715,
+  3.004202719406675,
+  2.5518324257508436,
+  3.1623186520070266,
+  2.7105588445774513
+ ],
+ "cv_glyphs": 0.3412209514197839,
+ "cv_words": 0.3408493422602148
+}
