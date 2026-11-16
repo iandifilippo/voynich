@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (22)
+
+### 31 attack 1 (symbol = letter)
+Schemes: glyphs (26-27 symbols), groups (~52), merged 60 (~87), merged 150 (~177), pieces (400, no spaces); spaces kept/ignored; Latin, Italian, Spanish, French, German, Middle English, Czech, Hungarian, Turkish. 3000 words each of A and B; controls copying model and shuffled glyphs. 324 solver runs.
+Best VMS gap -0.109 (B, glyphs, no spaces, Latin; also B pieces Latin). Best copying-model gap -0.120 (merged 60, Italian). B > control in 38/81, A in 30/81; mean B - control -0.004, A -0.018. Word-share max VMS 9.0%, control 10.8%; real 36-66%.
+Pieces: VMS - copying model +0.05..+0.12 in all 9 languages, but shuffled-glyph control gap +0.052 Latin, +0.042 Italian, +0.031 Czech (above real text): overfit at 400 symbols / 3000 words. Rerun on full text needed.
+
 ## 2026-11-16 (21)
 
 ### 30 solver + calibration
