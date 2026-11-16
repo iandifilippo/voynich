@@ -1,0 +1,171 @@
+{
+ "robustness": [
+  {
+   "measure": "cosine",
+   "diff": 0.022272535497581236,
+   "null_mean": -0.01692599258630864,
+   "p": 0.0015,
+   "quires_conjoint_higher": "9/10"
+  },
+  {
+   "measure": "tfidf_cosine",
+   "diff": -0.028888091738823146,
+   "null_mean": -0.028195406483618644,
+   "p": 0.5345,
+   "quires_conjoint_higher": "8/10"
+  },
+  {
+   "measure": "jaccard_no_top50",
+   "diff": -0.007059772625666816,
+   "null_mean": -0.007879304716048821,
+   "p": 0.4325,
+   "quires_conjoint_higher": "7/10"
+  }
+ ],
+ "leaves": 101,
+ "observed_diff": 0.022272535497581236,
+ "conjoint_pairs": 44,
+ "other_pairs": 182,
+ "null_mean": -0.01700135623181697,
+ "p": 0.0054,
+ "by_distance": [
+  {
+   "leaf_distance": 1,
+   "conjoint_n": 14,
+   "conjoint_cos": 0.5584729809294454,
+   "other_n": 41,
+   "other_cos": 0.5465863767091246
+  },
+  {
+   "leaf_distance": 2,
+   "conjoint_n": 1,
+   "conjoint_cos": 0.6263263408288041,
+   "other_n": 45,
+   "other_cos": 0.5209510141864271
+  },
+  {
+   "leaf_distance": 3,
+   "conjoint_n": 11,
+   "conjoint_cos": 0.5310128574279781,
+   "other_n": 29,
+   "other_cos": 0.5222587237140277
+  },
+  {
+   "leaf_distance": 4,
+   "conjoint_n": 1,
+   "conjoint_cos": 0.629736520426352,
+   "other_n": 25,
+   "other_cos": 0.5330157367193787
+  },
+  {
+   "leaf_distance": 5,
+   "conjoint_n": 8,
+   "conjoint_cos": 0.596993434781413,
+   "other_n": 17,
+   "other_cos": 0.565391771932814
+  },
+  {
+   "leaf_distance": 6,
+   "conjoint_n": 1,
+   "conjoint_cos": 0.5419055775511685,
+   "other_n": 13,
+   "other_cos": 0.6417686979176493
+  },
+  {
+   "leaf_distance": 7,
+   "conjoint_n": 6,
+   "conjoint_cos": 0.5527232062292944,
+   "other_n": 5,
+   "other_cos": 0.6793036989202539
+  },
+  {
+   "leaf_distance": 9,
+   "conjoint_n": 1,
+   "conjoint_cos": 0.7432186811175701,
+   "other_n": 2,
+   "other_cos": 0.41040871681261376
+  }
+ ],
+ "by_quire": [
+  {
+   "quire": "A",
+   "leaves": 8,
+   "conjoint_n": 3,
+   "conjoint_cos": 0.5143484163289617,
+   "other_cos": 0.4593221099607254,
+   "adjacent_nonconjoint_cos": 0.40664259577667233
+  },
+  {
+   "quire": "B",
+   "leaves": 7,
+   "conjoint_n": 3,
+   "conjoint_cos": 0.5993228129354415,
+   "other_cos": 0.5390815071769807,
+   "adjacent_nonconjoint_cos": 0.5435845336384616
+  },
+  {
+   "quire": "C",
+   "leaves": 8,
+   "conjoint_n": 4,
+   "conjoint_cos": 0.5493108349524342,
+   "other_cos": 0.4204651770056072,
+   "adjacent_nonconjoint_cos": 0.4793603943040705
+  },
+  {
+   "quire": "D",
+   "leaves": 8,
+   "conjoint_n": 4,
+   "conjoint_cos": 0.5213694548924653,
+   "other_cos": 0.44981164909610977,
+   "adjacent_nonconjoint_cos": 0.4059670780661002
+  },
+  {
+   "quire": "E",
+   "leaves": 8,
+   "conjoint_n": 4,
+   "conjoint_cos": 0.601518867270924,
+   "other_cos": 0.5712269751202325,
+   "adjacent_nonconjoint_cos": 0.5574656037833212
+  },
+  {
+   "quire": "F",
+   "leaves": 8,
+   "conjoint_n": 4,
+   "conjoint_cos": 0.4782478806252991,
+   "other_cos": 0.4000296346131591,
+   "adjacent_nonconjoint_cos": null
+  },
+  {
+   "quire": "G",
+   "leaves": 8,
+   "conjoint_n": 4,
+   "conjoint_cos": 0.46350775369588587,
+   "other_cos": 0.3913347170771595,
+   "adjacent_nonconjoint_cos": 0.35729382948358374
+  },
+  {
+   "quire": "M",
+   "leaves": 10,
+   "conjoint_n": 4,
+   "conjoint_cos": 0.8008682611417361,
+   "other_cos": 0.7116216022753102,
+   "adjacent_nonconjoint_cos": 0.7139550915545217
+  },
+  {
+   "quire": "S",
+   "leaves": 4,
+   "conjoint_n": 2,
+   "conjoint_cos": 0.5273326959927462,
+   "other_cos": 0.535197093550752,
+   "adjacent_nonconjoint_cos": 0.5332973402000454
+  },
+  {
+   "quire": "T",
+   "leaves": 12,
+   "conjoint_n": 5,
+   "conjoint_cos": 0.6986780068421673,
+   "other_cos": 0.6041482645178075,
+   "adjacent_nonconjoint_cos": 0.6415561798219598
+  }
+ ]
+}
