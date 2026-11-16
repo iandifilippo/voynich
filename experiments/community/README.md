@@ -12,6 +12,7 @@ expected, what I did, what came out), a `run.py`, and `results/`.
 | c04 | zodiac label prefixes cluster by season | voynich.ninja thread 5817 | signs differ, ring text too; no ordered seasonal trend (p = 0.08) |
 | c05 | EVA is the wrong unit (multi-glyph units / stroke particles) | Rozanova & Temerev 2026; r/voynich "Is it too late to rethink EVA?" | merging glyphs into ~150 units brings entropy in line with natural text, but words are then 1-2 units long: syllabary/code-like, not a mis-cut alphabet |
 | c06 | "tolor" = fertilization; o- = article, t-/k- = noun/verb, -l/-r = feminine/masculine | r/voynich, u/Worldmaster777 | six other words share the exact tolor/otolor layout; no gender agreement (VMS z 0.8, Italian 16); t/k pairs have the most similar contexts of all; o- behaves like the control prefixes q-, y- |
+| c07 | Bax's 14 sound values (kantairon, kaur, taurn...) point to a Near Eastern language | Bax 2014, stephenbax.net | his key beats its own shuffles in Turkic/Iranian/Arabic lexicons, but a Naibbe cipher of Latin does too, more strongly: glyph statistics, not language |
 
 Also related: `experiments/08` and `10` (line-start effects; Smith 2016, Pelling), `11` (labels reused
 across drawings, r/voynich "Same word, different images"), `12` (scans, with notes on the tracing

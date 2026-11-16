@@ -2,6 +2,11 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (12)
+
+### c07 Bax 2014
+Key from his Appendix 1 (14 signs). 11665/38718 tokens use only his signs. Consonant skeletons (K N T R X S) vs 30 Wikipedia lexicons, against 1000 shuffles of his own values over the 10 consonant signs. VMS: 17-20/30 languages p <= .05 (Tatar, Uzbek, Azerbaijani, Arabic ~.001), best-language p .03-.10. Naibbe of Pliny: 21-23/30, Arabic/Persian p .001, best-language p .02. Self-citation generator: 0-6/30, best p .46-.70. ZL reads his Taurus label as dary (f68r1.6), not doary.
+
 ## 2026-11-16 (11)
 
 ### c06 tolor (r/voynich)

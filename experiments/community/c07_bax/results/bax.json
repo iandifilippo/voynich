@@ -1,0 +1,3187 @@
+{
+ "coverage": 0.30128105790588355,
+ "summary": [
+  {
+   "text": "VMS (ZL, all)",
+   "consonants": "2+",
+   "count": "tokens",
+   "items": 8350,
+   "langs_p<=0.05": "17/30",
+   "top3": "Tatar 0.001, Azerbaijani 0.002, Tajik 0.003",
+   "p_best_language": 0.0959040959040959
+  },
+  {
+   "text": "VMS (ZL, all)",
+   "consonants": "2+",
+   "count": "types",
+   "items": 255,
+   "langs_p<=0.05": "17/30",
+   "top3": "Uzbek 0.001, Arabic 0.002, Egyptian Arabic 0.002",
+   "p_best_language": 0.04395604395604396
+  },
+  {
+   "text": "VMS (ZL, all)",
+   "consonants": "3+",
+   "count": "tokens",
+   "items": 2791,
+   "langs_p<=0.05": "17/30",
+   "top3": "Tatar 0.001, Azerbaijani 0.002, Tajik 0.003",
+   "p_best_language": 0.0959040959040959
+  },
+  {
+   "text": "VMS (ZL, all)",
+   "consonants": "3+",
+   "count": "types",
+   "items": 224,
+   "langs_p<=0.05": "20/30",
+   "top3": "Uzbek 0.001, Tatar 0.001, Arabic 0.002",
+   "p_best_language": 0.03296703296703297
+  },
+  {
+   "text": "self-citation generator (no meaning)",
+   "consonants": "2+",
+   "count": "tokens",
+   "items": 7744,
+   "langs_p<=0.05": "6/30",
+   "top3": "Tatar 0.005, Chechen 0.006, Pashto 0.015",
+   "p_best_language": 0.46053946053946054
+  },
+  {
+   "text": "self-citation generator (no meaning)",
+   "consonants": "2+",
+   "count": "types",
+   "items": 241,
+   "langs_p<=0.05": "0/30",
+   "top3": "Chechen 0.067, Pashto 0.200, Czech 0.201",
+   "p_best_language": 0.7012987012987013
+  },
+  {
+   "text": "self-citation generator (no meaning)",
+   "consonants": "3+",
+   "count": "tokens",
+   "items": 1784,
+   "langs_p<=0.05": "6/30",
+   "top3": "Tatar 0.005, Chechen 0.006, Pashto 0.015",
+   "p_best_language": 0.46053946053946054
+  },
+  {
+   "text": "self-citation generator (no meaning)",
+   "consonants": "3+",
+   "count": "types",
+   "items": 207,
+   "langs_p<=0.05": "1/30",
+   "top3": "Chechen 0.041, Pashto 0.134, Czech 0.145",
+   "p_best_language": 0.6493506493506493
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "consonants": "2+",
+   "count": "tokens",
+   "items": 8264,
+   "langs_p<=0.05": "21/30",
+   "top3": "Arabic 0.001, Egyptian Arabic 0.001, Persian 0.001",
+   "p_best_language": 0.023976023976023976
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "consonants": "2+",
+   "count": "types",
+   "items": 149,
+   "langs_p<=0.05": "23/30",
+   "top3": "Arabic 0.001, Egyptian Arabic 0.001, Persian 0.001",
+   "p_best_language": 0.017982017982017984
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "consonants": "3+",
+   "count": "tokens",
+   "items": 3347,
+   "langs_p<=0.05": "21/30",
+   "top3": "Arabic 0.001, Egyptian Arabic 0.001, Persian 0.001",
+   "p_best_language": 0.023976023976023976
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "consonants": "3+",
+   "count": "types",
+   "items": 118,
+   "langs_p<=0.05": "23/30",
+   "top3": "Arabic 0.001, Egyptian Arabic 0.001, Persian 0.001",
+   "p_best_language": 0.01898101898101898
+  }
+ ],
+ "results": {
+  "VMS (ZL, all) | 2+ | tokens": {
+   "items": 8350,
+   "rows": [
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.9732934131736527,
+     "shuffled_mean": 0.8357138922155689,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.979880239520958,
+     "shuffled_mean": 0.862423233532934,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.9762874251497006,
+     "shuffled_mean": 0.8869239520958084,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.9355688622754491,
+     "shuffled_mean": 0.8206347305389221,
+     "p": 0.006993006993006993,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.9453892215568862,
+     "shuffled_mean": 0.8218944910179641,
+     "p": 0.007992007992007992,
+     "rank_of_bax": 8
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.9567664670658682,
+     "shuffled_mean": 0.8595953293413173,
+     "p": 0.007992007992007992,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.9668263473053892,
+     "shuffled_mean": 0.8756965269461079,
+     "p": 0.008991008991008992,
+     "rank_of_bax": 9
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.9748502994011976,
+     "shuffled_mean": 0.8848405988023952,
+     "p": 0.008991008991008992,
+     "rank_of_bax": 9
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.9692215568862276,
+     "shuffled_mean": 0.8849148502994012,
+     "p": 0.01098901098901099,
+     "rank_of_bax": 11
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.9596407185628743,
+     "shuffled_mean": 0.862345748502994,
+     "p": 0.012987012987012988,
+     "rank_of_bax": 13
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.9419161676646707,
+     "shuffled_mean": 0.8365510179640719,
+     "p": 0.014985014985014986,
+     "rank_of_bax": 15
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.9382035928143713,
+     "shuffled_mean": 0.8106949700598802,
+     "p": 0.01998001998001998,
+     "rank_of_bax": 19
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.9291017964071856,
+     "shuffled_mean": 0.8064004790419161,
+     "p": 0.01998001998001998,
+     "rank_of_bax": 20
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.9645508982035929,
+     "shuffled_mean": 0.8999704191616766,
+     "p": 0.02197802197802198,
+     "rank_of_bax": 21
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.9421556886227545,
+     "shuffled_mean": 0.8365997604790419,
+     "p": 0.029970029970029972,
+     "rank_of_bax": 30
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.9559281437125748,
+     "shuffled_mean": 0.8560329341317365,
+     "p": 0.029970029970029972,
+     "rank_of_bax": 30
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.9549700598802395,
+     "shuffled_mean": 0.8697283832335329,
+     "p": 0.04695304695304695,
+     "rank_of_bax": 47
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.9473053892215569,
+     "shuffled_mean": 0.8517571257485029,
+     "p": 0.054945054945054944,
+     "rank_of_bax": 55
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.928502994011976,
+     "shuffled_mean": 0.8196954491017964,
+     "p": 0.08091908091908091,
+     "rank_of_bax": 81
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.9326946107784431,
+     "shuffled_mean": 0.8364889820359281,
+     "p": 0.10589410589410589,
+     "rank_of_bax": 105
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.9421556886227545,
+     "shuffled_mean": 0.8907081437125748,
+     "p": 0.15884115884115885,
+     "rank_of_bax": 156
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.9617964071856288,
+     "shuffled_mean": 0.9080233532934131,
+     "p": 0.16983016983016982,
+     "rank_of_bax": 168
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.9662275449101796,
+     "shuffled_mean": 0.945816886227545,
+     "p": 0.2097902097902098,
+     "rank_of_bax": 208
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.9455089820359281,
+     "shuffled_mean": 0.9048542514970059,
+     "p": 0.34765234765234765,
+     "rank_of_bax": 345
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.9261077844311377,
+     "shuffled_mean": 0.8992301796407186,
+     "p": 0.46653346653346656,
+     "rank_of_bax": 465
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.8671856287425149,
+     "shuffled_mean": 0.8946099401197605,
+     "p": 0.6773226773226774,
+     "rank_of_bax": 678
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.8577245508982035,
+     "shuffled_mean": 0.8914647904191617,
+     "p": 0.7102897102897103,
+     "rank_of_bax": 711
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.7324550898203592,
+     "shuffled_mean": 0.8004447904191617,
+     "p": 0.7102897102897103,
+     "rank_of_bax": 711
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.8719760479041916,
+     "shuffled_mean": 0.9269798802395209,
+     "p": 0.8491508491508492,
+     "rank_of_bax": 850
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.8550898203592814,
+     "shuffled_mean": 0.9294748502994011,
+     "p": 0.8971028971028971,
+     "rank_of_bax": 898
+    }
+   ],
+   "best_bax": 0.979880239520958,
+   "n_langs_p05": 17,
+   "p_best": 0.0959040959040959
+  },
+  "VMS (ZL, all) | 2+ | types": {
+   "items": 255,
+   "rows": [
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.6470588235294118,
+     "shuffled_mean": 0.5019421662459446,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.5372549019607843,
+     "shuffled_mean": 0.4205680491011345,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.5647058823529412,
+     "shuffled_mean": 0.4283199931820627,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.5882352941176471,
+     "shuffled_mean": 0.4609002858957489,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.6941176470588235,
+     "shuffled_mean": 0.5185966715901532,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.6235294117647059,
+     "shuffled_mean": 0.4949640792325717,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.5647058823529412,
+     "shuffled_mean": 0.4525129366033436,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 4
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.6392156862745098,
+     "shuffled_mean": 0.5045970413741759,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 4
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.5098039215686274,
+     "shuffled_mean": 0.4306273849677415,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.49411764705882355,
+     "shuffled_mean": 0.394335797653808,
+     "p": 0.006993006993006993,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.5764705882352941,
+     "shuffled_mean": 0.45555693403168784,
+     "p": 0.007992007992007992,
+     "rank_of_bax": 8
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.6705882352941176,
+     "shuffled_mean": 0.525833779747836,
+     "p": 0.011988011988011988,
+     "rank_of_bax": 12
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.6509803921568628,
+     "shuffled_mean": 0.5396685840312183,
+     "p": 0.012987012987012988,
+     "rank_of_bax": 13
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.592156862745098,
+     "shuffled_mean": 0.48453625856307925,
+     "p": 0.012987012987012988,
+     "rank_of_bax": 13
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.6313725490196078,
+     "shuffled_mean": 0.5007556007829236,
+     "p": 0.014985014985014986,
+     "rank_of_bax": 15
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.6862745098039216,
+     "shuffled_mean": 0.5840118886328443,
+     "p": 0.023976023976023976,
+     "rank_of_bax": 23
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.5764705882352941,
+     "shuffled_mean": 0.4560713438617284,
+     "p": 0.029970029970029972,
+     "rank_of_bax": 30
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.5215686274509804,
+     "shuffled_mean": 0.41914531132329885,
+     "p": 0.053946053946053944,
+     "rank_of_bax": 54
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.4666666666666667,
+     "shuffled_mean": 0.39149629735523955,
+     "p": 0.09090909090909091,
+     "rank_of_bax": 91
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.4392156862745098,
+     "shuffled_mean": 0.3810970139475763,
+     "p": 0.10589410589410589,
+     "rank_of_bax": 106
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.5372549019607843,
+     "shuffled_mean": 0.47071039207657256,
+     "p": 0.11288711288711288,
+     "rank_of_bax": 113
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.5803921568627451,
+     "shuffled_mean": 0.49603627847981274,
+     "p": 0.11688311688311688,
+     "rank_of_bax": 117
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.5333333333333333,
+     "shuffled_mean": 0.4551482785310251,
+     "p": 0.13486513486513488,
+     "rank_of_bax": 132
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.611764705882353,
+     "shuffled_mean": 0.5251184674686598,
+     "p": 0.17482517482517482,
+     "rank_of_bax": 175
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.5882352941176471,
+     "shuffled_mean": 0.5331676025070405,
+     "p": 0.22377622377622378,
+     "rank_of_bax": 223
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.615686274509804,
+     "shuffled_mean": 0.5577431168124655,
+     "p": 0.23576423576423577,
+     "rank_of_bax": 236
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.5372549019607843,
+     "shuffled_mean": 0.48229326424940405,
+     "p": 0.2817182817182817,
+     "rank_of_bax": 282
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.5607843137254902,
+     "shuffled_mean": 0.5126188525505144,
+     "p": 0.2967032967032967,
+     "rank_of_bax": 297
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.5803921568627451,
+     "shuffled_mean": 0.534821985526722,
+     "p": 0.3036963036963037,
+     "rank_of_bax": 304
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.40784313725490196,
+     "shuffled_mean": 0.40303993694158485,
+     "p": 0.45554445554445555,
+     "rank_of_bax": 456
+    }
+   ],
+   "best_bax": 0.6941176470588235,
+   "n_langs_p05": 17,
+   "p_best": 0.04395604395604396
+  },
+  "VMS (ZL, all) | 3+ | tokens": {
+   "items": 2791,
+   "rows": [
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.9201003224650662,
+     "shuffled_mean": 0.5084955213185238,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.9398065209602293,
+     "shuffled_mean": 0.5884034396273737,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.9290576854174131,
+     "shuffled_mean": 0.6617036904335364,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.8072375492654963,
+     "shuffled_mean": 0.4633823002508062,
+     "p": 0.006993006993006993,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.8366176997491939,
+     "shuffled_mean": 0.46715120028663565,
+     "p": 0.007992007992007992,
+     "rank_of_bax": 8
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.8706556789681118,
+     "shuffled_mean": 0.579943031171623,
+     "p": 0.007992007992007992,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.9007524184879971,
+     "shuffled_mean": 0.6281139376567538,
+     "p": 0.008991008991008992,
+     "rank_of_bax": 9
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.9247581512002866,
+     "shuffled_mean": 0.6554707989967753,
+     "p": 0.008991008991008992,
+     "rank_of_bax": 9
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.9079183088498746,
+     "shuffled_mean": 0.6556929415979936,
+     "p": 0.01098901098901099,
+     "rank_of_bax": 11
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.8792547474023648,
+     "shuffled_mean": 0.5881716230741669,
+     "p": 0.012987012987012988,
+     "rank_of_bax": 13
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.8380508778215693,
+     "shuffled_mean": 0.4783808670727338,
+     "p": 0.013986013986013986,
+     "rank_of_bax": 14
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.8262271587244715,
+     "shuffled_mean": 0.511,
+     "p": 0.014985014985014986,
+     "rank_of_bax": 15
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.8939448226442135,
+     "shuffled_mean": 0.7007355786456467,
+     "p": 0.02197802197802198,
+     "rank_of_bax": 21
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.7957721246864923,
+     "shuffled_mean": 0.4411322106771767,
+     "p": 0.02197802197802198,
+     "rank_of_bax": 22
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.8269437477606593,
+     "shuffled_mean": 0.5111458258688643,
+     "p": 0.029970029970029972,
+     "rank_of_bax": 30
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.8681476173414546,
+     "shuffled_mean": 0.5692852024364028,
+     "p": 0.029970029970029972,
+     "rank_of_bax": 30
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.8652812611967037,
+     "shuffled_mean": 0.6102586886420638,
+     "p": 0.04695304695304695,
+     "rank_of_bax": 47
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.8423504120386958,
+     "shuffled_mean": 0.5564930132568972,
+     "p": 0.054945054945054944,
+     "rank_of_bax": 55
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.7864564672160516,
+     "shuffled_mean": 0.4638452167681834,
+     "p": 0.08491508491508491,
+     "rank_of_bax": 84
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.7986384808312433,
+     "shuffled_mean": 0.5108144034396274,
+     "p": 0.10589410589410589,
+     "rank_of_bax": 105
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.8269437477606593,
+     "shuffled_mean": 0.6730250806162665,
+     "p": 0.15884115884115885,
+     "rank_of_bax": 156
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.8857040487280544,
+     "shuffled_mean": 0.724828018631315,
+     "p": 0.16983016983016982,
+     "rank_of_bax": 168
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.8989609458975277,
+     "shuffled_mean": 0.8378971694733071,
+     "p": 0.2097902097902098,
+     "rank_of_bax": 208
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.8369759942672877,
+     "shuffled_mean": 0.7153468290935149,
+     "p": 0.34765234765234765,
+     "rank_of_bax": 345
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.7789322823360803,
+     "shuffled_mean": 0.6985209602293084,
+     "p": 0.46653346653346656,
+     "rank_of_bax": 465
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.43317807237549266,
+     "shuffled_mean": 0.48631064134718743,
+     "p": 0.5594405594405595,
+     "rank_of_bax": 560
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.6026513794338947,
+     "shuffled_mean": 0.6846983160157649,
+     "p": 0.6773226773226774,
+     "rank_of_bax": 678
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.5743461125044786,
+     "shuffled_mean": 0.6752887853815837,
+     "p": 0.7102897102897103,
+     "rank_of_bax": 711
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.6169831601576495,
+     "shuffled_mean": 0.7815413830168398,
+     "p": 0.8491508491508492,
+     "rank_of_bax": 850
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.5664636331064135,
+     "shuffled_mean": 0.7890057327122895,
+     "p": 0.8971028971028971,
+     "rank_of_bax": 898
+    }
+   ],
+   "best_bax": 0.9398065209602293,
+   "n_langs_p05": 17,
+   "p_best": 0.0959040959040959
+  },
+  "VMS (ZL, all) | 3+ | types": {
+   "items": 224,
+   "rows": [
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.5982142857142857,
+     "shuffled_mean": 0.410443994453688,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.53125,
+     "shuffled_mean": 0.3618422128397578,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.4732142857142857,
+     "shuffled_mean": 0.31419599242416235,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.5044642857142857,
+     "shuffled_mean": 0.3234391276369443,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.5044642857142857,
+     "shuffled_mean": 0.35221840593637727,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.5714285714285714,
+     "shuffled_mean": 0.40231853889157343,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.6517857142857143,
+     "shuffled_mean": 0.43022423525865694,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.5892857142857143,
+     "shuffled_mean": 0.4138479602474875,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 4
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.42857142857142855,
+     "shuffled_mean": 0.2877499170892106,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.5178571428571429,
+     "shuffled_mean": 0.3556892539002043,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.4419642857142857,
+     "shuffled_mean": 0.32629370575789995,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.5357142857142857,
+     "shuffled_mean": 0.3897999042244861,
+     "p": 0.00999000999000999,
+     "rank_of_bax": 10
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.6026785714285714,
+     "shuffled_mean": 0.4550466687238493,
+     "p": 0.01098901098901099,
+     "rank_of_bax": 11
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.625,
+     "shuffled_mean": 0.4388838578374935,
+     "p": 0.01098901098901099,
+     "rank_of_bax": 11
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.5803571428571429,
+     "shuffled_mean": 0.409226302068892,
+     "p": 0.012987012987012988,
+     "rank_of_bax": 13
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.6428571428571429,
+     "shuffled_mean": 0.50802989661371,
+     "p": 0.012987012987012988,
+     "rank_of_bax": 13
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.4642857142857143,
+     "shuffled_mean": 0.32148656548163257,
+     "p": 0.023976023976023976,
+     "rank_of_bax": 24
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.5178571428571429,
+     "shuffled_mean": 0.35621464144004267,
+     "p": 0.025974025974025976,
+     "rank_of_bax": 26
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.36160714285714285,
+     "shuffled_mean": 0.26806386973011825,
+     "p": 0.03396603396603397,
+     "rank_of_bax": 34
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.39732142857142855,
+     "shuffled_mean": 0.2842749898280962,
+     "p": 0.04795204795204795,
+     "rank_of_bax": 48
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.4732142857142857,
+     "shuffled_mean": 0.3740360171747016,
+     "p": 0.060939060939060936,
+     "rank_of_bax": 61
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.46875,
+     "shuffled_mean": 0.355575311829849,
+     "p": 0.07892107892107893,
+     "rank_of_bax": 79
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.5223214285714286,
+     "shuffled_mean": 0.40383582031168774,
+     "p": 0.08391608391608392,
+     "rank_of_bax": 84
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.5580357142857143,
+     "shuffled_mean": 0.43837434246408524,
+     "p": 0.13486513486513488,
+     "rank_of_bax": 135
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.53125,
+     "shuffled_mean": 0.44802940461850405,
+     "p": 0.16183816183816183,
+     "rank_of_bax": 162
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.5625,
+     "shuffled_mean": 0.4770687156156467,
+     "p": 0.1848151848151848,
+     "rank_of_bax": 185
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.4732142857142857,
+     "shuffled_mean": 0.3876096191036078,
+     "p": 0.21978021978021978,
+     "rank_of_bax": 220
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.5,
+     "shuffled_mean": 0.42385462039226424,
+     "p": 0.22677322677322678,
+     "rank_of_bax": 218
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.5223214285714286,
+     "shuffled_mean": 0.4498391540724699,
+     "p": 0.22977022977022976,
+     "rank_of_bax": 230
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.34375,
+     "shuffled_mean": 0.31128543224015676,
+     "p": 0.34865134865134867,
+     "rank_of_bax": 349
+    }
+   ],
+   "best_bax": 0.6517857142857143,
+   "n_langs_p05": 20,
+   "p_best": 0.03296703296703297
+  },
+  "self-citation generator (no meaning) | 2+ | tokens": {
+   "items": 7744,
+   "rows": [
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.95338326446281,
+     "shuffled_mean": 0.882991348140496,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.9677169421487604,
+     "shuffled_mean": 0.9289105113636363,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.9495092975206612,
+     "shuffled_mean": 0.8985792871900826,
+     "p": 0.014985014985014986,
+     "rank_of_bax": 14
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.9647469008264463,
+     "shuffled_mean": 0.9169349173553719,
+     "p": 0.02097902097902098,
+     "rank_of_bax": 19
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.9408574380165289,
+     "shuffled_mean": 0.8821082128099174,
+     "p": 0.024975024975024976,
+     "rank_of_bax": 25
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.9548037190082644,
+     "shuffled_mean": 0.9035866477272727,
+     "p": 0.04195804195804196,
+     "rank_of_bax": 38
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.9222623966942148,
+     "shuffled_mean": 0.871462035123967,
+     "p": 0.052947052947052944,
+     "rank_of_bax": 52
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.9519628099173554,
+     "shuffled_mean": 0.9112422520661158,
+     "p": 0.06593406593406594,
+     "rank_of_bax": 65
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.9394369834710744,
+     "shuffled_mean": 0.8915668904958678,
+     "p": 0.07192807192807193,
+     "rank_of_bax": 72
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.9465392561983471,
+     "shuffled_mean": 0.9060459710743802,
+     "p": 0.10589410589410589,
+     "rank_of_bax": 104
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.9165805785123967,
+     "shuffled_mean": 0.8598236053719008,
+     "p": 0.10989010989010989,
+     "rank_of_bax": 110
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.9413739669421488,
+     "shuffled_mean": 0.9021224173553719,
+     "p": 0.11288711288711288,
+     "rank_of_bax": 112
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.9252324380165289,
+     "shuffled_mean": 0.873172520661157,
+     "p": 0.11388611388611389,
+     "rank_of_bax": 112
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.9107696280991735,
+     "shuffled_mean": 0.867272339876033,
+     "p": 0.1938061938061938,
+     "rank_of_bax": 191
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.9475723140495868,
+     "shuffled_mean": 0.9172702737603307,
+     "p": 0.20279720279720279,
+     "rank_of_bax": 201
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.9191632231404959,
+     "shuffled_mean": 0.882462680785124,
+     "p": 0.2137862137862138,
+     "rank_of_bax": 214
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.9006973140495868,
+     "shuffled_mean": 0.8604536415289256,
+     "p": 0.21878121878121878,
+     "rank_of_bax": 216
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.9256198347107438,
+     "shuffled_mean": 0.8977909349173554,
+     "p": 0.3086913086913087,
+     "rank_of_bax": 309
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.9130940082644629,
+     "shuffled_mean": 0.8836526342975206,
+     "p": 0.3256743256743257,
+     "rank_of_bax": 326
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.9349173553719008,
+     "shuffled_mean": 0.9160723140495868,
+     "p": 0.36363636363636365,
+     "rank_of_bax": 361
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.9433109504132231,
+     "shuffled_mean": 0.933509555785124,
+     "p": 0.4695304695304695,
+     "rank_of_bax": 466
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.9375,
+     "shuffled_mean": 0.934101368801653,
+     "p": 0.5794205794205795,
+     "rank_of_bax": 579
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.9275568181818182,
+     "shuffled_mean": 0.9226433367768595,
+     "p": 0.5804195804195804,
+     "rank_of_bax": 579
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.9245867768595041,
+     "shuffled_mean": 0.9294532541322315,
+     "p": 0.6403596403596403,
+     "rank_of_bax": 640
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.9510588842975206,
+     "shuffled_mean": 0.9611747159090909,
+     "p": 0.8391608391608392,
+     "rank_of_bax": 840
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.8770661157024794,
+     "shuffled_mean": 0.9249806301652892,
+     "p": 0.8621378621378621,
+     "rank_of_bax": 863
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.8620867768595041,
+     "shuffled_mean": 0.9238083677685951,
+     "p": 0.929070929070929,
+     "rank_of_bax": 928
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.7586518595041323,
+     "shuffled_mean": 0.8515278925619835,
+     "p": 0.954045954045954,
+     "rank_of_bax": 954
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.8815857438016529,
+     "shuffled_mean": 0.9480439049586776,
+     "p": 0.968031968031968,
+     "rank_of_bax": 967
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.8730630165289256,
+     "shuffled_mean": 0.9504886363636363,
+     "p": 0.988011988011988,
+     "rank_of_bax": 989
+    }
+   ],
+   "best_bax": 0.9677169421487604,
+   "n_langs_p05": 6,
+   "p_best": 0.46053946053946054
+  },
+  "self-citation generator (no meaning) | 2+ | types": {
+   "items": 241,
+   "rows": [
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.6265560165975104,
+     "shuffled_mean": 0.5600487667101818,
+     "p": 0.06693306693306693,
+     "rank_of_bax": 67
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.5477178423236515,
+     "shuffled_mean": 0.5136203386005787,
+     "p": 0.1998001998001998,
+     "rank_of_bax": 200
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.5850622406639004,
+     "shuffled_mean": 0.5472658395265769,
+     "p": 0.2007992007992008,
+     "rank_of_bax": 200
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.6016597510373444,
+     "shuffled_mean": 0.5649840498340438,
+     "p": 0.2087912087912088,
+     "rank_of_bax": 209
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.5145228215767634,
+     "shuffled_mean": 0.4893948117897604,
+     "p": 0.21178821178821178,
+     "rank_of_bax": 211
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.6265560165975104,
+     "shuffled_mean": 0.5829727947774188,
+     "p": 0.22877122877122877,
+     "rank_of_bax": 229
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.5560165975103735,
+     "shuffled_mean": 0.5246473560988989,
+     "p": 0.23076923076923078,
+     "rank_of_bax": 231
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.5975103734439834,
+     "shuffled_mean": 0.5672171308870941,
+     "p": 0.26173826173826176,
+     "rank_of_bax": 262
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.6224066390041494,
+     "shuffled_mean": 0.5887230900964788,
+     "p": 0.2757242757242757,
+     "rank_of_bax": 276
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.45643153526970953,
+     "shuffled_mean": 0.4353540317240226,
+     "p": 0.3146853146853147,
+     "rank_of_bax": 314
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.6224066390041494,
+     "shuffled_mean": 0.6045231501534499,
+     "p": 0.3696303696303696,
+     "rank_of_bax": 370
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.5103734439834025,
+     "shuffled_mean": 0.4950141425869816,
+     "p": 0.3916083916083916,
+     "rank_of_bax": 391
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.5311203319502075,
+     "shuffled_mean": 0.5172016632226805,
+     "p": 0.4075924075924076,
+     "rank_of_bax": 408
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.5394190871369294,
+     "shuffled_mean": 0.5286329008832659,
+     "p": 0.4095904095904096,
+     "rank_of_bax": 410
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.5269709543568465,
+     "shuffled_mean": 0.5168284712843275,
+     "p": 0.4155844155844156,
+     "rank_of_bax": 416
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.4979253112033195,
+     "shuffled_mean": 0.4862881853100097,
+     "p": 0.4405594405594406,
+     "rank_of_bax": 440
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.5850622406639004,
+     "shuffled_mean": 0.5834676823277081,
+     "p": 0.44455544455544455,
+     "rank_of_bax": 445
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.5684647302904564,
+     "shuffled_mean": 0.5621565788906197,
+     "p": 0.45054945054945056,
+     "rank_of_bax": 451
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.48132780082987553,
+     "shuffled_mean": 0.4777207648279045,
+     "p": 0.4675324675324675,
+     "rank_of_bax": 468
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.5103734439834025,
+     "shuffled_mean": 0.5122987835950706,
+     "p": 0.4725274725274725,
+     "rank_of_bax": 473
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.5435684647302904,
+     "shuffled_mean": 0.5497214918138561,
+     "p": 0.4925074925074925,
+     "rank_of_bax": 493
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.43983402489626555,
+     "shuffled_mean": 0.43718720618866663,
+     "p": 0.4965034965034965,
+     "rank_of_bax": 496
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.5518672199170125,
+     "shuffled_mean": 0.5695715178764421,
+     "p": 0.5604395604395604,
+     "rank_of_bax": 561
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.44813278008298757,
+     "shuffled_mean": 0.45430306441112867,
+     "p": 0.5634365634365635,
+     "rank_of_bax": 562
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.5103734439834025,
+     "shuffled_mean": 0.5365071906191756,
+     "p": 0.6033966033966034,
+     "rank_of_bax": 603
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.6307053941908713,
+     "shuffled_mean": 0.64592706259321,
+     "p": 0.6233766233766234,
+     "rank_of_bax": 624
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.5643153526970954,
+     "shuffled_mean": 0.5928215348283049,
+     "p": 0.6243756243756243,
+     "rank_of_bax": 625
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.5850622406639004,
+     "shuffled_mean": 0.6163997648095566,
+     "p": 0.6633366633366633,
+     "rank_of_bax": 664
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.5601659751037344,
+     "shuffled_mean": 0.59040260015649,
+     "p": 0.6733266733266733,
+     "rank_of_bax": 674
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.3941908713692946,
+     "shuffled_mean": 0.4445447123695247,
+     "p": 0.7452547452547452,
+     "rank_of_bax": 746
+    }
+   ],
+   "best_bax": 0.6307053941908713,
+   "n_langs_p05": 0,
+   "p_best": 0.7012987012987013
+  },
+  "self-citation generator (no meaning) | 3+ | tokens": {
+   "items": 1784,
+   "rows": [
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.797645739910314,
+     "shuffled_mean": 0.4920880044843049,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.8598654708520179,
+     "shuffled_mean": 0.6914142376681615,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.780829596412556,
+     "shuffled_mean": 0.5597522421524663,
+     "p": 0.014985014985014986,
+     "rank_of_bax": 14
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.8469730941704036,
+     "shuffled_mean": 0.6394304932735426,
+     "p": 0.02097902097902098,
+     "rank_of_bax": 19
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.7432735426008968,
+     "shuffled_mean": 0.48825448430493273,
+     "p": 0.024975024975024976,
+     "rank_of_bax": 25
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.8038116591928252,
+     "shuffled_mean": 0.5814882286995515,
+     "p": 0.04195804195804196,
+     "rank_of_bax": 38
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.6625560538116592,
+     "shuffled_mean": 0.4420414798206278,
+     "p": 0.052947052947052944,
+     "rank_of_bax": 52
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.7914798206278026,
+     "shuffled_mean": 0.6147197309417041,
+     "p": 0.06593406593406594,
+     "rank_of_bax": 65
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.7371076233183856,
+     "shuffled_mean": 0.5293127802690583,
+     "p": 0.07192807192807193,
+     "rank_of_bax": 72
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.7679372197309418,
+     "shuffled_mean": 0.5921636771300448,
+     "p": 0.10589410589410589,
+     "rank_of_bax": 104
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.7455156950672646,
+     "shuffled_mean": 0.5751322869955157,
+     "p": 0.11288711288711288,
+     "rank_of_bax": 112
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.6754484304932735,
+     "shuffled_mean": 0.4494663677130045,
+     "p": 0.11388611388611389,
+     "rank_of_bax": 112
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.6322869955156951,
+     "shuffled_mean": 0.43037051569506724,
+     "p": 0.12187812187812187,
+     "rank_of_bax": 122
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.6603139013452914,
+     "shuffled_mean": 0.4610515695067265,
+     "p": 0.14785214785214784,
+     "rank_of_bax": 148
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.6356502242152466,
+     "shuffled_mean": 0.44814125560538115,
+     "p": 0.16783216783216784,
+     "rank_of_bax": 166
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.7724215246636771,
+     "shuffled_mean": 0.6408862107623319,
+     "p": 0.20279720279720279,
+     "rank_of_bax": 201
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.649103139013453,
+     "shuffled_mean": 0.4897931614349776,
+     "p": 0.2137862137862138,
+     "rank_of_bax": 214
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.6771300448430493,
+     "shuffled_mean": 0.5563301569506727,
+     "p": 0.3086913086913087,
+     "rank_of_bax": 309
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.6227578475336323,
+     "shuffled_mean": 0.4949585201793722,
+     "p": 0.3256743256743257,
+     "rank_of_bax": 326
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.7174887892376681,
+     "shuffled_mean": 0.6356860986547085,
+     "p": 0.36363636363636365,
+     "rank_of_bax": 361
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.7539237668161435,
+     "shuffled_mean": 0.7113778026905829,
+     "p": 0.4695304695304695,
+     "rank_of_bax": 466
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.7286995515695067,
+     "shuffled_mean": 0.7139467488789238,
+     "p": 0.5794205794205795,
+     "rank_of_bax": 579
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.6855381165919282,
+     "shuffled_mean": 0.6642096412556053,
+     "p": 0.5804195804195804,
+     "rank_of_bax": 579
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.672645739910314,
+     "shuffled_mean": 0.6937701793721973,
+     "p": 0.6403596403596403,
+     "rank_of_bax": 640
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.30885650224215244,
+     "shuffled_mean": 0.48884417040358746,
+     "p": 0.7942057942057942,
+     "rank_of_bax": 795
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.7875560538116592,
+     "shuffled_mean": 0.8314669282511211,
+     "p": 0.8391608391608392,
+     "rank_of_bax": 840
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.4663677130044843,
+     "shuffled_mean": 0.6743553811659193,
+     "p": 0.8621378621378621,
+     "rank_of_bax": 863
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.4013452914798206,
+     "shuffled_mean": 0.6692668161434977,
+     "p": 0.929070929070929,
+     "rank_of_bax": 928
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.4859865470852018,
+     "shuffled_mean": 0.7744686098654708,
+     "p": 0.968031968031968,
+     "rank_of_bax": 967
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.4489910313901345,
+     "shuffled_mean": 0.7850807174887893,
+     "p": 0.988011988011988,
+     "rank_of_bax": 989
+    }
+   ],
+   "best_bax": 0.8598654708520179,
+   "n_langs_p05": 6,
+   "p_best": 0.46053946053946054
+  },
+  "self-citation generator (no meaning) | 3+ | types": {
+   "items": 207,
+   "rows": [
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.5652173913043478,
+     "shuffled_mean": 0.47624882400022117,
+     "p": 0.04095904095904096,
+     "rank_of_bax": 41
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.47342995169082125,
+     "shuffled_mean": 0.4209545525566757,
+     "p": 0.13386613386613386,
+     "rank_of_bax": 134
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.5169082125603864,
+     "shuffled_mean": 0.46105577596877395,
+     "p": 0.14485514485514486,
+     "rank_of_bax": 144
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.5362318840579711,
+     "shuffled_mean": 0.4822186645020362,
+     "p": 0.15784215784215785,
+     "rank_of_bax": 157
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.43478260869565216,
+     "shuffled_mean": 0.3920944495859357,
+     "p": 0.16583416583416583,
+     "rank_of_bax": 163
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.4830917874396135,
+     "shuffled_mean": 0.43402697537154533,
+     "p": 0.17182817182817184,
+     "rank_of_bax": 172
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.5652173913043478,
+     "shuffled_mean": 0.5034683773407528,
+     "p": 0.17882117882117882,
+     "rank_of_bax": 177
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.5314009661835749,
+     "shuffled_mean": 0.48470244530771794,
+     "p": 0.2177822177822178,
+     "rank_of_bax": 218
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.5603864734299517,
+     "shuffled_mean": 0.5104961363057312,
+     "p": 0.22877122877122877,
+     "rank_of_bax": 229
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.3671497584541063,
+     "shuffled_mean": 0.3280539575363165,
+     "p": 0.24075924075924077,
+     "rank_of_bax": 239
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.42995169082125606,
+     "shuffled_mean": 0.39881175854659195,
+     "p": 0.2987012987012987,
+     "rank_of_bax": 297
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.45410628019323673,
+     "shuffled_mean": 0.42528100764375876,
+     "p": 0.3046953046953047,
+     "rank_of_bax": 305
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.5603864734299517,
+     "shuffled_mean": 0.5290976443788439,
+     "p": 0.3146853146853147,
+     "rank_of_bax": 315
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.463768115942029,
+     "shuffled_mean": 0.4392337285877378,
+     "p": 0.33166833166833165,
+     "rank_of_bax": 331
+    },
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.41545893719806765,
+     "shuffled_mean": 0.388413292142781,
+     "p": 0.3596403596403596,
+     "rank_of_bax": 359
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.4492753623188406,
+     "shuffled_mean": 0.4247716139040115,
+     "p": 0.36663336663336665,
+     "rank_of_bax": 367
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.4057971014492754,
+     "shuffled_mean": 0.3866779643370242,
+     "p": 0.38161838161838163,
+     "rank_of_bax": 381
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.4975845410628019,
+     "shuffled_mean": 0.4788343675077871,
+     "p": 0.38161838161838163,
+     "rank_of_bax": 382
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.5169082125603864,
+     "shuffled_mean": 0.5044760359594489,
+     "p": 0.3956043956043956,
+     "rank_of_bax": 396
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.42995169082125606,
+     "shuffled_mean": 0.4196626238069646,
+     "p": 0.4205794205794206,
+     "rank_of_bax": 420
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.3526570048309179,
+     "shuffled_mean": 0.33645181490812714,
+     "p": 0.4325674325674326,
+     "rank_of_bax": 431
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.46859903381642515,
+     "shuffled_mean": 0.4641114709226995,
+     "p": 0.44155844155844154,
+     "rank_of_bax": 442
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.36231884057971014,
+     "shuffled_mean": 0.35471248815909934,
+     "p": 0.46153846153846156,
+     "rank_of_bax": 461
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.4782608695652174,
+     "shuffled_mean": 0.48808134719460816,
+     "p": 0.5064935064935064,
+     "rank_of_bax": 507
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.42995169082125606,
+     "shuffled_mean": 0.4484667294846826,
+     "p": 0.5384615384615384,
+     "rank_of_bax": 538
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.5700483091787439,
+     "shuffled_mean": 0.5788443506278924,
+     "p": 0.5774225774225774,
+     "rank_of_bax": 578
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.4927536231884058,
+     "shuffled_mean": 0.51558650170135,
+     "p": 0.5864135864135864,
+     "rank_of_bax": 585
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.5169082125603864,
+     "shuffled_mean": 0.5437066816898728,
+     "p": 0.6103896103896104,
+     "rank_of_bax": 611
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.48792270531400966,
+     "shuffled_mean": 0.5127794626862788,
+     "p": 0.6233766233766234,
+     "rank_of_bax": 623
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.3140096618357488,
+     "shuffled_mean": 0.3558690092470432,
+     "p": 0.6913086913086913,
+     "rank_of_bax": 692
+    }
+   ],
+   "best_bax": 0.5700483091787439,
+   "n_langs_p05": 1,
+   "p_best": 0.6493506493506493
+  },
+  "Naibbe cipher of Pliny (Latin) | 2+ | tokens": {
+   "items": 8264,
+   "rows": [
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.960188770571152,
+     "shuffled_mean": 0.7860984995159729,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.9644240077444337,
+     "shuffled_mean": 0.8035832526621491,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.9727734753146177,
+     "shuffled_mean": 0.8225680058083252,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.9462729912875121,
+     "shuffled_mean": 0.8026068489835431,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.9697483059051307,
+     "shuffled_mean": 0.832723862536302,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.9771297192642788,
+     "shuffled_mean": 0.8362377783155858,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.9641819941916747,
+     "shuffled_mean": 0.8032589545014521,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.9859632139399807,
+     "shuffled_mean": 0.8656830832526622,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.9483301064859632,
+     "shuffled_mean": 0.7703059051306873,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.9796708615682478,
+     "shuffled_mean": 0.8642375363020329,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.9698693126815101,
+     "shuffled_mean": 0.8447607696030978,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 4
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.968296224588577,
+     "shuffled_mean": 0.8536533155856728,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.976403678606002,
+     "shuffled_mean": 0.8636571878025169,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.9709583736689255,
+     "shuffled_mean": 0.8843978702807357,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.936108422071636,
+     "shuffled_mean": 0.7835769603097773,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.9597047434656341,
+     "shuffled_mean": 0.8041712245885769,
+     "p": 0.006993006993006993,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.9437318489835431,
+     "shuffled_mean": 0.7779555905130687,
+     "p": 0.006993006993006993,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.9620038722168441,
+     "shuffled_mean": 0.8357944094869313,
+     "p": 0.01098901098901099,
+     "rank_of_bax": 11
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.9375605033881897,
+     "shuffled_mean": 0.7827986447241045,
+     "p": 0.011988011988011988,
+     "rank_of_bax": 12
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.957405614714424,
+     "shuffled_mean": 0.8291321393998065,
+     "p": 0.01898101898101898,
+     "rank_of_bax": 18
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.9557115198451114,
+     "shuffled_mean": 0.8733758470474347,
+     "p": 0.028971028971028972,
+     "rank_of_bax": 29
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.9750726040658277,
+     "shuffled_mean": 0.9407665779283639,
+     "p": 0.061938061938061936,
+     "rank_of_bax": 60
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.952565343659245,
+     "shuffled_mean": 0.8830183930300096,
+     "p": 0.14685314685314685,
+     "rank_of_bax": 145
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.9589787028073572,
+     "shuffled_mean": 0.8936786060019362,
+     "p": 0.15684315684315683,
+     "rank_of_bax": 157
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.9530493707647628,
+     "shuffled_mean": 0.8910504598257503,
+     "p": 0.16383616383616384,
+     "rank_of_bax": 162
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.6973620522749274,
+     "shuffled_mean": 0.7706910696999032,
+     "p": 0.6773226773226774,
+     "rank_of_bax": 678
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.8309535333978703,
+     "shuffled_mean": 0.877759559535334,
+     "p": 0.7612387612387612,
+     "rank_of_bax": 762
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.8109874152952565,
+     "shuffled_mean": 0.8742915053242982,
+     "p": 0.7702297702297702,
+     "rank_of_bax": 771
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.8223620522749274,
+     "shuffled_mean": 0.9202622216844144,
+     "p": 0.8871128871128872,
+     "rank_of_bax": 888
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.8241771539206195,
+     "shuffled_mean": 0.9172093417231365,
+     "p": 0.8931068931068931,
+     "rank_of_bax": 894
+    }
+   ],
+   "best_bax": 0.9859632139399807,
+   "n_langs_p05": 21,
+   "p_best": 0.023976023976023976
+  },
+  "Naibbe cipher of Pliny (Latin) | 2+ | types": {
+   "items": 149,
+   "rows": [
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.7248322147651006,
+     "shuffled_mean": 0.5384568343250931,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.7516778523489933,
+     "shuffled_mean": 0.5478115617317099,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.7651006711409396,
+     "shuffled_mean": 0.5756544574612112,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.7181208053691275,
+     "shuffled_mean": 0.5026612037066995,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.7651006711409396,
+     "shuffled_mean": 0.5700631842603412,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.8120805369127517,
+     "shuffled_mean": 0.623740765126982,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.8590604026845637,
+     "shuffled_mean": 0.65659243212006,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.8523489932885906,
+     "shuffled_mean": 0.6324207194677157,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.7986577181208053,
+     "shuffled_mean": 0.6197628101883711,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.7449664429530202,
+     "shuffled_mean": 0.5762586109968584,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.6778523489932886,
+     "shuffled_mean": 0.5447213767905403,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 4
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.7785234899328859,
+     "shuffled_mean": 0.6143022473706352,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.8187919463087249,
+     "shuffled_mean": 0.6221063378644699,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.7583892617449665,
+     "shuffled_mean": 0.6029542142546477,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.7986577181208053,
+     "shuffled_mean": 0.6447514931482484,
+     "p": 0.013986013986013986,
+     "rank_of_bax": 14
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.738255033557047,
+     "shuffled_mean": 0.5670628765117217,
+     "p": 0.015984015984015984,
+     "rank_of_bax": 16
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.697986577181208,
+     "shuffled_mean": 0.5271465411887364,
+     "p": 0.01898101898101898,
+     "rank_of_bax": 19
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.6040268456375839,
+     "shuffled_mean": 0.4862162613809041,
+     "p": 0.01998001998001998,
+     "rank_of_bax": 20
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.7114093959731543,
+     "shuffled_mean": 0.5875683978752707,
+     "p": 0.028971028971028972,
+     "rank_of_bax": 29
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.6308724832214765,
+     "shuffled_mean": 0.4989099733896939,
+     "p": 0.030969030969030968,
+     "rank_of_bax": 31
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.7114093959731543,
+     "shuffled_mean": 0.5648422548183821,
+     "p": 0.03196803196803197,
+     "rank_of_bax": 32
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.8187919463087249,
+     "shuffled_mean": 0.709028063328559,
+     "p": 0.03496503496503497,
+     "rank_of_bax": 35
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.7516778523489933,
+     "shuffled_mean": 0.6093560218528155,
+     "p": 0.03496503496503497,
+     "rank_of_bax": 35
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.7651006711409396,
+     "shuffled_mean": 0.6474933695279503,
+     "p": 0.08591408591408592,
+     "rank_of_bax": 86
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.7516778523489933,
+     "shuffled_mean": 0.6444500029081507,
+     "p": 0.0989010989010989,
+     "rank_of_bax": 99
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.7449664429530202,
+     "shuffled_mean": 0.654187950859357,
+     "p": 0.10789210789210789,
+     "rank_of_bax": 106
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.7046979865771812,
+     "shuffled_mean": 0.6263703970329311,
+     "p": 0.17482517482517482,
+     "rank_of_bax": 174
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.738255033557047,
+     "shuffled_mean": 0.6755564159671743,
+     "p": 0.21578421578421578,
+     "rank_of_bax": 216
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.6711409395973155,
+     "shuffled_mean": 0.5934149954970784,
+     "p": 0.21978021978021978,
+     "rank_of_bax": 220
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.5033557046979866,
+     "shuffled_mean": 0.4883700578917511,
+     "p": 0.4195804195804196,
+     "rank_of_bax": 419
+    }
+   ],
+   "best_bax": 0.8590604026845637,
+   "n_langs_p05": 23,
+   "p_best": 0.017982017982017984
+  },
+  "Naibbe cipher of Pliny (Latin) | 3+ | tokens": {
+   "items": 3347,
+   "rows": [
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.9017030176277263,
+     "shuffled_mean": 0.4718607708395578,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.9121601434120108,
+     "shuffled_mean": 0.5150319689273977,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.9327756199581715,
+     "shuffled_mean": 0.5619067821930087,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.8673438900507917,
+     "shuffled_mean": 0.5126211532715865,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.9253062443979684,
+     "shuffled_mean": 0.5869823722736779,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.943531520764864,
+     "shuffled_mean": 0.5956585001493875,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.9115625933671945,
+     "shuffled_mean": 0.5142312518673439,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.882282641171198,
+     "shuffled_mean": 0.4833331341499851,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.9653420974006574,
+     "shuffled_mean": 0.6683612190020913,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.8724230654317299,
+     "shuffled_mean": 0.44738392590379444,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.9498057962354347,
+     "shuffled_mean": 0.6647920525844039,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.9256050194203764,
+     "shuffled_mean": 0.6167024200776815,
+     "p": 0.003996003996003996,
+     "rank_of_bax": 4
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.9217209441290708,
+     "shuffled_mean": 0.6386587989244099,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.9417388706304153,
+     "shuffled_mean": 0.6633591275769346,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.9282939946220496,
+     "shuffled_mean": 0.7145694651927099,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.8422467881685091,
+     "shuffled_mean": 0.4656348969226173,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.9005079175380938,
+     "shuffled_mean": 0.5164837167612787,
+     "p": 0.006993006993006993,
+     "rank_of_bax": 7
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.9061846429638483,
+     "shuffled_mean": 0.5945637884672841,
+     "p": 0.01098901098901099,
+     "rank_of_bax": 11
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.8458320884374066,
+     "shuffled_mean": 0.4677481326561099,
+     "p": 0.011988011988011988,
+     "rank_of_bax": 12
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.8948311921123394,
+     "shuffled_mean": 0.5781141320585599,
+     "p": 0.01898101898101898,
+     "rank_of_bax": 18
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.8906483417986256,
+     "shuffled_mean": 0.6873552435016432,
+     "p": 0.028971028971028972,
+     "rank_of_bax": 29
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.9384523453839259,
+     "shuffled_mean": 0.8537481326561099,
+     "p": 0.061938061938061936,
+     "rank_of_bax": 60
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.8828801912160144,
+     "shuffled_mean": 0.7111634299372572,
+     "p": 0.14685314685314685,
+     "rank_of_bax": 145
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.898715267403645,
+     "shuffled_mean": 0.7374843143113236,
+     "p": 0.15684315684315683,
+     "rank_of_bax": 157
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.8840752913056469,
+     "shuffled_mean": 0.7309952195996414,
+     "p": 0.16383616383616384,
+     "rank_of_bax": 162
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.4368090827606812,
+     "shuffled_mean": 0.4929327756199582,
+     "p": 0.5384615384615384,
+     "rank_of_bax": 539
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.5826112936958471,
+     "shuffled_mean": 0.6981789662384225,
+     "p": 0.7612387612387612,
+     "rank_of_bax": 762
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.5333134149985062,
+     "shuffled_mean": 0.6896160740962056,
+     "p": 0.7702297702297702,
+     "rank_of_bax": 771
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.5613982671048701,
+     "shuffled_mean": 0.8031213026590978,
+     "p": 0.8871128871128872,
+     "rank_of_bax": 888
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.5658798924409919,
+     "shuffled_mean": 0.7955835076187631,
+     "p": 0.8931068931068931,
+     "rank_of_bax": 894
+    }
+   ],
+   "best_bax": 0.9653420974006574,
+   "n_langs_p05": 21,
+   "p_best": 0.023976023976023976
+  },
+  "Naibbe cipher of Pliny (Latin) | 3+ | types": {
+   "items": 118,
+   "rows": [
+    {
+     "language": "Arabic",
+     "lexicon": 7460,
+     "bax": 0.652542372881356,
+     "shuffled_mean": 0.41409390310475136,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Egyptian Arabic",
+     "lexicon": 6836,
+     "bax": 0.6864406779661016,
+     "shuffled_mean": 0.4260640648292284,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Persian",
+     "lexicon": 5087,
+     "bax": 0.7033898305084746,
+     "shuffled_mean": 0.4613431315334092,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Tajik",
+     "lexicon": 9423,
+     "bax": 0.8220338983050848,
+     "shuffled_mean": 0.5639526053665141,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Ossetian",
+     "lexicon": 5632,
+     "bax": 0.6440677966101694,
+     "shuffled_mean": 0.3754719127785248,
+     "p": 0.000999000999000999,
+     "rank_of_bax": 1
+    },
+    {
+     "language": "Pashto",
+     "lexicon": 7212,
+     "bax": 0.7033898305084746,
+     "shuffled_mean": 0.4543419428744653,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Kurdish",
+     "lexicon": 5437,
+     "bax": 0.7627118644067796,
+     "shuffled_mean": 0.5225637143606179,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Tatar",
+     "lexicon": 6960,
+     "bax": 0.6779661016949152,
+     "shuffled_mean": 0.46192290377875733,
+     "p": 0.001998001998001998,
+     "rank_of_bax": 2
+    },
+    {
+     "language": "Azerbaijani",
+     "lexicon": 13081,
+     "bax": 0.8135593220338984,
+     "shuffled_mean": 0.5332117076439178,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Uzbek",
+     "lexicon": 13872,
+     "bax": 0.7457627118644068,
+     "shuffled_mean": 0.5171218778624266,
+     "p": 0.002997002997002997,
+     "rank_of_bax": 3
+    },
+    {
+     "language": "Urdu",
+     "lexicon": 5355,
+     "bax": 0.5932203389830508,
+     "shuffled_mean": 0.4222169341701017,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Chechen",
+     "lexicon": 8907,
+     "bax": 0.7203389830508474,
+     "shuffled_mean": 0.5104396356828743,
+     "p": 0.004995004995004995,
+     "rank_of_bax": 5
+    },
+    {
+     "language": "Greek",
+     "lexicon": 9466,
+     "bax": 0.7711864406779662,
+     "shuffled_mean": 0.5202829090218796,
+     "p": 0.005994005994005994,
+     "rank_of_bax": 6
+    },
+    {
+     "language": "Czech",
+     "lexicon": 12809,
+     "bax": 0.6949152542372882,
+     "shuffled_mean": 0.49580526196379204,
+     "p": 0.007992007992007992,
+     "rank_of_bax": 8
+    },
+    {
+     "language": "Turkish",
+     "lexicon": 14134,
+     "bax": 0.7457627118644068,
+     "shuffled_mean": 0.549037279130995,
+     "p": 0.013986013986013986,
+     "rank_of_bax": 14
+    },
+    {
+     "language": "Kazakh",
+     "lexicon": 14305,
+     "bax": 0.6694915254237288,
+     "shuffled_mean": 0.4503133261934626,
+     "p": 0.016983016983016984,
+     "rank_of_bax": 17
+    },
+    {
+     "language": "Crimean Tatar",
+     "lexicon": 6809,
+     "bax": 0.6271186440677966,
+     "shuffled_mean": 0.41297093075635705,
+     "p": 0.02197802197802198,
+     "rank_of_bax": 21
+    },
+    {
+     "language": "Romani",
+     "lexicon": 3141,
+     "bax": 0.5,
+     "shuffled_mean": 0.34847496647394693,
+     "p": 0.024975024975024976,
+     "rank_of_bax": 22
+    },
+    {
+     "language": "Croatian",
+     "lexicon": 14147,
+     "bax": 0.635593220338983,
+     "shuffled_mean": 0.4768857421346025,
+     "p": 0.030969030969030968,
+     "rank_of_bax": 31
+    },
+    {
+     "language": "Turkmen",
+     "lexicon": 9260,
+     "bax": 0.635593220338983,
+     "shuffled_mean": 0.4480865737732631,
+     "p": 0.03496503496503497,
+     "rank_of_bax": 35
+    },
+    {
+     "language": "German",
+     "lexicon": 14946,
+     "bax": 0.7711864406779662,
+     "shuffled_mean": 0.6310423398306068,
+     "p": 0.03496503496503497,
+     "rank_of_bax": 35
+    },
+    {
+     "language": "Hebrew",
+     "lexicon": 8519,
+     "bax": 0.5338983050847458,
+     "shuffled_mean": 0.3700851108628646,
+     "p": 0.03596403596403597,
+     "rank_of_bax": 36
+    },
+    {
+     "language": "Romanian",
+     "lexicon": 8797,
+     "bax": 0.6864406779661016,
+     "shuffled_mean": 0.5046049494456586,
+     "p": 0.03796203796203796,
+     "rank_of_bax": 38
+    },
+    {
+     "language": "Spanish",
+     "lexicon": 10488,
+     "bax": 0.7033898305084746,
+     "shuffled_mean": 0.5529297283001774,
+     "p": 0.08591408591408592,
+     "rank_of_bax": 85
+    },
+    {
+     "language": "Italian",
+     "lexicon": 9573,
+     "bax": 0.6864406779661016,
+     "shuffled_mean": 0.5491288902215609,
+     "p": 0.0989010989010989,
+     "rank_of_bax": 99
+    },
+    {
+     "language": "English",
+     "lexicon": 9264,
+     "bax": 0.6779661016949152,
+     "shuffled_mean": 0.561641405258881,
+     "p": 0.1068931068931069,
+     "rank_of_bax": 106
+    },
+    {
+     "language": "Albanian",
+     "lexicon": 10804,
+     "bax": 0.6271186440677966,
+     "shuffled_mean": 0.526453491190336,
+     "p": 0.17582417582417584,
+     "rank_of_bax": 174
+    },
+    {
+     "language": "Latin",
+     "lexicon": 13064,
+     "bax": 0.6694915254237288,
+     "shuffled_mean": 0.5887744060283702,
+     "p": 0.2137862137862138,
+     "rank_of_bax": 213
+    },
+    {
+     "language": "Hungarian",
+     "lexicon": 17112,
+     "bax": 0.5847457627118644,
+     "shuffled_mean": 0.48441595434007384,
+     "p": 0.21978021978021978,
+     "rank_of_bax": 219
+    },
+    {
+     "language": "Latin (Aix, medieval)",
+     "lexicon": 6254,
+     "bax": 0.3983050847457627,
+     "shuffled_mean": 0.3778750701927196,
+     "p": 0.41358641358641357,
+     "rank_of_bax": 412
+    }
+   ],
+   "best_bax": 0.8220338983050848,
+   "n_langs_p05": 23,
+   "p_best": 0.01898101898101898
+  }
+ },
+ "own_words": [
+  {
+   "word": "kydainy (f2r, 'kantairon')",
+   "skeleton": "KNTRN",
+   "in_text": 1
+  },
+  {
+   "word": "koaiin (f3v, 'kaur')",
+   "skeleton": "KR",
+   "in_text": 1
+  },
+  {
+   "word": "oror (f16r, 'arar')",
+   "skeleton": "RR",
+   "in_text": 8
+  },
+  {
+   "word": "dary (f68r1.6, 'taurn'; Bax saw doary)",
+   "skeleton": "TRN",
+   "in_text": 23
+  }
+ ],
+ "top_skeletons": [
+  [
+   "R",
+   1844
+  ],
+  [
+   "TR",
+   1741
+  ],
+  [
+   "KR",
+   921
+  ],
+  [
+   "XTN",
+   674
+  ],
+  [
+   "XN",
+   546
+  ],
+  [
+   "KN",
+   519
+  ],
+  [
+   "KTN",
+   481
+  ],
+  [
+   "S",
+   450
+  ],
+  [
+   "SR",
+   395
+  ],
+  [
+   "TN",
+   367
+  ],
+  [
+   "N",
+   339
+  ],
+  [
+   "XR",
+   296
+  ],
+  [
+   "RR",
+   275
+  ],
+  [
+   "X",
+   255
+  ],
+  [
+   "",
+   222
+  ]
+ ],
+ "key": {
+  "k": "K",
+  "y": "N",
+  "d": "T",
+  "r": "R",
+  "m": "R",
+  "n": "R",
+  "sh": "X",
+  "s": "S",
+  "in": "R",
+  "iin": "R"
+ }
+}
