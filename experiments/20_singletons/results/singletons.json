@@ -1,0 +1,304 @@
+{
+ "texts": [
+  {
+   "words": 10003,
+   "types": 2975,
+   "singleton_share_of_types": 0.6927731092436975,
+   "singleton_share_of_tokens": 0.20603818854343697,
+   "one_edit_from_known": 0.6346433770014556,
+   "two_known_joined": 0.1445900048520136,
+   "neither": 0.2207666181465308,
+   "neither_per_1000_tokens": 45.486354093771865,
+   "len_singleton": 6.338670548277535,
+   "len_other": 4.367539662553513,
+   "rate_first": 0.2892857142857143,
+   "rate_middle": 0.17073512906846242,
+   "rate_last": 0.28714285714285714,
+   "text": "VMS Currier A"
+  },
+  {
+   "words": 10000,
+   "types": 2302,
+   "singleton_share_of_types": 0.6841876629018245,
+   "singleton_share_of_tokens": 0.1575,
+   "one_edit_from_known": 0.6266666666666667,
+   "two_known_joined": 0.14793650793650795,
+   "neither": 0.2253968253968254,
+   "neither_per_1000_tokens": 35.5,
+   "len_singleton": 6.339047619047619,
+   "len_other": 4.6898516320474775,
+   "rate_first": 0.26547085201793724,
+   "rate_middle": 0.12945276200309758,
+   "rate_last": 0.24035874439461882,
+   "text": "VMS Currier B"
+  },
+  {
+   "words": 10002,
+   "types": 2389,
+   "singleton_share_of_types": 0.6764336542486395,
+   "singleton_share_of_tokens": 0.16156768646270747,
+   "one_edit_from_known": 0.6342821782178217,
+   "two_known_joined": 0.13985148514851486,
+   "neither": 0.22586633663366337,
+   "neither_per_1000_tokens": 36.49270145970806,
+   "len_singleton": 6.371287128712871,
+   "len_other": 4.842594800858574,
+   "rate_first": 0.27280701754385966,
+   "rate_middle": 0.13298633702016915,
+   "rate_last": 0.23684210526315788,
+   "text": "VMS B, smart commas"
+  },
+  {
+   "words": 10006,
+   "types": 2508,
+   "singleton_share_of_types": 0.553030303030303,
+   "singleton_share_of_tokens": 0.13861682990205876,
+   "one_edit_from_known": 0.6575342465753424,
+   "two_known_joined": 0.1240086517664023,
+   "neither": 0.21845710165825521,
+   "neither_per_1000_tokens": 30.281830901459124,
+   "len_singleton": 6.63013698630137,
+   "len_other": 4.813319410604478,
+   "rate_first": 0.2886421861656704,
+   "rate_middle": 0.1191702999075175,
+   "rate_last": 0.11187019641332195,
+   "text": "copying model (B)"
+  },
+  {
+   "words": 10003,
+   "types": 2185,
+   "singleton_share_of_types": 0.5391304347826087,
+   "singleton_share_of_tokens": 0.11776467059882036,
+   "one_edit_from_known": 0.6638370118845501,
+   "two_known_joined": 0.11035653650254669,
+   "neither": 0.22580645161290322,
+   "neither_per_1000_tokens": 26.592022393282015,
+   "len_singleton": 6.32937181663837,
+   "len_other": 4.63456090651558,
+   "rate_first": 0.2804232804232804,
+   "rate_middle": 0.10043041606886657,
+   "rate_last": 0.07407407407407407,
+   "text": "copying model (A)"
+  },
+  {
+   "words": 10008,
+   "types": 3822,
+   "singleton_share_of_types": 0.6690214547357405,
+   "singleton_share_of_tokens": 0.25549560351718625,
+   "one_edit_from_known": 0.1697301525224873,
+   "two_known_joined": 0.01134141572154869,
+   "neither": 0.818928431755964,
+   "neither_per_1000_tokens": 209.2326139088729,
+   "len_singleton": 8.426280797809934,
+   "len_other": 5.414709434975171,
+   "rate_first": 0.24190647482014388,
+   "rate_middle": 0.25847893114080167,
+   "rate_last": 0.24820143884892087,
+   "text": "Latin (Aix)"
+  },
+  {
+   "words": 10008,
+   "types": 2763,
+   "singleton_share_of_types": 0.7169743032935215,
+   "singleton_share_of_tokens": 0.19794164668265388,
+   "one_edit_from_known": 0.18374558303886926,
+   "two_known_joined": 0.25996971226653204,
+   "neither": 0.5562847046945987,
+   "neither_per_1000_tokens": 110.1119104716227,
+   "len_singleton": 9.015648662291772,
+   "len_other": 4.09355923757319,
+   "rate_first": 0.19784172661870503,
+   "rate_middle": 0.19951181911613566,
+   "rate_last": 0.18705035971223022,
+   "text": "Italian (Rettorica)"
+  },
+  {
+   "words": 10009,
+   "types": 2981,
+   "singleton_share_of_types": 0.5759812143575981,
+   "singleton_share_of_tokens": 0.17154560895194326,
+   "one_edit_from_known": 0.8130460104834013,
+   "two_known_joined": 0.0244612696563774,
+   "neither": 0.16249271986022132,
+   "neither_per_1000_tokens": 27.87491257867919,
+   "len_singleton": 6.044845661036692,
+   "len_other": 5.060660877954655,
+   "rate_first": 0.20462046204620463,
+   "rate_middle": 0.1731956568022142,
+   "rate_last": 0.0858085808580858,
+   "text": "Naibbe (Pliny)"
+  }
+ ],
+ "vms_positions": [
+  {
+   "position": "paragraph-opening word",
+   "words": 740,
+   "singleton_rate": 0.47297297297297297,
+   "mean_len": 6.34054054054054
+  },
+  {
+   "position": "other line-first words",
+   "words": 3390,
+   "singleton_rate": 0.16902654867256636,
+   "mean_len": 5.239823008849558
+  },
+  {
+   "position": "rest of paragraph text",
+   "words": 30733,
+   "singleton_rate": 0.11899261380275274,
+   "mean_len": 4.9286760160088505
+  },
+  {
+   "position": "labels",
+   "words": 1163,
+   "singleton_rate": 0.36285468615649186,
+   "mean_len": 5.278589853826311
+  }
+ ],
+ "edges": [
+  {
+   "language": "A",
+   "position": "first",
+   "singletons": 428,
+   "added_start": 0.40186915887850466,
+   "added_inside": 0.2219626168224299,
+   "added_end": 0.07009345794392523,
+   "changed_start": 0.20093457943925233,
+   "changed_inside": 0.24065420560747663,
+   "changed_end": 0.12149532710280374,
+   "dropped_start": 0.018691588785046728,
+   "dropped_inside": 0.10981308411214953,
+   "dropped_end": 0.02336448598130841
+  },
+  {
+   "language": "A",
+   "position": "middle",
+   "singletons": 1326,
+   "added_start": 0.18552036199095023,
+   "added_inside": 0.3288084464555053,
+   "added_end": 0.10935143288084465,
+   "changed_start": 0.14630467571644043,
+   "changed_inside": 0.31598793363499245,
+   "changed_end": 0.17119155354449472,
+   "dropped_start": 0.03167420814479638,
+   "dropped_inside": 0.09728506787330317,
+   "dropped_end": 0.03996983408748114
+  },
+  {
+   "language": "A",
+   "position": "last",
+   "singletons": 429,
+   "added_start": 0.1445221445221445,
+   "added_inside": 0.2097902097902098,
+   "added_end": 0.19114219114219114,
+   "changed_start": 0.11421911421911422,
+   "changed_inside": 0.21678321678321677,
+   "changed_end": 0.18414918414918416,
+   "dropped_start": 0.027972027972027972,
+   "dropped_inside": 0.07692307692307693,
+   "dropped_end": 0.023310023310023312
+  },
+  {
+   "language": "B",
+   "position": "first",
+   "singletons": 618,
+   "added_start": 0.38349514563106796,
+   "added_inside": 0.24919093851132687,
+   "added_end": 0.040453074433656956,
+   "changed_start": 0.2168284789644013,
+   "changed_inside": 0.23462783171521034,
+   "changed_end": 0.127831715210356,
+   "dropped_start": 0.019417475728155338,
+   "dropped_inside": 0.0825242718446602,
+   "dropped_end": 0.02912621359223301
+  },
+  {
+   "language": "B",
+   "position": "middle",
+   "singletons": 2034,
+   "added_start": 0.22173058013765978,
+   "added_inside": 0.37364798426745327,
+   "added_end": 0.06932153392330384,
+   "changed_start": 0.17699115044247787,
+   "changed_inside": 0.3407079646017699,
+   "changed_end": 0.1592920353982301,
+   "dropped_start": 0.03638151425762045,
+   "dropped_inside": 0.11946902654867257,
+   "dropped_end": 0.03982300884955752
+  },
+  {
+   "language": "B",
+   "position": "last",
+   "singletons": 589,
+   "added_start": 0.1867572156196944,
+   "added_inside": 0.22071307300509338,
+   "added_end": 0.15449915110356535,
+   "changed_start": 0.12903225806451613,
+   "changed_inside": 0.2767402376910017,
+   "changed_end": 0.15449915110356535,
+   "dropped_start": 0.022071307300509338,
+   "dropped_inside": 0.08488964346349745,
+   "dropped_end": 0.01867572156196944
+  }
+ ],
+ "added_glyphs": [
+  {
+   "language": "A",
+   "position": "first",
+   "side": "start",
+   "n": 172,
+   "glyphs": "y 21%, o 21%, t 12%, s 10%, d 9%, p 8%, k 6%, f 5%, q 5%, l 2%, c 1%, r 1%"
+  },
+  {
+   "language": "A",
+   "position": "last",
+   "side": "end",
+   "n": 82,
+   "glyphs": "y 21%, d 21%, g 17%, s 13%, o 9%, m 9%, a 4%, l 4%, u 1%, n 1%, r 1%"
+  },
+  {
+   "language": "A",
+   "position": "middle",
+   "side": "start",
+   "n": 246,
+   "glyphs": "o 14%, q 13%, d 11%, k 10%, t 9%, s 8%, y 8%, l 7%, c 6%, f 4%, e 4%, p 3%, r 2%"
+  },
+  {
+   "language": "A",
+   "position": "middle",
+   "side": "end",
+   "n": 145,
+   "glyphs": "y 26%, s 17%, d 16%, l 11%, o 9%, r 5%, m 4%, g 2%, t 2%, e 1%, p 1%, k 1%, n 1%"
+  },
+  {
+   "language": "B",
+   "position": "first",
+   "side": "start",
+   "n": 237,
+   "glyphs": "p 21%, t 20%, y 16%, s 13%, d 10%, o 6%, l 4%, k 3%, f 3%, a 1%, q 1%, r 1%, x 0"
+  },
+  {
+   "language": "B",
+   "position": "last",
+   "side": "end",
+   "n": 91,
+   "glyphs": "y 35%, s 12%, r 10%, g 9%, d 9%, m 8%, o 7%, l 7%, n 2%, c 1%, f 1%"
+  },
+  {
+   "language": "B",
+   "position": "middle",
+   "side": "start",
+   "n": 451,
+   "glyphs": "l 16%, o 15%, q 12%, d 10%, y 9%, s 6%, k 6%, r 6%, a 6%, t 6%, f 4%, p 3%, e 2%"
+  },
+  {
+   "language": "B",
+   "position": "middle",
+   "side": "end",
+   "n": 141,
+   "glyphs": "y 26%, s 16%, o 12%, d 9%, r 9%, l 6%, k 5%, a 4%, p 3%, t 3%, e 2%, x 1%, f 1%,"
+  }
+ ],
+ "share_of_all_singletons_in_openers": 0.0629156929714183,
+ "share_of_all_singletons_in_labels": 0.07585834981125292
+}
