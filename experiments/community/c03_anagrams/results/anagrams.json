@@ -1,0 +1,131 @@
+{
+ "vocab_size": 29979,
+ "rows": [
+  {
+   "length": 4,
+   "strings": "scrambled Italian words",
+   "n": 300,
+   "one_word": 1.0,
+   "two_words": 1.0
+  },
+  {
+   "length": 4,
+   "strings": "random, Italian letter frequencies",
+   "n": 300,
+   "one_word": 0.35,
+   "two_words": 0.9
+  },
+  {
+   "length": 4,
+   "strings": "Voynich words, frequency key",
+   "n": 300,
+   "one_word": 0.34,
+   "two_words": 0.9866666666666667
+  },
+  {
+   "length": 5,
+   "strings": "scrambled Italian words",
+   "n": 300,
+   "one_word": 1.0,
+   "two_words": 1.0
+  },
+  {
+   "length": 5,
+   "strings": "random, Italian letter frequencies",
+   "n": 300,
+   "one_word": 0.25666666666666665,
+   "two_words": 0.92
+  },
+  {
+   "length": 5,
+   "strings": "Voynich words, frequency key",
+   "n": 300,
+   "one_word": 0.23,
+   "two_words": 0.9533333333333334
+  },
+  {
+   "length": 6,
+   "strings": "scrambled Italian words",
+   "n": 300,
+   "one_word": 1.0,
+   "two_words": 1.0
+  },
+  {
+   "length": 6,
+   "strings": "random, Italian letter frequencies",
+   "n": 300,
+   "one_word": 0.10666666666666667,
+   "two_words": 0.8766666666666667
+  },
+  {
+   "length": 6,
+   "strings": "Voynich words, frequency key",
+   "n": 300,
+   "one_word": 0.12333333333333334,
+   "two_words": 0.9633333333333334
+  },
+  {
+   "length": 7,
+   "strings": "scrambled Italian words",
+   "n": 300,
+   "one_word": 1.0,
+   "two_words": 1.0
+  },
+  {
+   "length": 7,
+   "strings": "random, Italian letter frequencies",
+   "n": 300,
+   "one_word": 0.06666666666666667,
+   "two_words": 0.8733333333333333
+  },
+  {
+   "length": 7,
+   "strings": "Voynich words, frequency key",
+   "n": 300,
+   "one_word": 0.06333333333333334,
+   "two_words": 0.8266666666666667
+  },
+  {
+   "length": 8,
+   "strings": "scrambled Italian words",
+   "n": 300,
+   "one_word": 1.0,
+   "two_words": 1.0
+  },
+  {
+   "length": 8,
+   "strings": "random, Italian letter frequencies",
+   "n": 300,
+   "one_word": 0.03,
+   "two_words": 0.79
+  },
+  {
+   "length": 8,
+   "strings": "Voynich words, frequency key",
+   "n": 300,
+   "one_word": 0.04,
+   "two_words": 0.92
+  },
+  {
+   "length": 9,
+   "strings": "scrambled Italian words",
+   "n": 300,
+   "one_word": 1.0,
+   "two_words": 1.0
+  },
+  {
+   "length": 9,
+   "strings": "random, Italian letter frequencies",
+   "n": 300,
+   "one_word": 0.02,
+   "two_words": 0.7466666666666667
+  },
+  {
+   "length": 9,
+   "strings": "Voynich words, frequency key",
+   "n": 300,
+   "one_word": 0.01,
+   "two_words": 0.8466666666666667
+  }
+ ]
+}
