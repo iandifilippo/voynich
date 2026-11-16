@@ -1,0 +1,32 @@
+{
+ "rows": [
+  {
+   "boundary": "certain space '.'",
+   "n": 28159,
+   "joins_into_known_word": 0.03714620547604673,
+   "edge_mi_bits": 0.16386443077900859,
+   "both_sides_known_words": 0.7660428282254341
+  },
+  {
+   "boundary": "uncertain space ','",
+   "n": 2433,
+   "joins_into_known_word": 0.33744348540896013,
+   "edge_mi_bits": 0.5449843275761339,
+   "both_sides_known_words": 0.8438142211261817
+  },
+  {
+   "boundary": "random cut inside a word",
+   "n": 20000,
+   "joins_into_known_word": 0.8277,
+   "edge_mi_bits": 1.6945811628952563,
+   "both_sides_known_words": 0.38985
+  },
+  {
+   "boundary": "adjacent glyphs inside words",
+   "n": 138913,
+   "joins_into_known_word": null,
+   "edge_mi_bits": 1.669273190105435
+  }
+ ],
+ "implied_internal_share": 0.37985685732334384
+}
