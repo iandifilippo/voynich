@@ -1,0 +1,506 @@
+{
+ "adjacency_vs_line_composition": {
+  "VMS all": {
+   "exact": 9.371034392997755,
+   "exact_null_mean": 9.252269547392054,
+   "exact_p_higher": 0.4166666666666667,
+   "near": 36.01991344808512,
+   "near_null_mean": 30.776581090901207,
+   "near_p_higher": 0.0
+  },
+  "VMS Currier A": {
+   "exact": 9.820136448211702,
+   "exact_null_mean": 9.437667976018194,
+   "exact_p_higher": 0.3433333333333333,
+   "near": 41.03783336778995,
+   "near_null_mean": 31.913376059541037,
+   "near_p_higher": 0.0
+  },
+  "VMS Currier B": {
+   "exact": 9.220615354751043,
+   "exact_null_mean": 9.258630172441684,
+   "exact_p_higher": 0.5466666666666666,
+   "near": 33.72804037658934,
+   "near_null_mean": 30.61292827331845,
+   "near_p_higher": 0.0
+  }
+ },
+ "rates": [
+  {
+   "text": "VMS all",
+   "exact_per_1000": 9.371034392997755,
+   "exact_shuffled_in_line": 9.21647740214102,
+   "exact_shuffled_all": 3.4230306185533466,
+   "exact_ratio": 2.7376425855513307,
+   "near_per_1000": 36.01991344808512,
+   "near_shuffled_in_line": 30.636449419191102,
+   "near_shuffled_all": 16.90365405264699,
+   "near_ratio": 2.1308950914340716
+  },
+  {
+   "text": "VMS Currier A",
+   "exact_per_1000": 9.820136448211702,
+   "exact_shuffled_in_line": 9.323961132933636,
+   "exact_shuffled_all": 5.039280545792847,
+   "exact_ratio": 1.9487179487179487,
+   "near_per_1000": 41.03783336778995,
+   "near_shuffled_in_line": 32.00330783543518,
+   "near_shuffled_all": 19.102749638205502,
+   "near_ratio": 2.1482683982683977
+  },
+  {
+   "text": "VMS Currier B",
+   "exact_per_1000": 9.220615354751043,
+   "exact_shuffled_in_line": 9.44627778316995,
+   "exact_shuffled_all": 4.1881005532369215,
+   "exact_ratio": 2.20162224797219,
+   "near_per_1000": 33.72804037658934,
+   "near_shuffled_in_line": 30.79200232941862,
+   "near_shuffled_all": 20.24167718140347,
+   "near_ratio": 1.6662670822344763
+  },
+  {
+   "text": "VMS Takahashi",
+   "exact_per_1000": 9.638872383970423,
+   "exact_shuffled_in_line": 9.02158843335314,
+   "exact_shuffled_all": 3.3158381197596882,
+   "exact_ratio": 2.9069188651070186,
+   "near_per_1000": 34.330230408661784,
+   "near_shuffled_in_line": 30.17594243084439,
+   "near_shuffled_all": 16.08404304482735,
+   "near_ratio": 2.1344279117496163
+  },
+  {
+   "text": "Latin_Aix",
+   "exact_per_1000": 0.0,
+   "exact_shuffled_in_line": 4.434485862146554,
+   "exact_shuffled_all": 6.013275331883297,
+   "exact_ratio": 0.0,
+   "near_per_1000": 1.5750393759843997,
+   "near_shuffled_in_line": 3.0807020175504394,
+   "near_shuffled_all": 3.88884722118053,
+   "near_ratio": 0.40501446480231434
+  },
+  {
+   "text": "Rettorica",
+   "exact_per_1000": 0.18750468761719044,
+   "exact_shuffled_in_line": 8.066451661291532,
+   "exact_shuffled_all": 6.954548863721594,
+   "exact_ratio": 0.02696144513345915,
+   "near_per_1000": 7.05017625440636,
+   "near_shuffled_in_line": 16.90542263556589,
+   "near_shuffled_all": 19.847371184279602,
+   "near_ratio": 0.3552196504487483
+  },
+  {
+   "text": "Agrippa_Book1",
+   "exact_per_1000": 0.5625140628515712,
+   "exact_shuffled_in_line": 14.848496212405308,
+   "exact_shuffled_all": 14.027225680642015,
+   "exact_ratio": 0.040101590696430954,
+   "near_per_1000": 19.237980949523738,
+   "near_shuffled_in_line": 12.204680117002926,
+   "near_shuffled_all": 9.765244131103277,
+   "near_ratio": 1.970046082949309
+  },
+  {
+   "text": "Secreta_Secretorum_LAT",
+   "exact_per_1000": 0.2625065626640666,
+   "exact_shuffled_in_line": 13.459086477161929,
+   "exact_shuffled_all": 12.536563414085352,
+   "exact_ratio": 0.020939276099311992,
+   "near_per_1000": 3.5625890647266183,
+   "near_shuffled_in_line": 7.863946598664965,
+   "near_shuffled_all": 8.495837395934899,
+   "near_ratio": 0.4193334804678879
+  },
+  {
+   "text": "Naibbe",
+   "exact_per_1000": 1.3268179023332578,
+   "exact_shuffled_in_line": 3.12287628232096,
+   "exact_shuffled_all": 3.943238082909938,
+   "exact_ratio": 0.33647927780057446,
+   "near_per_1000": 11.42357852496683,
+   "near_shuffled_in_line": 12.983398595514709,
+   "near_shuffled_all": 14.192097343128054,
+   "near_ratio": 0.8049253220841409
+  },
+  {
+   "text": "Naibbe + autokey",
+   "exact_per_1000": 1.7798776738616873,
+   "exact_shuffled_in_line": 3.648749231416459,
+   "exact_shuffled_all": 4.28303291155626,
+   "exact_ratio": 0.415564790328674,
+   "near_per_1000": 11.45593993721886,
+   "near_shuffled_in_line": 14.028672211255298,
+   "near_shuffled_all": 15.094980744959713,
+   "near_ratio": 0.7589237860435201
+  }
+ ],
+ "position": [
+  {
+   "position": "first pair",
+   "repeats": 14,
+   "pairs": 4103,
+   "per_1000": 3.412137460394833
+  },
+  {
+   "position": "middle",
+   "repeats": 250,
+   "pairs": 22585,
+   "per_1000": 11.069293779056895
+  },
+  {
+   "position": "last pair",
+   "repeats": 24,
+   "pairs": 4045,
+   "per_1000": 5.933250927070457
+  }
+ ],
+ "across_line_break": {
+  "pairs": 3390,
+  "same": 6,
+  "expected": 11.775307722702095
+ },
+ "top_words": [
+  {
+   "word": "chol",
+   "repeats": 24,
+   "expected": 3.6129258118622003,
+   "ratio": 6.642815615311444,
+   "frequency": 378
+  },
+  {
+   "word": "qokeedy",
+   "repeats": 18,
+   "expected": 2.3831544808530034,
+   "ratio": 7.553014353294149,
+   "frequency": 307
+  },
+  {
+   "word": "qokedy",
+   "repeats": 16,
+   "expected": 1.9261655373898754,
+   "ratio": 8.306658845989642,
+   "frequency": 276
+  },
+  {
+   "word": "qokeey",
+   "repeats": 12,
+   "expected": 2.321457307055071,
+   "ratio": 5.169166783094035,
+   "frequency": 303
+  },
+  {
+   "word": "daiin",
+   "repeats": 11,
+   "expected": 16.877944607052495,
+   "ratio": 0.6517381266557553,
+   "frequency": 817
+  },
+  {
+   "word": "ol",
+   "repeats": 9,
+   "expected": 7.129588861163446,
+   "ratio": 1.2623448806459407,
+   "frequency": 531
+  },
+  {
+   "word": "shedy",
+   "repeats": 9,
+   "expected": 4.545766851105364,
+   "ratio": 1.9798639690048179,
+   "frequency": 424
+  },
+  {
+   "word": "chedy",
+   "repeats": 9,
+   "expected": 6.170627665964028,
+   "ratio": 1.4585226150724075,
+   "frequency": 494
+  },
+  {
+   "word": "dy",
+   "repeats": 8,
+   "expected": 1.517775761156103,
+   "ratio": 5.270870839251202,
+   "frequency": 245
+  },
+  {
+   "word": "chor",
+   "repeats": 7,
+   "expected": 1.0939616914728465,
+   "ratio": 6.398761542166624,
+   "frequency": 208
+  },
+  {
+   "word": "ar",
+   "repeats": 7,
+   "expected": 2.7703295321619956,
+   "ratio": 2.526775215270915,
+   "frequency": 331
+  },
+  {
+   "word": "shol",
+   "repeats": 6,
+   "expected": 0.8101799777293244,
+   "ratio": 7.40576188616273,
+   "frequency": 179
+  },
+  {
+   "word": "okaiin",
+   "repeats": 6,
+   "expected": 1.0522908134322764,
+   "ratio": 5.701845842813822,
+   "frequency": 204
+  },
+  {
+   "word": "or",
+   "repeats": 6,
+   "expected": 3.3871748415064866,
+   "ratio": 1.7713877436959906,
+   "frequency": 366
+  },
+  {
+   "word": "okeey",
+   "repeats": 5,
+   "expected": 0.639248463436692,
+   "ratio": 7.821684815821502,
+   "frequency": 159
+  },
+  {
+   "word": "qotedy",
+   "repeats": 4,
+   "expected": 0.19138766740842217,
+   "ratio": 20.899988249838383,
+   "frequency": 87
+  },
+  {
+   "word": "okedy",
+   "repeats": 4,
+   "expected": 0.3004197220873912,
+   "ratio": 13.314705080635191,
+   "frequency": 109
+  },
+  {
+   "word": "chdy",
+   "repeats": 4,
+   "expected": 0.4885455307171523,
+   "ratio": 8.187568503857289,
+   "frequency": 139
+  },
+  {
+   "word": "otaiin",
+   "repeats": 4,
+   "expected": 0.5027055378183172,
+   "ratio": 7.95694437216572,
+   "frequency": 141
+  },
+  {
+   "word": "qol",
+   "repeats": 4,
+   "expected": 0.5098613985497985,
+   "ratio": 7.845269344526221,
+   "frequency": 142
+  },
+  {
+   "word": "shor",
+   "repeats": 3,
+   "expected": 0.22820368587145065,
+   "ratio": 13.146150503852638,
+   "frequency": 95
+  },
+  {
+   "word": "qoteedy",
+   "repeats": 3,
+   "expected": 0.14605035895772847,
+   "ratio": 20.540860162269738,
+   "frequency": 76
+  },
+  {
+   "word": "qokain",
+   "repeats": 3,
+   "expected": 1.9682662727888747,
+   "ratio": 1.5241840199543946,
+   "frequency": 279
+  },
+  {
+   "word": "qokal",
+   "repeats": 3,
+   "expected": 0.9224486054599881,
+   "ratio": 3.2522137084309652,
+   "frequency": 191
+  },
+  {
+   "word": "otain",
+   "repeats": 3,
+   "expected": 0.22342468347480754,
+   "ratio": 13.427343628029657,
+   "frequency": 94
+  }
+ ],
+ "top_near_pairs": [
+  {
+   "pair": "o l",
+   "count": 21
+  },
+  {
+   "pair": "ar al",
+   "count": 16
+  },
+  {
+   "pair": "qokedy qokeedy",
+   "count": 15
+  },
+  {
+   "pair": "qokeedy qokedy",
+   "count": 12
+  },
+  {
+   "pair": "or ol",
+   "count": 10
+  },
+  {
+   "pair": "okeey qokeey",
+   "count": 9
+  },
+  {
+   "pair": "daiin dain",
+   "count": 9
+  },
+  {
+   "pair": "qokeey qokedy",
+   "count": 9
+  },
+  {
+   "pair": "qokeedy qokeey",
+   "count": 9
+  },
+  {
+   "pair": "qokeey qokeedy",
+   "count": 9
+  },
+  {
+   "pair": "chor chol",
+   "count": 8
+  },
+  {
+   "pair": "l s",
+   "count": 8
+  },
+  {
+   "pair": "ar or",
+   "count": 8
+  },
+  {
+   "pair": "dar ar",
+   "count": 8
+  },
+  {
+   "pair": "or ar",
+   "count": 8
+  },
+  {
+   "pair": "shedy chedy",
+   "count": 8
+  },
+  {
+   "pair": "al ar",
+   "count": 8
+  },
+  {
+   "pair": "chol chor",
+   "count": 7
+  },
+  {
+   "pair": "chol shol",
+   "count": 7
+  },
+  {
+   "pair": "okaiin otaiin",
+   "count": 7
+  }
+ ],
+ "near_changes": [
+  [
+   "delete",
+   313
+  ],
+  [
+   "insert",
+   296
+  ],
+  [
+   "r->l",
+   51
+  ],
+  [
+   "l->r",
+   42
+  ],
+  [
+   "k->t",
+   37
+  ],
+  [
+   "t->k",
+   35
+  ],
+  [
+   "o->l",
+   28
+  ],
+  [
+   "c->s",
+   23
+  ],
+  [
+   "s->c",
+   21
+  ],
+  [
+   "o->a",
+   18
+  ],
+  [
+   "a->o",
+   16
+  ],
+  [
+   "y->o",
+   13
+  ],
+  [
+   "o->y",
+   12
+  ],
+  [
+   "r->m",
+   11
+  ],
+  [
+   "e->d",
+   10
+  ],
+  [
+   "l->s",
+   9
+  ],
+  [
+   "k->d",
+   8
+  ],
+  [
+   "s->y",
+   7
+  ],
+  [
+   "d->k",
+   7
+  ],
+  [
+   "d->e",
+   7
+  ]
+ ]
+}
