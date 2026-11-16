@@ -8,6 +8,7 @@ dependencies = []
 
 [project.optional-dependencies]
 test = ["pytest"]
+scans = ["numpy", "scipy", "scikit-image", "Pillow"]
 
 [build-system]
 requires = ["setuptools>=61"]
