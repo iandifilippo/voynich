@@ -1,0 +1,515 @@
+{
+ "labels": 758,
+ "distinct": 634,
+ "repeated": 63,
+ "same_section_share": 0.30837004405286345,
+ "pairs": 227,
+ "null_mean": 0.22589427312775331,
+ "p": 0.0085,
+ "rows": [
+  {
+   "label": "otaly",
+   "times": 8,
+   "pages": 7,
+   "sections": "biological, pharmaceutical, zodiac",
+   "in_running_text": 9,
+   "where": "f70v2.15 f70v1.6 f72v3.31 f73r.1 f73r.6 f84r.47 f88r.6 f99v.6"
+  },
+  {
+   "label": "otedy",
+   "times": 8,
+   "pages": 7,
+   "sections": "biological, cosmological, zodiac",
+   "in_running_text": 140,
+   "where": "f73r.3 f73v.23 f75v.54 f77r.3 f82v.2 f84r.8 fRos.111 fRos.130"
+  },
+  {
+   "label": "okal",
+   "times": 6,
+   "pages": 5,
+   "sections": "astronomical, biological, zodiac",
+   "in_running_text": 134,
+   "where": "f67r2.22 f72r2.9 f72r2.11 f72v1.16 f73v.27 f82r.36"
+  },
+  {
+   "label": "otchdy",
+   "times": 5,
+   "pages": 4,
+   "sections": "astronomical, biological, cosmological",
+   "in_running_text": 24,
+   "where": "f67v2.1 f68r1.23 f77r.49 fRos.50 fRos.108"
+  },
+  {
+   "label": "okaly",
+   "times": 5,
+   "pages": 3,
+   "sections": "biological, zodiac",
+   "in_running_text": 16,
+   "where": "f72r2.10 f72r2.18 f72v3.9 f72v3.17 f80r.3"
+  },
+  {
+   "label": "okary",
+   "times": 5,
+   "pages": 5,
+   "sections": "biological, cosmological, pharmaceutical, zodiac",
+   "in_running_text": 6,
+   "where": "f72v3.27 f73r.23 f80r.5 fRos.25 f99r.11"
+  },
+  {
+   "label": "okeody",
+   "times": 5,
+   "pages": 4,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 25,
+   "where": "f72v2.15 f73r.7 f73v.6 f102v1.2 f102v1.3"
+  },
+  {
+   "label": "okol",
+   "times": 5,
+   "pages": 5,
+   "sections": "biological, pharmaceutical, zodiac",
+   "in_running_text": 64,
+   "where": "f73v.1 f82v.44 f88r.15 f101v.10 f102v2.7"
+  },
+  {
+   "label": "otol",
+   "times": 4,
+   "pages": 4,
+   "sections": "astronomical, biological, cosmological, pharmaceutical",
+   "in_running_text": 65,
+   "where": "f68r1.25 f77r.5 fRos.149 f101v.3"
+  },
+  {
+   "label": "okody",
+   "times": 4,
+   "pages": 3,
+   "sections": "cosmological, pharmaceutical, zodiac",
+   "in_running_text": 5,
+   "where": "f70v2.12 fRos.34 fRos.55 f102v2.10"
+  },
+  {
+   "label": "otoly",
+   "times": 4,
+   "pages": 4,
+   "sections": "biological, pharmaceutical, zodiac",
+   "in_running_text": 4,
+   "where": "f72v3.10 f75v.37 f84r.11 f101v.8"
+  },
+  {
+   "label": "okedy",
+   "times": 4,
+   "pages": 3,
+   "sections": "biological, cosmological, zodiac",
+   "in_running_text": 109,
+   "where": "f72v1.28 f84r.4 fRos.24 fRos.104"
+  },
+  {
+   "label": "oteedy",
+   "times": 4,
+   "pages": 3,
+   "sections": "biological, cosmological, zodiac",
+   "in_running_text": 90,
+   "where": "f73v.3 f82v.48 fRos.63 fRos.127"
+  },
+  {
+   "label": "dary",
+   "times": 3,
+   "pages": 3,
+   "sections": "biological, pharmaceutical, text",
+   "in_running_text": 17,
+   "where": "f66r.4 f75v.30 f88r.14"
+  },
+  {
+   "label": "qokal",
+   "times": 3,
+   "pages": 3,
+   "sections": "biological, cosmological, text",
+   "in_running_text": 191,
+   "where": "f66r.13 f75v.25 fRos.157"
+  },
+  {
+   "label": "otody",
+   "times": 3,
+   "pages": 2,
+   "sections": "cosmological, zodiac",
+   "in_running_text": 12,
+   "where": "f70v2.9 fRos.84 fRos.109"
+  },
+  {
+   "label": "otaldy",
+   "times": 3,
+   "pages": 3,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 4,
+   "where": "f70v2.17 f88r.12 f101v.2"
+  },
+  {
+   "label": "okeoly",
+   "times": 3,
+   "pages": 3,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 3,
+   "where": "f70v2.18 f72v1.5 f99r.25"
+  },
+  {
+   "label": "otal",
+   "times": 3,
+   "pages": 3,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 125,
+   "where": "f72r2.23 f73r.28 f99v.27"
+  },
+  {
+   "label": "okam",
+   "times": 3,
+   "pages": 3,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 29,
+   "where": "f72r2.25 f72v3.4 f89v2.2"
+  },
+  {
+   "label": "okaldy",
+   "times": 3,
+   "pages": 3,
+   "sections": "biological, zodiac",
+   "in_running_text": 7,
+   "where": "f72r2.27 f72v3.18 f82r.37"
+  },
+  {
+   "label": "okaiin",
+   "times": 3,
+   "pages": 3,
+   "sections": "biological, pharmaceutical, zodiac",
+   "in_running_text": 204,
+   "where": "f72v2.21 f83v.35 f88v.14"
+  },
+  {
+   "label": "okeos",
+   "times": 3,
+   "pages": 3,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 4,
+   "where": "f73r.20 f73v.19 f102v2.6"
+  },
+  {
+   "label": "okchdy",
+   "times": 3,
+   "pages": 3,
+   "sections": "biological, cosmological",
+   "in_running_text": 17,
+   "where": "f78r.2 f83v.34 fRos.125"
+  },
+  {
+   "label": "okor",
+   "times": 3,
+   "pages": 3,
+   "sections": "biological, cosmological, pharmaceutical",
+   "in_running_text": 29,
+   "where": "f82r.34 fRos.43 f99r.8"
+  },
+  {
+   "label": "otoldy",
+   "times": 3,
+   "pages": 3,
+   "sections": "pharmaceutical",
+   "in_running_text": 6,
+   "where": "f89r1.4 f99r.14 f99v.2"
+  },
+  {
+   "label": "olkeedal",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, cosmological",
+   "in_running_text": 0,
+   "where": "f57v.8 f77v.3"
+  },
+  {
+   "label": "doly",
+   "times": 2,
+   "pages": 2,
+   "sections": "pharmaceutical, text",
+   "in_running_text": 3,
+   "where": "f66r.11 f89r2.2"
+  },
+  {
+   "label": "otolor",
+   "times": 2,
+   "pages": 2,
+   "sections": "astronomical, biological",
+   "in_running_text": 0,
+   "where": "f67r2.62 f77v.4"
+  },
+  {
+   "label": "otcheody",
+   "times": 2,
+   "pages": 2,
+   "sections": "astronomical, zodiac",
+   "in_running_text": 1,
+   "where": "f68r1.10 f72v3.6"
+  },
+  {
+   "label": "okoldy",
+   "times": 2,
+   "pages": 2,
+   "sections": "astronomical, biological",
+   "in_running_text": 6,
+   "where": "f68r1.28 f82v.45"
+  },
+  {
+   "label": "ykchdy",
+   "times": 2,
+   "pages": 2,
+   "sections": "astronomical, pharmaceutical",
+   "in_running_text": 6,
+   "where": "f68r1.29 f100v.7"
+  },
+  {
+   "label": "okos",
+   "times": 2,
+   "pages": 2,
+   "sections": "astronomical, pharmaceutical",
+   "in_running_text": 2,
+   "where": "f68r3.13 f99r.33"
+  },
+  {
+   "label": "otaldar",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 0,
+   "where": "f70v2.11 f71r.17"
+  },
+  {
+   "label": "okydy",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 1,
+   "where": "f70v2.19 f72v1.24"
+  },
+  {
+   "label": "otalam",
+   "times": 2,
+   "pages": 2,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 1,
+   "where": "f70v2.25 f99r.13"
+  },
+  {
+   "label": "okaram",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 1,
+   "where": "f70v2.27 f72r2.3"
+  },
+  {
+   "label": "okolshy",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, zodiac",
+   "in_running_text": 0,
+   "where": "f70v1.9 f84r.10"
+  },
+  {
+   "label": "otalaiin",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 2,
+   "where": "f70v1.14 f71v.15"
+  },
+  {
+   "label": "okolar",
+   "times": 2,
+   "pages": 2,
+   "sections": "cosmological, zodiac",
+   "in_running_text": 0,
+   "where": "f71v.4 fRos.124"
+  },
+  {
+   "label": "otaraldy",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 0,
+   "where": "f72r1.8 f72r2.7"
+  },
+  {
+   "label": "okalar",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 0,
+   "where": "f72r2.8 f72r3.22"
+  },
+  {
+   "label": "oeeodaiin",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 0,
+   "where": "f72r3.10 f72v2.3"
+  },
+  {
+   "label": "oeedy",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 6,
+   "where": "f72v3.25 f72v2.23"
+  },
+  {
+   "label": "oteoly",
+   "times": 2,
+   "pages": 2,
+   "sections": "cosmological, zodiac",
+   "in_running_text": 1,
+   "where": "f72v1.4 fRos.115"
+  },
+  {
+   "label": "odal",
+   "times": 2,
+   "pages": 2,
+   "sections": "cosmological, zodiac",
+   "in_running_text": 14,
+   "where": "f72v1.10 fRos.65"
+  },
+  {
+   "label": "ykeedy",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 29,
+   "where": "f72v1.21 f73r.9"
+  },
+  {
+   "label": "okeey",
+   "times": 2,
+   "pages": 2,
+   "sections": "zodiac",
+   "in_running_text": 159,
+   "where": "f72v1.25 f73r.10"
+  },
+  {
+   "label": "okeeos",
+   "times": 2,
+   "pages": 2,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 2,
+   "where": "f73r.32 f100r.16"
+  },
+  {
+   "label": "sheol",
+   "times": 2,
+   "pages": 2,
+   "sections": "pharmaceutical, zodiac",
+   "in_running_text": 104,
+   "where": "f73v.7 f89v2.5"
+  },
+  {
+   "label": "ypal",
+   "times": 2,
+   "pages": 2,
+   "sections": "cosmological, zodiac",
+   "in_running_text": 1,
+   "where": "f73v.32 fRos.76"
+  },
+  {
+   "label": "darol",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological",
+   "in_running_text": 1,
+   "where": "f75v.21 f82r.35"
+  },
+  {
+   "label": "ykedy",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, cosmological",
+   "in_running_text": 18,
+   "where": "f75v.35 fRos.126"
+  },
+  {
+   "label": "oteey",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, cosmological",
+   "in_running_text": 108,
+   "where": "f75v.55 fRos.61"
+  },
+  {
+   "label": "dchdy",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, pharmaceutical",
+   "in_running_text": 7,
+   "where": "f77r.6 f100v.8"
+  },
+  {
+   "label": "okolo",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, pharmaceutical",
+   "in_running_text": 0,
+   "where": "f80r.4 f99r.12"
+  },
+  {
+   "label": "olky",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, pharmaceutical",
+   "in_running_text": 20,
+   "where": "f80r.7 f99v.30"
+  },
+  {
+   "label": "okar",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, cosmological",
+   "in_running_text": 123,
+   "where": "f80r.9 fRos.131"
+  },
+  {
+   "label": "otedal",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, cosmological",
+   "in_running_text": 3,
+   "where": "f82v.4 fRos.48"
+  },
+  {
+   "label": "okain",
+   "times": 2,
+   "pages": 2,
+   "sections": "biological, pharmaceutical",
+   "in_running_text": 136,
+   "where": "f82v.41 f89r2.29"
+  },
+  {
+   "label": "osal",
+   "times": 2,
+   "pages": 2,
+   "sections": "cosmological, pharmaceutical",
+   "in_running_text": 2,
+   "where": "fRos.41 f88r.2"
+  },
+  {
+   "label": "otoky",
+   "times": 2,
+   "pages": 2,
+   "sections": "pharmaceutical",
+   "in_running_text": 0,
+   "where": "f88r.5 f99v.9"
+  },
+  {
+   "label": "otory",
+   "times": 2,
+   "pages": 2,
+   "sections": "pharmaceutical",
+   "in_running_text": 1,
+   "where": "f89v2.11 f102v2.8"
+  }
+ ]
+}
