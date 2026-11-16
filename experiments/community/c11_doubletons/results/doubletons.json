@@ -1,0 +1,66 @@
+{
+ "rows": [
+  {
+   "both on the same": "line",
+   "occurrences": 2,
+   "types": 537,
+   "observed": 0.00558659217877095,
+   "expected at random": 0.00047737914271281156,
+   "ratio": 11.702631470289875
+  },
+  {
+   "both on the same": "page",
+   "occurrences": 2,
+   "types": 537,
+   "observed": 0.03910614525139665,
+   "expected at random": 0.014314988553404484,
+   "ratio": 2.731832100703718
+  },
+  {
+   "both on the same": "sheet",
+   "occurrences": 2,
+   "types": 537,
+   "observed": 0.11731843575418995,
+   "expected at random": 0.057753374074088704,
+   "ratio": 2.0313693811843514
+  },
+  {
+   "both on the same": "section",
+   "occurrences": 2,
+   "types": 537,
+   "observed": 0.5232774674115456,
+   "expected at random": 0.38330508356348186,
+   "ratio": 1.3651722605575145
+  },
+  {
+   "both on the same": "hand",
+   "occurrences": 2,
+   "types": 537,
+   "observed": 0.659217877094972,
+   "expected at random": 0.5764685719797207,
+   "ratio": 1.1435452150167909
+  }
+ ],
+ "gaps": [
+  {
+   "distance": "same page",
+   "share of doubletons": 0.023755656108597284
+  },
+  {
+   "distance": "next page",
+   "share of doubletons": 0.03619909502262444
+  },
+  {
+   "distance": "2-5 pages",
+   "share of doubletons": 0.09389140271493213
+  },
+  {
+   "distance": "6-20 pages",
+   "share of doubletons": 0.19230769230769232
+  },
+  {
+   "distance": "further",
+   "share of doubletons": 0.6538461538461539
+  }
+ ]
+}

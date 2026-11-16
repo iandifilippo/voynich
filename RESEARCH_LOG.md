@@ -2,6 +2,16 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (25)
+
+### c08-c11 (voynich.ninja material)
+c08 Caveney Greek: devoicing merger h2 drop Greek .089, Latin .119, Italian .108, French .103 (VMS 2.154). Readings of the line under his alternatives: 8192. Hit rate Greek lexicon: VMS .312 vs shuffled .127 (p .010); copying model .302 vs .160 (p .063).
+c09 Turkic key: VMS .202 vs .069 (any of Turkish/Azerbaijani/Turkmen/Uzbek), copying model .202 vs .065, Naibbe(Pliny) .173 vs .056. -m line-final 69.8%; q word-initial 99.4%.
+c10 star code: 83% paragraphs open with gallows; 3.4% of gallows are paragraph-initial; first-line share k .16, t .22, p .81, f .78 (first lines = 19.6% of text). q->o 97.8%. e-runs 9134/3945/350/6. Repeats per 1000: B 11.8, C 13.6, H 9.5, P 8.6, S 8.1, T 8.7.
+c11 doubletons (537): same line .6% (11.7x), page 3.9% (2.7x), sheet 11.7% (2.0x), section 52% (1.4x), hand 66% (1.1x); >20 pages apart 65%.
+Pattern across c07/c08/c09: every vowel-to-vowel-like key beats its own shuffles on VMS and equally on content-free controls.
+Not testable from the text: ink titanium / modern-forgery argument (SantaColoma vs Stolfi on McCrone samples 17, 20).
+
 ## 2026-11-16 (24)
 
 ### 33 letter-or-pair: calibration fails

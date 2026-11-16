@@ -1,0 +1,103 @@
+{
+ "entropy": [
+  {
+   "text": "VMS",
+   "h1": 3.841844485912177,
+   "h2": 2.1538942512588877,
+   "h1 merged": null,
+   "h2 merged": null,
+   "h2 drop": null
+  },
+  {
+   "text": "Greek (modern, transliterated)",
+   "h1": 4.099294533031469,
+   "h2": 3.2478355825339724,
+   "h1 merged": 3.881597295601576,
+   "h2 merged": 3.1591413264198143,
+   "h2 drop": 0.08869425611415815
+  },
+  {
+   "text": "Latin (Aix)",
+   "h1": 4.040386895596301,
+   "h2": 3.338983345025964,
+   "h1 merged": 3.789586856114544,
+   "h2 merged": 3.220479648448101,
+   "h2 drop": 0.11850369657786297
+  },
+  {
+   "text": "Italian (Rettorica)",
+   "h1": 3.941670098269875,
+   "h2": 3.0747546049535837,
+   "h1 merged": 3.699722510693188,
+   "h2 merged": 2.9663585923700313,
+   "h2 drop": 0.10839601258355236
+  },
+  {
+   "text": "French",
+   "h1": 3.990013720843753,
+   "h2": 3.2311613188987174,
+   "h1 merged": 3.748278303187441,
+   "h2 merged": 3.128406909264483,
+   "h2 drop": 0.10275440963423454
+  }
+ ],
+ "freedom": [
+  {
+   "word": "teeodaiin",
+   "units": "t ee o d a iin",
+   "readings allowed": 16
+  },
+  {
+   "word": "shey",
+   "units": "sh e y",
+   "readings allowed": 2
+  },
+  {
+   "word": "epairody",
+   "units": "e p ai r o d y",
+   "readings allowed": 4
+  },
+  {
+   "word": "osaiin",
+   "units": "o s a iin",
+   "readings allowed": 1
+  },
+  {
+   "word": "yteeoey",
+   "units": "y t ee o e y",
+   "readings allowed": 16
+  },
+  {
+   "word": "shey",
+   "units": "sh e y",
+   "readings allowed": 2
+  },
+  {
+   "word": "epaiin",
+   "units": "e p a iin",
+   "readings allowed": 2
+  },
+  {
+   "word": "oaiin",
+   "units": "o a iin",
+   "readings allowed": 1
+  }
+ ],
+ "readings_for_line": 8192,
+ "keytest": [
+  {
+   "text": "VMS, all",
+   "words tested": 8135,
+   "come out as a Greek word": 0.31161647203441917,
+   "same values shuffled": 0.12688219627125588,
+   "p": 0.009966777408637873
+  },
+  {
+   "text": "copying model",
+   "words tested": 8345,
+   "come out as a Greek word": 0.3017375674056321,
+   "same values shuffled": 0.16044417815058917,
+   "p": 0.06312292358803986
+  }
+ ]
+}

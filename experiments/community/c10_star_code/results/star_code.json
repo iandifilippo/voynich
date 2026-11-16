@@ -1,0 +1,97 @@
+{
+ "facts": [
+  {
+   "claim": "gallows are always at the start of paragraphs",
+   "count": "83% of paragraphs open with a gallows, but only 3.4% of gallows are a paragraph's first glyph"
+  },
+  {
+   "claim": "q goes before o like a prefix",
+   "count": "97.8% of q are followed by o; 23% of o follow a q"
+  },
+  {
+   "claim": "c, cc, ccc, cccc are days of the Moon (28 mansions)",
+   "count": "runs of e: e 9134, ee 3945, eee 350, eeee 6; nothing longer"
+  }
+ ],
+ "gallows": [
+  {
+   "gallows": "k",
+   "occurrences": 10054,
+   "in a paragraph's first line": 0.16033419534513627,
+   "as the paragraph's first glyph": 0.0077581062263775615
+  },
+  {
+   "gallows": "t",
+   "occurrences": 6022,
+   "in a paragraph's first line": 0.2148787778146795,
+   "as the paragraph's first glyph": 0.028395881766854866
+  },
+  {
+   "gallows": "p",
+   "occurrences": 1491,
+   "in a paragraph's first line": 0.8135479543930249,
+   "as the paragraph's first glyph": 0.22199865861837692
+  },
+  {
+   "gallows": "f",
+   "occurrences": 419,
+   "in a paragraph's first line": 0.7804295942720764,
+   "as the paragraph's first glyph": 0.07637231503579953
+  }
+ ],
+ "first_line_share_of_text": 0.195766285173393,
+ "e_runs": [
+  {
+   "run": "e",
+   "count": 9134,
+   "share": 0.6798660215854112
+  },
+  {
+   "run": "ee",
+   "count": 3945,
+   "share": 0.29363602530703387
+  },
+  {
+   "run": "eee",
+   "count": 350,
+   "share": 0.026051358392259024
+  },
+  {
+   "run": "eeee",
+   "count": 6,
+   "share": 0.000446594715295869
+  }
+ ],
+ "repeats": [
+  {
+   "section": "B",
+   "adjacent pairs": 5495,
+   "same word twice per 1000": 11.828935395814376
+  },
+  {
+   "section": "C",
+   "adjacent pairs": 587,
+   "same word twice per 1000": 13.62862010221465
+  },
+  {
+   "section": "H",
+   "adjacent pairs": 9866,
+   "same word twice per 1000": 9.527670788566795
+  },
+  {
+   "section": "P",
+   "adjacent pairs": 2082,
+   "same word twice per 1000": 8.645533141210375
+  },
+  {
+   "section": "S",
+   "adjacent pairs": 10422,
+   "same word twice per 1000": 8.059873344847437
+  },
+  {
+   "section": "T",
+   "adjacent pairs": 2058,
+   "same word twice per 1000": 8.746355685131196
+  }
+ ]
+}

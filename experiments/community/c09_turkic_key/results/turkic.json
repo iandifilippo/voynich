@@ -1,0 +1,188 @@
+{
+ "rows": [
+  {
+   "text": "VMS, all",
+   "lexicon": "Turkish",
+   "words tested": 28478,
+   "read as a word": 0.16834047334784746,
+   "values shuffled": 0.04249789311047124,
+   "p": 0.004975124378109453,
+   "distinct words tested": 5004,
+   "distinct: read as a word": 0.03677058353317346,
+   "distinct: shuffled": 0.013155475619504396,
+   "distinct: p": 0.004975124378109453
+  },
+  {
+   "text": "VMS, all",
+   "lexicon": "Azerbaijani",
+   "words tested": 28478,
+   "read as a word": 0.13961654610576585,
+   "values shuffled": 0.030566226560853994,
+   "p": 0.004975124378109453,
+   "distinct words tested": 5004,
+   "distinct: read as a word": 0.027378097521982413,
+   "distinct: shuffled": 0.009921063149480415,
+   "distinct: p": 0.014925373134328358
+  },
+  {
+   "text": "VMS, all",
+   "lexicon": "Turkmen",
+   "words tested": 28478,
+   "read as a word": 0.08564505934405506,
+   "values shuffled": 0.02150063206685863,
+   "p": 0.004975124378109453,
+   "distinct words tested": 5004,
+   "distinct: read as a word": 0.017585931254996003,
+   "distinct: shuffled": 0.006328936850519584,
+   "distinct: p": 0.004975124378109453
+  },
+  {
+   "text": "VMS, all",
+   "lexicon": "Uzbek",
+   "words tested": 28478,
+   "read as a word": 0.10611700259849709,
+   "values shuffled": 0.030920710724067702,
+   "p": 0.009950248756218905,
+   "distinct words tested": 5004,
+   "distinct: read as a word": 0.024580335731414868,
+   "distinct: shuffled": 0.00951638689048761,
+   "distinct: p": 0.009950248756218905
+  },
+  {
+   "text": "VMS, all",
+   "lexicon": "any of the four",
+   "words tested": 28478,
+   "read as a word": 0.2021911651099094,
+   "values shuffled": 0.06940673502352693,
+   "p": 0.004975124378109453,
+   "distinct words tested": 5004,
+   "distinct: read as a word": 0.05275779376498801,
+   "distinct: shuffled": 0.021435851318944845,
+   "distinct: p": 0.004975124378109453
+  },
+  {
+   "text": "copying model",
+   "lexicon": "Turkish",
+   "words tested": 21030,
+   "read as a word": 0.18226343319067997,
+   "values shuffled": 0.046240133143128866,
+   "p": 0.004975124378109453,
+   "distinct words tested": 2946,
+   "distinct: read as a word": 0.04107264086897488,
+   "distinct: shuffled": 0.01794806517311609,
+   "distinct: p": 0.014925373134328358
+  },
+  {
+   "text": "copying model",
+   "lexicon": "Azerbaijani",
+   "words tested": 21030,
+   "read as a word": 0.12234902520209225,
+   "values shuffled": 0.034794103661436045,
+   "p": 0.01990049751243781,
+   "distinct words tested": 2946,
+   "distinct: read as a word": 0.03394433129667346,
+   "distinct: shuffled": 0.01323489477257298,
+   "distinct: p": 0.009950248756218905
+  },
+  {
+   "text": "copying model",
+   "lexicon": "Turkmen",
+   "words tested": 21030,
+   "read as a word": 0.07108892058963386,
+   "values shuffled": 0.022411079410366144,
+   "p": 0.03482587064676617,
+   "distinct words tested": 2946,
+   "distinct: read as a word": 0.019348268839103868,
+   "distinct: shuffled": 0.008419891378139852,
+   "distinct: p": 0.01990049751243781
+  },
+  {
+   "text": "copying model",
+   "lexicon": "Uzbek",
+   "words tested": 21030,
+   "read as a word": 0.1197812648597242,
+   "values shuffled": 0.034252258678078934,
+   "p": 0.01990049751243781,
+   "distinct words tested": 2946,
+   "distinct: read as a word": 0.027155465037338764,
+   "distinct: shuffled": 0.012545824847250508,
+   "distinct: p": 0.024875621890547265
+  },
+  {
+   "text": "copying model",
+   "lexicon": "any of the four",
+   "words tested": 21030,
+   "read as a word": 0.20228245363766048,
+   "values shuffled": 0.0653231098430813,
+   "p": 0.004975124378109453,
+   "distinct words tested": 2946,
+   "distinct: read as a word": 0.05804480651731161,
+   "distinct: shuffled": 0.025821452817379496,
+   "distinct: p": 0.004975124378109453
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "lexicon": "Turkish",
+   "words tested": 26069,
+   "read as a word": 0.14668763665656526,
+   "values shuffled": 0.03688116153285512,
+   "p": 0.004975124378109453,
+   "distinct words tested": 3377,
+   "distinct: read as a word": 0.03790346461356233,
+   "distinct: shuffled": 0.019156055670713653,
+   "distinct: p": 0.014925373134328358
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "lexicon": "Azerbaijani",
+   "words tested": 26069,
+   "read as a word": 0.11277762860102036,
+   "values shuffled": 0.026000613755801913,
+   "p": 0.004975124378109453,
+   "distinct words tested": 3377,
+   "distinct: read as a word": 0.030796564998519398,
+   "distinct: shuffled": 0.013509031684927451,
+   "distinct: p": 0.009950248756218905
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "lexicon": "Turkmen",
+   "words tested": 26069,
+   "read as a word": 0.07437953124400629,
+   "values shuffled": 0.017874678737197437,
+   "p": 0.009950248756218905,
+   "distinct words tested": 3377,
+   "distinct: read as a word": 0.0180633698549008,
+   "distinct: shuffled": 0.008768137400059224,
+   "distinct: p": 0.03980099502487562
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "lexicon": "Uzbek",
+   "words tested": 26069,
+   "read as a word": 0.09421151559323335,
+   "values shuffled": 0.02581188384671449,
+   "p": 0.004975124378109453,
+   "distinct words tested": 3377,
+   "distinct: read as a word": 0.026650873556411016,
+   "distinct: shuffled": 0.012844240450103642,
+   "distinct: p": 0.014925373134328358
+  },
+  {
+   "text": "Naibbe cipher of Pliny (Latin)",
+   "lexicon": "any of the four",
+   "words tested": 26069,
+   "read as a word": 0.17254209981203728,
+   "values shuffled": 0.05626452875062334,
+   "p": 0.004975124378109453,
+   "distinct words tested": 3377,
+   "distinct: read as a word": 0.0568551969203435,
+   "distinct: shuffled": 0.029962984897838316,
+   "distinct: p": 0.014925373134328358
+  }
+ ],
+ "odd": {
+  "share of words ending in m that end a line": 0.6980088495575221,
+  "share of q that begin a word": 0.9938225383751405
+ }
+}
