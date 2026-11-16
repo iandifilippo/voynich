@@ -1,34 +1,64 @@
 # 26 — Leaf by leaf, or sheet by sheet?
 
-## Why
+## What is claimed
 
-Exp. 25 gave me a signal that says "this text was written straight after that text". A quire
-is a stack of folded sheets, and each sheet carries two leaves that end up far apart in the
-book. If the scribe wrote in reading order, the verso of a leaf is followed by the next folio.
-If he wrote a sheet at a time, it's followed by the other half of the same sheet (the
-conjugate leaf). Where those two differ, the carry-over can say which.
+Layfield & Davis (*Digital Medievalist*, 2026) argue that many of the manuscript's bifolia
+were made as separate units ("singulions") and only later nested into the quires we see.
+Their evidence: conjoint pages are more alike than facing pages in most quires (LSA on whole
+pages), drawings that run from one page onto its conjoint (78v/81r, 76v/83r, 33v/40r,
+10v/15r, 58v/65r), and one scribe per bifolium in 50 of 52 cases.
+
+## What I think
+
+Whole-page similarity says two pages are alike, not which was written after which. Exp. 25
+gave me something that does: the end of a page carries over into the start of whatever was
+written next. A sheet written as a unit goes leaf 1 recto, leaf 1 verso, leaf 2 recto, leaf
+2 verso (or, laid flat, the two inner pages side by side). Either way the verso of the first
+leaf is followed by the recto of its conjoint leaf, not by the next folio in the book.
+Wherever those two candidates are different pages, the carry-over can choose.
 
 ## What I did
 
-Herbal A, hand 1. For each sheet where the next folio and the conjugate leaf are different
-pages: last 5 lines of the first leaf's verso against the first 5 lines of each candidate,
-and against all other rectos as a baseline. Also the carry-over at page breaks inside a
-quire against breaks between quires.
+For every sheet where the next folio and the conjoint leaf are different pages written by
+the same scribe in the same section: last 5 lines of the first leaf's verso against the
+first 5 lines of each candidate, and against all other rectos of the block as a baseline.
+19 sheets qualify: 11 by scribe 1 (herbal A), 8 by scribes 2 and 3 (herbal B, balneological,
+stars).
 
 ## Result
 
-- Only 11 sheets qualify. Lift: next folio in the book 1.56, conjugate leaf 1.28, any other
-  recto 1.21. The book order wins in 9 of 11 sheets, but the difference isn't significant
-  (interval −0.56 to +0.93; sign test p ≈ 0.07).
-- Inside a quire the verso → next recto carry-over is 1.43 (1.11-1.76, 29 breaks); between
-  quires 0.97, but that's three breaks.
-- One sheet stands out: the end of f19v shares nothing with the start of f20r and 20 word
-  types with the start of f22r, its conjugate. The largest count in the table.
+| | sheets | next folio in the book | conjoint leaf | any other recto | wins: book / conjoint / tie |
+|---|---|---|---|---|---|
+| scribe 1 (Currier A) | 11 | 1.56 | 1.28 | 1.21 | 9 / 2 / 0 |
+| scribes 2 and 3 (Currier B) | 8 | 1.21 | **1.64** | 1.26 | 1 / 5 / 2 |
+
+- **The two groups go opposite ways** (Fisher exact on wins, p = 0.035).
+- **Scribes 2 and 3: the text continues onto the conjoint leaf.** The next folio in the book is
+  no better than a random recto (1.21 vs 1.26); the conjoint leaf is clearly better
+  (difference 0.43, interval 0.12-0.73).
+- The sheets where the conjoint leaf wins include three of Layfield & Davis's drawing
+  continuities: f76v→f83r (29 shared word types against 20 for the next folio), f78v→f81r
+  (16 against 11) and f33v→f40r (20 against 13). The text agrees with the drawings.
+- **Scribe 1: the text continues onto the next folio in the book** in 9 of 11 sheets,
+  including f10v→f11r (21) over f10v→f15r (15), one of their pairs. The pooled difference
+  isn't significant by itself (interval −0.61 to +0.93), so this half is a lean, not a result.
+- One scribe-1 sheet goes strongly the other way: f19v shares nothing with f20r and 20
+  word types with f22r.
+
+## How this fits exp. 25
+
+In the balneological quire the carry-over from a recto to its own verso was missing (0.68).
+That is odd if the scribe wrote a leaf front then back, and expected if the sheet lay flat
+and was written a side at a time: the two inner pages are then consecutive (leaf 1 verso,
+leaf 2 recto, which is where the drawings cross), and a recto is never followed by its own
+verso. Small numbers, but the pieces point the same way.
 
 ## So what
 
-Not enough sheets to decide. The lean is towards leaf-by-leaf writing in the present order,
-which fits exp. 25, and against sheet-at-a-time. I'm recording it because the method is the
-useful part: the same comparison on the whole herbal, with both scribes and with the
-quire reconstructions people have proposed as the candidates, is the properly powered
-version. f19v/f22r is worth looking at on the scans before believing it.
+- For the Currier B scribes this is independent support for sheet-at-a-time writing, from
+  the order of the text and not from page similarity or drawings.
+- For scribe 1 the herbal A quires look as if they were written in the order they are bound.
+  If that holds, "singulions" is a habit of some scribes, not of the whole book.
+- Eight and eleven sheets. The split by scribe was made after seeing the pooled result, even
+  if scribe is the obvious thing to split by. The properly powered version needs the pages I
+  left out (mixed-scribe quires, foldouts) and a better end-of-page measure.

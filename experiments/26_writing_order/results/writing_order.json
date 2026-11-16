@@ -1,19 +1,45 @@
 {
+ "pooled": {
+  "sheets": 19,
+  "next folio in the book": 1.3629722868291976,
+  "conjugate leaf": 1.4789699282614697,
+  "any other recto": 1.2202279129160216,
+  "book - conjugate": -0.11599764143227209,
+  "ci": "-0.54 to 0.31",
+  "p(book <= conjugate)": 0.686,
+  "sheets where book order wins": "10 of 17",
+  "sign test p": 0.629058837890625
+ },
+ "by_scribe": [
+  {
+   "scribe": "scribe 1 (Currier A)",
+   "sheets": 11,
+   "next folio in the book": 1.5579389386995222,
+   "conjugate leaf": 1.2761840242538638,
+   "any other recto": 1.2123945111624954,
+   "book wins": 9,
+   "conjugate wins": 2,
+   "ties": 0,
+   "book - conjugate": 0.28175491444565837,
+   "ci": "-0.61 to 0.93"
+  },
+  {
+   "scribe": "scribes 2 and 3 (Currier B)",
+   "sheets": 8,
+   "next folio in the book": 1.211375906063054,
+   "conjugate leaf": 1.6366461709575306,
+   "any other recto": 1.256399351747813,
+   "book wins": 1,
+   "conjugate wins": 5,
+   "ties": 2,
+   "book - conjugate": -0.4252702648944766,
+   "ci": "-0.73 to -0.12"
+  }
+ ],
+ "fisher_p": 0.03450226244343891,
  "sheet_test": [
   {
    "block": "herbal A, hand 1",
-   "sheets": 11,
-   "next folio in the book": 1.5579389386995224,
-   "conjugate leaf": 1.276184024253864,
-   "any other recto": 1.2123945111624954,
-   "book - conjugate": 0.28175491444565837,
-   "ci": "-0.56 to 0.93",
-   "p(book <= conjugate)": 0.2245,
-   "p(conjugate > other)": 0.444,
-   "p(book > other)": 0.068
-  },
-  {
-   "block": "all Currier A herbal",
    "sheets": 11,
    "next folio in the book": 1.5579389386995224,
    "conjugate leaf": 1.276184024253864,
@@ -41,18 +67,11 @@
    "ci": "0.00-1.46"
   },
   {
-   "block": "all Currier A herbal",
+   "block": "herbal B, hand 2",
    "verso -> next recto": "inside a quire",
-   "breaks": 29,
-   "lift": 1.42706292367304,
-   "ci": "1.11-1.76"
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso -> next recto": "between quires",
-   "breaks": 3,
-   "lift": 0.9723306851458011,
-   "ci": "0.00-1.46"
+   "breaks": 2,
+   "lift": 1.6536276043811249,
+   "ci": "1.34-1.96"
   },
   {
    "block": "stars B, hand 3",
@@ -67,6 +86,13 @@
    "breaks": 8,
    "lift": 1.2577378030249902,
    "ci": "0.97-1.51"
+  },
+  {
+   "block": "pharma A, hand 1",
+   "verso -> next recto": "inside a quire",
+   "breaks": 2,
+   "lift": 0.9355325524380278,
+   "ci": "0.18-1.69"
   }
  ],
  "cases": [
@@ -159,92 +185,12 @@
    "shared with conjugate": 1
   },
   {
-   "block": "all Currier A herbal",
-   "verso": "f1v",
-   "next in book": "f2r",
-   "conjugate": "f8r",
-   "shared with next": 8,
-   "shared with conjugate": 10
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f2v",
-   "next in book": "f3r",
-   "conjugate": "f7r",
-   "shared with next": 14,
-   "shared with conjugate": 4
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f3v",
-   "next in book": "f4r",
-   "conjugate": "f6r",
-   "shared with next": 5,
-   "shared with conjugate": 3
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f9v",
-   "next in book": "f10r",
-   "conjugate": "f16r",
-   "shared with next": 8,
-   "shared with conjugate": 4
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f10v",
-   "next in book": "f11r",
-   "conjugate": "f15r",
-   "shared with next": 21,
-   "shared with conjugate": 15
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f17v",
-   "next in book": "f18r",
-   "conjugate": "f24r",
-   "shared with next": 9,
-   "shared with conjugate": 7
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f18v",
-   "next in book": "f19r",
-   "conjugate": "f23r",
-   "shared with next": 11,
-   "shared with conjugate": 9
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f19v",
-   "next in book": "f20r",
-   "conjugate": "f22r",
-   "shared with next": 0,
+   "block": "herbal B, hand 2",
+   "verso": "f33v",
+   "next in book": "f34r",
+   "conjugate": "f40r",
+   "shared with next": 13,
    "shared with conjugate": 20
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f27v",
-   "next in book": "f28r",
-   "conjugate": "f30r",
-   "shared with next": 5,
-   "shared with conjugate": 1
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f35v",
-   "next in book": "f36r",
-   "conjugate": "f38r",
-   "shared with next": 10,
-   "shared with conjugate": 3
-  },
-  {
-   "block": "all Currier A herbal",
-   "verso": "f51v",
-   "next in book": "f52r",
-   "conjugate": "f54r",
-   "shared with next": 3,
-   "shared with conjugate": 1
   },
   {
    "block": "stars B, hand 3",
