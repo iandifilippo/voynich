@@ -19,9 +19,9 @@ TRANSCRIPTIONS = {
 
 
 class Voynich:
-    def __init__(self, name="ZL", keep_uncertain=False):
+    def __init__(self, name="ZL", keep_uncertain=False, commas="split"):
         self.name = name
-        self.lines, self.pages = parse(DATA / TRANSCRIPTIONS[name], keep_uncertain)
+        self.lines, self.pages = parse(DATA / TRANSCRIPTIONS[name], keep_uncertain, commas)
 
     def select(self, section=None, language=None, hand=None, unit=None, pages=None):
         out = []

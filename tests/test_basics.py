@@ -20,6 +20,14 @@ def test_clean_drops_uncertain():
     assert unc == 2
 
 
+def test_clean_commas():
+    text = "qo,kedy.ch,ol,dy"
+    assert clean(text)[0] == ["qo", "kedy", "ch", "ol", "dy"]
+    assert clean(text, commas="join")[0] == ["qokedy", "choldy"]
+    vocab = {"qokedy": 5, "chol": 3}
+    assert clean(text, commas="smart", vocab=vocab)[0] == ["qokedy", "chol", "dy"]
+
+
 def test_cisiojanus_has_one_syllable_per_day():
     m = months()
     assert [len(m[i]) for i in range(1, 13)] == DAYS
