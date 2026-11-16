@@ -16,7 +16,7 @@ The goal is to actually read it. The rule is that nothing counts until it beats 
   - `naibbe.py` Greshko's Naibbe cipher from his published tables, plus an autokey variant and Smith's line-start rule
   - `scan.py` line and gap measurements on page images (numpy/scipy/scikit-image, only needed for experiment 12)
 - **`experiments/`** – each one is a `run.py` plus its `results/`; `experiments/community/` tests other people's claims
-- **`docs/`** – state of the field, notes on f116v, GitHub landscape
+- **`docs/`** – state of the field, notes on f116v, GitHub landscape, and a paper draft (`docs/paper/draft.md`) on line and word-boundary structure
 - **`RESEARCH_LOG.md`** – what we tried and what came out
 
 ## Quick start
