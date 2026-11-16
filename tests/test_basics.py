@@ -83,3 +83,25 @@ def test_autocopy_options_run():
     lines = AutoCopy(seed=2, boundary={"y": {"qo", "o"}}, boundary_p=0.5, line_end_p=0.5,
                      common_p=0.5, global_p=0.1, exact_p=0.1, extra_change=0.1).run(80)
     assert len(lines) == 80 and all(lines)
+
+
+def test_solver_reads_a_substitution():
+    import random
+    import shutil
+    import pytest
+    pytest.importorskip("numpy")
+    if not shutil.which("gcc"):
+        pytest.skip("no compiler")
+    from voynich.crack import LM, LETTERS, Problem, glyph_stream
+    rng = random.Random(0)
+    words = ["arma", "virumque", "cano", "troiae", "qui", "primus", "ab", "oris", "italiam", "fato", "profugus",
+             "laviniaque", "venit", "litora", "multum", "ille", "et", "terris", "iactatus", "alto"]
+    text = [[rng.choice(words) for _ in range(9)] for _ in range(250)]
+    lm = LM([" ".join(l) for l in text[:150]])
+    perm = list(LETTERS)
+    rng.shuffle(perm)
+    enc = [["".join(perm[LETTERS.index(c)] for c in w) for w in l] for l in text[150:]]
+    tok, vocab = glyph_stream(enc, list)
+    prob = Problem(tok, len(vocab), list(LETTERS), lm)
+    key, _ = prob.solve(iters=40000, restarts=2)
+    assert prob.decode(key, limit=20).split()[0] in words
