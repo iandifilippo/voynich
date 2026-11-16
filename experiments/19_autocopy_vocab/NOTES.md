@@ -34,6 +34,7 @@ More mutation isn't the fix. Copying spreads probability evenly over a cloud of 
 whatever is on the page; the VMS has a longer tail of one-offs. Two readings: the scribe
 sometimes wrote words that weren't copies (from a fixed stock, or freshly built from parts),
 or the transcription splits/merges words in a way that creates singletons (exp. 16: under
-the `join` reading hapax goes up to 0.72). The second is checkable: rerun the generator
-comparison under each comma reading. Logged as the next thing to do; I'm leaving q = 0 as the
-default.
+the `join` reading hapax goes up to 0.72). The second is already answered by exp. 16: hapax
+is 0.686 / 0.679 / 0.720 under split / smart / join, so the most plausible reading (smart)
+leaves the gap where it is. The singletons are in the text, not in the transcription. I'm
+leaving q = 0 as the default.
