@@ -2,6 +2,43 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-15 (3)
+
+### correction on 08
+Line-initial s is not new. Emma May Smith described a "linestart transformation" (Agnostic Voynich, 2015-2016: s, d, y added or swapped in at line start, sa-/so- words strongly line-initial esp. in Q20); Nick Pelling has long called line-initial s a likely null; voynich.ninja threads 2945, 4343 and 5309 cover it. 08 is a replication.
+
+### 10 linestart model
+Testing Smith's mechanism directly. For every word type x with 5+ line-internal uses: deficit(x) = how much rarer x is at line start than expected, surplus(g+x) = how much commoner g+x is there. If g+x at line start stands for x, the two should correlate across x.
+
+| glyph | r (all) | p | Currier A | Currier B | Takahashi |
+|---|---|---|---|---|---|
+| s | 0.130 | <0.001 | 0.047 (ns) | 0.124 (<0.001) | 0.116 (<0.001) |
+| d | 0.158 | <0.001 | 0.015 (ns) | 0.168 (<0.001) | 0.143 (0.001) |
+| t | 0.097 | <0.001 | 0.021 (ns) | 0.101 (<0.001) | 0.102 (<0.001) |
+| p | 0.070 | 0.007 | ns | 0.067 (0.019) | 0.077 (0.005) |
+| y, q, k, l, r, o | negative or ns | | | | |
+
+40 tests, so only p < 0.00125 counts: s, d, t survive, p doesn't. Strongest pairs: s+ain, s+aiin, s+ol, s+ar; d+aiin, d+ain, d+shedy; t+ol, t+chedy.
+
+Reading: in Currier B, s/d/t at line start behave like something added to an ordinary word. y does not (Smith already suggested y replaces ch rather than being added). Nothing like this in Currier A. The correlations are modest: plenty of line-initial g-words are not g + a known word.
+
+As far as we found, nobody has tested the transformation this way (deficit vs surplus with a permutation null). Needs a proper literature check before claiming it.
+
+### 09 bifolia (singulion hypothesis)
+101 leaves with 60+ words, pairs inside each quire, same scribe and same illustration type only. Conjoint leaves (same bifolium) vs other pairs:
+
+- raw cosine: +0.022 vs -0.017 under random re-pairing, p = 0.002, higher in 9/10 quires
+- tf-idf cosine: p = 0.53
+- Jaccard without the 50 most common words: p = 0.43
+
+So conjoint leaves share their common-word profile (which could be the scribe's state or the session) but not specific vocabulary. Suggestive at most. Not evidence for or against singulions on its own.
+
+### 04 again, with better measures
+Same-leaf (recto→verso) vs cross-leaf (verso→next recto): tf-idf cosine 0.116 vs 0.085 (p = 0.015), rare-word Jaccard 0.094 vs 0.068 (p < 0.001). This one holds: the two sides of a leaf share specific vocabulary more than pages that face each other across leaves. Still needs a baseline from a manuscript we know is bound correctly.
+
+### 11 label reuse
+758 single-word labels, 634 distinct, 63 repeated on 2+ pages, 49 of those across sections (e.g. otaly on 7 pages: zodiac, biological, pharmaceutical; otaldy on f70v2, f88r, f101v). Same-section share of repeat pairs 30.8% vs 22.6% when sections are shuffled (p = 0.009). Mostly short ot-/ok- forms, many rare in running text. Looks more like a stock of label words than unique names. Full list in results for checking against the scans.
+
 ## 2026-11-15 (2)
 
 ### parser fix
@@ -62,7 +99,8 @@ First pass with a simple parser. Baseline numbers matched Currier, Bennett, Zand
 
 - run Timm & Schinner's generator and Greshko's actual Naibbe tables through the benchmark
 - benchmark metric from Zhang & Sheng: same-line word-pair tendency across 28 texts
-- line-initial s-: is the stripped word predictable from context?
-- page order per singulion, against a baseline from a normally bound manuscript
+- leaf test against a baseline from a manuscript we know is bound correctly
+- check the cross-section repeated labels against the drawings
+- glyph tracings (Trace the Voynich) once released: stroke-level stats
 - f116v glyphs vs the main text's slot rules
 - web explorer (GitHub Pages)
