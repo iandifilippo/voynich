@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (15)
+
+### 24 vertical alignment
+Matches (same or edit 1, len 3+) between lines k apart, same page, interior words; mean |dx| in glyphs vs upper-line interior shuffle x300. VMS lag 1: 17.18 vs 17.38, z -1.35, p .083 (A z -0.9, B z -1.3); lag 2: 16.60 vs 17.22 z -4.3; lag 3 z -3.5; lag 5 z -2.7; lag 8 z -2.4. Generator: 11.86 vs 13.97 z -16.6 (lag 2 -8.3, lag 3 -9.9). Latin z +0.3, Italian -1.9 (lag 5 -2.6), Naibbe -1.3. Margins included: VMS z -9.2. Sections: S z -2.4, B +0.5, H -0.2; hand 3 z -2.7.
+
+### 25 page memory
+Lift of shared types, pairs 1-5 lines apart. Herbal A (hand 1, 95 pp): paragraph 1.33 [1.15-1.51], page break 1.33 [1.14-1.51], r->v 1.37, v->r 1.28, control (end of p vs start of p+2..6) 1.09, same page 10-30 lines 0.95 [0.78-1.23], next page any lines 1.03, 10 pages on 0.97. Break/control 1.22 [1.05-1.41] p .001; break/paragraph 1.00 [0.84-1.18]. Balneo B (hand 2, 19 pp): 1.42 / 0.90 / control 0.84; r->v 0.67, v->r 1.17. Stars B (hand 3, 22 pp): 1.83 / 1.29 / 0.94; break/control 1.37 p .037. Successor test (last 5 vs first 5 lines, rank among block): herbal A mean pct .637, top tenth 25.6%, p < .001 (r->v .66, v->r .60 p .018); balneo .53 (r->v .39, v->r .68); stars .60.
+
 ## 2026-11-16 (14)
 
 ### 22 locality

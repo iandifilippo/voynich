@@ -64,6 +64,8 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 21 | line-end rule | giving the copying model one extra change on line-final words fixes line-end singletons and the line-end word distribution, distance 2.39 → 1.9 (best so far); hapax ratio stays low because the model lacks a core: 87 words cover 54% of Currier B, the model's top 58 cover 30% |
 | 22 | locality | VMS rare words come back on the next line only ~2× more often than chance (copying model: 8-17×, Italian 4-11×); its common words are the local ones (1.5-1.7×, Latin 1.0). A copying model that prefers to copy words it has already written a few times gets the core, cohesion, MATTR and h2 right together: distance 2.18 → 1.49 |
 | 23 | scorecard | the best model on 26 measures it wasn't tuned on: right on near-repeats, singleton make-up, word length; badly wrong on which words (q- words 1.4% vs 20%). The benchmark sees shape, not content |
+| 24 | vertical alignment | similar words in consecutive lines are not under each other once the margins are set aside: 1.1% closer than shuffled (p = 0.08) against 15% in the positional-copying generator. The alignment the eye sees is the line-first and line-last words (z −9 with margins in) |
+| 25 | page memory | in herbal A the last lines of one plant page share as many words with the first lines of the next plant page as neighbouring lines of one paragraph (ratio 1.00; 1.22× a shape-matched control, p = 0.001), and far-apart lines of the same page share nothing extra. Vocabulary follows writing order, not the plant. The carry-over breaks in the balneological quire |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

@@ -156,6 +156,22 @@ of them about glyph content: *q*-initial words are 1.4% of its output against 20
 B. The thirteen benchmark metrics are insensitive to which glyphs words are made of; scores
 on them, for any model, need a content check alongside.
 
+### 3.9 Position on the page (exp. 24, 25)
+
+Self-citation as proposed is positional: sources lie above the word being written. With
+line-first and line-last words excluded, same-or-similar words in consecutive lines are
+1.1% closer horizontally than under a within-line shuffle (z = −1.3, p = 0.08); the
+generator, measured identically, gives 15% (z = −16.6). Including the margins gives z = −9
+in the manuscript, which is the line-edge effect of 3.2 and 3.6, not columnar copying.
+
+Short-range sharing of vocabulary ignores the page. In herbal A (one scribe, 95 pages, one
+plant per page) the last lines of a page share as many word types with the first lines of
+the next page as adjacent lines within a paragraph do (ratio 1.00, 95% interval 0.84-1.18;
+1.22× a shape-matched control, p = 0.001), and the real next page ranks in the top tenth of
+candidates for 26% of page breaks. Lines 10-30 apart on the same page share no more than
+chance (0.95). The carry-over is weaker in the stars section and absent in the
+balneological quire, where it fails at the leaf turn.
+
 ## 4. Discussion
 
 The two families fail in complementary places. Encipherment of a real text gives the
@@ -166,6 +182,12 @@ boundary, the coupling. The features that remain unexplained by copying (singlet
 line-end selection, the *s/d/t* line-start transformation) are all ones a scribe could produce
 by rules about *where* on the line a word goes, which suggests the next generation of models
 should treat line position as an input, not an outcome.
+
+Two results bear on what the short-range structure is. It is not positional (3.9), so it is
+not the product of an eye moving up the column; and in the herbal it runs through the
+change of plant at every page break, so it is not the product of subject matter. What
+remains is a property of the act of writing: a small working set of forms, renewed slowly,
+with one-off variants at the line edges.
 
 We do not claim the manuscript is meaningless. A plaintext could survive under a copying
 process if copying were the cipher's mechanism. But the statistics we can measure no longer
