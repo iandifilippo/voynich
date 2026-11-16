@@ -2,6 +2,12 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (24)
+
+### 33 letter-or-pair: calibration fails
+Pair cipher (signs for top 60/150 pairs + letters), key units = 26 letters + 150 pairs, iters 40000 x symbols, 2 restarts. Latin 84/174 signs: 0% right, gap -0.241/-0.207. Italian 86/176: 25.7%/12.1%, gap -0.270/-0.207. Hungarian -> Latin -0.279/-0.230; -> Italian -0.371/-0.264. No separation. Attack on VMS not run.
+To do: grow from the one-letter key; beam/EM over sign lengths; blind Naibbe as the entry test.
+
 ## 2026-11-16 (23)
 
 ### 32 attack 2 (transformed plaintext)
