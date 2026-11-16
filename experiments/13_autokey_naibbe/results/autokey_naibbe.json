@@ -1,0 +1,453 @@
+{
+ "validation": [
+  {
+   "text": "Greshko's file (Pliny)",
+   "h2": 2.0878064835706067,
+   "hapax_ratio": 0.5756965424639141,
+   "edge_coupling": 0.0035579930052786948,
+   "word_len": 5.2292,
+   "zipf": -0.8760149709549337,
+   "mattr500": 0.6613367013998527
+  },
+  {
+   "text": "ours, same units",
+   "h2": 2.1116653678474844,
+   "hapax_ratio": 0.5942689677629437,
+   "edge_coupling": 0.003687015487818586,
+   "word_len": 5.2243,
+   "zipf": -0.8683474064990505,
+   "mattr500": 0.6642241869276918
+  }
+ ],
+ "sweep": [
+  {
+   "plaintext": "pliny",
+   "autokey_p": 0.0,
+   "h2": 2.102698142600139,
+   "hapax_ratio": 0.5946208684381076,
+   "edge_coupling": 0.005789593783402776,
+   "word_len": 5.262,
+   "zipf": -0.8653452707279667,
+   "mattr500": 0.6657276076202505
+  },
+  {
+   "plaintext": "pliny",
+   "autokey_p": 0.25,
+   "h2": 2.097013980358375,
+   "hapax_ratio": 0.6077922077922078,
+   "edge_coupling": 0.025050224387866707,
+   "word_len": 5.2737,
+   "zipf": -0.8752205766229422,
+   "mattr500": 0.6627616040416798
+  },
+  {
+   "plaintext": "pliny",
+   "autokey_p": 0.5,
+   "h2": 2.0970576615233507,
+   "hapax_ratio": 0.5764119601328903,
+   "edge_coupling": 0.08073482072614768,
+   "word_len": 5.2245,
+   "zipf": -0.8635598723592977,
+   "mattr500": 0.6591828228607515
+  },
+  {
+   "plaintext": "pliny",
+   "autokey_p": 0.65,
+   "h2": 2.0925114218495637,
+   "hapax_ratio": 0.6050531914893617,
+   "edge_coupling": 0.15197756176484362,
+   "word_len": 5.2374,
+   "zipf": -0.873119419488691,
+   "mattr500": 0.6547662351331438
+  },
+  {
+   "plaintext": "pliny",
+   "autokey_p": 0.8,
+   "h2": 2.095424285087791,
+   "hapax_ratio": 0.5885135135135136,
+   "edge_coupling": 0.22023602813475168,
+   "word_len": 5.2057,
+   "zipf": -0.8716282488357117,
+   "mattr500": 0.6516935059467425
+  },
+  {
+   "plaintext": "pliny",
+   "autokey_p": 1.0,
+   "h2": 2.0840234061189724,
+   "hapax_ratio": 0.5818935729094679,
+   "edge_coupling": 0.37111960960904616,
+   "word_len": 5.2175,
+   "zipf": -0.8681786936024795,
+   "mattr500": 0.6467302389222187
+  },
+  {
+   "plaintext": "dante",
+   "autokey_p": 0.0,
+   "h2": 2.1116752088293365,
+   "hapax_ratio": 0.5826115922718188,
+   "edge_coupling": 0.004569769211906237,
+   "word_len": 5.1841,
+   "zipf": -0.8676223281940378,
+   "mattr500": 0.655084938427534
+  },
+  {
+   "plaintext": "dante",
+   "autokey_p": 0.25,
+   "h2": 2.0990822440866626,
+   "hapax_ratio": 0.5963875205254515,
+   "edge_coupling": 0.025646676025375674,
+   "word_len": 5.2225,
+   "zipf": -0.8629368747568219,
+   "mattr500": 0.6482709188506472
+  },
+  {
+   "plaintext": "dante",
+   "autokey_p": 0.5,
+   "h2": 2.100025931710211,
+   "hapax_ratio": 0.5770413392552101,
+   "edge_coupling": 0.09124496061872714,
+   "word_len": 5.1876,
+   "zipf": -0.8715592113922596,
+   "mattr500": 0.6472729186401431
+  },
+  {
+   "plaintext": "dante",
+   "autokey_p": 0.65,
+   "h2": 2.1009430722888816,
+   "hapax_ratio": 0.5813873626373627,
+   "edge_coupling": 0.12906317043245988,
+   "word_len": 5.1627,
+   "zipf": -0.8674763302550212,
+   "mattr500": 0.6404913167035049
+  },
+  {
+   "plaintext": "dante",
+   "autokey_p": 0.8,
+   "h2": 2.102420033131231,
+   "hapax_ratio": 0.5565339908418457,
+   "edge_coupling": 0.2049567684590716,
+   "word_len": 5.1552,
+   "zipf": -0.8653058552469008,
+   "mattr500": 0.6393173350173667
+  },
+  {
+   "plaintext": "dante",
+   "autokey_p": 1.0,
+   "h2": 2.0983329923792624,
+   "hapax_ratio": 0.5674418604651162,
+   "edge_coupling": 0.3228777115456669,
+   "word_len": 5.1437,
+   "zipf": -0.8727298968698689,
+   "mattr500": 0.63284685822545
+  }
+ ],
+ "shape": {
+  "vms_half_vs_half": 0.9824416085036366,
+  "best_chart": {
+   "y": "beta2",
+   "n": "beta3",
+   "l": "beta3",
+   "r": "beta3",
+   "s": "beta3",
+   "m": "beta3",
+   "o": "gamma1",
+   "d": "beta2",
+   "other": "beta3"
+  },
+  "fit_on_half_a": 0.47330362795603054,
+  "simulated_vs_half_b_pliny": 0.43371587412776347,
+  "simulated_vs_half_b_dante": 0.24191327787582118,
+  "random_charts_mean": 0.0042528418688135665,
+  "random_charts_max": 0.15569232737517325,
+  "vms_top_pairs": [
+   [
+    "o|r",
+    2.660860261956608
+   ],
+   [
+    "s|a",
+    2.310984254597175
+   ],
+   [
+    "o|l",
+    2.0362445945312677
+   ],
+   [
+    "r|a",
+    1.6360646949312718
+   ],
+   [
+    "o|k",
+    1.5822717641268924
+   ],
+   [
+    "d|y",
+    1.4209446475286305
+   ],
+   [
+    "o|t",
+    1.1360115124458148
+   ],
+   [
+    "l|k",
+    0.9348451764590829
+   ],
+   [
+    "y|qo",
+    0.8271510219390901
+   ],
+   [
+    "d|a",
+    0.759521871291542
+   ]
+  ]
+ },
+ "vms_coupling": {
+  "certain_spaces_only": 0.16630518511511155,
+  "n_certain": 27608,
+  "uncertain_spaces_only": 0.4109507713233619,
+  "n_uncertain": 2984
+ },
+ "benchmark": [
+  {
+   "variant": "VMS later pages",
+   "plaintext": "-",
+   "distance": 1.0559697811543007,
+   "core": 0.1817860634214614,
+   "edge": 0.17660489019631395,
+   "line_first": 0.1418366198142911,
+   "line_last": 0.08472620465372922,
+   "hapax": 0.703013884185574,
+   "h2": 2.1347876256225287,
+   "worst": "line_cohesion +3.6, repeat_rate +1.0, line_last_jsd -0.6"
+  },
+  {
+   "variant": "VMS Currier B",
+   "plaintext": "-",
+   "distance": 1.233913672612046,
+   "core": 0.709750557186409,
+   "edge": 0.24504757915006342,
+   "line_first": 0.17797016487363468,
+   "line_last": 0.06479776026667111,
+   "hapax": 0.6841876629018245,
+   "h2": 1.9372723340720515,
+   "worst": "line_last_jsd -2.8, line_first_jsd +2.6, edge_coupling +1.4"
+  },
+  {
+   "variant": "+ autokey p=.65, fitted chart + line-start q=0.5",
+   "plaintext": "pliny",
+   "distance": 3.8538697863188105,
+   "core": 0.6090408814900038,
+   "edge": 0.07671314540122869,
+   "line_first": 0.15036418111688513,
+   "line_last": 0.004044598909352213,
+   "hapax": 0.6251177394034537,
+   "h2": 2.1903106696959087,
+   "worst": "line_last_jsd -9.6, repeat_rate -8.6, line_cohesion -5.0"
+  },
+  {
+   "variant": "+ autokey p=.65, arbitrary chart + line-start q=0.5",
+   "plaintext": "pliny",
+   "distance": 3.9199296816200313,
+   "core": 0.4944482524547639,
+   "edge": 0.14305777461815203,
+   "line_first": 0.13095037418609468,
+   "line_last": 0.0019878209157020744,
+   "hapax": 0.631784107946027,
+   "h2": 2.1514429435563174,
+   "worst": "line_last_jsd -9.8, repeat_rate -8.7, line_cohesion -5.1"
+  },
+  {
+   "variant": "+ autokey p=.65, arbitrary chart + line-start q=0.5",
+   "plaintext": "dante",
+   "distance": 3.9490181846672945,
+   "core": 0.506765641070062,
+   "edge": 0.13018471646826632,
+   "line_first": 0.13911427768289525,
+   "line_last": 0.0012140550471427757,
+   "hapax": 0.6276951108411782,
+   "h2": 2.1497774655689934,
+   "worst": "line_last_jsd -9.9, repeat_rate -8.7, line_cohesion -5.3"
+  },
+  {
+   "variant": "+ autokey p=.65, fitted chart + line-start q=0.3",
+   "plaintext": "pliny",
+   "distance": 3.9796662473803144,
+   "core": 0.6370926692473584,
+   "edge": 0.07715911602723972,
+   "line_first": 0.08977882132129161,
+   "line_last": 0.004044598909352213,
+   "hapax": 0.6140350877192983,
+   "h2": 2.1759992884806825,
+   "worst": "line_last_jsd -9.6, repeat_rate -8.6, line_cohesion -5.0"
+  },
+  {
+   "variant": "Naibbe (deck) + line-start q=0.5",
+   "plaintext": "pliny",
+   "distance": 4.034495171698282,
+   "core": 0.7992766763270225,
+   "edge": 0.007030526976548306,
+   "line_first": 0.130187883306905,
+   "line_last": 0.003127480540198448,
+   "hapax": 0.6546555203228596,
+   "h2": 2.1565634611165394,
+   "worst": "line_last_jsd -9.7, repeat_rate -9.1, line_cohesion -5.4"
+  },
+  {
+   "variant": "Naibbe (deck) + line-start q=0.5",
+   "plaintext": "dante",
+   "distance": 4.090449330586291,
+   "core": 0.8137343835427719,
+   "edge": 0.0062460230902376054,
+   "line_first": 0.141384014737027,
+   "line_last": 0.002033456365611074,
+   "hapax": 0.6365774772125845,
+   "h2": 2.1565126289527554,
+   "worst": "line_last_jsd -9.8, repeat_rate -9.2, line_cohesion -5.6"
+  },
+  {
+   "variant": "+ autokey p=.65, arbitrary chart + line-start q=0.3",
+   "plaintext": "dante",
+   "distance": 4.1015368214891295,
+   "core": 0.5281748083655485,
+   "edge": 0.13049557111960072,
+   "line_first": 0.08696901598487504,
+   "line_last": 0.0012140550471427757,
+   "hapax": 0.6210329807093964,
+   "h2": 2.1386758589097528,
+   "worst": "line_last_jsd -9.9, repeat_rate -8.7, line_cohesion -5.4"
+  },
+  {
+   "variant": "+ autokey p=.65, fitted chart + line-start q=0.5",
+   "plaintext": "dante",
+   "distance": 4.1048464618855345,
+   "core": 0.700192207488279,
+   "edge": 0.06246830114182224,
+   "line_first": 0.17679910840729204,
+   "line_last": 0.0028206443299811854,
+   "hapax": 0.6077294685990338,
+   "h2": 2.187553302417772,
+   "worst": "line_last_jsd -9.7, repeat_rate -9.2, line_cohesion -5.4"
+  },
+  {
+   "variant": "+ autokey p=.65, fitted chart + line-start q=0.3",
+   "plaintext": "dante",
+   "distance": 4.1315968112072055,
+   "core": 0.7455135482286228,
+   "edge": 0.06129005770829271,
+   "line_first": 0.09597670669982382,
+   "line_last": 0.0028206443299811854,
+   "hapax": 0.5922330097087378,
+   "h2": 2.173278494250819,
+   "worst": "line_last_jsd -9.7, repeat_rate -9.1, line_cohesion -5.5"
+  },
+  {
+   "variant": "+ autokey p=.65, arbitrary chart + line-start q=0.3",
+   "plaintext": "pliny",
+   "distance": 4.158474119051982,
+   "core": 0.5335620167706809,
+   "edge": 0.14347958810329356,
+   "line_first": 0.07061114979033985,
+   "line_last": 0.0019878209157020744,
+   "hapax": 0.6224552745219001,
+   "h2": 2.1415152408758784,
+   "worst": "line_last_jsd -9.8, repeat_rate -8.7, line_cohesion -5.2"
+  },
+  {
+   "variant": "Naibbe (deck) + line-start q=0.3",
+   "plaintext": "dante",
+   "distance": 4.185145236321886,
+   "core": 0.8221885342317891,
+   "edge": 0.00869815609718685,
+   "line_first": 0.0959235806610188,
+   "line_last": 0.002033456365611074,
+   "hapax": 0.6220947781466949,
+   "h2": 2.146501944631945,
+   "worst": "line_last_jsd -9.8, repeat_rate -9.2, line_cohesion -5.6"
+  },
+  {
+   "variant": "Naibbe (deck) + line-start q=0.3",
+   "plaintext": "pliny",
+   "distance": 4.204916978216441,
+   "core": 0.8017655783019353,
+   "edge": 0.00642147477472859,
+   "line_first": 0.07868261050872505,
+   "line_last": 0.003127480540198448,
+   "hapax": 0.6476331360946745,
+   "h2": 2.14618523445088,
+   "worst": "line_last_jsd -9.7, repeat_rate -9.1, line_cohesion -5.3"
+  },
+  {
+   "variant": "+ autokey p=.65, fitted chart",
+   "plaintext": "pliny",
+   "distance": 4.71711142444304,
+   "core": 0.7797895439627563,
+   "edge": 0.07626481124344503,
+   "line_first": 0.00221384748847412,
+   "line_last": 0.004044598909352213,
+   "hapax": 0.5786096256684492,
+   "h2": 2.1357931715500715,
+   "worst": "line_first_jsd -9.8, line_last_jsd -9.6, repeat_rate -8.4"
+  },
+  {
+   "variant": "+ autokey p=.65, arbitrary chart",
+   "plaintext": "pliny",
+   "distance": 4.775002572688418,
+   "core": 0.7016020669081675,
+   "edge": 0.14306478923447086,
+   "line_first": 0.002297441643898827,
+   "line_last": 0.0019878209157020744,
+   "hapax": 0.586334567485695,
+   "h2": 2.101454165472599,
+   "worst": "line_first_jsd -9.8, line_last_jsd -9.8, repeat_rate -8.7"
+  },
+  {
+   "variant": "+ autokey p=.65, arbitrary chart",
+   "plaintext": "dante",
+   "distance": 4.79270650504312,
+   "core": 0.7180291594896095,
+   "edge": 0.13060075479229588,
+   "line_first": 0.0036260598604363047,
+   "line_last": 0.0012140550471427757,
+   "hapax": 0.5832201086956522,
+   "h2": 2.098107641387015,
+   "worst": "line_last_jsd -9.9, line_first_jsd -9.7, repeat_rate -8.6"
+  },
+  {
+   "variant": "Naibbe (deck)",
+   "plaintext": "pliny",
+   "distance": 4.863526302792064,
+   "core": 0.8608158736666731,
+   "edge": 0.006262770939335999,
+   "line_first": 0.0017602573808069596,
+   "line_last": 0.003127480540198448,
+   "hapax": 0.6143958868894601,
+   "h2": 2.1063625556396466,
+   "worst": "line_first_jsd -9.9, line_last_jsd -9.7, repeat_rate -9.1"
+  },
+  {
+   "variant": "+ autokey p=.65, fitted chart",
+   "plaintext": "dante",
+   "distance": 4.890385043590952,
+   "core": 0.9132715030367985,
+   "edge": 0.06240924540460117,
+   "line_first": 0.00272416408026228,
+   "line_last": 0.0028206443299811854,
+   "hapax": 0.5527675276752767,
+   "h2": 2.131916913157377,
+   "worst": "line_first_jsd -9.8, line_last_jsd -9.7, repeat_rate -9.1"
+  },
+  {
+   "variant": "Naibbe (deck)",
+   "plaintext": "dante",
+   "distance": 4.926199134123714,
+   "core": 0.9227363032544114,
+   "edge": 0.007658070958332524,
+   "line_first": 0.002683419134324166,
+   "line_last": 0.002033456365611074,
+   "hapax": 0.582975915539426,
+   "h2": 2.1061585015723088,
+   "worst": "line_first_jsd -9.8, line_last_jsd -9.8, repeat_rate -9.2"
+  }
+ ]
+}
