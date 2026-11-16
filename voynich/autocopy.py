@@ -160,7 +160,12 @@ class Word:
 class AutoCopy:
     PARA_GALLOW = 94
 
-    def __init__(self, seed=0, currier="B", line_chars=55, page_lines=29, seed_text=None):
+    def __init__(self, seed=0, currier="B", line_chars=55, page_lines=29, seed_text=None,
+                 boundary=None, boundary_p=0.0):
+        """boundary: optional {last glyph: set of word starts} the writer prefers
+        after a word ending in that glyph; with probability boundary_p a new word
+        that doesn't fit is thrown away and another one is copied instead."""
+        self.boundary, self.boundary_p = boundary or {}, boundary_p
         self.rng = random.Random(seed)
         self.currier = currier
         self.line_chars = line_chars
@@ -537,6 +542,13 @@ class AutoCopy:
             changed = True
         return Word(toks, "shorten") if changed else w
 
+    def fits(self, prev, word):
+        allowed = self.boundary.get(prev[-1])
+        if not allowed:
+            return True
+        head = word[:2] if word[:2] in ("ch", "sh", "qo") else word[:1]
+        return head in allowed
+
     # one line ------------------------------------------------------------
     def line(self, para_initial, para_final, in_page):
         limit = self.line_chars
@@ -563,6 +575,10 @@ class AutoCopy:
                 continue
             new = self.morph(src, para_initial, line_initial)
             if not new:
+                tries += 1
+                continue
+            if out and self.boundary and not self.fits(out[-1].s, new[0].s) \
+                    and self.rng.random() < self.boundary_p:
                 tries += 1
                 continue
             if out and new[0].s == out[-1].s:
