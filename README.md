@@ -55,6 +55,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 12 | scans | line detector on the PDF scans of quire 20 (tuned on half, tested on the other half): within ±1 line of ZL on 7/11 pages; certain vs uncertain spaces not separable at this resolution |
 | 13 | autokey Naibbe | Greshko's tables + a rule where the last glyph picks the next table (p ≈ 0.65) gives VMS-level edge coupling without moving anything else; the coupling pattern only partly (held-out r 0.24-0.43 vs 0.98); with Smith's line-start rule, distance 4.86 → 3.92 |
 | 14 | line-end model | no ending is rewritten as -m at line end, singly or pooled by stem (all p > 0.1, several strongly negative); line ends favour short words and -m forms (am ×23, dam ×12) without taking from their siblings. Starts rewrite, ends don't |
+| 15 | repeats | exact repeats of the same word side by side are fully explained by lines reusing their vocabulary (9.4 vs 9.3 per 1000 with words shuffled inside the line, p = 0.42); near-repeats (one glyph changed) are not (36.0 vs 30.8, p < 0.003, A and B). Natural texts avoid repeats, the VMS doesn't; repeats avoid line starts and line breaks |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

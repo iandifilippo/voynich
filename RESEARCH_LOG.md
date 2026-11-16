@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (6)
+
+### 15 repeats
+Exact repeats per 1000 adjacent pairs: VMS 9.37, words shuffled within their line 9.25 (300 shuffles, p 0.42; A 0.34, B 0.55), shuffled across the text 3.42. So exact repeats = line composition. Near-repeats (edit distance 1): 36.0 vs 30.8 in-line, p < 0.003 in all/A/B. Latin and Italian avoid immediate repeats (Aix 0 vs 4.4 expected); Naibbe inherits this (1.3 vs 3.1). Repeat rate by position: first pair 3.4, middle 11.1, last 5.9. Across line breaks 6 vs 11.8 expected. Near-repeat edits: mostly insert/delete, then r<->l, k<->t, c<->s, o<->a.
+
+Consequence for the benchmark: `repeat_rate` and `line_cohesion` partly measure the same thing.
+
 ## 2026-11-15 (5)
 
 ### 14 line-end model
