@@ -2,6 +2,19 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (26)
+
+### 34 slots / memory / between
+Slot parse (12 slots, early-first): tokens parsed A .790, B .842, copying model .575, Naibbe .921; types parsed A .471, B .477.
+Shared bits (sum slot H - word H): A 4.41 (indep. baseline 1.68), B 5.16 (1.51), copy 5.26 (1.43), Naibbe 5.14 (1.63). Late-first parse: A 4.06, B 4.78.
+Held-out bits/word indep / chain / whole-so-far: A 13.07 / 9.38 / 9.26; B 14.01 / 9.54 / 9.29; copy 13.60 / 9.54 / 8.71; Naibbe 14.85 / 10.88 / 10.25.
+I(prefix; suffix | core) excess over within-core shuffle: A .216, B .200, copy .369, Naibbe .365 (all p .005).
+Independent device: types A 4470 vs 1515 real, B 9704 vs 2284; share of device types attested .119 / .084.
+memory.py (11000 words, WB interpolation, 5 folds), bits/word order 1/2/3/4: A 11.83/11.30/11.52/11.89; B 11.09/10.43/10.61/10.94; copy 12.09/10.48/10.38/10.54; Naibbe 12.44/11.25/11.07/11.15; Secreta LAT 21.93/17.74/14.66/13.38; Picatrix 18.85/15.67/13.42/12.73; Rettorica 19.03/15.90/13.57/12.94; Cirurgie 16.41/12.95/10.73/10.13; Agrippa 17.95/14.48/11.91/11.17; Steganographia 24.89/21.01/17.91/16.73; Sindbad 16.24/14.58/13.83/14.01; Mishneh 19.04/15.91/14.37/14.28; Amirandar 25.24/20.39/17.14/16.40; Wormianus 17.10/14.46/13.25/13.13.
+Plain EVA chars, best order: A 2, B 2, copy 4, Naibbe 4.
+Lexicon gain over order-2 (bits/word): A -.31, B -.27, copy +.10, Naibbe +.12; languages +.67 (Sindbad) to +3.82 (Secreta LAT).
+between.py, previous word -> word, above shuffled: A .163, B .231, copy .151, Naibbe .104; language words .87-1.40; letters-as-words .38-.77. Last sign -> first sign of next: A .110, B .229, copy .113, Naibbe -.019.
+
 ## 2026-11-16 (25)
 
 ### c08-c11 (voynich.ninja material)

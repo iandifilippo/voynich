@@ -1,0 +1,110 @@
+[
+ {
+  "text": "VMS, Currier A",
+  "previous word -> word": -0.4517337246784372,
+  "same, words shuffled": -0.6151771661639482,
+  "above shuffled": 0.16344344148551104,
+  "last sign -> first sign of next": 0.10961456222657584,
+  "same, shuffled": -0.02991430348731175,
+  "previous word -> first sign of next": -0.05335180560427063
+ },
+ {
+  "text": "VMS, Currier B",
+  "previous word -> word": -0.38536495668204085,
+  "same, words shuffled": -0.6162230618355734,
+  "above shuffled": 0.23085810515353256,
+  "last sign -> first sign of next": 0.2285148848712833,
+  "same, shuffled": -0.02147412574081198,
+  "previous word -> first sign of next": 0.09781874396038656
+ },
+ {
+  "text": "copying model",
+  "previous word -> word": -0.5039331616021534,
+  "same, words shuffled": -0.654600221679629,
+  "above shuffled": 0.15066706007747555,
+  "last sign -> first sign of next": 0.11339456246921832,
+  "same, shuffled": -0.01543441113151232,
+  "previous word -> first sign of next": -0.10523192582039172
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "previous word -> word": -0.5433346519144749,
+  "same, words shuffled": -0.6474025726568929,
+  "above shuffled": 0.104067920742418,
+  "last sign -> first sign of next": -0.01925915129032915,
+  "same, shuffled": -0.014006931259860703,
+  "previous word -> first sign of next": -0.18668342333772628
+ },
+ {
+  "text": "Secreta_Secretorum_LAT, words",
+  "previous word -> word": 0.247884851383276,
+  "same, words shuffled": -0.6220740441220172,
+  "above shuffled": 0.8699588955052932,
+  "last sign -> first sign of next": 0.03522789020653922,
+  "same, shuffled": -0.02598550412425599,
+  "previous word -> first sign of next": -0.014182329428732113
+ },
+ {
+  "text": "Secreta_Secretorum_LAT, letters as words",
+  "previous word -> word": 0.5378345489440401,
+  "same, words shuffled": -0.03248765425822967,
+  "above shuffled": 0.5703222032022698,
+  "last sign -> first sign of next": 0.5378345489440401,
+  "same, shuffled": -0.03248765425822967,
+  "previous word -> first sign of next": 0.5378345489440401
+ },
+ {
+  "text": "Rettorica, words",
+  "previous word -> word": 0.45999428910199,
+  "same, words shuffled": -0.5894226200634245,
+  "above shuffled": 1.0494169091654144,
+  "last sign -> first sign of next": 0.12065141008711187,
+  "same, shuffled": -0.024353764388856794,
+  "previous word -> first sign of next": 0.2996447283031036
+ },
+ {
+  "text": "Rettorica, letters as words",
+  "previous word -> word": 0.7147143196976241,
+  "same, words shuffled": -0.050392819431550474,
+  "above shuffled": 0.7651071391291746,
+  "last sign -> first sign of next": 0.7147143196976241,
+  "same, shuffled": -0.050392819431550474,
+  "previous word -> first sign of next": 0.7147143196976241
+ },
+ {
+  "text": "Cirurgie, words",
+  "previous word -> word": 0.7354687288542576,
+  "same, words shuffled": -0.5885456973604168,
+  "above shuffled": 1.3240144262146745,
+  "last sign -> first sign of next": 0.07512435531666968,
+  "same, shuffled": -0.030595478409761092,
+  "previous word -> first sign of next": 0.2711083753898434
+ },
+ {
+  "text": "Cirurgie, letters as words",
+  "previous word -> word": 0.621364199441274,
+  "same, words shuffled": -0.04546818332191656,
+  "above shuffled": 0.6668323827631906,
+  "last sign -> first sign of next": 0.621364199441274,
+  "same, shuffled": -0.04546818332191656,
+  "previous word -> first sign of next": 0.621364199441274
+ },
+ {
+  "text": "Hebrew_Mishneh, words",
+  "previous word -> word": 0.821501649451528,
+  "same, words shuffled": -0.5785312589145416,
+  "above shuffled": 1.4000329083660696,
+  "last sign -> first sign of next": 0.2007215316622998,
+  "same, shuffled": -0.04040204678838205,
+  "previous word -> first sign of next": 0.6716576589576009
+ },
+ {
+  "text": "Hebrew_Mishneh, letters as words",
+  "previous word -> word": 0.32667876726497164,
+  "same, words shuffled": -0.05620190922115989,
+  "above shuffled": 0.38288067648613155,
+  "last sign -> first sign of next": 0.32667876726497164,
+  "same, shuffled": -0.05620190922115989,
+  "previous word -> first sign of next": 0.32667876726497164
+ }
+]

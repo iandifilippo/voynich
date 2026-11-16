@@ -1,0 +1,100 @@
+[
+ {
+  "text": "VMS, Currier A",
+  "two signs": 11.300015008283914,
+  "two signs + remembered words": 11.607365315431899,
+  "what the lexicon saves": -0.30735030714798484,
+  "share": -0.027199106100537898
+ },
+ {
+  "text": "VMS, Currier B",
+  "two signs": 10.42878967770355,
+  "two signs + remembered words": 10.693512045523129,
+  "what the lexicon saves": -0.26472236781957825,
+  "share": -0.025383805407980083
+ },
+ {
+  "text": "copying model",
+  "two signs": 10.480647837104831,
+  "two signs + remembered words": 10.38167420842189,
+  "what the lexicon saves": 0.09897362868294124,
+  "share": 0.009443464776341694
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "two signs": 11.253889813626422,
+  "two signs + remembered words": 11.133341428231214,
+  "what the lexicon saves": 0.12054838539520851,
+  "share": 0.010711708341878933
+ },
+ {
+  "text": "Secreta_Secretorum_LAT",
+  "two signs": 17.736531329050962,
+  "two signs + remembered words": 13.915182362388915,
+  "what the lexicon saves": 3.821348966662047,
+  "share": 0.21545074940346398
+ },
+ {
+  "text": "Picatrix",
+  "two signs": 15.664736566899112,
+  "two signs + remembered words": 13.435870305918382,
+  "what the lexicon saves": 2.2288662609807304,
+  "share": 0.14228558849119172
+ },
+ {
+  "text": "Rettorica",
+  "two signs": 15.900089313931451,
+  "two signs + remembered words": 13.619601737433971,
+  "what the lexicon saves": 2.28048757649748,
+  "share": 0.1434260859465328
+ },
+ {
+  "text": "Cirurgie",
+  "two signs": 12.950488279699552,
+  "two signs + remembered words": 10.109377633434155,
+  "what the lexicon saves": 2.841110646265397,
+  "share": 0.21938251167864925
+ },
+ {
+  "text": "Agrippa_Book1",
+  "two signs": 14.479747676587944,
+  "two signs + remembered words": 11.345651133000286,
+  "what the lexicon saves": 3.134096543587658,
+  "share": 0.21644690319121548
+ },
+ {
+  "text": "Steganographia",
+  "two signs": 21.007617064006297,
+  "two signs + remembered words": 17.406507516095914,
+  "what the lexicon saves": 3.601109547910383,
+  "share": 0.17141923031719747
+ },
+ {
+  "text": "Sindbad",
+  "two signs": 14.583557754181383,
+  "two signs + remembered words": 13.911572049631769,
+  "what the lexicon saves": 0.6719857045496145,
+  "share": 0.04607831064795855
+ },
+ {
+  "text": "Hebrew_Mishneh",
+  "two signs": 15.905235650548672,
+  "two signs + remembered words": 14.410965399504404,
+  "what the lexicon saves": 1.4942702510442682,
+  "share": 0.09394832518515508
+ },
+ {
+  "text": "Amirandar",
+  "two signs": 20.389691916978283,
+  "two signs + remembered words": 17.558304638565104,
+  "what the lexicon saves": 2.831387278413178,
+  "share": 0.13886366159635358
+ },
+ {
+  "text": "Codex_Wormianus_dip",
+  "two signs": 14.45564293761773,
+  "two signs + remembered words": 13.214553489204686,
+  "what the lexicon saves": 1.2410894484130441,
+  "share": 0.0858550154959468
+ }
+]
