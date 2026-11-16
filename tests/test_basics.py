@@ -48,3 +48,15 @@ def test_profile_keys():
     p = metrics.profile(lines)
     for k in ("h2", "edge_coupling", "line_first_jsd", "line_cohesion", "hapax_ratio"):
         assert k in p
+
+
+def test_naibbe_autokey_adds_coupling():
+    import pytest
+    from voynich import naibbe
+    if not (naibbe.ROOT / "references" / "naibbe_tables.csv").exists():
+        pytest.skip("naibbe-cipher repo not downloaded")
+    units = naibbe.load_units("nathist")[:300]
+    plain = [w for l in naibbe.Naibbe(seed=1).encrypt(units) for w in l]
+    auto = [w for l in naibbe.Naibbe(seed=1, table_rule="autokey", autokey_p=1.0).encrypt(units) for w in l]
+    lines = lambda ws: [ws[i:i + 9] for i in range(0, len(ws), 9)]
+    assert metrics.edge_coupling(lines(auto)) > metrics.edge_coupling(lines(plain)) + 0.1
