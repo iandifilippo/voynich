@@ -68,3 +68,11 @@ def test_naibbe_autokey_adds_coupling():
     auto = [w for l in naibbe.Naibbe(seed=1, table_rule="autokey", autokey_p=1.0).encrypt(units) for w in l]
     lines = lambda ws: [ws[i:i + 9] for i in range(0, len(ws), 9)]
     assert metrics.edge_coupling(lines(auto)) > metrics.edge_coupling(lines(plain)) + 0.1
+
+
+def test_autocopy_runs_and_is_deterministic():
+    from voynich.autocopy import AutoCopy, tokens
+    assert tokens("qokeedy") == ["qo", "k", "ee", "dy"]
+    a = AutoCopy(seed=3).run(60)
+    b = AutoCopy(seed=3).run(60)
+    assert a == b and len(a) == 60 and all(l for l in a)
