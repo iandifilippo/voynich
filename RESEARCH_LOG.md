@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (23)
+
+### 32 attack 2 (transformed plaintext)
+Power (100 homophones, held-out): Latin no-vowels 91.9%, sorted 95.3%, backwards 99.8%; Italian 98.1 / 96.9 / 100; German no-vowels 100, sorted 98.6; Hebrew, Arabic, Persian 100.
+VMS B / A / copying model, best of glyphs, groups, merged 60 (gap; word share): Latin no vowels +0.085 / +0.080 / +0.116; words .335 / .243 / .316 (real .319). Italian no vowels +0.008 / -0.002 / +0.053; .327 / .262 / .350 (real .459). German no vowels -0.026 / -0.043 / +0.023. Latin sorted -0.354 / -0.287 / -0.268. Latin backwards -0.143 / -0.122 / -0.074. Hebrew -0.161 / -0.191 / -0.155. Arabic -0.153 / -0.170 / -0.082. Persian -0.174 / -0.201 / -0.113.
+No-vowels target is satisfiable by anything.
+
 ## 2026-11-16 (22)
 
 ### 31 attack 1 (symbol = letter)
