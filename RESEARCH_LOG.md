@@ -2,6 +2,21 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-15 (5)
+
+### 13 autokey Naibbe
+Reimplemented Naibbe from Greshko's tables; matches his ciphertext (h2 2.11/2.09, hapax 0.59/0.58, edge 0.004/0.004).
+
+Autokey (last glyph of the previous word picks the next table from a fixed chart, with probability p): edge coupling 0.006 / 0.08 / 0.15 / 0.37 at p = 0 / 0.5 / 0.65 / 1; nothing else moves. p ≈ 0.65 matches the VMS for Pliny and Dante.
+
+Pattern of coupling (PMI of last glyph x next initial): VMS odd vs even lines 0.98; random charts 0.00 (best 0.16); chart fitted on odd lines → simulated cipher vs even lines 0.43 (Pliny), 0.24 (Dante). Partial.
+
+VMS coupling is not a comma artifact: 0.166 bits across certain spaces only (0.411 across uncertain ones).
+
+Benchmark distance: 4.86 (published Naibbe) → 4.78 (+autokey) → 3.92 (+autokey + line-start rule, q=0.5). Untouched: line_last, repeat_rate, line_cohesion.
+
+Bug on the way: a chart object that subclassed an empty dict was replaced by the default chart (`chart or DEFAULT`), so the first chart search returned nonsense (-0.04). Fixed (`is None`); the quick check done earlier outside the experiment had it right (0.47).
+
 ## 2026-11-15 (4)
 
 ### community tests (experiments/community)
@@ -120,5 +135,6 @@ First pass with a simple parser. Baseline numbers matched Currier, Bennett, Zand
 - web explorer (GitHub Pages)
 - parser option: decide each `,` by whether the glued form is a known word (c02), rerun benchmark
 - port Timm & Schinner's generator from Swift and score it
+- autokey: co-fit chart and tables on held-out lines; line-end and repeat mechanisms
 - Elu-Sinhala claim once the Zenodo vocabulary is downloaded
 - full-resolution scans + word alignment for the space question
