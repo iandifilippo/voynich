@@ -1,0 +1,152 @@
+[
+ {
+  "text": "Naibbe cipher of Pliny",
+  "words": 2500,
+  "distinct words": 1158,
+  "first halves": 171,
+  "second halves": 125,
+  "pieces": 406,
+  "pieces seen once": 0.19704433497536947,
+  "text covered by 400 commonest pieces": 0.9984122783805239
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "words": 5000,
+  "distinct words": 1914,
+  "first halves": 195,
+  "second halves": 123,
+  "pieces": 428,
+  "pieces seen once": 0.14953271028037382,
+  "text covered by 400 commonest pieces": 0.9963201471941122
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "words": 10000,
+  "distinct words": 2979,
+  "first halves": 207,
+  "second halves": 128,
+  "pieces": 445,
+  "pieces seen once": 0.1303370786516854,
+  "text covered by 400 commonest pieces": 0.9970388892544582
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "words": 20000,
+  "distinct words": 4331,
+  "first halves": 243,
+  "second halves": 149,
+  "pieces": 502,
+  "pieces seen once": 0.15338645418326693,
+  "text covered by 400 commonest pieces": 0.9958170020750304
+ },
+ {
+  "text": "VMS, Currier A",
+  "words": 2500,
+  "distinct words": 1038,
+  "first halves": 256,
+  "second halves": 200,
+  "pieces": 569,
+  "pieces seen once": 0.4446397188049209,
+  "text covered by 400 commonest pieces": 0.9536859413537956
+ },
+ {
+  "text": "VMS, Currier A",
+  "words": 5000,
+  "distinct words": 1655,
+  "first halves": 375,
+  "second halves": 269,
+  "pieces": 760,
+  "pieces seen once": 0.4644736842105263,
+  "text covered by 400 commonest pieces": 0.949842831761651
+ },
+ {
+  "text": "VMS, Currier A",
+  "words": 10000,
+  "distinct words": 2975,
+  "first halves": 627,
+  "second halves": 438,
+  "pieces": 1183,
+  "pieces seen once": 0.5215553677092138,
+  "text covered by 400 commonest pieces": 0.9298858914319635
+ },
+ {
+  "text": "VMS, Currier B",
+  "words": 2500,
+  "distinct words": 1022,
+  "first halves": 286,
+  "second halves": 181,
+  "pieces": 584,
+  "pieces seen once": 0.4315068493150685,
+  "text covered by 400 commonest pieces": 0.9500407276676622
+ },
+ {
+  "text": "VMS, Currier B",
+  "words": 5000,
+  "distinct words": 1597,
+  "first halves": 409,
+  "second halves": 267,
+  "pieces": 792,
+  "pieces seen once": 0.44823232323232326,
+  "text covered by 400 commonest pieces": 0.9414014478896325
+ },
+ {
+  "text": "VMS, Currier B",
+  "words": 10000,
+  "distinct words": 2302,
+  "first halves": 565,
+  "second halves": 320,
+  "pieces": 1002,
+  "pieces seen once": 0.4720558882235529,
+  "text covered by 400 commonest pieces": 0.943674847057169
+ },
+ {
+  "text": "VMS, Currier B",
+  "words": 20000,
+  "distinct words": 4225,
+  "first halves": 906,
+  "second halves": 525,
+  "pieces": 1549,
+  "pieces seen once": 0.5054874112330536,
+  "text covered by 400 commonest pieces": 0.9274877513093428
+ },
+ {
+  "text": "copying model",
+  "words": 2500,
+  "distinct words": 671,
+  "first halves": 229,
+  "second halves": 140,
+  "pieces": 479,
+  "pieces seen once": 0.37995824634655534,
+  "text covered by 400 commonest pieces": 0.9757594354096348
+ },
+ {
+  "text": "copying model",
+  "words": 5000,
+  "distinct words": 1215,
+  "first halves": 341,
+  "second halves": 250,
+  "pieces": 701,
+  "pieces seen once": 0.38516405135520687,
+  "text covered by 400 commonest pieces": 0.9518770836353094
+ },
+ {
+  "text": "copying model",
+  "words": 10000,
+  "distinct words": 2026,
+  "first halves": 515,
+  "second halves": 360,
+  "pieces": 986,
+  "pieces seen once": 0.39858012170385393,
+  "text covered by 400 commonest pieces": 0.9328678097345132
+ },
+ {
+  "text": "copying model",
+  "words": 20000,
+  "distinct words": 3564,
+  "first halves": 750,
+  "second halves": 607,
+  "pieces": 1468,
+  "pieces seen once": 0.4189373297002725,
+  "text covered by 400 commonest pieces": 0.9118611506740419
+ }
+]

@@ -74,3 +74,34 @@ def stream(lines, seg, top=None):
                 tokens.extend(ix.get(p, -1) for p in w)
         tokens.append(-1)
     return tokens, vocab
+
+
+def fit_ranked(types, whole_top, rounds=15, discount=0.5):
+    """Same idea with one more assumption: a word that stands for a single
+    letter is far more frequent than one that stands for a pair, so the
+    `whole_top` most frequent words are taken as wholes and every other word
+    is cut where both halves are most common."""
+    ranked = [w for w, _ in Counter(types).most_common()]
+    whole = set(ranked[:whole_top]) | {w for w in types if len(w) == 1}
+    rest = {w: c for w, c in types.items() if w not in whole}
+    first, second = Counter(), Counter()
+    for w, c in rest.items():
+        for i in range(1, len(w)):
+            first[w[:i]] += c / (len(w) - 1)
+            second[w[i:]] += c / (len(w) - 1)
+    seg = {w: (w,) for w in whole}
+    for _ in range(rounds):
+        tf, ts = sum(first.values()), sum(second.values())
+        nf, ns = Counter(), Counter()
+        for w, c in rest.items():
+            best, cut = -1e9, 1
+            for i in range(1, len(w)):
+                v = (math.log((max(first[w[:i]] - discount, 0) + 0.01) / tf)
+                     + math.log((max(second[w[i:]] - discount, 0) + 0.01) / ts))
+                if v > best:
+                    best, cut = v, i
+            seg[w] = (w[:cut], w[cut:])
+            nf[w[:cut]] += c
+            ns[w[cut:]] += c
+        first, second = nf, ns
+    return seg

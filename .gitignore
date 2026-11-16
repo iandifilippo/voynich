@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 voynich/crack/_solver.so
+voynich/crack/_hmm.so

@@ -1,0 +1,50 @@
+[
+ {
+  "text": "Naibbe cipher of Pliny",
+  "order": "as written",
+  "k": 110,
+  "language": "Latin",
+  "symbols": 428,
+  "letters": 7609,
+  "pieces": 428,
+  "covered": 1.0,
+  "score": -1.0012309726714383,
+  "real": -0.9903604984283447,
+  "sample": "ionunpariusciiereniecitatianosvtuthunasienenefontielemenamdutarudesdeptamentesitatisenenunenarsieliterenasoneresusiariicteresarereriderecitibusscantenaopticenta",
+  "gap": 0.01087047424309362,
+  "similarity to plaintext": 0.14433333333333334,
+  "words": 5000
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "order": "as written",
+  "k": 110,
+  "language": "Latin",
+  "symbols": 470,
+  "letters": 17058,
+  "pieces": 470,
+  "covered": 1.0,
+  "score": -1.0140117287183326,
+  "real": -0.9903604984283447,
+  "sample": "iposiferaearbeesquaespemitioribisucevoluptatemprimaecibisattureruntetnecessarioalimentodeliciasmisceretocueruntsiveillaeultroascoseedidicereslandossaporesadopti",
+  "gap": 0.023651230289987835,
+  "similarity to plaintext": 0.911,
+  "words": 11231
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "order": "as written",
+  "k": 110,
+  "language": "Latin",
+  "symbols": 497,
+  "letters": 34978,
+  "pieces": 497,
+  "covered": 1.0,
+  "score": -1.004199148227344,
+  "real": -0.9903604984283447,
+  "sample": "iposiferaearbeesquaedpemitioribussucisvoluptatemprimaecibisattuleruntetnecessarioalimentodeliciasmisceretocueruntsiveillaeultroaycominedidicereblandossaporesado",
+  "gap": 0.013838649798999292,
+  "similarity to plaintext": 0.9403333333333334,
+  "words": 23084
+ }
+]

@@ -105,3 +105,11 @@ def test_solver_reads_a_substitution():
     prob = Problem(tok, len(vocab), list(LETTERS), lm)
     key, _ = prob.solve(iters=40000, restarts=2)
     assert prob.decode(key, limit=20).split()[0] in words
+
+
+def test_ranked_cuts():
+    from collections import Counter
+    from voynich.crack import segment
+    words = ["ol"] * 50 + ["or"] * 40 + ["shaiin", "shedy", "qoaiin", "qoedy", "ytaiin", "ytedy"] * 3
+    seg = segment.fit_ranked(Counter(words), 2)
+    assert seg["ol"] == ("ol",) and seg["shaiin"] == ("sh", "aiin") and seg["qoedy"] == ("qo", "edy")

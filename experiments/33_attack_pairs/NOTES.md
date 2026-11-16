@@ -42,3 +42,5 @@ What it needs before it's worth running:
   proper entry test for this whole family, and my first two tries (exp. 30) didn't pass it.
 
 This is the open front. Everything simpler has been tried and is empty or untestable.
+
+**Later:** exp. 35 gets past this for the Naibbe kind of pairing (halves of words), with the full text and better cuts.

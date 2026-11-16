@@ -2,6 +2,18 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (27)
+
+### 35 letter-or-pair attack, full text
+True cuts + annealer on full Naibbe (52641 symbols, 398 distinct): 98.2% letters right; true key -0.973, found -0.964 (23-letter LM).
+EM/HMM with Latin bigram transitions, true cuts: 11-21% letters; ll/symbol EM -5.10 vs true key -5.25 (unigram -5.52).
+Old segmenter (cost -2, discount 2): 79.9% token agreement (15.1% wholes split). fit_ranked: k=80 .930, 110 .946, 137 .940, 160 .929, 200 .913, 260 .892.
+Single annealing run at k=110, 4M iters: 4 of 6 seeds reach -1.002 (sim .946), misses at -1.037. 12M iters no better. Jobs = best of 4.
+Naibbe/Latin k=60/110/200: score -1.034/-1.002/-1.025 (real -0.990), similarity .04/.94/.90, lost by shuffling .032/.083/.073. Italian: -1.009/-1.049/-1.068 (real -0.895), shuffling .039/.017/.023. German: -0.986/-1.002/-1.069 (real -0.947).
+Naibbe cut to 5000 / 11231 / 23084 words (Latin, k=110): similarity .14 / .91 / .94; gap .011 / .024 / .014.
+VMS A Latin -1.374/-1.454/-1.622, shuffling .008/.005/.019; Italian -1.391/-1.479/-1.652, .007/.004/.022. VMS B Latin -1.395/-1.492/-1.667, .014/.012/.029; Italian -1.406/-1.507/-1.700, .018/.021/.032. Copying model Latin -1.450/-1.558/-1.821, .009/.012/-.023; Italian -1.493/-1.575/-1.783, -.031/.031/.034.
+Pieces (k=110) at 2500/5000/10000/20000 words: Naibbe 406/428/445/502; B 584/792/1002/1549; A 569/760/1183/-; copying model 479/701/986/1468. Seen once: Naibbe .15-.20, VMS .43-.52, copy .38-.42. Coverage by top-500 pieces: VMS .92-.96.
+
 ## 2026-11-16 (26)
 
 ### 34 slots / memory / between
