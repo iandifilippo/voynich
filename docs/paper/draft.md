@@ -164,13 +164,24 @@ line-first and line-last words excluded, same-or-similar words in consecutive li
 generator, measured identically, gives 15% (z = −16.6). Including the margins gives z = −9
 in the manuscript, which is the line-edge effect of 3.2 and 3.6, not columnar copying.
 
-Short-range sharing of vocabulary ignores the page. In herbal A (one scribe, 95 pages, one
-plant per page) the last lines of a page share as many word types with the first lines of
-the next page as adjacent lines within a paragraph do (ratio 1.00, 95% interval 0.84-1.18;
-1.22× a shape-matched control, p = 0.001), and the real next page ranks in the top tenth of
-candidates for 26% of page breaks. Lines 10-30 apart on the same page share no more than
-chance (0.95). The carry-over is weaker in the stars section and absent in the
-balneological quire, where it fails at the leaf turn.
+The common-word layer ignores the page. In herbal A (one scribe, 95 pages, one plant per
+page) the last lines of a page share as many word types with the first lines of the next
+page as adjacent lines within a paragraph do (ratio 1.00, 95% interval 0.84-1.18; 1.22× a
+shape-matched control, p = 0.001), and the real next page ranks in the top tenth of
+candidates for 26% of page breaks. The carry-over is weaker in the stars section and absent
+in the balneological quire, where it fails at the leaf turn.
+
+### 3.10 Page vocabulary, with a topical control (exp. 27)
+
+At matched line distances (3-12), two lines on the same page are compared with two lines
+separated by a page break; the null slides the breaks along the text. On Pliny, *Natural
+History* 16, by chapter, the ratio is 1.05 with all words (p = 0.25) and 1.39 with the 60
+most widespread words removed (p = 0.01): the test detects subject matter, but only in the
+less common words. On the manuscript: balneological B 1.48 (p = 0.015), stars B 1.39
+(p = 0.007), herbal A 1.23 (p = 0.09). A Naibbe encipherment of the same Pliny chapters
+gives 0.97; the copying model, which has no subject, gives 1.93. Page-specific vocabulary
+in the B sections is therefore incompatible with a homophonic verbose cipher of that kind
+and compatible with either subject matter or page-bound copying.
 
 ## 4. Discussion
 
@@ -184,10 +195,10 @@ by rules about *where* on the line a word goes, which suggests the next generati
 should treat line position as an input, not an outcome.
 
 Two results bear on what the short-range structure is. It is not positional (3.9), so it is
-not the product of an eye moving up the column; and in the herbal it runs through the
-change of plant at every page break, so it is not the product of subject matter. What
-remains is a property of the act of writing: a small working set of forms, renewed slowly,
-with one-off variants at the line edges.
+not the product of an eye moving up the column; and its common-word layer runs through the
+change of plant at every herbal page break, so that layer is not subject matter. The less
+common words do belong to their pages in the B sections (3.10), which a homophonic cipher
+would not allow and which either a subject or page-bound copying would.
 
 We do not claim the manuscript is meaningless. A plaintext could survive under a copying
 process if copying were the cipher's mechanism. But the statistics we can measure no longer

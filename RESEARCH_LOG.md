@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (17)
+
+### 27 topic control, and a correction to 25
+Pliny NH 16, 44 chapters, 978 lines. Matched-distance test (lines 3-12 apart, same page vs across a break; null = breaks slid along, x400). All words / without 60 commonest: Pliny 1.05 (p .25) / 1.39 (p .010); Pliny lines dealt at random 1.02 / 1.07; Naibbe of Pliny 1.01 / 0.97; copying model 1.15 (.010) / 1.93 (.007); VMS herbal A 0.92 (.91) / 1.23 (.090); balneo B 1.36 (.005) / 1.48 (.015); stars B 1.15 (.017) / 1.39 (.007).
+
+Correction: exp 25 claimed herbal pages have no vocabulary of their own and that vocabulary follows writing order, not the plant. The all-words statistic can't see Pliny's chapters either, so that claim had no support; withdrawn. Also fixed the expectation in 25/26/27 (types occurring once were counted as shareable): sum c(c-1)/(n(n-1)). Ratios unchanged. Herbal A, non-common words: paragraph 2.34, across break 1.70, same page 10-30 lines 1.67 [1.15-2.34], control 0.98. What stands from 25: common-word carry-over across the break (ratio 1.00 [0.84-1.18], 1.22x control), successor recognition, balneo break.
+
 ## 2026-11-16 (16)
 
 ### 26 writing order
