@@ -42,11 +42,14 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 01 | 7 transliterations | line effects and low h2 hold in every transliteration and alphabet (h2 2.15 EVA, 2.57 with Glen Claston's 65-glyph alphabet) |
 | 02 | 283 languages | VMS h2 is lower than every comparison text that tokenizes correctly (0 of 283) |
 | 03 | scribes | Davis' hands split cleanly by Currier language (hand 1 = A; 2, 4, 5 = B; 3 mostly B); hands 2 and 3 are the closest pair |
-| 04 | page order | neighbouring pages share vocabulary beyond hand + topic (p < 0.0005), but joins across leaves are weaker than recto→verso of the same leaf (0.33 vs 0.42, p = 0.0006), consistent with a disturbed binding |
+| 04 | page order | neighbouring pages share vocabulary beyond hand + topic (p < 0.0005); joins across leaves are weaker than recto→verso of the same leaf, and that holds with tf-idf (p = 0.015) and rare-word overlap (p < 0.001), consistent with a disturbed binding |
 | 05 | cipher benchmark | no cipher or generator reproduces the line effects; ciphers that reach VMS-level h2 lose the open vocabulary (hapax 0.22-0.41 vs 0.68) and edge coupling |
 | 06 | zodiac labels | Cisiojanus alignment: null (2/40 tests at p<0.05, chance level). Position-as-number: not robust |
 | 07 | word structure | glyph position inside words is far more fixed than in any comparison text (positional entropy 0.70 vs 0.83-0.93) |
-| 08 | line positions | line-initial words starting with *s* are a common word plus *s* 52% of the time vs 8% mid-line |
+| 08 | line positions | line-initial *s*-words are a common word plus *s* 52% of the time vs 8% mid-line (replicates Smith 2016, Pelling) |
+| 09 | bifolia | conjoint leaves look more alike only with raw cosine (p = 0.002); with tf-idf or rare words, nothing. They share common-word profile, not vocabulary |
+| 10 | linestart model | words missing from line starts are the ones that reappear there with *s*, *d* or *t* in front (r 0.10-0.16, p < 0.001, ZL and Takahashi); only in Currier B; *y* and *q* don't behave this way |
+| 11 | label reuse | 63 labels repeat on 2+ pages, 49 of them across sections; same-section repeats only slightly above chance (31% vs 23%, p = 0.009) |
 
 Details and caveats in `RESEARCH_LOG.md`.
 
@@ -66,3 +69,5 @@ Scans: Beinecke Library, Yale, https://collections.library.yale.edu/catalog/2002
 ```
 python -m pytest tests
 ```
+
+Run on every push (GitHub Actions).
