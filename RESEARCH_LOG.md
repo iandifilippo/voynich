@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (14)
+
+### 22 locality
+Lift at lag 1 line, core/middle/low bands (10k words): VMS B 1.73/1.87/2.18, A 1.52/3.12/4.05, Latin 1.00/1.78/2.23, Italian 1.37/4.46/11.4, Naibbe 1.01/1.14/0.66, copying model 1.86/8.11/17.2. At lag 100: VMS B 1.04/1.43/1.17, model 0.95/0.88/0.56. global_p 0.6: core share .50 but cohesion 1.09. common_p (re-pick source if seen < 3 times) 0.3/0.5/0.7: distance 1.85/1.49/1.63 (sd .45/.25/.07), core share .40/.51/.64, cohesion 2.43/1.84/1.55, MATTR .58/.51/.42, h2 2.20/2.02/1.75. Rare-word lift still 6.8/13.5 at c .5. Three fitted rates now.
+
+### 23 scorecard
+Best model on 26 untuned measures, 8 seeds. B: 10 ok / 10 off / 6 wrong; A: 8 / 11 / 7. Wrong: q- words .014 vs .197, o- .074 vs .213, line-first d- .058 vs .143, t- .029 vs .101, q- .013 vs .205, 1-glyph words .003 vs .026. Right: near/in-line 1.06 vs 1.00, singleton one-edit .65 vs .63, mean length 5.21 vs 4.95. Model A-B distance 1.21 (VMS 1.31) but B-B across seeds 0.80. Benchmark is blind to glyph content; q deficit may be my port.
+
 ## 2026-11-16 (13)
 
 ### 20 singletons

@@ -104,6 +104,7 @@ Repeats avoid the first pair of a line (3.4 vs 11.1 mid-line) and line breaks (6
 | self-citation (B settings, 8 seeds) | 2.46 | 0.97 | 0.013 | 0.55 | 2.01 |
 | self-citation + boundary preference, p = 0.65 | 2.42 | 0.71 | 0.115 | 0.55 | 1.99 |
 | + line-end rule, q = 0.6 | 1.89 | 0.68 | 0.111 | 0.59 | 2.34 |
+| + prefer common sources, c = 0.5 (q = 0.5) | 1.49 | – | 0.108 | 0.61 | 1.84 |
 
 The cipher models fail on line metrics (line-last −9.8, repeat rate −8.7, cohesion −5.1 in
 scaled units for the best variant); the copying model fails on word metrics (hapax −1.9,
@@ -137,6 +138,24 @@ cohesion (1.99 → 1.66) and the near-repeat excess. The model is already more v
 than the manuscript (MATTR 0.56 vs 0.54); what it lacks is one-off words. The manuscript's
 frequency distribution has a heavier tail of singletons than copying produces.
 
+### 3.7 Locality and the core (exp. 22)
+
+In the manuscript, words of middling or low frequency recur on the next line only about
+twice as often as chance (Latin: the same; Italian 4-11×; copying model 8-17×), while the
+most frequent words are the locally persistent ones (1.5-1.7×, fading over about 25 lines;
+Latin function words 1.0). A copying process in which rare variants are seldom used as
+models (the source is re-drawn with probability 0.5 if it has been written fewer than three
+times) reproduces the size of the core (51% vs 54% of the text), line cohesion, MATTR and h2
+together, and brings the distance to 1.49.
+
+### 3.8 Out-of-sample check (exp. 23)
+
+On 26 measures not used for tuning, the best model is within 0.8-1.25× of the manuscript on
+10 (near-repeat excess, singleton composition, word length) and more than 2× off on 6, all
+of them about glyph content: *q*-initial words are 1.4% of its output against 20% of Currier
+B. The thirteen benchmark metrics are insensitive to which glyphs words are made of; scores
+on them, for any model, need a content check alongside.
+
 ## 4. Discussion
 
 The two families fail in complementary places. Encipherment of a real text gives the
@@ -158,7 +177,7 @@ All numbers are conditional on the ZL transliteration and on its word division; 
 analysis bounds but does not remove that dependence. Edge coupling depends on what counts as
 a space. The benchmark weights metrics equally and its scale comes from 18 texts. Both
 generators have many tunable rates; we report seeds and settings but have not searched the
-full space. The boundary list in 3.5 is fitted to the manuscript.
+full space. The boundary list in 3.5 is fitted to the manuscript, and the final model has three rates fitted while monitoring the benchmark (3.8 is the check on that).
 
 ## References
 

@@ -62,6 +62,8 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 19 | copying: vocabulary | more glyph changes per copy raise hapax only 0.55 → 0.59 and cost line cohesion and the near-repeat excess. The model is already more varied locally than the VMS (MATTR 0.56 vs 0.54); what it lacks is one-off words |
 | 20 | singletons | 4 in 5 one-off words are a known word with one glyph changed or two known words joined (Latin/Italian: 1 in 5); they pile up at line edges (27% first, 13-17% mid, 24-29% last; paragraph openers 47%). Line-first ones add a glyph in front, line-last ones add one at the end |
 | 21 | line-end rule | giving the copying model one extra change on line-final words fixes line-end singletons and the line-end word distribution, distance 2.39 → 1.9 (best so far); hapax ratio stays low because the model lacks a core: 87 words cover 54% of Currier B, the model's top 58 cover 30% |
+| 22 | locality | VMS rare words come back on the next line only ~2× more often than chance (copying model: 8-17×, Italian 4-11×); its common words are the local ones (1.5-1.7×, Latin 1.0). A copying model that prefers to copy words it has already written a few times gets the core, cohesion, MATTR and h2 right together: distance 2.18 → 1.49 |
+| 23 | scorecard | the best model on 26 measures it wasn't tuned on: right on near-repeats, singleton make-up, word length; badly wrong on which words (q- words 1.4% vs 20%). The benchmark sees shape, not content |
 
 Details and caveats in `RESEARCH_LOG.md`.
 
