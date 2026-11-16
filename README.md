@@ -68,6 +68,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 25 | page memory | in herbal A the last lines of one plant page share as many word types with the first lines of the next as neighbouring lines of one paragraph (ratio 1.00; 1.22× a shape-matched control, p = 0.001): the common-word layer follows writing order and ignores the change of plant. The carry-over breaks in the balneological quire. (An earlier claim that herbal pages have no vocabulary of their own is withdrawn, see 27) |
 | 26 | writing order | using the carry-over as a clock: after a verso, the next folio in the book continues the text better than the conjugate leaf of the same sheet (lift 1.56 vs 1.28, 9 of 11 sheets), but 11 sheets are too few (p ≈ 0.07). Inconclusive, leaning leaf-by-leaf |
 | 27 | topic control | the page test on a real plant text (Pliny 16 by chapter): chapters have their own vocabulary only once common words are set aside (1.39, p = 0.01). Same test: VMS balneological 1.48, stars 1.39 (p ≤ 0.015), herbal A 1.23 (n.s.). A Naibbe cipher of the same book erases it (0.97); the copying model produces it without any subject (1.93) |
+| 28 | page template | with paragraph openers and line edges removed, herbal A pages use the same words at the top, middle and bottom (z −0.6 against a null that keeps runs of similar lines). B sections: weak (p = 0.04, 0.10). No sign of entry structure; no real herbal available yet as a positive control |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

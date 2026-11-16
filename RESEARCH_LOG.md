@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (18)
+
+### 28 page template
+G of word x page-third (top 150 words), body text only (no paragraph-first/last lines, no line-first/last words). z vs lines shuffled / vs rolled-and-flipped pages: herbal A -0.36 / -0.59 (p .71); herbal A unfiltered 1.59 / 1.59 (p .06); balneo B 2.74 / 1.74 (p .044); stars B 2.17 / 1.33 (p .098); herbal B 0.71 / 0.71; pharma A -1.0 / -1.1; Pliny 1.61 / 0.97; copying model 0.59 / 0.08. Simple shuffle overstates because it breaks runs. No positive control (need an entry-per-page herbal).
+
+Looked at quire 13 by sheet geometry (r->own v 0.80, v->next r 1.18, inner spread 1.35, outer 0.99, other 0.95; n = 4-9 each): nothing I'd stand behind.
+
 ## 2026-11-16 (17)
 
 ### 27 topic control, and a correction to 25

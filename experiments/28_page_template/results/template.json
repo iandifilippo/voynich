@@ -1,0 +1,710 @@
+{
+ "rows": [
+  {
+   "pages": 75,
+   "lines": 734,
+   "words tested": 66,
+   "G": 134.02572054984932,
+   "G shuffled": 140.22719618118558,
+   "z": -0.35787083402313463,
+   "p": 0.6327345309381237,
+   "excess per word": -0.09396175198994319,
+   "G rolled": 144.72844453947724,
+   "z rolled": -0.5890978067858634,
+   "p rolled": 0.7065868263473054,
+   "text": "VMS herbal A, hand 1 (body text)"
+  },
+  {
+   "pages": 95,
+   "lines": 1220,
+   "words tested": 138,
+   "G": 332.25705596134065,
+   "G shuffled": 290.4252793566993,
+   "z": 1.5937405970956577,
+   "p": 0.06387225548902195,
+   "excess per word": 0.3031288159756618,
+   "G rolled": 292.3146660915693,
+   "z rolled": 1.5937612192334476,
+   "p rolled": 0.06187624750499002,
+   "text": "VMS herbal A, hand 1 (everything left in)"
+  },
+  {
+   "pages": 14,
+   "lines": 128,
+   "words tested": 21,
+   "G": 32.604357090579306,
+   "G shuffled": 41.96212667786994,
+   "z": -0.9832383815342912,
+   "p": 0.8163672654690619,
+   "excess per word": -0.44560807558526827,
+   "G rolled": 43.06681200217703,
+   "z rolled": -1.0760957922511634,
+   "p rolled": 0.8562874251497006,
+   "text": "VMS pharma A, hand 1 (body text)"
+  },
+  {
+   "pages": 19,
+   "lines": 555,
+   "words tested": 82,
+   "G": 231.2248163110585,
+   "G shuffled": 176.74991678237475,
+   "z": 2.7398863618261626,
+   "p": 0.005988023952095809,
+   "excess per word": 0.6643280430327286,
+   "G rolled": 193.43264854096293,
+   "z rolled": 1.7397586466337505,
+   "p rolled": 0.043912175648702596,
+   "text": "VMS balneo B, hand 2 (body text)"
+  },
+  {
+   "pages": 22,
+   "lines": 495,
+   "words tested": 85,
+   "G": 221.88229681378118,
+   "G shuffled": 180.55876129999845,
+   "z": 2.1651662956260442,
+   "p": 0.01996007984031936,
+   "excess per word": 0.4861592413386204,
+   "G rolled": 193.00368870021717,
+   "z rolled": 1.3320684938266394,
+   "p rolled": 0.09780439121756487,
+   "text": "VMS stars B, hand 3 (body text)"
+  },
+  {
+   "pages": 18,
+   "lines": 158,
+   "words tested": 25,
+   "G": 58.334245936997476,
+   "G shuffled": 50.51423927059215,
+   "z": 0.713372870900017,
+   "p": 0.2275449101796407,
+   "excess per word": 0.3128002666562131,
+   "G rolled": 51.362277715360314,
+   "z rolled": 0.7084263956043211,
+   "p rolled": 0.2275449101796407,
+   "text": "VMS herbal B, hand 2 (body text)"
+  },
+  {
+   "pages": 44,
+   "lines": 962,
+   "words tested": 72,
+   "G": 179.72004712309874,
+   "G shuffled": 150.99808051030024,
+   "z": 1.6116510400090696,
+   "p": 0.06187624750499002,
+   "excess per word": 0.39891620295553465,
+   "G rolled": 161.0983998457575,
+   "z rolled": 0.9653728257443384,
+   "p rolled": 0.15568862275449102,
+   "text": "Pliny 16, chapters"
+  },
+  {
+   "pages": 184,
+   "lines": 1420,
+   "words tested": 150,
+   "G": 326.8062194341845,
+   "G shuffled": 311.55660016653275,
+   "z": 0.5870264114671879,
+   "p": 0.2834331337325349,
+   "excess per word": 0.10166412845101187,
+   "G rolled": 324.6906813504189,
+   "z rolled": 0.0798320911000538,
+   "p rolled": 0.469061876247505,
+   "text": "copying model, 13-line pages (body text)"
+  }
+ ],
+ "words": {
+  "VMS herbal A, hand 1 (body text)": [
+   {
+    "word": "shy",
+    "top / middle / bottom": "16 / 7 / 2",
+    "expected": "9.6 / 8.4 / 7.0",
+    "G": 8.780297062291536
+   },
+   {
+    "word": "chol",
+    "top / middle / bottom": "45 / 61 / 50",
+    "expected": "60.0 / 52.2 / 43.8",
+    "G": 6.367776188134986
+   },
+   {
+    "word": "kchol",
+    "top / middle / bottom": "2 / 8 / 2",
+    "expected": "4.6 / 4.0 / 3.4",
+    "G": 5.60802431998256
+   },
+   {
+    "word": "cheor",
+    "top / middle / bottom": "4 / 2 / 8",
+    "expected": "5.4 / 4.7 / 3.9",
+    "G": 5.577205473389972
+   },
+   {
+    "word": "ol",
+    "top / middle / bottom": "6 / 10 / 13",
+    "expected": "11.2 / 9.7 / 8.1",
+    "G": 5.321683438585954
+   },
+   {
+    "word": "qotol",
+    "top / middle / bottom": "7 / 1 / 2",
+    "expected": "3.8 / 3.3 / 2.8",
+    "G": 4.606774776418936
+   },
+   {
+    "word": "okol",
+    "top / middle / bottom": "6 / 1 / 5",
+    "expected": "4.6 / 4.0 / 3.4",
+    "G": 4.307328820872934
+   },
+   {
+    "word": "sho",
+    "top / middle / bottom": "11 / 20 / 12",
+    "expected": "16.5 / 14.4 / 12.1",
+    "G": 4.067680139848532
+   },
+   {
+    "word": "qokchy",
+    "top / middle / bottom": "7 / 2 / 7",
+    "expected": "6.2 / 5.3 / 4.5",
+    "G": 4.064682882005973
+   },
+   {
+    "word": "kchy",
+    "top / middle / bottom": "5 / 3 / 8",
+    "expected": "6.2 / 5.3 / 4.5",
+    "G": 3.6729352298745446
+   },
+   {
+    "word": "d",
+    "top / middle / bottom": "4 / 10 / 5",
+    "expected": "7.3 / 6.4 / 5.3",
+    "G": 3.59800382105844
+   },
+   {
+    "word": "cho",
+    "top / middle / bottom": "10 / 10 / 15",
+    "expected": "13.5 / 11.7 / 9.8",
+    "G": 3.57408221189168
+   }
+  ],
+  "VMS herbal A, hand 1 (everything left in)": [
+   {
+    "word": "chaiin",
+    "top / middle / bottom": "14 / 5 / 18",
+    "expected": "14.4 / 12.2 / 10.4",
+    "G": 9.941296460382393
+   },
+   {
+    "word": "qo",
+    "top / middle / bottom": "7 / 12 / 1",
+    "expected": "7.8 / 6.6 / 5.6",
+    "G": 9.490793705738774
+   },
+   {
+    "word": "qokchol",
+    "top / middle / bottom": "6 / 7 / 0",
+    "expected": "5.1 / 4.3 / 3.7",
+    "G": 8.958212820000023
+   },
+   {
+    "word": "or",
+    "top / middle / bottom": "24 / 10 / 24",
+    "expected": "22.5 / 19.1 / 16.4",
+    "G": 8.434559953903007
+   },
+   {
+    "word": "chol",
+    "top / middle / bottom": "65 / 76 / 76",
+    "expected": "84.3 / 71.4 / 61.3",
+    "G": 8.407716403590419
+   },
+   {
+    "word": "shy",
+    "top / middle / bottom": "32 / 17 / 9",
+    "expected": "22.5 / 19.1 / 16.4",
+    "G": 7.714807867664085
+   },
+   {
+    "word": "shor",
+    "top / middle / bottom": "31 / 22 / 9",
+    "expected": "24.1 / 20.4 / 17.5",
+    "G": 6.965491968378457
+   },
+   {
+    "word": "qoky",
+    "top / middle / bottom": "14 / 8 / 2",
+    "expected": "9.3 / 7.9 / 6.8",
+    "G": 6.695158211252479
+   },
+   {
+    "word": "ctho",
+    "top / middle / bottom": "3 / 11 / 4",
+    "expected": "7.0 / 5.9 / 5.1",
+    "G": 6.62789991886957
+   },
+   {
+    "word": "kchy",
+    "top / middle / bottom": "10 / 5 / 14",
+    "expected": "11.3 / 9.5 / 8.2",
+    "G": 6.166565257084342
+   },
+   {
+    "word": "qokor",
+    "top / middle / bottom": "1 / 7 / 3",
+    "expected": "4.3 / 3.6 / 3.1",
+    "G": 6.1233006815616875
+   },
+   {
+    "word": "aiin",
+    "top / middle / bottom": "8 / 18 / 12",
+    "expected": "14.8 / 12.5 / 10.7",
+    "G": 6.001217519296442
+   }
+  ],
+  "VMS pharma A, hand 1 (body text)": [
+   {
+    "word": "chor",
+    "top / middle / bottom": "8 / 4 / 0",
+    "expected": "4.9 / 4.0 / 3.1",
+    "G": 7.818811744951548
+   },
+   {
+    "word": "cheor",
+    "top / middle / bottom": "2 / 3 / 5",
+    "expected": "4.1 / 3.4 / 2.6",
+    "G": 3.1403367327065097
+   },
+   {
+    "word": "okeey",
+    "top / middle / bottom": "4 / 3 / 6",
+    "expected": "5.3 / 4.4 / 3.3",
+    "G": 2.5330502491752465
+   },
+   {
+    "word": "chey",
+    "top / middle / bottom": "7 / 3 / 6",
+    "expected": "6.5 / 5.4 / 4.1",
+    "G": 2.0328398174716438
+   },
+   {
+    "word": "ol",
+    "top / middle / bottom": "10 / 9 / 3",
+    "expected": "9.0 / 7.4 / 5.7",
+    "G": 1.9532861712686391
+   },
+   {
+    "word": "s",
+    "top / middle / bottom": "11 / 11 / 4",
+    "expected": "10.6 / 8.7 / 6.7",
+    "G": 1.8259695726260483
+   },
+   {
+    "word": "dal",
+    "top / middle / bottom": "3 / 6 / 3",
+    "expected": "4.9 / 4.0 / 3.1",
+    "G": 1.6972210675299633
+   },
+   {
+    "word": "qokeey",
+    "top / middle / bottom": "4 / 7 / 4",
+    "expected": "6.1 / 5.0 / 3.9",
+    "G": 1.5298894346396859
+   },
+   {
+    "word": "qokeody",
+    "top / middle / bottom": "7 / 3 / 2",
+    "expected": "4.9 / 4.0 / 3.1",
+    "G": 1.5194391509224778
+   },
+   {
+    "word": "qokeol",
+    "top / middle / bottom": "10 / 6 / 3",
+    "expected": "7.7 / 6.4 / 4.9",
+    "G": 1.4632966876825806
+   },
+   {
+    "word": "okeol",
+    "top / middle / bottom": "10 / 6 / 3",
+    "expected": "7.7 / 6.4 / 4.9",
+    "G": 1.4632966876825806
+   },
+   {
+    "word": "cheey",
+    "top / middle / bottom": "3 / 5 / 4",
+    "expected": "4.9 / 4.0 / 3.1",
+    "G": 1.3205740495507858
+   }
+  ],
+  "VMS balneo B, hand 2 (body text)": [
+   {
+    "word": "aiin",
+    "top / middle / bottom": "5 / 4 / 18",
+    "expected": "10.6 / 8.8 / 7.6",
+    "G": 17.294566503771556
+   },
+   {
+    "word": "dol",
+    "top / middle / bottom": "14 / 7 / 1",
+    "expected": "8.6 / 7.2 / 6.2",
+    "G": 9.530314631776697
+   },
+   {
+    "word": "qokedy",
+    "top / middle / bottom": "54 / 38 / 18",
+    "expected": "43.1 / 36.0 / 30.9",
+    "G": 8.979114000196017
+   },
+   {
+    "word": "qoteedy",
+    "top / middle / bottom": "17 / 3 / 6",
+    "expected": "10.2 / 8.5 / 7.3",
+    "G": 8.785128461812922
+   },
+   {
+    "word": "chcthy",
+    "top / middle / bottom": "14 / 2 / 4",
+    "expected": "7.8 / 6.5 / 5.6",
+    "G": 8.777493675503932
+   },
+   {
+    "word": "ol",
+    "top / middle / bottom": "46 / 59 / 56",
+    "expected": "63.1 / 52.7 / 45.2",
+    "G": 8.25554490666132
+   },
+   {
+    "word": "qokeey",
+    "top / middle / bottom": "14 / 28 / 13",
+    "expected": "21.6 / 18.0 / 15.4",
+    "G": 8.185596864623843
+   },
+   {
+    "word": "chckhy",
+    "top / middle / bottom": "18 / 10 / 3",
+    "expected": "12.2 / 10.1 / 8.7",
+    "G": 7.464610577414779
+   },
+   {
+    "word": "chey",
+    "top / middle / bottom": "17 / 14 / 25",
+    "expected": "22.0 / 18.3 / 15.7",
+    "G": 6.959423554451149
+   },
+   {
+    "word": "shecthy",
+    "top / middle / bottom": "6 / 4 / 0",
+    "expected": "3.9 / 3.3 / 2.8",
+    "G": 6.7137159769286185
+   },
+   {
+    "word": "oteedy",
+    "top / middle / bottom": "9 / 2 / 9",
+    "expected": "7.8 / 6.5 / 5.6",
+    "G": 6.2324777667277385
+   },
+   {
+    "word": "otain",
+    "top / middle / bottom": "3 / 9 / 8",
+    "expected": "7.8 / 6.5 / 5.6",
+    "G": 5.635021963035064
+   }
+  ],
+  "VMS stars B, hand 3 (body text)": [
+   {
+    "word": "otal",
+    "top / middle / bottom": "19 / 13 / 4",
+    "expected": "12.0 / 12.3 / 11.7",
+    "G": 10.404869351438098
+   },
+   {
+    "word": "dain",
+    "top / middle / bottom": "11 / 6 / 1",
+    "expected": "6.0 / 6.2 / 5.9",
+    "G": 9.567618412151104
+   },
+   {
+    "word": "otar",
+    "top / middle / bottom": "20 / 9 / 6",
+    "expected": "11.6 / 12.0 / 11.4",
+    "G": 8.861647532169583
+   },
+   {
+    "word": "qoteedy",
+    "top / middle / bottom": "6 / 5 / 0",
+    "expected": "3.7 / 3.8 / 3.6",
+    "G": 8.797917119261859
+   },
+   {
+    "word": "keey",
+    "top / middle / bottom": "3 / 1 / 9",
+    "expected": "4.3 / 4.4 / 4.2",
+    "G": 8.394428453952605
+   },
+   {
+    "word": "oteedy",
+    "top / middle / bottom": "18 / 11 / 5",
+    "expected": "11.3 / 11.6 / 11.1",
+    "G": 7.605525590385652
+   },
+   {
+    "word": "dar",
+    "top / middle / bottom": "8 / 1 / 2",
+    "expected": "3.7 / 3.8 / 3.6",
+    "G": 7.555433326533905
+   },
+   {
+    "word": "y",
+    "top / middle / bottom": "10 / 2 / 8",
+    "expected": "6.6 / 6.8 / 6.5",
+    "G": 6.541156993831935
+   },
+   {
+    "word": "lkeey",
+    "top / middle / bottom": "6 / 4 / 13",
+    "expected": "7.6 / 7.9 / 7.5",
+    "G": 6.009869379358442
+   },
+   {
+    "word": "okaiin",
+    "top / middle / bottom": "15 / 28 / 14",
+    "expected": "18.9 / 19.5 / 18.6",
+    "G": 5.37981633255947
+   },
+   {
+    "word": "qol",
+    "top / middle / bottom": "2 / 4 / 9",
+    "expected": "5.0 / 5.1 / 4.9",
+    "G": 5.346748352091764
+   },
+   {
+    "word": "al",
+    "top / middle / bottom": "15 / 27 / 29",
+    "expected": "23.6 / 24.3 / 23.1",
+    "G": 5.259723659652496
+   }
+  ],
+  "VMS herbal B, hand 2 (body text)": [
+   {
+    "word": "otedy",
+    "top / middle / bottom": "7 / 0 / 6",
+    "expected": "5.3 / 3.9 / 3.8",
+    "G": 9.487157781628914
+   },
+   {
+    "word": "okeedy",
+    "top / middle / bottom": "5 / 0 / 5",
+    "expected": "4.1 / 3.0 / 2.9",
+    "G": 7.499828619899863
+   },
+   {
+    "word": "cheky",
+    "top / middle / bottom": "1 / 7 / 3",
+    "expected": "4.5 / 3.3 / 3.2",
+    "G": 7.03192574610982
+   },
+   {
+    "word": "okaiin",
+    "top / middle / bottom": "5 / 3 / 9",
+    "expected": "6.9 / 5.1 / 4.9",
+    "G": 4.341851108340963
+   },
+   {
+    "word": "qokedy",
+    "top / middle / bottom": "11 / 6 / 2",
+    "expected": "7.7 / 5.8 / 5.5",
+    "G": 4.191062695989276
+   },
+   {
+    "word": "dar",
+    "top / middle / bottom": "11 / 10 / 3",
+    "expected": "9.8 / 7.3 / 7.0",
+    "G": 3.9369347387063582
+   },
+   {
+    "word": "qokar",
+    "top / middle / bottom": "6 / 1 / 5",
+    "expected": "4.9 / 3.6 / 3.5",
+    "G": 3.5067154937537603
+   },
+   {
+    "word": "ol",
+    "top / middle / bottom": "7 / 2 / 7",
+    "expected": "6.5 / 4.8 / 4.6",
+    "G": 3.222217751033904
+   },
+   {
+    "word": "chedy",
+    "top / middle / bottom": "19 / 12 / 7",
+    "expected": "15.5 / 11.5 / 11.0",
+    "G": 2.4550371042161196
+   },
+   {
+    "word": "or",
+    "top / middle / bottom": "10 / 13 / 11",
+    "expected": "13.8 / 10.3 / 9.9",
+    "G": 1.967174191134521
+   },
+   {
+    "word": "oky",
+    "top / middle / bottom": "7 / 2 / 3",
+    "expected": "4.9 / 3.6 / 3.5",
+    "G": 1.752645851347349
+   },
+   {
+    "word": "chckhy",
+    "top / middle / bottom": "5 / 7 / 7",
+    "expected": "7.7 / 5.8 / 5.5",
+    "G": 1.732605803334974
+   }
+  ],
+  "Pliny 16, chapters": [
+   {
+    "word": "nec",
+    "top / middle / bottom": "21 / 5 / 24",
+    "expected": "18.2 / 15.8 / 16.0",
+    "G": 13.941540894210604
+   },
+   {
+    "word": "non",
+    "top / middle / bottom": "25 / 10 / 34",
+    "expected": "25.1 / 21.8 / 22.1",
+    "G": 13.509091936532421
+   },
+   {
+    "word": "sic",
+    "top / middle / bottom": "1 / 2 / 9",
+    "expected": "4.4 / 3.8 / 3.8",
+    "G": 9.824046437876762
+   },
+   {
+    "word": "circa",
+    "top / middle / bottom": "0 / 6 / 4",
+    "expected": "3.6 / 3.2 / 3.2",
+    "G": 9.48931760154912
+   },
+   {
+    "word": "in",
+    "top / middle / bottom": "92 / 109 / 72",
+    "expected": "99.4 / 86.2 / 87.4",
+    "G": 9.014375135567576
+   },
+   {
+    "word": "folio",
+    "top / middle / bottom": "6 / 4 / 0",
+    "expected": "3.6 / 3.2 / 3.2",
+    "G": 7.882170412102215
+   },
+   {
+    "word": "genera",
+    "top / middle / bottom": "10 / 4 / 1",
+    "expected": "5.5 / 4.7 / 4.8",
+    "G": 7.600946305777676
+   },
+   {
+    "word": "alia",
+    "top / middle / bottom": "7 / 14 / 4",
+    "expected": "9.1 / 7.9 / 8.0",
+    "G": 6.818065000347025
+   },
+   {
+    "word": "quaedam",
+    "top / middle / bottom": "7 / 1 / 7",
+    "expected": "5.5 / 4.7 / 4.8",
+    "G": 5.639102108763631
+   },
+   {
+    "word": "quibusdam",
+    "top / middle / bottom": "5 / 7 / 1",
+    "expected": "4.7 / 4.1 / 4.2",
+    "G": 5.16714794706089
+   },
+   {
+    "word": "arbores",
+    "top / middle / bottom": "5 / 1 / 7",
+    "expected": "4.7 / 4.1 / 4.2",
+    "G": 5.003880122391545
+   },
+   {
+    "word": "maxime",
+    "top / middle / bottom": "5 / 10 / 3",
+    "expected": "6.6 / 5.7 / 5.8",
+    "G": 4.677856932781223
+   }
+  ],
+  "copying model, 13-line pages (body text)": [
+   {
+    "word": "olol",
+    "top / middle / bottom": "26 / 8 / 7",
+    "expected": "16.3 / 12.5 / 12.3",
+    "G": 9.401004573619307
+   },
+   {
+    "word": "chdair",
+    "top / middle / bottom": "1 / 2 / 8",
+    "expected": "4.4 / 3.3 / 3.3",
+    "G": 9.21929572234926
+   },
+   {
+    "word": "shaly",
+    "top / middle / bottom": "16 / 17 / 4",
+    "expected": "14.7 / 11.2 / 11.1",
+    "G": 8.644473764487767
+   },
+   {
+    "word": "rar",
+    "top / middle / bottom": "9 / 19 / 7",
+    "expected": "13.9 / 10.6 / 10.5",
+    "G": 8.598751553569539
+   },
+   {
+    "word": "lkaly",
+    "top / middle / bottom": "6 / 0 / 5",
+    "expected": "4.4 / 3.3 / 3.3",
+    "G": 7.995890299826755
+   },
+   {
+    "word": "achys",
+    "top / middle / bottom": "1 / 7 / 5",
+    "expected": "5.2 / 3.9 / 3.9",
+    "G": 7.2462968296137475
+   },
+   {
+    "word": "ckhary",
+    "top / middle / bottom": "1 / 7 / 3",
+    "expected": "4.4 / 3.3 / 3.3",
+    "G": 6.849196774498903
+   },
+   {
+    "word": "chaly",
+    "top / middle / bottom": "15 / 17 / 5",
+    "expected": "14.7 / 11.2 / 11.1",
+    "G": 6.735082789160851
+   },
+   {
+    "word": "rain",
+    "top / middle / bottom": "26 / 37 / 27",
+    "expected": "35.7 / 27.3 / 26.9",
+    "G": 6.004344843433617
+   },
+   {
+    "word": "chsaiin",
+    "top / middle / bottom": "3 / 8 / 9",
+    "expected": "7.9 / 6.1 / 6.0",
+    "G": 5.916177593241654
+   },
+   {
+    "word": "daiin",
+    "top / middle / bottom": "101 / 64 / 51",
+    "expected": "85.8 / 65.6 / 64.6",
+    "G": 5.671842363974792
+   },
+   {
+    "word": "lkas",
+    "top / middle / bottom": "10 / 15 / 5",
+    "expected": "11.9 / 9.1 / 9.0",
+    "G": 5.594710634305656
+   }
+  ]
+ }
+}
