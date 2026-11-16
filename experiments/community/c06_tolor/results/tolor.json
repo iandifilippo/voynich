@@ -1,0 +1,168 @@
+{
+ "occurrences": [
+  {
+   "page": "f38r",
+   "locus": "f38r.1",
+   "unit": "P",
+   "position": 0,
+   "word": "tolor",
+   "line": "tolor chockhy oky choiin okshol oly oky"
+  },
+  {
+   "page": "f67r2",
+   "locus": "f67r2.62",
+   "unit": "L",
+   "position": 0,
+   "word": "otolor",
+   "line": "otolor"
+  },
+  {
+   "page": "f77v",
+   "locus": "f77v.4",
+   "unit": "L",
+   "position": 0,
+   "word": "otolor",
+   "line": "otolor"
+  }
+ ],
+ "same_layout": [
+  {
+   "opening word": "tolor",
+   "label": "otolor",
+   "substring count": 3
+  },
+  {
+   "opening word": "torain",
+   "label": "otorain",
+   "substring count": 2
+  },
+  {
+   "opening word": "tokol",
+   "label": "otokol",
+   "substring count": 2
+  },
+  {
+   "opening word": "fcheody",
+   "label": "ofcheody",
+   "substring count": 4
+  },
+  {
+   "opening word": "pairar",
+   "label": "opairar",
+   "substring count": 2
+  },
+  {
+   "opening word": "palar",
+   "label": "opalar",
+   "substring count": 2
+  },
+  {
+   "opening word": "porain",
+   "label": "oporain",
+   "substring count": 2
+  }
+ ],
+ "loose_layout": 116,
+ "word_types_2_to_5": 1652,
+ "paragraph_first_unique_share": 0.6076388888888888,
+ "gender": [
+  {
+   "pairs": 3254,
+   "log_odds": 0.45074531614396324,
+   "null": 0.395248631402886,
+   "z": 0.8484441292123475,
+   "p_agree": 0.19601328903654486,
+   "text": "VMS paragraphs, -l vs -r"
+  },
+  {
+   "pairs": 1390,
+   "log_odds": 0.6439016039714145,
+   "null": 0.44495369669632406,
+   "z": 2.0917157722651476,
+   "p_agree": 0.016611295681063124,
+   "text": "VMS Currier A, -l vs -r"
+  },
+  {
+   "pairs": 1807,
+   "log_odds": 0.24993423421634742,
+   "null": 0.3406126950516563,
+   "z": -1.0717910748373314,
+   "p_agree": 0.8704318936877077,
+   "text": "VMS Currier B, -l vs -r"
+  },
+  {
+   "pairs": 10803,
+   "log_odds": 0.07330120730443988,
+   "null": 0.3376832575642323,
+   "z": -6.664549306648702,
+   "p_agree": 1.0,
+   "text": "VMS paragraphs, -y vs -n (control)"
+  },
+  {
+   "pairs": 3597,
+   "log_odds": 1.4789220312024485,
+   "null": 0.5762438060774643,
+   "z": 16.09761822195368,
+   "p_agree": 0.0033222591362126247,
+   "text": "Italian (Rettorica), -a vs -o"
+  },
+  {
+   "pairs": 819,
+   "log_odds": 1.2283324357382652,
+   "null": 0.8503730545985243,
+   "z": 3.074134503569705,
+   "p_agree": 0.0033222591362126247,
+   "text": "Latin (Aix), -a vs -us"
+  },
+  {
+   "pairs": 563,
+   "log_odds": 1.5908038328892076,
+   "null": 0.820984167534715,
+   "z": 4.292569317743909,
+   "p_agree": 0.0033222591362126247,
+   "text": "Latin (Aix), -am vs -um"
+  }
+ ],
+ "contexts": [
+  {
+   "pairs": "X / oX (o- as article)",
+   "n": 92,
+   "context_cosine": 0.134047055096887,
+   "random_matched": 0.08758167934410462,
+   "ratio": 1.5305376204334007,
+   "examples": "daiin/odaiin, chedy/ochedy, aiin/oaiin, ar/oar, s/os"
+  },
+  {
+   "pairs": "tX / kX (t noun, k verb)",
+   "n": 98,
+   "context_cosine": 0.1881118554916193,
+   "random_matched": 0.09485229639492673,
+   "ratio": 1.9832082368190365,
+   "examples": "otaiin/okaiin, otedy/okedy, otar/okar, otal/okal, oteey/okeey"
+  },
+  {
+   "pairs": "Xl / Xr (feminine / masculine)",
+   "n": 63,
+   "context_cosine": 0.19635505843575896,
+   "random_matched": 0.11074982232571441,
+   "ratio": 1.7729604825755854,
+   "examples": "ol/or, chol/chor, al/ar, dal/dar, qokal/qokar"
+  },
+  {
+   "pairs": "X / qX (control prefix)",
+   "n": 73,
+   "context_cosine": 0.15931737068241877,
+   "random_matched": 0.10631668278152365,
+   "ratio": 1.4985171330995093,
+   "examples": "ol/qol, or/qor, okaiin/qokaiin, okeey/qokeey, o/qo"
+  },
+  {
+   "pairs": "X / yX (control prefix)",
+   "n": 44,
+   "context_cosine": 0.11246981213170804,
+   "random_matched": 0.07774476741669459,
+   "ratio": 1.4466544292157306,
+   "examples": "daiin/ydaiin, chedy/ychedy, chol/ychol, chey/ychey, shey/yshey"
+  }
+ ]
+}

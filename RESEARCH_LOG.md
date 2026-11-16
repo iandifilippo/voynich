@@ -2,6 +2,11 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (11)
+
+### c06 tolor (r/voynich)
+tolor f38r.1 (paragraph-initial), otolor labels f67r2 (1 of 64) and f77v (1 of 10). 1652 types with 2-5 occurrences; 61% of paragraph-opening words unique. Same layout (opening X, label oX, 2-5 total): tolor, torain, tokol, fcheody, pairar, palar, porain. l/r agreement vs in-line shuffle: VMS z 0.85 (A 2.09 p .017, B -1.07); Italian -a/-o z 16.1; Latin -a/-us 3.1, -am/-um 4.3. Context cosine / random: o- 1.53, t/k 1.98, l/r 1.77, q- 1.50, y- 1.45.
+
 ## 2026-11-16 (10)
 
 ### 19 copying model vocabulary

@@ -22,3 +22,4 @@ Not tested yet, and why:
 - Timm & Schinner self-citation generator: the reference implementation is a Swift iOS app; it
   needs porting before it can be scored (and it builds line-start glyphs in on purpose).
 - "Middle Scots / Anglo-Saxon cursive" (r/voynich, Nov 2026): no method or mapping posted.
+| c06 | r/voynich (u/Worldmaster777) | "tolor" = fertilization; o- = article, t-/k- = noun/verb, -l/-r = feminine/masculine | six other words share tolor/otolor's exact layout; no gender agreement (VMS z 0.8 vs Italian 16); t/k pairs have the most similar contexts of all, o- behaves like the control prefixes q-, y- |
