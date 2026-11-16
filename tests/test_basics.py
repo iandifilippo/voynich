@@ -76,3 +76,10 @@ def test_autocopy_runs_and_is_deterministic():
     a = AutoCopy(seed=3).run(60)
     b = AutoCopy(seed=3).run(60)
     assert a == b and len(a) == 60 and all(l for l in a)
+
+
+def test_autocopy_options_run():
+    from voynich.autocopy import AutoCopy
+    lines = AutoCopy(seed=2, boundary={"y": {"qo", "o"}}, boundary_p=0.5, line_end_p=0.5,
+                     common_p=0.5, global_p=0.1, exact_p=0.1, extra_change=0.1).run(80)
+    assert len(lines) == 80 and all(lines)

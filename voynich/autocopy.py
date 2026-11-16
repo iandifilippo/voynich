@@ -163,13 +163,17 @@ class AutoCopy:
     PARA_GALLOW = 94
 
     def __init__(self, seed=0, currier="B", line_chars=55, page_lines=29, seed_text=None,
-                 boundary=None, boundary_p=0.0, extra_change=0.0, line_end_p=0.0):
+                 boundary=None, boundary_p=0.0, extra_change=0.0, line_end_p=0.0, exact_p=0.0, global_p=0.0, common_p=0.0, common_min=3):
         """boundary: optional {last glyph: set of word starts} the writer prefers
         after a word ending in that glyph; with probability boundary_p a new word
         that doesn't fit is thrown away and another one is copied instead."""
         self.boundary, self.boundary_p = boundary or {}, boundary_p
         self.extra_change = extra_change
         self.line_end_p = line_end_p
+        self.exact_p = exact_p
+        self.global_p = global_p
+        self.common_p, self.common_min = common_p, common_min
+        self.seen = {}
         self.rng = random.Random(seed)
         self.currier = currier
         self.line_chars = line_chars
@@ -211,6 +215,7 @@ class AutoCopy:
                 and not s.endswith(tuple(LINE_FINAL)) and w.kind != "combine" and s not in self._in_pool:
             self.pool.append(w)
             self._in_pool.add(s)
+        self.seen[s] = self.seen.get(s, 0) + 1
         self.n_tokens += 1
         k = self.kind_of(w)
         self.n_i += k == "i"
@@ -233,6 +238,11 @@ class AutoCopy:
         return len(current)
 
     def source(self, current, para_initial, line_initial, in_page):
+        if self.global_p and self.rng.random() < self.global_p:
+            src = self.lines[self.r(len(self.lines))]
+            out = self.neighbours(src, self.r(len(src)))
+            return [Word(w.toks[1:], w.kind) if w.s.startswith(tuple(GALLOWS)) and len(w.toks) > 1 else w
+                    for w in out]
         roll = self.r(100)
         if para_initial and roll < 70 and len(self.para_lines) > 1:
             roll = self.r(100)
@@ -575,6 +585,12 @@ class AutoCopy:
         while used + max(tries - 3, 0) < limit and tries < 60:
             room = limit - used
             src = self.source(out, para_initial, line_initial, in_page)
+            if self.common_p:
+                # rare variants are poor models: look again for a word seen a few times
+                for _ in range(8):
+                    if self.seen.get(src[0].s, 0) >= self.common_min or self.rng.random() >= self.common_p:
+                        break
+                    src = self.source(out, para_initial, line_initial, in_page)
             n = len(src[0].toks)
             if line_initial:
                 go = n > 2
@@ -587,7 +603,10 @@ class AutoCopy:
             if not go:
                 tries += 1
                 continue
-            new = self.morph(src, para_initial, line_initial)
+            if self.exact_p and not line_initial and self.rng.random() < self.exact_p:
+                new = [src[0]]
+            else:
+                new = self.morph(src, para_initial, line_initial)
             if new and self.extra_change and self.rng.random() < self.extra_change:
                 new[0] = self.replace(new[0], para_initial)
             if not new:
