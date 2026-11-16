@@ -20,6 +20,5 @@ and OCR projects).
 Not tested yet, and why:
 - Elu-Sinhala decipherment (Zenodo 18601765, 117-star repo): needs the published vocabulary and
   transliteration rules, which are on Zenodo; will add once downloaded.
-- Timm & Schinner self-citation generator: now reimplemented and scored in `experiments/17-19`; it
-  needs porting before it can be scored (and it builds line-start glyphs in on purpose).
+- Timm & Schinner self-citation generator: now reimplemented and scored in `experiments/17-19`.
 - "Middle Scots / Anglo-Saxon cursive" (r/voynich, Nov 2026): no method or mapping posted.
