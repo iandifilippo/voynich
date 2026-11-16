@@ -3,25 +3,25 @@
   {
    "block": "herbal A, hand 1",
    "sheets": 11,
-   "next folio in the book": 1.5216040422773767,
-   "conjugate leaf": 1.2464203325038086,
-   "any other recto": 1.1841185448254323,
-   "book - conjugate": 0.2751837097735681,
-   "ci": "-0.55 to 0.91",
+   "next folio in the book": 1.5579389386995224,
+   "conjugate leaf": 1.276184024253864,
+   "any other recto": 1.2123945111624954,
+   "book - conjugate": 0.28175491444565837,
+   "ci": "-0.56 to 0.93",
    "p(book <= conjugate)": 0.2245,
-   "p(conjugate > other)": 0.4435,
+   "p(conjugate > other)": 0.444,
    "p(book > other)": 0.068
   },
   {
    "block": "all Currier A herbal",
    "sheets": 11,
-   "next folio in the book": 1.5216040422773767,
-   "conjugate leaf": 1.2464203325038086,
-   "any other recto": 1.1841185448254323,
-   "book - conjugate": 0.2751837097735681,
-   "ci": "-0.55 to 0.91",
+   "next folio in the book": 1.5579389386995224,
+   "conjugate leaf": 1.276184024253864,
+   "any other recto": 1.2123945111624954,
+   "book - conjugate": 0.28175491444565837,
+   "ci": "-0.56 to 0.93",
    "p(book <= conjugate)": 0.2245,
-   "p(conjugate > other)": 0.4435,
+   "p(conjugate > other)": 0.444,
    "p(book > other)": 0.068
   }
  ],
@@ -30,43 +30,43 @@
    "block": "herbal A, hand 1",
    "verso -> next recto": "inside a quire",
    "breaks": 29,
-   "lift": 1.3937803718146038,
-   "ci": "1.08-1.72"
+   "lift": 1.42706292367304,
+   "ci": "1.11-1.76"
   },
   {
    "block": "herbal A, hand 1",
    "verso -> next recto": "between quires",
    "breaks": 3,
-   "lift": 0.9496535866695683,
-   "ci": "0.00-1.42"
+   "lift": 0.9723306851458011,
+   "ci": "0.00-1.46"
   },
   {
    "block": "all Currier A herbal",
    "verso -> next recto": "inside a quire",
    "breaks": 29,
-   "lift": 1.3937803718146038,
-   "ci": "1.08-1.72"
+   "lift": 1.42706292367304,
+   "ci": "1.11-1.76"
   },
   {
    "block": "all Currier A herbal",
    "verso -> next recto": "between quires",
    "breaks": 3,
-   "lift": 0.9496535866695683,
-   "ci": "0.00-1.42"
+   "lift": 0.9723306851458011,
+   "ci": "0.00-1.46"
   },
   {
    "block": "stars B, hand 3",
    "verso -> next recto": "inside a quire",
    "breaks": 9,
-   "lift": 0.912222538335143,
-   "ci": "0.58-1.24"
+   "lift": 0.9386957873836806,
+   "ci": "0.60-1.28"
   },
   {
    "block": "balneo B, hand 2",
    "verso -> next recto": "inside a quire",
    "breaks": 8,
-   "lift": 1.2312156974020485,
-   "ci": "0.95-1.48"
+   "lift": 1.2577378030249902,
+   "ci": "0.97-1.51"
   }
  ],
  "cases": [

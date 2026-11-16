@@ -17,11 +17,11 @@ quire against breaks between quires.
 
 ## Result
 
-- Only 11 sheets qualify. Lift: next folio in the book 1.52, conjugate leaf 1.25, any other
-  recto 1.18. The book order wins in 9 of 11 sheets, but the difference isn't significant
-  (interval −0.55 to +0.91; sign test p ≈ 0.07).
-- Inside a quire the verso → next recto carry-over is 1.39 (1.08-1.72, 29 breaks); between
-  quires 0.95, but that's three breaks.
+- Only 11 sheets qualify. Lift: next folio in the book 1.56, conjugate leaf 1.28, any other
+  recto 1.21. The book order wins in 9 of 11 sheets, but the difference isn't significant
+  (interval −0.56 to +0.93; sign test p ≈ 0.07).
+- Inside a quire the verso → next recto carry-over is 1.43 (1.11-1.76, 29 breaks); between
+  quires 0.97, but that's three breaks.
 - One sheet stands out: the end of f19v shares nothing with the start of f20r and 20 word
   types with the start of f22r, its conjugate. The largest count in the table.
 

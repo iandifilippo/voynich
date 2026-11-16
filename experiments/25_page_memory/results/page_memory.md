@@ -6,55 +6,55 @@ Lift = shared word types between two lines / expected from the block's overall r
 
 | pairs of lines | pairs | lift | ci | common words | ci_common | other words | ci_other |
 |---|---|---|---|---|---|---|---|
-| same paragraph, 1-5 lines apart | 3384 | 1.329 | 1.15-1.51 | 1.282 | 1.11-1.47 | 1.893 | 1.48-2.38 |
-| same page across a paragraph break, 1-5 lines | 1131 | 1.484 | 1.22-1.72 | 1.466 | 1.19-1.72 | 1.699 | 1.02-2.43 |
-| same page, 10-30 lines apart | 1339 | 0.947 | 0.78-1.21 | 0.914 | 0.74-1.20 | 1.348 | 0.93-1.90 |
-| across a page break, 1-5 lines | 1230 | 1.332 | 1.14-1.51 | 1.328 | 1.13-1.52 | 1.373 | 0.90-1.85 |
-|   of which recto -> its verso (leaf turned) | 705 | 1.370 | 1.10-1.63 | 1.367 | 1.11-1.64 | 1.404 | 0.83-1.98 |
-|   of which verso -> next recto (facing) | 525 | 1.280 | 1.03-1.58 | 1.276 | 1.00-1.59 | 1.331 | 0.67-2.11 |
-| end of page vs start of a page 2-6 on (control) | 6825 | 1.094 | 0.98-1.21 | 1.119 | 1.00-1.25 | 0.793 | 0.60-1.06 |
-| next page, any lines | 1613 | 1.032 | 0.86-1.24 | 1.052 | 0.86-1.28 | 0.794 | 0.50-1.10 |
-|   of which recto -> its verso (leaf turned)  | 980 | 1.067 | 0.82-1.34 | 1.087 | 0.82-1.37 | 0.832 | 0.43-1.21 |
-|   of which verso -> next recto (facing)  | 633 | 0.978 | 0.77-1.23 | 0.998 | 0.78-1.28 | 0.736 | 0.27-1.28 |
-| 2 pages on, any lines | 1112 | 0.961 | 0.79-1.14 | 0.962 | 0.79-1.15 | 0.943 | 0.56-1.39 |
-| 4 pages on, any lines | 1089 | 0.912 | 0.78-1.07 | 0.925 | 0.79-1.08 | 0.749 | 0.39-1.18 |
-| 10 pages on, any lines | 1033 | 0.974 | 0.81-1.17 | 1.022 | 0.86-1.23 | 0.395 | 0.12-0.69 |
+| same paragraph, 1-5 lines apart | 3384 | 1.360 | 1.18-1.54 | 1.294 | 1.12-1.49 | 2.339 | 1.83-2.94 |
+| same page across a paragraph break, 1-5 lines | 1131 | 1.519 | 1.25-1.76 | 1.480 | 1.20-1.73 | 2.099 | 1.26-3.01 |
+| same page, 10-30 lines apart | 1339 | 0.970 | 0.80-1.24 | 0.923 | 0.75-1.21 | 1.666 | 1.15-2.34 |
+| across a page break, 1-5 lines | 1230 | 1.364 | 1.16-1.55 | 1.341 | 1.14-1.54 | 1.696 | 1.11-2.28 |
+|   of which recto -> its verso (leaf turned) | 705 | 1.403 | 1.13-1.67 | 1.380 | 1.13-1.66 | 1.735 | 1.02-2.45 |
+|   of which verso -> next recto (facing) | 525 | 1.311 | 1.05-1.61 | 1.288 | 1.01-1.60 | 1.644 | 0.82-2.60 |
+| end of page vs start of a page 2-6 on (control) | 6825 | 1.121 | 1.01-1.24 | 1.130 | 1.01-1.26 | 0.980 | 0.74-1.31 |
+| next page, any lines | 1613 | 1.057 | 0.88-1.26 | 1.062 | 0.87-1.29 | 0.981 | 0.62-1.36 |
+|   of which recto -> its verso (leaf turned)  | 980 | 1.093 | 0.84-1.37 | 1.097 | 0.83-1.38 | 1.028 | 0.54-1.50 |
+|   of which verso -> next recto (facing)  | 633 | 1.001 | 0.79-1.26 | 1.007 | 0.78-1.29 | 0.909 | 0.33-1.59 |
+| 2 pages on, any lines | 1112 | 0.984 | 0.81-1.17 | 0.971 | 0.79-1.16 | 1.165 | 0.70-1.72 |
+| 4 pages on, any lines | 1089 | 0.933 | 0.80-1.10 | 0.934 | 0.79-1.09 | 0.925 | 0.48-1.46 |
+| 10 pages on, any lines | 1033 | 0.997 | 0.83-1.20 | 1.032 | 0.87-1.24 | 0.488 | 0.15-0.86 |
 
 ## balneo B, hand 2 (19 pages, 725 lines)
 
 | pairs of lines | pairs | lift | ci | common words | ci_common | other words | ci_other |
 |---|---|---|---|---|---|---|---|
-| same paragraph, 1-5 lines apart | 2392 | 1.424 | 1.25-1.62 | 1.413 | 1.23-1.62 | 1.572 | 1.30-1.87 |
-| same page across a paragraph break, 1-5 lines | 948 | 1.250 | 1.02-1.55 | 1.240 | 1.00-1.55 | 1.385 | 0.96-1.85 |
-| same page, 10-30 lines apart | 7251 | 1.143 | 0.99-1.30 | 1.142 | 0.99-1.31 | 1.160 | 0.93-1.41 |
-| across a page break, 1-5 lines | 255 | 0.903 | 0.66-1.18 | 0.926 | 0.65-1.20 | 0.585 | 0.00-1.52 |
-|   of which recto -> its verso (leaf turned) | 135 | 0.667 | 0.42-0.96 | 0.684 | 0.41-0.99 | 0.442 | 0.00-1.11 |
-|   of which verso -> next recto (facing) | 120 | 1.168 | 0.82-1.53 | 1.198 | 0.82-1.59 | 0.746 | 0.00-2.24 |
-| end of page vs start of a page 2-6 on (control) | 1125 | 0.843 | 0.67-1.04 | 0.835 | 0.66-1.04 | 0.955 | 0.63-1.36 |
-| next page, any lines | 2891 | 0.992 | 0.91-1.10 | 1.006 | 0.91-1.12 | 0.795 | 0.56-1.03 |
-|   of which recto -> its verso (leaf turned)  | 1552 | 1.050 | 0.90-1.19 | 1.067 | 0.91-1.23 | 0.808 | 0.48-1.15 |
-|   of which verso -> next recto (facing)  | 1339 | 0.924 | 0.83-1.04 | 0.934 | 0.83-1.08 | 0.780 | 0.46-1.03 |
-| 2 pages on, any lines | 1656 | 0.934 | 0.82-1.06 | 0.943 | 0.82-1.08 | 0.811 | 0.46-1.18 |
-| 4 pages on, any lines | 1430 | 0.881 | 0.78-0.98 | 0.893 | 0.79-1.00 | 0.709 | 0.49-0.91 |
-| 10 pages on, any lines | 886 | 0.893 | 0.77-1.06 | 0.891 | 0.76-1.06 | 0.909 | 0.69-1.12 |
+| same paragraph, 1-5 lines apart | 2392 | 1.454 | 1.27-1.66 | 1.428 | 1.24-1.64 | 1.880 | 1.56-2.23 |
+| same page across a paragraph break, 1-5 lines | 948 | 1.277 | 1.05-1.58 | 1.254 | 1.01-1.56 | 1.657 | 1.15-2.21 |
+| same page, 10-30 lines apart | 7251 | 1.168 | 1.01-1.33 | 1.154 | 1.00-1.32 | 1.388 | 1.12-1.69 |
+| across a page break, 1-5 lines | 255 | 0.922 | 0.67-1.20 | 0.936 | 0.66-1.21 | 0.700 | 0.00-1.82 |
+|   of which recto -> its verso (leaf turned) | 135 | 0.682 | 0.42-0.98 | 0.691 | 0.42-1.00 | 0.529 | 0.00-1.32 |
+|   of which verso -> next recto (facing) | 120 | 1.193 | 0.84-1.57 | 1.211 | 0.83-1.61 | 0.892 | 0.00-2.68 |
+| end of page vs start of a page 2-6 on (control) | 1125 | 0.862 | 0.68-1.07 | 0.845 | 0.67-1.05 | 1.142 | 0.76-1.62 |
+| next page, any lines | 2891 | 1.013 | 0.93-1.12 | 1.017 | 0.92-1.14 | 0.951 | 0.67-1.23 |
+|   of which recto -> its verso (leaf turned)  | 1552 | 1.073 | 0.92-1.22 | 1.079 | 0.92-1.24 | 0.966 | 0.58-1.37 |
+|   of which verso -> next recto (facing)  | 1339 | 0.944 | 0.85-1.07 | 0.945 | 0.84-1.09 | 0.933 | 0.56-1.23 |
+| 2 pages on, any lines | 1656 | 0.955 | 0.84-1.08 | 0.954 | 0.83-1.09 | 0.970 | 0.54-1.41 |
+| 4 pages on, any lines | 1430 | 0.900 | 0.80-1.00 | 0.903 | 0.79-1.01 | 0.849 | 0.59-1.09 |
+| 10 pages on, any lines | 886 | 0.912 | 0.79-1.08 | 0.901 | 0.77-1.08 | 1.088 | 0.83-1.34 |
 
 ## stars B, hand 3 (22 pages, 1035 lines)
 
 | pairs of lines | pairs | lift | ci | common words | ci_common | other words | ci_other |
 |---|---|---|---|---|---|---|---|
-| same paragraph, 1-5 lines apart | 1797 | 1.833 | 1.44-2.16 | 1.837 | 1.40-2.20 | 1.805 | 1.45-2.11 |
-| same page across a paragraph break, 1-5 lines | 3048 | 1.258 | 1.05-1.46 | 1.220 | 1.00-1.43 | 1.522 | 1.14-1.96 |
-| same page, 10-30 lines apart | 12495 | 1.287 | 1.05-1.53 | 1.288 | 1.03-1.56 | 1.282 | 1.06-1.54 |
-| across a page break, 1-5 lines | 300 | 1.285 | 0.94-1.68 | 1.232 | 0.91-1.62 | 1.663 | 0.75-2.74 |
-|   of which recto -> its verso (leaf turned) | 150 | 1.493 | 1.04-1.99 | 1.397 | 1.02-1.80 | 2.162 | 0.83-3.83 |
-|   of which verso -> next recto (facing) | 150 | 1.078 | 0.56-1.62 | 1.066 | 0.54-1.59 | 1.164 | 0.00-2.99 |
-| end of page vs start of a page 2-6 on (control) | 1350 | 0.935 | 0.77-1.10 | 0.974 | 0.78-1.17 | 0.665 | 0.40-0.96 |
-| next page, any lines | 5143 | 1.090 | 0.90-1.34 | 1.102 | 0.88-1.37 | 1.009 | 0.83-1.21 |
-|   of which recto -> its verso (leaf turned)  | 2578 | 1.125 | 0.81-1.53 | 1.122 | 0.77-1.55 | 1.152 | 0.89-1.48 |
-|   of which verso -> next recto (facing)  | 2565 | 1.055 | 0.81-1.40 | 1.082 | 0.81-1.48 | 0.866 | 0.67-1.07 |
-| 2 pages on, any lines | 2994 | 0.977 | 0.83-1.13 | 0.993 | 0.82-1.17 | 0.867 | 0.71-1.04 |
-| 4 pages on, any lines | 2735 | 0.944 | 0.82-1.07 | 0.940 | 0.80-1.08 | 0.967 | 0.81-1.12 |
-| 10 pages on, any lines | 1837 | 1.012 | 0.74-1.30 | 1.042 | 0.74-1.35 | 0.801 | 0.59-1.00 |
+| same paragraph, 1-5 lines apart | 1797 | 1.886 | 1.48-2.23 | 1.858 | 1.42-2.22 | 2.115 | 1.70-2.48 |
+| same page across a paragraph break, 1-5 lines | 3048 | 1.295 | 1.08-1.50 | 1.234 | 1.01-1.44 | 1.784 | 1.34-2.30 |
+| same page, 10-30 lines apart | 12495 | 1.324 | 1.08-1.58 | 1.302 | 1.04-1.57 | 1.502 | 1.25-1.80 |
+| across a page break, 1-5 lines | 300 | 1.323 | 0.97-1.73 | 1.246 | 0.92-1.64 | 1.949 | 0.88-3.22 |
+|   of which recto -> its verso (leaf turned) | 150 | 1.536 | 1.07-2.05 | 1.413 | 1.03-1.82 | 2.534 | 0.97-4.48 |
+|   of which verso -> next recto (facing) | 150 | 1.109 | 0.58-1.66 | 1.078 | 0.55-1.61 | 1.365 | 0.00-3.51 |
+| end of page vs start of a page 2-6 on (control) | 1350 | 0.962 | 0.79-1.13 | 0.985 | 0.79-1.18 | 0.780 | 0.46-1.13 |
+| next page, any lines | 5143 | 1.122 | 0.93-1.38 | 1.114 | 0.89-1.39 | 1.183 | 0.98-1.42 |
+|   of which recto -> its verso (leaf turned)  | 2578 | 1.158 | 0.84-1.57 | 1.135 | 0.78-1.56 | 1.350 | 1.04-1.74 |
+|   of which verso -> next recto (facing)  | 2565 | 1.085 | 0.84-1.44 | 1.094 | 0.82-1.50 | 1.015 | 0.78-1.25 |
+| 2 pages on, any lines | 2994 | 1.006 | 0.85-1.17 | 1.005 | 0.83-1.18 | 1.016 | 0.83-1.22 |
+| 4 pages on, any lines | 2735 | 0.971 | 0.84-1.10 | 0.951 | 0.81-1.09 | 1.133 | 0.94-1.31 |
+| 10 pages on, any lines | 1837 | 1.042 | 0.76-1.34 | 1.054 | 0.75-1.36 | 0.939 | 0.69-1.17 |
 
 ## is the next page recognisable from the end of this one?
 

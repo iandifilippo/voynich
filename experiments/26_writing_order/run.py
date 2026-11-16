@@ -52,7 +52,7 @@ def analyse(name, sel):
         for s in ls:
             fl.update(s)
             n += 1
-    exp = sum((c / n) ** 2 for c in fl.values())
+    exp = sum(c * (c - 1) for c in fl.values()) / (n * (n - 1))
 
     def shared(a, b):
         A, B = pages[a][-5:], pages[b][:5]

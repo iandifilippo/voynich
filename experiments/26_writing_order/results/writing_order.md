@@ -4,19 +4,19 @@ Lift of shared word types: last 5 lines of the verso of a sheet's first leaf aga
 
 | block | sheets | next folio in the book | conjugate leaf | any other recto | book - conjugate | ci | p(book <= conjugate) | p(book > other) | p(conjugate > other) |
 |---|---|---|---|---|---|---|---|---|---|
-| herbal A, hand 1 | 11 | 1.522 | 1.246 | 1.184 | 0.275 | -0.55 to 0.91 | 0.225 | 0.068 | 0.444 |
-| all Currier A herbal | 11 | 1.522 | 1.246 | 1.184 | 0.275 | -0.55 to 0.91 | 0.225 | 0.068 | 0.444 |
+| herbal A, hand 1 | 11 | 1.558 | 1.276 | 1.212 | 0.282 | -0.56 to 0.93 | 0.225 | 0.068 | 0.444 |
+| all Currier A herbal | 11 | 1.558 | 1.276 | 1.212 | 0.282 | -0.56 to 0.93 | 0.225 | 0.068 | 0.444 |
 
 ## page breaks inside and between quires
 
 | block | verso -> next recto | breaks | lift | ci |
 |---|---|---|---|---|
-| herbal A, hand 1 | inside a quire | 29 | 1.394 | 1.08-1.72 |
-| herbal A, hand 1 | between quires | 3 | 0.950 | 0.00-1.42 |
-| all Currier A herbal | inside a quire | 29 | 1.394 | 1.08-1.72 |
-| all Currier A herbal | between quires | 3 | 0.950 | 0.00-1.42 |
-| stars B, hand 3 | inside a quire | 9 | 0.912 | 0.58-1.24 |
-| balneo B, hand 2 | inside a quire | 8 | 1.231 | 0.95-1.48 |
+| herbal A, hand 1 | inside a quire | 29 | 1.427 | 1.11-1.76 |
+| herbal A, hand 1 | between quires | 3 | 0.972 | 0.00-1.46 |
+| all Currier A herbal | inside a quire | 29 | 1.427 | 1.11-1.76 |
+| all Currier A herbal | between quires | 3 | 0.972 | 0.00-1.46 |
+| stars B, hand 3 | inside a quire | 9 | 0.939 | 0.60-1.28 |
+| balneo B, hand 2 | inside a quire | 8 | 1.258 | 0.97-1.51 |
 
 ## the sheets used (herbal A, hand 1)
 

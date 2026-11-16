@@ -61,8 +61,9 @@ def analyse(name, sel):
             freq_lines.update(set(l.words))
     base = {w: c / n_lines for w, c in freq_lines.items()}
     core = {w for w, _ in freq_lines.most_common(60)}
-    exp_all = sum(b * b for b in base.values())
-    exp_core = sum(base[w] ** 2 for w in core)
+    pair = lambda c: c * (c - 1) / (n_lines * (n_lines - 1))    # the same type in two different lines
+    exp_all = sum(pair(c) for c in freq_lines.values())
+    exp_core = sum(pair(freq_lines[w]) for w in core)
     exp_rest = exp_all - exp_core
 
     # every pair is credited to the page of its lower line, for the bootstrap
