@@ -4,6 +4,9 @@ Newest first. Numbers come from the `results/` folder of each experiment; rerun 
 
 ## 2026-11-15 (5)
 
+### 14 line-end model
+Mirror of 10 for line ends. Rewrites "-e → -m/-g" for 12 endings, ZL all/A/B + Takahashi: nothing significant (97 tests); -l→-m and -n→-m strongly negative (both partners favoured). Stem-level pooled test (stem+{r,l,s,n,in,iin,y,dy} vs stem+m): r −0.29 to −0.02, p 0.60-0.98. Line-final words shorter (4.73 vs 4.96 internal, 5.43 first). am ×23, dam ×12, otam ×12 at line end; al ×1.0, ar ×0.55, aiin ×0.61. Line start = rewrite, line end = selection/special forms.
+
 ### 13 autokey Naibbe
 Reimplemented Naibbe from Greshko's tables; matches his ciphertext (h2 2.11/2.09, hapax 0.59/0.58, edge 0.004/0.004).
 

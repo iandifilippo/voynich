@@ -54,6 +54,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 11 | label reuse | 63 labels repeat on 2+ pages, 49 of them across sections; same-section repeats only slightly above chance (31% vs 23%, p = 0.009) |
 | 12 | scans | line detector on the PDF scans of quire 20 (tuned on half, tested on the other half): within ±1 line of ZL on 7/11 pages; certain vs uncertain spaces not separable at this resolution |
 | 13 | autokey Naibbe | Greshko's tables + a rule where the last glyph picks the next table (p ≈ 0.65) gives VMS-level edge coupling without moving anything else; the coupling pattern only partly (held-out r 0.24-0.43 vs 0.98); with Smith's line-start rule, distance 4.86 → 3.92 |
+| 14 | line-end model | no ending is rewritten as -m at line end, singly or pooled by stem (all p > 0.1, several strongly negative); line ends favour short words and -m forms (am ×23, dam ×12) without taking from their siblings. Starts rewrite, ends don't |
 
 Details and caveats in `RESEARCH_LOG.md`.
 
