@@ -161,11 +161,12 @@ class AutoCopy:
     PARA_GALLOW = 94
 
     def __init__(self, seed=0, currier="B", line_chars=55, page_lines=29, seed_text=None,
-                 boundary=None, boundary_p=0.0):
+                 boundary=None, boundary_p=0.0, extra_change=0.0):
         """boundary: optional {last glyph: set of word starts} the writer prefers
         after a word ending in that glyph; with probability boundary_p a new word
         that doesn't fit is thrown away and another one is copied instead."""
         self.boundary, self.boundary_p = boundary or {}, boundary_p
+        self.extra_change = extra_change
         self.rng = random.Random(seed)
         self.currier = currier
         self.line_chars = line_chars
@@ -574,6 +575,8 @@ class AutoCopy:
                 tries += 1
                 continue
             new = self.morph(src, para_initial, line_initial)
+            if new and self.extra_change and self.rng.random() < self.extra_change:
+                new[0] = self.replace(new[0], para_initial)
             if not new:
                 tries += 1
                 continue
