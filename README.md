@@ -13,7 +13,8 @@ The goal is to actually read it. The rule is that nothing counts until it beats 
   - `benchmark.py` "how Voynich-like is this text?" – 13 metrics scaled by the spread among 18 historical texts
   - `ciphers.py` hand-executable ciphers and generators to score (substitution, homophonic, verbose, syllable code, Naibbe-like, self-citation)
   - `cisiojanus.py` the medieval syllable-per-day calendar, syllabified (365/365)
-- **`experiments/`** – each one is a `run.py` plus its `results/`
+  - `scan.py` line and gap measurements on page images (numpy/scipy/scikit-image, only needed for experiment 12)
+- **`experiments/`** – each one is a `run.py` plus its `results/`; `experiments/community/` tests other people's claims
 - **`docs/`** – state of the field, notes on f116v, GitHub landscape
 - **`RESEARCH_LOG.md`** – what we tried and what came out
 
@@ -50,8 +51,13 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 09 | bifolia | conjoint leaves look more alike only with raw cosine (p = 0.002); with tf-idf or rare words, nothing. They share common-word profile, not vocabulary |
 | 10 | linestart model | words missing from line starts are the ones that reappear there with *s*, *d* or *t* in front (r 0.10-0.16, p < 0.001, ZL and Takahashi); only in Currier B; *y* and *q* don't behave this way |
 | 11 | label reuse | 63 labels repeat on 2+ pages, 49 of them across sections; same-section repeats only slightly above chance (31% vs 23%, p = 0.009) |
+| 12 | scans | line detector on the PDF scans of quire 20 (tuned on half, tested on the other half): within ±1 line of ZL on 7/11 pages; certain vs uncertain spaces not separable at this resolution |
 
 Details and caveats in `RESEARCH_LOG.md`.
+
+## Other people's claims
+
+`experiments/community/` reruns ideas from papers, voynich.ninja, r/voynich and other repos with the same data and controls: Greshko's Naibbe ciphertext, uncertain spaces, anagram decipherments, seasonal label prefixes, and whether EVA cuts the script in the wrong places. Each one has notes on what was claimed, what I expected and what came out.
 
 ## Data
 
