@@ -1,0 +1,1380 @@
+{
+ "K = 5, all words": {
+  "transitions": [
+   {
+    "scribe": "scribe 1",
+    "transition": "recto -> own verso",
+    "sheets": 23,
+    "lift": 1.5469378659207795,
+    "ci": "1.24-1.83"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 16,
+    "lift": 1.3754994553779742,
+    "ci": "0.93-1.87"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 22,
+    "lift": 1.32477021521704,
+    "ci": "1.01-1.70"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> next folio recto",
+    "sheets": 11,
+    "lift": 1.5290104810705643,
+    "ci": "0.98-2.11"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "previous verso -> b_r",
+    "sheets": 12,
+    "lift": 1.1630239297504823,
+    "ci": "0.75-1.67"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 7,
+    "lift": 1.635510768636381,
+    "ci": "1.11-2.15"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "unrelated verso -> recto",
+    "sheets": 23,
+    "lift": 1.1320108318101418,
+    "ci": "0.93-1.34"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "recto -> own verso",
+    "sheets": 16,
+    "lift": 1.1056569096004258,
+    "ci": "0.88-1.36"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 14,
+    "lift": 1.4962913098275472,
+    "ci": "1.20-1.80"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 14,
+    "lift": 0.7408108935910895,
+    "ci": "0.56-0.90"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> next folio recto",
+    "sheets": 9,
+    "lift": 1.2761976040480996,
+    "ci": "0.96-1.55"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "previous verso -> b_r",
+    "sheets": 9,
+    "lift": 1.0799131075897723,
+    "ci": "0.72-1.44"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 1,
+    "lift": 1.2270612712438926,
+    "ci": "1.23-1.23"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "unrelated verso -> recto",
+    "sheets": 16,
+    "lift": 1.0462216022468007,
+    "ci": "0.92-1.17"
+   }
+  ],
+  "contrasts": [
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 11,
+    "difference": -0.2765231721085062,
+    "ci": "-0.91 to 0.60",
+    "p(diff <= 0)": 0.783
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 12,
+    "difference": 0.05964225280771718,
+    "ci": "-0.33 to 0.39",
+    "p(diff <= 0)": 0.375
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.24369451733153147,
+    "ci": "-0.15 to 0.69",
+    "p(diff <= 0)": 0.1275
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 11,
+    "difference": 0.4276620627462442,
+    "ci": "0.02 to 0.83",
+    "p(diff <= 0)": 0.022
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 22,
+    "difference": 0.1921115050301545,
+    "ci": "-0.09 to 0.49",
+    "p(diff <= 0)": 0.0935
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 23,
+    "difference": 0.4149270341106377,
+    "ci": "0.16 to 0.70",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 8,
+    "difference": 0.4252702648944766,
+    "ci": "0.13 to 0.75",
+    "p(diff <= 0)": 0.001
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 9,
+    "difference": 0.4007924935384721,
+    "ci": "-0.12 to 0.93",
+    "p(diff <= 0)": 0.0765
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.4470562296002607,
+    "ci": "0.25 to 0.67",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 9,
+    "difference": 0.23242281615089522,
+    "ci": "-0.04 to 0.54",
+    "p(diff <= 0)": 0.0465
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": -0.2942538541207327,
+    "ci": "-0.45 to -0.14",
+    "p(diff <= 0)": 1.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.05943530735362512,
+    "ci": "-0.22 to 0.35",
+    "p(diff <= 0)": 0.3495
+   }
+  ]
+ },
+ "K = 4, all words": {
+  "transitions": [
+   {
+    "scribe": "scribe 1",
+    "transition": "recto -> own verso",
+    "sheets": 23,
+    "lift": 1.5758481630473626,
+    "ci": "1.25-1.88"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 16,
+    "lift": 1.2406054539105207,
+    "ci": "0.82-1.73"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 22,
+    "lift": 1.331549010177946,
+    "ci": "1.02-1.66"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> next folio recto",
+    "sheets": 11,
+    "lift": 1.5503596965642357,
+    "ci": "0.86-2.34"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "previous verso -> b_r",
+    "sheets": 12,
+    "lift": 1.234781015159767,
+    "ci": "0.86-1.65"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 7,
+    "lift": 1.4158771434563266,
+    "ci": "0.92-1.92"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "unrelated verso -> recto",
+    "sheets": 23,
+    "lift": 1.1783024092989627,
+    "ci": "0.95-1.41"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "recto -> own verso",
+    "sheets": 16,
+    "lift": 1.069459808393269,
+    "ci": "0.83-1.33"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 14,
+    "lift": 1.6388607330372185,
+    "ci": "1.25-2.06"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 14,
+    "lift": 0.6074099220347733,
+    "ci": "0.41-0.80"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> next folio recto",
+    "sheets": 9,
+    "lift": 1.0610587877693487,
+    "ci": "0.63-1.45"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "previous verso -> b_r",
+    "sheets": 9,
+    "lift": 1.0263349443910528,
+    "ci": "0.64-1.38"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 1,
+    "lift": 1.533826589054866,
+    "ci": "1.53-1.53"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "unrelated verso -> recto",
+    "sheets": 16,
+    "lift": 0.9968026537778161,
+    "ci": "0.85-1.14"
+   }
+  ],
+  "contrasts": [
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 11,
+    "difference": -0.43206745641954103,
+    "ci": "-1.12 to 0.46",
+    "p(diff <= 0)": 0.868
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 12,
+    "difference": -0.18638204002411562,
+    "ci": "-0.72 to 0.37",
+    "p(diff <= 0)": 0.7785
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.05241994875678291,
+    "ci": "-0.33 to 0.48",
+    "p(diff <= 0)": 0.421
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 11,
+    "difference": 0.38017700209464533,
+    "ci": "-0.17 to 0.97",
+    "p(diff <= 0)": 0.099
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 22,
+    "difference": 0.16031494408964586,
+    "ci": "-0.14 to 0.47",
+    "p(diff <= 0)": 0.1455
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 23,
+    "difference": 0.39754575374839995,
+    "ci": "0.11 to 0.70",
+    "p(diff <= 0)": 0.003
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 8,
+    "difference": 0.785300205060823,
+    "ci": "0.38 to 1.26",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 9,
+    "difference": 0.608842763621811,
+    "ci": "-0.03 to 1.25",
+    "p(diff <= 0)": 0.037
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.6299808482032894,
+    "ci": "0.34 to 0.95",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 9,
+    "difference": 0.05417248525141227,
+    "ci": "-0.31 to 0.44",
+    "p(diff <= 0)": 0.3735
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": -0.37757733317668396,
+    "ci": "-0.62 to -0.13",
+    "p(diff <= 0)": 0.998
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.07265715461545286,
+    "ci": "-0.21 to 0.36",
+    "p(diff <= 0)": 0.3195
+   }
+  ]
+ },
+ "K = 6, all words": {
+  "transitions": [
+   {
+    "scribe": "scribe 1",
+    "transition": "recto -> own verso",
+    "sheets": 23,
+    "lift": 1.482376801663601,
+    "ci": "1.21-1.75"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 16,
+    "lift": 1.3590357085091775,
+    "ci": "0.99-1.76"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 22,
+    "lift": 1.3180990201761484,
+    "ci": "1.02-1.64"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> next folio recto",
+    "sheets": 11,
+    "lift": 1.5927192511151713,
+    "ci": "1.07-2.18"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "previous verso -> b_r",
+    "sheets": 12,
+    "lift": 1.1700650290402825,
+    "ci": "0.81-1.59"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 7,
+    "lift": 1.5348261717683755,
+    "ci": "1.04-1.95"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "unrelated verso -> recto",
+    "sheets": 23,
+    "lift": 1.1265287808723432,
+    "ci": "0.95-1.31"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "recto -> own verso",
+    "sheets": 16,
+    "lift": 1.1529447051168462,
+    "ci": "0.95-1.42"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 14,
+    "lift": 1.5026073542998586,
+    "ci": "1.22-1.79"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 14,
+    "lift": 0.8149734802982284,
+    "ci": "0.64-0.99"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> next folio recto",
+    "sheets": 9,
+    "lift": 1.2765228327953086,
+    "ci": "1.03-1.46"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "previous verso -> b_r",
+    "sheets": 9,
+    "lift": 1.0437304519231045,
+    "ci": "0.73-1.40"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 1,
+    "lift": 1.5338265890548661,
+    "ci": "1.53-1.53"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "unrelated verso -> recto",
+    "sheets": 16,
+    "lift": 1.0385310903796259,
+    "ci": "0.93-1.16"
+   }
+  ],
+  "contrasts": [
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 11,
+    "difference": -0.3388764364074832,
+    "ci": "-0.82 to 0.28",
+    "p(diff <= 0)": 0.891
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 12,
+    "difference": 0.031063673337352604,
+    "ci": "-0.35 to 0.39",
+    "p(diff <= 0)": 0.443
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.22068151266744218,
+    "ci": "-0.09 to 0.54",
+    "p(diff <= 0)": 0.0765
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 11,
+    "difference": 0.47160304066708036,
+    "ci": "0.07 to 0.95",
+    "p(diff <= 0)": 0.0095
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 22,
+    "difference": 0.19631583658173812,
+    "ci": "-0.06 to 0.45",
+    "p(diff <= 0)": 0.063
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 23,
+    "difference": 0.35584802079125777,
+    "ci": "0.12 to 0.60",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 8,
+    "difference": 0.42061663404967176,
+    "ci": "0.11 to 0.78",
+    "p(diff <= 0)": 0.004
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 9,
+    "difference": 0.4561488641738014,
+    "ci": "0.04 to 0.88",
+    "p(diff <= 0)": 0.017
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.4553317783108326,
+    "ci": "0.23 to 0.69",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 9,
+    "difference": 0.2563422768417303,
+    "ci": "0.03 to 0.49",
+    "p(diff <= 0)": 0.013
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": -0.21342292859383039,
+    "ci": "-0.39 to -0.04",
+    "p(diff <= 0)": 0.992
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.11441361473722034,
+    "ci": "-0.13 to 0.37",
+    "p(diff <= 0)": 0.1785
+   }
+  ]
+ },
+ "K = 8, all words": {
+  "transitions": [
+   {
+    "scribe": "scribe 1",
+    "transition": "recto -> own verso",
+    "sheets": 23,
+    "lift": 1.3700023559171268,
+    "ci": "1.10-1.63"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 16,
+    "lift": 1.335481228933127,
+    "ci": "1.03-1.69"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 22,
+    "lift": 1.262830460937524,
+    "ci": "0.96-1.61"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> next folio recto",
+    "sheets": 11,
+    "lift": 1.5173304403725372,
+    "ci": "1.11-2.04"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "previous verso -> b_r",
+    "sheets": 12,
+    "lift": 1.1851466675446494,
+    "ci": "0.81-1.60"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 7,
+    "lift": 1.692376504155912,
+    "ci": "1.07-2.19"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "unrelated verso -> recto",
+    "sheets": 23,
+    "lift": 1.1269927654783152,
+    "ci": "0.96-1.31"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "recto -> own verso",
+    "sheets": 16,
+    "lift": 1.0905426500562607,
+    "ci": "0.91-1.32"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 14,
+    "lift": 1.4497614176867701,
+    "ci": "1.20-1.70"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 14,
+    "lift": 0.8672356910986245,
+    "ci": "0.74-0.98"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> next folio recto",
+    "sheets": 9,
+    "lift": 1.2668676043625415,
+    "ci": "1.01-1.48"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "previous verso -> b_r",
+    "sheets": 9,
+    "lift": 0.9567529142628459,
+    "ci": "0.73-1.24"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 1,
+    "lift": 1.533826589054866,
+    "ci": "1.53-1.53"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "unrelated verso -> recto",
+    "sheets": 16,
+    "lift": 1.044493851047735,
+    "ci": "0.97-1.13"
+   }
+  ],
+  "contrasts": [
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 11,
+    "difference": -0.31250368164521736,
+    "ci": "-0.71 to 0.10",
+    "p(diff <= 0)": 0.9305
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 12,
+    "difference": -0.010939815392720043,
+    "ci": "-0.27 to 0.26",
+    "p(diff <= 0)": 0.5475
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.18987681516185662,
+    "ci": "-0.08 to 0.45",
+    "p(diff <= 0)": 0.094
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 11,
+    "difference": 0.4099165294121294,
+    "ci": "0.17 to 0.76",
+    "p(diff <= 0)": 0.0005
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 22,
+    "difference": 0.13498298196385883,
+    "ci": "-0.14 to 0.44",
+    "p(diff <= 0)": 0.1695
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 23,
+    "difference": 0.24300959043881165,
+    "ci": "0.02 to 0.50",
+    "p(diff <= 0)": 0.0175
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 8,
+    "difference": 0.27686866204067484,
+    "ci": "0.06 to 0.53",
+    "p(diff <= 0)": 0.004
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 9,
+    "difference": 0.41749218076924177,
+    "ci": "0.04 to 0.80",
+    "p(diff <= 0)": 0.0135
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.397550519587905,
+    "ci": "0.20 to 0.60",
+    "p(diff <= 0)": 0.0
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 9,
+    "difference": 0.2512377736234712,
+    "ci": "0.05 to 0.44",
+    "p(diff <= 0)": 0.009
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": -0.17507846123971227,
+    "ci": "-0.32 to -0.03",
+    "p(diff <= 0)": 0.9905
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.046048799008525654,
+    "ci": "-0.15 to 0.27",
+    "p(diff <= 0)": 0.349
+   }
+  ]
+ },
+ "K = 5, without the 60 commonest words": {
+  "transitions": [
+   {
+    "scribe": "scribe 1",
+    "transition": "recto -> own verso",
+    "sheets": 23,
+    "lift": 1.3440938843444405,
+    "ci": "0.93-1.76"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 16,
+    "lift": 1.8658318375588963,
+    "ci": "0.37-4.10"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 22,
+    "lift": 1.1773218486308346,
+    "ci": "0.63-1.76"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> next folio recto",
+    "sheets": 11,
+    "lift": 1.8997560527872397,
+    "ci": "0.54-3.80"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "previous verso -> b_r",
+    "sheets": 12,
+    "lift": 1.492665470047117,
+    "ci": "0.75-2.24"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 7,
+    "lift": 2.671857586378139,
+    "ci": "0.69-5.54"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "unrelated verso -> recto",
+    "sheets": 23,
+    "lift": 0.9321393621955819,
+    "ci": "0.75-1.11"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "recto -> own verso",
+    "sheets": 16,
+    "lift": 1.3641476041317877,
+    "ci": "0.80-2.10"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 14,
+    "lift": 1.7149791249028103,
+    "ci": "0.80-2.61"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 14,
+    "lift": 1.5132168749142443,
+    "ci": "0.69-2.72"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> next folio recto",
+    "sheets": 9,
+    "lift": 1.1522379199335044,
+    "ci": "0.00-3.11"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "previous verso -> b_r",
+    "sheets": 9,
+    "lift": 0.8838616480824152,
+    "ci": "0.15-1.85"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 1,
+    "lift": 0.0,
+    "ci": "0.00-0.00"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "unrelated verso -> recto",
+    "sheets": 16,
+    "lift": 1.0908754965446412,
+    "ci": "0.89-1.31"
+   }
+  ],
+  "contrasts": [
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 11,
+    "difference": 0.0,
+    "ci": "-2.99 to 3.53",
+    "p(diff <= 0)": 0.544
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 12,
+    "difference": 0.24877757834118608,
+    "ci": "-2.24 to 3.48",
+    "p(diff <= 0)": 0.5095
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.9717874153952588,
+    "ci": "-0.57 to 3.08",
+    "p(diff <= 0)": 0.1455
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 11,
+    "difference": 1.0742668155642132,
+    "ci": "-0.41 to 2.88",
+    "p(diff <= 0)": 0.0925
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 22,
+    "difference": 0.25992113450322096,
+    "ci": "-0.34 to 0.87",
+    "p(diff <= 0)": 0.2045
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 23,
+    "difference": 0.41195452214885864,
+    "ci": "-0.06 to 0.87",
+    "p(diff <= 0)": 0.043
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 8,
+    "difference": 1.8068126735869323,
+    "ci": "0.53 to 2.97",
+    "p(diff <= 0)": 0.005
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 9,
+    "difference": 1.0311719227628178,
+    "ci": "0.00 to 1.94",
+    "p(diff <= 0)": 0.032
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.6402369383338218,
+    "ci": "-0.23 to 1.54",
+    "p(diff <= 0)": 0.0825
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 9,
+    "difference": -0.013412815035158454,
+    "ci": "-1.23 to 1.98",
+    "p(diff <= 0)": 0.534
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.40398308708130415,
+    "ci": "-0.54 to 1.68",
+    "p(diff <= 0)": 0.2465
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.2732721075871465,
+    "ci": "-0.42 to 1.10",
+    "p(diff <= 0)": 0.2585
+   }
+  ]
+ },
+ "K = 8, without the 60 commonest words": {
+  "transitions": [
+   {
+    "scribe": "scribe 1",
+    "transition": "recto -> own verso",
+    "sheets": 23,
+    "lift": 1.5510240872311831,
+    "ci": "1.15-1.99"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 16,
+    "lift": 1.6962107614171784,
+    "ci": "0.80-2.73"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 22,
+    "lift": 1.2609091068461211,
+    "ci": "0.90-1.63"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "a_v -> next folio recto",
+    "sheets": 11,
+    "lift": 1.7534983495414003,
+    "ci": "0.91-2.85"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "previous verso -> b_r",
+    "sheets": 12,
+    "lift": 1.0140390421515741,
+    "ci": "0.51-1.52"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 7,
+    "lift": 2.2728121586720036,
+    "ci": "1.11-4.22"
+   },
+   {
+    "scribe": "scribe 1",
+    "transition": "unrelated verso -> recto",
+    "sheets": 23,
+    "lift": 0.9932277288873531,
+    "ci": "0.86-1.13"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "recto -> own verso",
+    "sheets": 16,
+    "lift": 1.3558910923032867,
+    "ci": "0.96-1.75"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> b_r (conjoint)",
+    "sheets": 14,
+    "lift": 1.1033873046249698,
+    "ci": "0.51-1.76"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "b_v -> a_r (outside of sheet)",
+    "sheets": 14,
+    "lift": 1.3494817955219933,
+    "ci": "0.83-1.94"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "a_v -> next folio recto",
+    "sheets": 9,
+    "lift": 0.9001858749480504,
+    "ci": "0.36-1.62"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "previous verso -> b_r",
+    "sheets": 9,
+    "lift": 0.8631461407054837,
+    "ci": "0.44-1.32"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "middle of quire: a_v -> b_r",
+    "sheets": 1,
+    "lift": 1.115555291077258,
+    "ci": "1.12-1.12"
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "transition": "unrelated verso -> recto",
+    "sheets": 16,
+    "lift": 0.8849176741998485,
+    "ci": "0.77-1.01"
+   }
+  ],
+  "contrasts": [
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 11,
+    "difference": 0.134545771797959,
+    "ci": "-1.70 to 1.83",
+    "p(diff <= 0)": 0.4505
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 12,
+    "difference": 0.8517927954073221,
+    "ci": "-0.37 to 2.09",
+    "p(diff <= 0)": 0.087
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.7251108156437259,
+    "ci": "-0.18 to 1.79",
+    "p(diff <= 0)": 0.0665
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 11,
+    "difference": 0.8323800056103308,
+    "ci": "-0.09 to 1.84",
+    "p(diff <= 0)": 0.0375
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 22,
+    "difference": 0.2547074441925181,
+    "ci": "-0.15 to 0.68",
+    "p(diff <= 0)": 0.1135
+   },
+   {
+    "scribe": "scribe 1",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 23,
+    "difference": 0.55779635834383,
+    "ci": "0.18 to 0.96",
+    "p(diff <= 0)": 0.0015
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  a_v -> next folio recto",
+    "sheets": 8,
+    "difference": 0.5774614368708235,
+    "ci": "-0.28 to 1.44",
+    "p(diff <= 0)": 0.11
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  previous verso -> b_r",
+    "sheets": 9,
+    "difference": 0.23017230418812895,
+    "ci": "-0.72 to 1.13",
+    "p(diff <= 0)": 0.3485
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> b_r (conjoint)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.2605858429727743,
+    "ci": "-0.34 to 0.90",
+    "p(diff <= 0)": 0.224
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "a_v -> next folio recto  minus  unrelated verso -> recto",
+    "sheets": 9,
+    "difference": 0.005979032892835523,
+    "ci": "-0.50 to 0.65",
+    "p(diff <= 0)": 0.495
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "b_v -> a_r (outside of sheet)  minus  unrelated verso -> recto",
+    "sheets": 14,
+    "difference": 0.44988343648337004,
+    "ci": "-0.09 to 1.05",
+    "p(diff <= 0)": 0.0485
+   },
+   {
+    "scribe": "scribes 2, 3",
+    "contrast": "recto -> own verso  minus  unrelated verso -> recto",
+    "sheets": 16,
+    "difference": 0.4709734181034383,
+    "ci": "0.01 to 0.91",
+    "p(diff <= 0)": 0.0235
+   }
+  ]
+ },
+ "matrix": [
+  {
+   "block": "herbal A",
+   "sheets": 16,
+   "end of": "a_r",
+   "start of a_r": null,
+   "start of a_v": 1.4662053815230447,
+   "start of b_r": 1.3999362117366922,
+   "start of b_v": 1.4993399664162208
+  },
+  {
+   "block": "herbal A",
+   "sheets": 16,
+   "end of": "a_v",
+   "start of a_r": 1.6070273673190432,
+   "start of a_v": null,
+   "start of b_r": 1.3590357085091778,
+   "start of b_v": 1.4755244835242503
+  },
+  {
+   "block": "herbal A",
+   "sheets": 16,
+   "end of": "b_r",
+   "start of a_r": 1.2839651646105759,
+   "start of a_v": 1.26584468849712,
+   "start of b_r": null,
+   "start of b_v": 1.3900993818465306
+  },
+  {
+   "block": "herbal A",
+   "sheets": 16,
+   "end of": "b_v",
+   "start of a_r": 1.2922488108338699,
+   "start of a_v": 1.3512697901748396,
+   "start of b_r": 1.413397136849545,
+   "start of b_v": null
+  },
+  {
+   "block": "herbal B",
+   "sheets": 5,
+   "end of": "a_r",
+   "start of a_r": null,
+   "start of a_v": 1.177061315618509,
+   "start of b_r": 1.7512375671397329,
+   "start of b_v": 1.320605378498815
+  },
+  {
+   "block": "herbal B",
+   "sheets": 5,
+   "end of": "a_v",
+   "start of a_r": 1.2631877533466926,
+   "start of a_v": null,
+   "start of b_r": 1.5502758791073046,
+   "start of b_v": 1.033517252738203
+  },
+  {
+   "block": "herbal B",
+   "sheets": 5,
+   "end of": "b_r",
+   "start of a_r": 1.177061315618509,
+   "start of a_v": 1.0191628464501725,
+   "start of b_r": null,
+   "start of b_v": 1.033517252738203
+  },
+  {
+   "block": "herbal B",
+   "sheets": 5,
+   "end of": "b_v",
+   "start of a_r": 1.0478716590262336,
+   "start of a_v": 1.0765804716022949,
+   "start of b_r": 1.4497950350910904,
+   "start of b_v": null
+  },
+  {
+   "block": "balneo B",
+   "sheets": 4,
+   "end of": "a_r",
+   "start of a_r": null,
+   "start of a_v": 1.0036149286408382,
+   "start of b_r": 0.9846787979117658,
+   "start of b_v": 0.6438284447884622
+  },
+  {
+   "block": "balneo B",
+   "sheets": 4,
+   "end of": "a_v",
+   "start of a_r": 0.7006368369756796,
+   "start of a_v": null,
+   "start of b_r": 1.391805608586823,
+   "start of b_v": 1.2923909222591927
+  },
+  {
+   "block": "balneo B",
+   "sheets": 4,
+   "end of": "b_r",
+   "start of a_r": 1.2687207588478522,
+   "start of a_v": 1.0083489613231065,
+   "start of b_r": null,
+   "start of b_v": 0.7243070003870201
+  },
+  {
+   "block": "balneo B",
+   "sheets": 4,
+   "end of": "b_v",
+   "start of a_r": 0.8899981442664037,
+   "start of a_v": 0.809519588667846,
+   "start of b_r": 1.2355825300719754,
+   "start of b_v": null
+  },
+  {
+   "block": "stars B",
+   "sheets": 6,
+   "end of": "a_r",
+   "start of a_r": null,
+   "start of a_v": 2.0445078702485464,
+   "start of b_r": 1.4578230031337462,
+   "start of b_v": 1.404488015214219
+  },
+  {
+   "block": "stars B",
+   "sheets": 6,
+   "end of": "a_v",
+   "start of a_r": 1.2741136002998188,
+   "start of a_v": null,
+   "start of b_r": 1.58227130827931,
+   "start of b_v": 1.244483051455637
+  },
+  {
+   "block": "stars B",
+   "sheets": 6,
+   "end of": "b_r",
+   "start of a_r": 0.871138136018946,
+   "start of a_v": 1.048921429084037,
+   "start of b_r": null,
+   "start of b_v": 1.0889226700236825
+  },
+  {
+   "block": "stars B",
+   "sheets": 6,
+   "end of": "b_v",
+   "start of a_r": 0.4266799033562184,
+   "start of a_v": 0.7644681601798914,
+   "start of b_r": 0.8666935536923187,
+   "start of b_v": null
+  }
+ ],
+ "direction": [
+  {
+   "block": "herbal A",
+   "sheets": 15,
+   "leaf a -> leaf b": 1.4102907695158093,
+   "leaf b -> leaf a": 1.290177899278046,
+   "difference": 0.1201128702377634,
+   "ci": "-0.11 to 0.38",
+   "p(diff <= 0)": 0.172,
+   "sheets with a->b higher": 7
+  },
+  {
+   "block": "herbal B",
+   "sheets": 5,
+   "leaf a -> leaf b": 1.413909019371014,
+   "leaf b -> leaf a": 1.0801690731743026,
+   "difference": 0.33373994619671143,
+   "ci": "-0.03 to 0.68",
+   "p(diff <= 0)": 0.031,
+   "sheets with a->b higher": 4
+  },
+  {
+   "block": "stars B",
+   "sheets": 4,
+   "leaf a -> leaf b": 1.4833793515118532,
+   "leaf b -> leaf a": 0.7722461792514891,
+   "difference": 0.7111331722603641,
+   "ci": "0.26 to 1.24",
+   "p(diff <= 0)": 0.0,
+   "sheets with a->b higher": 4
+  }
+ ]
+}
