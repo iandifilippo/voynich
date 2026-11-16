@@ -104,6 +104,8 @@ PRECURSORS = {"k": _g, "t": _g, "p": _g, "f": _g, "dy": _d, "d": _d,
               "ckh": _c, "cth": _c, "cph": _c, "cfh": _c, "e": _e, "ee": _e, "eee": _e}
 LINE_END = {"ol": "om", "or": "om", "al": "am", "ar": "am", "iin": "im", "in": "n",
             "iiin": "im", "om": "og", "am": "ag", "im": "mg"}
+LINE_TAILS = ["y", "d", "g", "s", "m", "o", "r", "l"]
+LINE_TAIL_WEIGHTS = [30, 14, 12, 12, 9, 8, 6, 6]
 SELF_IN = {"y": "o", "m": "r", "g": "r", "n": "r", "in": "ir", "iin": "iir", "dy": "da"}
 SELF_END = {"o": "y", "a": "y", "k": "t", "t": "k", "p": "f", "f": "p"}
 
@@ -161,12 +163,13 @@ class AutoCopy:
     PARA_GALLOW = 94
 
     def __init__(self, seed=0, currier="B", line_chars=55, page_lines=29, seed_text=None,
-                 boundary=None, boundary_p=0.0, extra_change=0.0):
+                 boundary=None, boundary_p=0.0, extra_change=0.0, line_end_p=0.0):
         """boundary: optional {last glyph: set of word starts} the writer prefers
         after a word ending in that glyph; with probability boundary_p a new word
         that doesn't fit is thrown away and another one is copied instead."""
         self.boundary, self.boundary_p = boundary or {}, boundary_p
         self.extra_change = extra_change
+        self.line_end_p = line_end_p
         self.rng = random.Random(seed)
         self.currier = currier
         self.line_chars = line_chars
@@ -523,6 +526,16 @@ class AutoCopy:
             out.append(extra)
         return [x for x in out if x.toks]
 
+    def finish(self, w, para_initial):
+        """Line-final word: one more change, half the time a glyph tacked on the end."""
+        if self.rng.random() < 0.5:
+            g = self.rng.choices(LINE_TAILS, LINE_TAIL_WEIGHTS)[0]
+            if not w.s.endswith(g):
+                return Word(w.toks + [g], w.kind)
+        if LINE_END.get(w.toks[-1]) and self.rng.random() < 0.5:
+            return Word(w.toks[:-1] + [LINE_END[w.toks[-1]]], w.kind)
+        return self.replace(w, para_initial)
+
     def shorten(self, w, room):
         toks = list(w.toks)
         changed = False
@@ -606,6 +619,8 @@ class AutoCopy:
                     tries += 1
         if not out:
             out = [self.pool[self.r(len(self.pool))]]
+        if self.line_end_p and len(out) > 2 and self.rng.random() < self.line_end_p:
+            out[-1] = self.finish(out[-1], para_initial)
         self.lines.append(out)
         if para_initial:
             self.para_lines.append(out)
