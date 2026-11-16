@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (21)
+
+### 30 solver + calibration
+voynich/crack: C annealer via ctypes, key = symbol -> letter string, interpolated letter 4-gram (.60/.25/.10/.05) + letter-frequency term, incremental rescoring. Latin target, 4000 held-out words (Aix). Latin plaintext: 26/50/100/200/400 symbols, spaces kept: 99.9% letters, score -0.907 (real -0.910), 26.1% letters in dictionary words; no spaces 50/200/400: 99.4/99.0/98.8%, -0.989 (real -0.994), 29.0/28.0/27.5%. Hungarian plaintext: -1.21..-1.24 kept, -1.18..-1.20 removed; hits 0.1-1.9%. Scrambled Latin: -1.33..-1.38 kept, -1.27..-1.30 removed; hits 0-0.5%.
+First blind go at Naibbe (pieces from unsupervised 2-cut segmenter, 83% cuts right, 597 symbols): solver -1.035 vs "true" key -1.197, 19% right. Looks like Latin, isn't. Word-level symbols (600-1200 types, units = letters + 120 bigrams): stuck at 29-43% token accuracy below the true key's score.
+Bugs: add-k smoothing made all-y the optimum (fixed: interpolation); no frequency term gave "alalaal".
+
 ## 2026-11-16 (20)
 
 ### 29 sheet geometry
