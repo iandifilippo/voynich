@@ -81,7 +81,7 @@ Details and caveats in `RESEARCH_LOG.md`.
 
 ## Other people's claims
 
-`experiments/community/` reruns ideas from papers, voynich.ninja, r/voynich and other repos with the same data and controls: Greshko's Naibbe ciphertext, uncertain spaces, anagram decipherments, seasonal label prefixes, and whether EVA cuts the script in the wrong places. Each one has notes on what was claimed, what I expected and what came out.
+`experiments/community/` reruns ideas from papers, voynich.ninja, r/voynich and other repos with the same data and controls: Greshko's Naibbe ciphertext, uncertain spaces, anagram decipherments, seasonal label prefixes, whether EVA cuts the script in the wrong places, the Bax, Greek and Turkic keys, a star-code reading, an affix parser, Sukhotin's vowels and the meaningful-text-among-filler idea. Each one has notes on what was claimed, what I expected and what came out.
 
 ## Data
 

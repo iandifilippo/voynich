@@ -52,7 +52,7 @@ more than knowing the last glyph.
 
 In the manuscript the best model looks two signs back and anything longer does worse on
 held-out text. It holds with every EVA character as its own sign (best: 2; in both controls:
-4). In Latin, Italian, English, French, Hebrew, Armenian, Old Norse the long view saves a
+4). In Latin, Italian, English, Persian, Hebrew, Georgian, Old Norse the long view saves a
 quarter to four tenths of the cost.
 
 **Remembering whole words does not help.** Let the model memorise the words of four fifths

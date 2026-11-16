@@ -21,6 +21,8 @@ Snapshot taken 2026-11-15. Sources at the bottom.
 - Glyph tracing: Ryan Allen's "Trace the Voynich" (ryanallen.com/voynich), pixel-level tracings of the whole manuscript checked by volunteers; glyph map, OCR and font announced. Kraken (kraken.re) is the obvious open HTR engine if we ever build our own transcription from the scans.
 - **r/voynich** (Reddit): pinned post is the Malta conference. Recent front page: single-language claims ("Language: Middle Scots. Alphabet: Anglo-Saxon cursive", 13 Nov 2026), label reuse across drawings ("Same word, different images"), the tracing project, and whether EVA should be replaced by a stroke-level alphabet ("Is it too late to rethink EVA?").
 - **voynich.net forum** and others keep receiving "SOLVED" threads (e.g. a volvelle/"industrial codex" claim, Jan-Feb 2026), usually answered with the same checklist: readable text that matches the drawings, reproducibility, peer review.
+- **Tools posted on voynich.ninja's Software board (2025-2026)**: *VAIS* (VoyBear, vineyardcode.github.io/vais), 144 reproducible tests with pre-registered kill criteria, a calibrated control battery (Latin/Italian, period ciphers, Rugg grille, Timm self-citation) and a verdict ledger in which most entries are killed hypotheses; the closest thing to this repository, and worth checking before claiming any result as new. *pykeedy* (pwspen/pykeedy), a Python loader with filtering, n-gram/entropy/position statistics and a Naibbe encoder/decoder. *voynich-claims* (vosreth), ~20 000 forum claims extracted and indexed by folio. *Voynich Scout / voynichviewer.com*, a 3D model of the book in its current binding and in Davis's singulion order (scribe changes from leaf to leaf: 31 bound, 22 in her order; in her order f75v faces f84r). bi3mw's affix parser (tested in `community/c12`). Blasto (Merricx/blasto), a hill-climbing solver for simple substitution and turning grilles with English/German/Spanish quadgrams: the same family as exp. 31. pykeedy and VAIS overlap with exps. 23 and 34 here.
+- **Other undeciphered material discussed alongside**: a proposed logographic reading of ~60% of the Rohonc Codex as a constructed religious language; Giovanni Fontana's *Bellicorum instrumentorum liber* (Venice, 1420-1430), whose captions use an invented alphabet that is plain Latin by simple substitution, a reminder that the commonest "cipher" of the period is the one exp. 31 rules out for the manuscript.
 - **YouTube**: Voynich Talk (Koen Gheuens). "The part of the Voynich Manuscript we CAN read (f116v)", 6 Dec 2025, ~214k views, 23 min. See `docs/f116v.md`.
 
 ## GitHub
@@ -53,6 +55,11 @@ What's missing in that list, and what this repo tries to be: a small, dependency
 
 ## Sources
 
+- https://vineyardcode.github.io/vais/
+- https://github.com/pwspen/pykeedy
+- https://github.com/vosreth/voynich-claims
+- https://voynichviewer.com/
+- https://github.com/Merricx/blasto
 - https://www.um.edu.mt/events/voynich2026/about/
 - https://journals.openedition.org/digitalmedievalist/2331
 - https://www.livescience.com/archaeology/undeciphered-voynich-manuscript-may-have-been-bound-out-of-order-study-finds

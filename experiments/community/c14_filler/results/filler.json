@@ -1,0 +1,46 @@
+[
+ {
+  "text": "VMS, Currier A",
+  "lines": 1557,
+  "repeated words, least / most quarter": "0.04 / 0.71",
+  "least repetitive quarter": -0.4673717952784509,
+  "least repetitive quarter, words": 2400,
+  "most repetitive quarter": -0.37046981828251957,
+  "most repetitive quarter, words": 2400,
+  "all lines": -0.4334346804351026,
+  "all lines, words": 2400
+ },
+ {
+  "text": "VMS, Currier B",
+  "lines": 2478,
+  "repeated words, least / most quarter": "0.17 / 0.77",
+  "least repetitive quarter": -0.47784567510226345,
+  "least repetitive quarter, words": 2400,
+  "most repetitive quarter": -0.31328258314834817,
+  "most repetitive quarter, words": 2400,
+  "all lines": -0.45316824595445027,
+  "all lines, words": 2400
+ },
+ {
+  "text": "Latin (Secreta secretorum)",
+  "lines": 4919,
+  "repeated words, least / most quarter": "0.07 / 0.56",
+  "least repetitive quarter": 1.4052589216203601,
+  "least repetitive quarter, words": 2400,
+  "most repetitive quarter": 1.3998571712359316,
+  "most repetitive quarter, words": 2400,
+  "all lines": 1.4980330400944848,
+  "all lines, words": 2400
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "lines": 4029,
+  "repeated words, least / most quarter": "0.15 / 0.62",
+  "least repetitive quarter": 1.4090347526334397,
+  "least repetitive quarter, words": 2400,
+  "most repetitive quarter": 1.0962916545823593,
+  "most repetitive quarter, words": 2400,
+  "all lines": 1.1627316141886999,
+  "all lines, words": 2400
+ }
+]

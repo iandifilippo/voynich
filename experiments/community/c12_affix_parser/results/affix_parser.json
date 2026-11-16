@@ -1,0 +1,272 @@
+{
+ "rows": [
+  {
+   "text": "VMS, Currier A",
+   "words": 10000,
+   "distinct words": 2975,
+   "with a prefix": 0.5926,
+   "with a suffix": 0.3096,
+   "prefix and suffix": 0.1518,
+   "distinct stems": 1541,
+   "stems / distinct words": 0.5179831932773109,
+   "top 10 cells hold": 0.0765,
+   "prefix -> suffix (bits)": 0.05712383670566906
+  },
+  {
+   "text": "VMS, Currier B",
+   "words": 10000,
+   "distinct words": 2302,
+   "with a prefix": 0.5916,
+   "with a suffix": 0.4083,
+   "prefix and suffix": 0.2299,
+   "distinct stems": 1315,
+   "stems / distinct words": 0.5712423979148566,
+   "top 10 cells hold": 0.18,
+   "prefix -> suffix (bits)": 0.15122238565227636
+  },
+  {
+   "text": "copying model",
+   "words": 10000,
+   "distinct words": 2026,
+   "with a prefix": 0.6397,
+   "with a suffix": 0.3131,
+   "prefix and suffix": 0.1397,
+   "distinct stems": 1291,
+   "stems / distinct words": 0.6372161895360315,
+   "top 10 cells hold": 0.1145,
+   "prefix -> suffix (bits)": 0.21340893003720857
+  },
+  {
+   "text": "Naibbe cipher of Pliny",
+   "words": 10000,
+   "distinct words": 2979,
+   "with a prefix": 0.5784,
+   "with a suffix": 0.4208,
+   "prefix and suffix": 0.2122,
+   "distinct stems": 1485,
+   "stems / distinct words": 0.4984894259818731,
+   "top 10 cells hold": 0.1436,
+   "prefix -> suffix (bits)": 0.1378087699574891
+  },
+  {
+   "text": "Latin (Secreta secretorum)",
+   "words": 10000,
+   "distinct words": 3161,
+   "with a prefix": 0.3072,
+   "with a suffix": 0.4104,
+   "prefix and suffix": 0.1559,
+   "distinct stems": 2629,
+   "stems / distinct words": 0.8316988294843404,
+   "top 10 cells hold": 0.0409,
+   "prefix -> suffix (bits)": 0.12615037233966234
+  },
+  {
+   "text": "Italian (Rettorica)",
+   "words": 10000,
+   "distinct words": 2744,
+   "with a prefix": 0.2784,
+   "with a suffix": 0.3212,
+   "prefix and suffix": 0.1118,
+   "distinct stems": 2251,
+   "stems / distinct words": 0.8203352769679301,
+   "top 10 cells hold": 0.0387,
+   "prefix -> suffix (bits)": 0.10033461087945648
+  },
+  {
+   "text": "English (Alphabet of Tales)",
+   "words": 10000,
+   "distinct words": 1905,
+   "with a prefix": 0.1599,
+   "with a suffix": 0.1871,
+   "prefix and suffix": 0.0259,
+   "distinct stems": 1633,
+   "stems / distinct words": 0.8572178477690289,
+   "top 10 cells hold": 0.0158,
+   "prefix -> suffix (bits)": 0.06869005850623469
+  }
+ ],
+ "top cells": {
+  "VMS, Currier A": [
+   [
+    "ch/in",
+    156
+   ],
+   [
+    "ch/hy",
+    96
+   ],
+   [
+    "qo/hy",
+    85
+   ],
+   [
+    "qo/in",
+    80
+   ],
+   [
+    "qo/ey",
+    72
+   ],
+   [
+    "sh/in",
+    66
+   ]
+  ],
+  "VMS, Currier B": [
+   [
+    "qo/dy",
+    648
+   ],
+   [
+    "qo/in",
+    322
+   ],
+   [
+    "ch/hy",
+    177
+   ],
+   [
+    "qo/ey",
+    151
+   ],
+   [
+    "ch/dy",
+    113
+   ],
+   [
+    "sh/hy",
+    108
+   ]
+  ],
+  "copying model": [
+   [
+    "ch/hy",
+    237
+   ],
+   [
+    "ch/ho",
+    217
+   ],
+   [
+    "sh/hy",
+    132
+   ],
+   [
+    "le/dy",
+    123
+   ],
+   [
+    "sh/ho",
+    121
+   ],
+   [
+    "ee/ho",
+    87
+   ]
+  ],
+  "Naibbe cipher of Pliny": [
+   [
+    "qo/dy",
+    420
+   ],
+   [
+    "qo/in",
+    327
+   ],
+   [
+    "qo/ey",
+    201
+   ],
+   [
+    "ol/in",
+    103
+   ],
+   [
+    "sh/dy",
+    91
+   ],
+   [
+    "ot/dy",
+    71
+   ]
+  ],
+  "Latin (Secreta secretorum)": [
+   [
+    "ca/um",
+    118
+   ],
+   [
+    "se/um",
+    61
+   ],
+   [
+    "co/ne",
+    38
+   ],
+   [
+    "co/us",
+    30
+   ],
+   [
+    "co/is",
+    30
+   ],
+   [
+    "co/ur",
+    29
+   ]
+  ],
+  "Italian (Rettorica)": [
+   [
+    "qu/ta",
+    75
+   ],
+   [
+    "qu/to",
+    71
+   ],
+   [
+    "pa/re",
+    40
+   ],
+   [
+    "qu/la",
+    38
+   ],
+   [
+    "di/re",
+    37
+   ],
+   [
+    "co/ne",
+    29
+   ]
+  ],
+  "English (Alphabet of Tales)": [
+   [
+    "ab/tt",
+    83
+   ],
+   [
+    "co/id",
+    19
+   ],
+   [
+    "ha/nd",
+    14
+   ],
+   [
+    "co/te",
+    8
+   ],
+   [
+    "ma/er",
+    7
+   ],
+   [
+    "be/ht",
+    7
+   ]
+  ]
+ }
+}

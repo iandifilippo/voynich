@@ -17,6 +17,9 @@ expected, what I did, what came out), a `run.py`, and `results/`.
 | c09 | Old Turkic sound values (Ata Team 2018) | voynich.ninja listing of the team's video | 20% of words read as Turkic vs 7% shuffled; copying model 20%, Naibbe cipher of Latin 17%. m = k and q = d ignore that 70% of -m end a line and 99% of q start a word |
 | c10 | no language: an astronomical code (o = degree, q = rising, e-runs = Moon days, gallows open paragraphs) | voynich.ninja, A. García Jiménez | q before o: true (98%). Gallows: only p and f belong to first lines; 3.4% of gallows open a paragraph. e-runs stop at 4. Repeats are not commoner in the stars section |
 | c11 | do the two occurrences of a doubleton sit together? | voynich.ninja, DG97EEB / R. Sale | same page 3.9% (2.7× chance), same sheet 11.7% (2.0×); two thirds are more than 20 pages apart |
+| c12 | a language-independent affix parser shows Voynich morphology | voynich.ninja, bi3mw | after stripping affixes, half the distinct words have their own stem (languages: 0.82-0.86); a Naibbe cipher of Latin makes the same heatmap, with the same biggest cell (qo/dy) |
+| c13 | Sukhotin's vowel algorithm (Guy 1991) | Cryptologia; scan shared on Language Log | vowels o, a, e, y (+ n); 83-84% of adjacent pairs cross the split, as in Latin, but the copying model and the Naibbe cipher do the same. Unvowelled Hebrew doesn't alternate |
+| c14 | a meaningful part hidden among filler: analyse only the least repetitive text | voynich.ninja, M. Knowles (thread 4057) | the least repetitive quarter has no vocabulary either (lexicon gain −0.47/−0.48 bits; Latin and Italian keep +1.4 after the same selection) |
 
 Also related: `experiments/08` and `10` (line-start effects; Smith 2016, Pelling), `11` (labels reused
 across drawings, r/voynich "Same word, different images"), `12` (scans, with notes on the tracing

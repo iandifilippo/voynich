@@ -1,0 +1,119 @@
+[
+ {
+  "text": "VMS, Currier A",
+  "signs": "EVA characters",
+  "alphabet": 24,
+  "vowels": "o h a y n g b u",
+  "pairs crossing the split": 0.7644809835573991,
+  "same, letters shuffled": 0.5490782644268876,
+  "excess": 0.21540271913051157
+ },
+ {
+  "text": "VMS, Currier A",
+  "signs": "ch sh cth... as one",
+  "alphabet": 30,
+  "vowels": "o a y n e c g u",
+  "pairs crossing the split": 0.8259187031507099,
+  "same, letters shuffled": 0.5516858780743389,
+  "excess": 0.27423282507637103
+ },
+ {
+  "text": "VMS, Currier B",
+  "signs": "EVA characters",
+  "alphabet": 24,
+  "vowels": "o h a y n f b u",
+  "pairs crossing the split": 0.781341257895617,
+  "same, letters shuffled": 0.5452691468357062,
+  "excess": 0.23607211105991088
+ },
+ {
+  "text": "VMS, Currier B",
+  "signs": "ch sh cth... as one",
+  "alphabet": 30,
+  "vowels": "o e a y n c h u z",
+  "pairs crossing the split": 0.842177010348568,
+  "same, letters shuffled": 0.5472628758208428,
+  "excess": 0.2949141345277252
+ },
+ {
+  "text": "copying model",
+  "signs": "EVA characters",
+  "alphabet": 20,
+  "vowels": "h a e y n l q m x",
+  "pairs crossing the split": 0.7497154605867019,
+  "same, letters shuffled": 0.5444928591707504,
+  "excess": 0.2052226014159515
+ },
+ {
+  "text": "copying model",
+  "signs": "ch sh cth... as one",
+  "alphabet": 24,
+  "vowels": "a e y o n sh",
+  "pairs crossing the split": 0.7756545217852494,
+  "same, letters shuffled": 0.5466306937410265,
+  "excess": 0.22902382804422294
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "signs": "EVA characters",
+  "alphabet": 20,
+  "vowels": "o a e c y n s g",
+  "pairs crossing the split": 0.8499146878086954,
+  "same, letters shuffled": 0.5419048467796351,
+  "excess": 0.30800984102906026
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "signs": "ch sh cth... as one",
+  "alphabet": 23,
+  "vowels": "o a e y n g f",
+  "pairs crossing the split": 0.816497051000347,
+  "same, letters shuffled": 0.5448299553418069,
+  "excess": 0.2716670956585401
+ },
+ {
+  "text": "Latin (Secreta secretorum)",
+  "signs": "letters",
+  "alphabet": 24,
+  "vowels": "i e u a o y",
+  "pairs crossing the split": 0.8382356041917052,
+  "same, letters shuffled": 0.542483146949626,
+  "excess": 0.2957524572420792
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "signs": "letters",
+  "alphabet": 22,
+  "vowels": "e i a o u h",
+  "pairs crossing the split": 0.8043434138420946,
+  "same, letters shuffled": 0.5421936989498249,
+  "excess": 0.2621497148922697
+ },
+ {
+  "text": "English (Alphabet of Tales)",
+  "signs": "letters",
+  "alphabet": 28,
+  "vowels": "e a o i u y ℏ",
+  "pairs crossing the split": 0.7958438156942482,
+  "same, letters shuffled": 0.53805002479983,
+  "excess": 0.25779379089441823
+ },
+ {
+  "text": "Hebrew (Mishneh, unvowelled)",
+  "signs": "letters",
+  "alphabet": 27,
+  "vowels": "ו י ל ר מ נ ד ס",
+  "pairs crossing the split": 0.6249768732654949,
+  "same, letters shuffled": 0.5355226374473828,
+  "excess": 0.08945423581811207
+ },
+ {
+  "text": "Georgian (Amirandar)",
+  "signs": "letters",
+  "alphabet": 35,
+  "vowels": "ა ი ე ო უ ქ ჰ",
+  "pairs crossing the split": 0.824613832906853,
+  "same, letters shuffled": 0.5466427136844867,
+  "excess": 0.2779711192223663
+ }
+]

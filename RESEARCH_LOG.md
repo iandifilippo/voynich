@@ -2,6 +2,15 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (28)
+
+### c12-c14
+c12 affix parser (top 25, 10000 words): prefix+suffix A .152 B .230 copy .140 Naibbe .212 Latin .156 Italian .112 English .026; stems/distinct words .518/.571/.637/.498/.832/.820/.857; top-10 cells .076/.180/.115/.144/.041/.039/.016; prefix->suffix MI excess .057/.151/.213/.138/.126/.100/.069.
+c13 Sukhotin (20000 words): crossing pairs, composites as one: A .826 (shuffled .552), B .842 (.547), copy .776 (.547), Naibbe .816 (.545); plain EVA A .764, B .781, copy .750, Naibbe .850. Latin .838, Italian .804, English .796, Georgian .825, Hebrew .625. Vowels A: o a y n e c g u; B: o e a y n c h u z.
+c14 filler (2400 words, 5 splits): repeated-word share least/most quarter A .04/.71, B .17/.77. Lexicon gain least / most / all: A -.467/-.370/-.433; B -.478/-.313/-.453; Latin 1.405/1.400/1.498; Italian 1.409/1.096/1.163.
+Correction to 34 notes: Amirandar is Georgian (not Armenian); no French text in that set (Sindbad is Persian).
+Blasto (Merricx): monoalphabetic + turning grille hill-climber, en/de/es quadgrams; same family as exp. 31, not rerun. Guy 1991 scan has no text layer; his VMS output not checked.
+
 ## 2026-11-16 (27)
 
 ### 35 letter-or-pair attack, full text
