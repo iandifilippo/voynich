@@ -1,0 +1,485 @@
+{
+ "rows": [
+  {
+   "settings": "B",
+   "measure": "exact repeats / in-line null",
+   "VMS": 0.9189534141671984,
+   "model": 0.7074101448455735,
+   "sd": 0.11138359410441746,
+   "model/VMS": 0.7697997895645928,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "near repeats / in-line null",
+   "VMS": 0.9957582184517497,
+   "model": 1.0614982432572535,
+   "sd": 0.0657151013565131,
+   "model/VMS": 1.0660200675096805,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "singletons: one edit from known",
+   "VMS": 0.6266666666666667,
+   "model": 0.6533824340744211,
+   "sd": 0.01839359507125779,
+   "model/VMS": 1.0426315437357783,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "singletons: two known joined",
+   "VMS": 0.14793650793650795,
+   "model": 0.08182851460949514,
+   "sd": 0.03161950240127785,
+   "model/VMS": 0.5531326631328534,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "mean word length",
+   "VMS": 4.9496,
+   "model": 5.213792181458508,
+   "sd": 0.2222844026722171,
+   "model/VMS": 1.0533764711205973,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "words of length 1",
+   "VMS": 0.0258,
+   "model": 0.0034739303638653034,
+   "sd": 0.0024436213502980774,
+   "model/VMS": 0.13464846371570943,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "B",
+   "measure": "words of length 2",
+   "VMS": 0.0725,
+   "model": 0.05998094298410022,
+   "sd": 0.04231560958861496,
+   "model/VMS": 0.8273233515048307,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "words of length 3",
+   "VMS": 0.1036,
+   "model": 0.08448729142049459,
+   "sd": 0.01201653561341336,
+   "model/VMS": 0.81551439595072,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "words of length 8+",
+   "VMS": 0.0557,
+   "model": 0.06897937338414768,
+   "sd": 0.014178478308243677,
+   "model/VMS": 1.2384088578841594,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "words starting q-",
+   "VMS": 0.1973,
+   "model": 0.014108237742801146,
+   "sd": 0.0028350343085513366,
+   "model/VMS": 0.07150652682615888,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "B",
+   "measure": "words starting o-",
+   "VMS": 0.213,
+   "model": 0.07436469170087363,
+   "sd": 0.02986107262857649,
+   "model/VMS": 0.34913000798532223,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "B",
+   "measure": "words starting ch-",
+   "VMS": 0.1348,
+   "model": 0.18234438345172044,
+   "sd": 0.024217845104864053,
+   "model/VMS": 1.3527031413332375,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words starting sh-",
+   "VMS": 0.104,
+   "model": 0.15357789690461154,
+   "sd": 0.03209600377954155,
+   "model/VMS": 1.4767105471597264,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words starting d-",
+   "VMS": 0.089,
+   "model": 0.08015120215930323,
+   "sd": 0.01839804445657418,
+   "model/VMS": 0.9005753051607105,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "words starting y-",
+   "VMS": 0.041,
+   "model": 0.025092603787907484,
+   "sd": 0.00712314211347397,
+   "model/VMS": 0.6120147265343289,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words ending -y",
+   "VMS": 0.5125,
+   "model": 0.35689477664031966,
+   "sd": 0.09523952953114695,
+   "model/VMS": 0.6963800519811116,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words ending -n",
+   "VMS": 0.1348,
+   "model": 0.20532514966128174,
+   "sd": 0.029329103356936746,
+   "model/VMS": 1.5231836028284995,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words ending -l",
+   "VMS": 0.1523,
+   "model": 0.07842493397209271,
+   "sd": 0.05755085066270574,
+   "model/VMS": 0.5149371895738195,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words ending -r",
+   "VMS": 0.1189,
+   "model": 0.15736452070057633,
+   "sd": 0.03370519985487481,
+   "model/VMS": 1.323503117750852,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "words ending -m",
+   "VMS": 0.0166,
+   "model": 0.013920812705571162,
+   "sd": 0.002578035725474045,
+   "model/VMS": 0.8386031750344073,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "line-first words starting s-",
+   "VMS": 0.18026905829596412,
+   "model": 0.22875089460325035,
+   "sd": 0.04075679899802981,
+   "model/VMS": 1.2689415297642992,
+   "verdict": "off"
+  },
+  {
+   "settings": "B",
+   "measure": "line-first words starting d-",
+   "VMS": 0.14349775784753363,
+   "model": 0.05786109075312791,
+   "sd": 0.011200965184797528,
+   "model/VMS": 0.4032194761858601,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "B",
+   "measure": "line-first words starting t-",
+   "VMS": 0.10134529147982063,
+   "model": 0.029308216720757885,
+   "sd": 0.003124843997060387,
+   "model/VMS": 0.28919169596146055,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "B",
+   "measure": "line-first words starting p-",
+   "VMS": 0.09775784753363229,
+   "model": 0.0825208568361364,
+   "sd": 0.004488001064692385,
+   "model/VMS": 0.8441353703880008,
+   "verdict": "ok"
+  },
+  {
+   "settings": "B",
+   "measure": "line-first words starting q-",
+   "VMS": 0.20538116591928252,
+   "model": 0.012781028136653922,
+   "sd": 0.0037561982105603284,
+   "model/VMS": 0.062230770185018006,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "B",
+   "measure": "top word share",
+   "VMS": 0.0286,
+   "model": 0.029841024440131474,
+   "sd": 0.0074395381255301565,
+   "model/VMS": 1.04339246294166,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "exact repeats / in-line null",
+   "VMS": 1.0305823209049016,
+   "model": 0.6623818037530627,
+   "sd": 0.10272734438213764,
+   "model/VMS": 0.6427257583571384,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "near repeats / in-line null",
+   "VMS": 1.292039680619405,
+   "model": 0.9541800995039822,
+   "sd": 0.1008972655261996,
+   "model/VMS": 0.7385068073501794,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "singletons: one edit from known",
+   "VMS": 0.6346433770014556,
+   "model": 0.6849941594563227,
+   "sd": 0.032524527842110074,
+   "model/VMS": 1.079337127400215,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "singletons: two known joined",
+   "VMS": 0.1445900048520136,
+   "model": 0.10279821152654671,
+   "sd": 0.014082301362802337,
+   "model/VMS": 0.7109634696517206,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "mean word length",
+   "VMS": 4.773667899630111,
+   "model": 4.590123800970608,
+   "sd": 0.17998789754968472,
+   "model/VMS": 0.9615507189610477,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "words of length 1",
+   "VMS": 0.044286713985804256,
+   "model": 0.010981136954222984,
+   "sd": 0.008091682563717473,
+   "model/VMS": 0.24795555971352712,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "words of length 2",
+   "VMS": 0.053883834849545134,
+   "model": 0.17263630823492354,
+   "sd": 0.03632320620501602,
+   "model/VMS": 3.203860837242932,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "words of length 3",
+   "VMS": 0.11676497050884735,
+   "model": 0.0843315645400125,
+   "sd": 0.014046189468555584,
+   "model/VMS": 0.7222334247377954,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "words of length 8+",
+   "VMS": 0.06358092572228331,
+   "model": 0.03609992359340327,
+   "sd": 0.011427242279445861,
+   "model/VMS": 0.5677791441899575,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "words starting q-",
+   "VMS": 0.09597120863740878,
+   "model": 0.004521641617713225,
+   "sd": 0.001340125329404798,
+   "model/VMS": 0.047114563647901446,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "words starting o-",
+   "VMS": 0.15645306408077578,
+   "model": 0.17195045922651656,
+   "sd": 0.03049559282552188,
+   "model/VMS": 1.0990545965768979,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "words starting ch-",
+   "VMS": 0.19434169749075278,
+   "model": 0.17182408530879562,
+   "sd": 0.03187360264820067,
+   "model/VMS": 0.8841339122139313,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "words starting sh-",
+   "VMS": 0.08807357792662202,
+   "model": 0.1216608045127731,
+   "sd": 0.013718461770976628,
+   "model/VMS": 1.381354174280669,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "words starting d-",
+   "VMS": 0.15555333399980006,
+   "model": 0.08928999431719166,
+   "sd": 0.014939509792394532,
+   "model/VMS": 0.5740153040841055,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "words starting y-",
+   "VMS": 0.06398080575827252,
+   "model": 0.02590703299931576,
+   "sd": 0.0046188875056995425,
+   "model/VMS": 0.404918829831493,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "words ending -y",
+   "VMS": 0.31810456862941117,
+   "model": 0.2762309689287181,
+   "sd": 0.0689847134426985,
+   "model/VMS": 0.8683652992438615,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "words ending -n",
+   "VMS": 0.16015195441367588,
+   "model": 0.17797013976619958,
+   "sd": 0.03512740072192951,
+   "model/VMS": 1.1112579950569879,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "words ending -l",
+   "VMS": 0.17604718584424672,
+   "model": 0.15254835547781465,
+   "sd": 0.03109934907724621,
+   "model/VMS": 0.8665197046249744,
+   "verdict": "ok"
+  },
+  {
+   "settings": "A",
+   "measure": "words ending -r",
+   "VMS": 0.16724982505248426,
+   "model": 0.21302020843948385,
+   "sd": 0.022099556421159364,
+   "model/VMS": 1.273664760920596,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "words ending -m",
+   "VMS": 0.031390582825152454,
+   "model": 0.015301989959385982,
+   "sd": 0.00636129466264324,
+   "model/VMS": 0.4874707183558535,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "line-first words starting s-",
+   "VMS": 0.12714285714285714,
+   "model": 0.22826335261156572,
+   "sd": 0.011697752120188408,
+   "model/VMS": 1.7953297396415282,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "line-first words starting d-",
+   "VMS": 0.14714285714285713,
+   "model": 0.09121958777211511,
+   "sd": 0.01884109963730422,
+   "model/VMS": 0.6199389460240834,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "line-first words starting t-",
+   "VMS": 0.08857142857142856,
+   "model": 0.029364315796227537,
+   "sd": 0.005224242748461836,
+   "model/VMS": 0.3315325976993432,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "line-first words starting p-",
+   "VMS": 0.05071428571428571,
+   "model": 0.07724439202166565,
+   "sd": 0.005414793711189721,
+   "model/VMS": 1.5231288567652383,
+   "verdict": "off"
+  },
+  {
+   "settings": "A",
+   "measure": "line-first words starting q-",
+   "VMS": 0.14357142857142857,
+   "model": 0.005079116473149478,
+   "sd": 0.0019416196963381932,
+   "model/VMS": 0.03537693065875258,
+   "verdict": "wrong"
+  },
+  {
+   "settings": "A",
+   "measure": "top word share",
+   "VMS": 0.046086174147755676,
+   "model": 0.05419744545108517,
+   "sd": 0.012151378954676068,
+   "model/VMS": 1.176002270818232,
+   "verdict": "ok"
+  }
+ ],
+ "tally": {
+  "B off": 10,
+  "B ok": 10,
+  "B wrong": 6,
+  "A off": 11,
+  "A ok": 8,
+  "A wrong": 7
+ },
+ "a_vs_b": {
+  "VMS A vs B": 1.309010739045534,
+  "model A vs B settings (mean of 4)": 1.214435763432974,
+  "model B vs B, different seeds (mean of 4)": 0.796371771985356
+ }
+}
