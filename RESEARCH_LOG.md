@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (7)
+
+### 16 commas
+Parser now takes `commas="split"|"smart"|"join"`. smart = glue across `,` when the result occurs 2+ times. Tokens 38718 / 37849 / 35973. Ranks among 18 historical texts, split/smart/join: h2 0/0/0, h1 1/1/1, word_mi 0/0/0, line_first 18/18/18, line_last 18/18/18, edge_coupling 15/11/9 (0.147/0.121/0.108). Shift split→smart 0.18 units vs A-B gap 1.17. Naibbe (Greshko) core 0.94/0.80/0.89.
+
+Correction: edge coupling is real but not extreme; exp 13 target should be ~0.12 under smart.
+
 ## 2026-11-16 (6)
 
 ### 15 repeats
