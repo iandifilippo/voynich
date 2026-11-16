@@ -1,0 +1,402 @@
+[
+ {
+  "set": "all",
+  "glyph": "s",
+  "types_tested": 785,
+  "r": 0.1299337778584926,
+  "p": 0.0,
+  "line_starts_with_g": 599,
+  "of_which_g_plus_word": 327,
+  "top_pairs": "s+ain (def 3.8, sur 8.3), s+oiin (def 2.0, sur 6.2), s+aiin (def 7.6, sur 5.9), s+or (def 1.6, sur 4.3), s+ol (def 4.2, sur 4.1), s+ar (def 5.8, sur 3.8)"
+ },
+ {
+  "set": "all",
+  "glyph": "d",
+  "types_tested": 785,
+  "r": 0.15795652133727758,
+  "p": 0.0,
+  "line_starts_with_g": 624,
+  "of_which_g_plus_word": 551,
+  "top_pairs": "d+aiin (def 7.6, sur 9.2), d+ain (def 3.8, sur 7.4), d+air (def 2.9, sur 5.6), d+shedy (def 6.5, sur 3.9), d+aiir (def 1.7, sur 3.3), d+shor (def -2.8, sur 2.6)"
+ },
+ {
+  "set": "all",
+  "glyph": "y",
+  "types_tested": 785,
+  "r": -0.07955964244191496,
+  "p": 0.977,
+  "line_starts_with_g": 590,
+  "of_which_g_plus_word": 393,
+  "top_pairs": "y+tchedy (def -21.9, sur 5.0), y+cheeo (def -1.4, sur 4.3), y+teedy (def 1.4, sur 4.0), y+cheey (def 4.4, sur 3.7), y+cheo (def 2.0, sur 3.3), y+keeo (def 1.1, sur 3.3)"
+ },
+ {
+  "set": "all",
+  "glyph": "o",
+  "types_tested": 785,
+  "r": -0.019423699300550965,
+  "p": 0.701,
+  "line_starts_with_g": 547,
+  "of_which_g_plus_word": 377,
+  "top_pairs": "o+tchol (def -2.9, sur 5.3), o+tchor (def -9.9, sur 4.3), o+ksho (def -2.9, sur 2.0), o+ain (def 3.8, sur 1.7), o+lcheol (def -1.4, sur 1.5), o+lkeey (def 1.8, sur 1.3)"
+ },
+ {
+  "set": "all",
+  "glyph": "t",
+  "types_tested": 785,
+  "r": 0.09708843682521213,
+  "p": 0.0,
+  "line_starts_with_g": 391,
+  "of_which_g_plus_word": 265,
+  "top_pairs": "t+ol (def 4.2, sur 3.1), t+chedy (def 7.1, sur 3.0), t+sheeor (def 0.8, sur 2.5), t+odal (def 0.5, sur 2.3), t+oar (def -3.6, sur 2.2), t+oeedy (def 0.9, sur 2.2)"
+ },
+ {
+  "set": "all",
+  "glyph": "k",
+  "types_tested": 785,
+  "r": -0.07055740627802704,
+  "p": 0.9955,
+  "line_starts_with_g": 104,
+  "of_which_g_plus_word": 54,
+  "top_pairs": "k+cheeos (def 0.9, sur 1.1), k+odam (def 1.0, sur 1.0), k+olchdy (def 1.1, sur 0.9), k+chor (def 3.4, sur 0.8), k+chokchy (def 0.6, sur 0.7), k+oaiin (def -6.0, sur 0.7)"
+ },
+ {
+  "set": "all",
+  "glyph": "p",
+  "types_tested": 785,
+  "r": 0.0695819478930658,
+  "p": 0.0075,
+  "line_starts_with_g": 375,
+  "of_which_g_plus_word": 219,
+  "top_pairs": "p+chedar (def 2.1, sur 4.3), p+olaiin (def 0.5, sur 3.0), p+chedal (def 1.1, sur 2.9), p+chodain (def 1.0, sur 2.9), p+olal (def 0.8, sur 2.5), p+oar (def -3.6, sur 2.2)"
+ },
+ {
+  "set": "all",
+  "glyph": "q",
+  "types_tested": 785,
+  "r": -0.13326232319141018,
+  "p": 0.9965,
+  "line_starts_with_g": 529,
+  "of_which_g_plus_word": 422,
+  "top_pairs": "q+otchor (def -4.1, sur 6.7), q+otchy (def -0.1, sur 5.6), q+otor (def -0.2, sur 4.7), q+okchy (def -1.6, sur 4.4), q+ok (def 1.0, sur 4.0), q+okchor (def -1.0, sur 3.5)"
+ },
+ {
+  "set": "all",
+  "glyph": "l",
+  "types_tested": 785,
+  "r": -0.08717809277118425,
+  "p": 0.998,
+  "line_starts_with_g": 69,
+  "of_which_g_plus_word": 57,
+  "top_pairs": "l+shes (def 0.8, sur 1.2), l+cheod (def 0.8, sur 1.1), l+shee (def 1.3, sur 0.8), l+sheody (def 2.0, sur 0.8), l+sho (def -5.8, sur 0.6), l+chdal (def 1.6, sur 0.5)"
+ },
+ {
+  "set": "all",
+  "glyph": "r",
+  "types_tested": 785,
+  "r": -0.15203494930585998,
+  "p": 0.998,
+  "line_starts_with_g": 12,
+  "of_which_g_plus_word": 7,
+  "top_pairs": "r+oar (def -3.6, sur 1.1), r+oraiin (def 0.4, sur 0.5), r+olkeedy (def 1.0, sur 0.4), r+cheky (def 2.8, sur 0.3), r+ykal (def 1.1, sur 0.0), r+shol (def 0.7, sur 0.0)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "s",
+  "types_tested": 296,
+  "r": 0.046529220407075814,
+  "p": 0.212,
+  "line_starts_with_g": 192,
+  "of_which_g_plus_word": 61,
+  "top_pairs": "s+oiin (def 1.5, sur 3.6), s+or (def -1.9, sur 2.0), s+ol (def 0.4, sur 1.9), s+air (def 1.2, sur 1.4), s+chokey (def -0.2, sur 1.1), s+odaiin (def -0.1, sur 1.0)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "d",
+  "types_tested": 296,
+  "r": 0.014609028795727032,
+  "p": 0.3335,
+  "line_starts_with_g": 231,
+  "of_which_g_plus_word": 196,
+  "top_pairs": "d+oiin (def 1.5, sur 2.6), d+chor (def 3.6, sur 1.8), d+shor (def -1.0, sur 1.7), d+cheey (def 2.4, sur 1.6), d+or (def -1.9, sur 1.6), d+chey (def 3.7, sur 1.4)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "y",
+  "types_tested": 296,
+  "r": -0.0025300788953397145,
+  "p": 0.537,
+  "line_starts_with_g": 226,
+  "of_which_g_plus_word": 143,
+  "top_pairs": "y+chor (def 3.6, sur 2.5), y+cheor (def 2.8, sur 2.5), y+cheey (def 2.4, sur 2.5), y+tchor (def -8.5, sur 2.0), y+keey (def 1.9, sur 1.9), y+kcho (def 0.1, sur 1.8)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "o",
+  "types_tested": 296,
+  "r": -0.1939988797174655,
+  "p": 0.9975,
+  "line_starts_with_g": 267,
+  "of_which_g_plus_word": 158,
+  "top_pairs": "o+tchol (def -1.0, sur 4.7), o+tchor (def -8.5, sur 4.4), o+ain (def 1.3, sur 2.4), o+r (def 2.5, sur 2.4), o+ksho (def -2.5, sur 1.7), o+tor (def -4.2, sur 1.6)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "t",
+  "types_tested": 296,
+  "r": 0.020513679667541387,
+  "p": 0.368,
+  "line_starts_with_g": 133,
+  "of_which_g_plus_word": 79,
+  "top_pairs": "t+ol (def 0.4, sur 2.9), t+odal (def -0.2, sur 2.3), t+chor (def 3.6, sur 1.7), t+cheody (def 2.1, sur 1.5), t+oiin (def 1.5, sur 1.3), t+os (def 0.7, sur 1.3)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "k",
+  "types_tested": 296,
+  "r": -0.16418548530894236,
+  "p": 0.998,
+  "line_starts_with_g": 64,
+  "of_which_g_plus_word": 36,
+  "top_pairs": "k+cheodaiin (def 1.0, sur 1.0), k+oaiin (def -4.7, sur 1.0), k+odaiin (def -0.1, sur 0.9), k+shar (def -0.5, sur 0.8), k+chor (def 3.6, sur 0.8), k+sor (def -5.5, sur 0.8)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "p",
+  "types_tested": 296,
+  "r": -0.013895483472963033,
+  "p": 0.6235,
+  "line_starts_with_g": 78,
+  "of_which_g_plus_word": 38,
+  "top_pairs": "p+chocthy (def 0.6, sur 2.2), p+ydaiin (def -4.2, sur 2.1), p+cheol (def 3.2, sur 1.2), p+odaiin (def -0.1, sur 1.0), p+chodar (def -0.1, sur 1.0), p+oaiin (def -4.7, sur 1.0)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "q",
+  "types_tested": 296,
+  "r": -0.14152719730305843,
+  "p": 0.9785,
+  "line_starts_with_g": 210,
+  "of_which_g_plus_word": 136,
+  "top_pairs": "q+otor (def -1.3, sur 7.5), q+okchy (def -1.1, sur 6.9), q+otchor (def -3.9, sur 6.5), q+otchy (def -0.0, sur 5.5), q+okchor (def -1.3, sur 3.8), q+otol (def -0.5, sur 2.6)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "l",
+  "types_tested": 296,
+  "r": -0.10982208840864056,
+  "p": 0.9565,
+  "line_starts_with_g": 10,
+  "of_which_g_plus_word": 7,
+  "top_pairs": "l+or (def -1.9, sur 1.1), l+char (def 2.3, sur 0.4), l+sho (def -5.1, sur 0.3), l+chor (def 3.6, sur 0.2), l+ar (def 2.9, sur 0.0), l+kor (def -0.3, sur 0.0)"
+ },
+ {
+  "set": "Currier A",
+  "glyph": "r",
+  "types_tested": 296,
+  "r": -0.010201640795735286,
+  "p": 0.619,
+  "line_starts_with_g": 2,
+  "of_which_g_plus_word": 1,
+  "top_pairs": "r+al (def 1.5, sur 0.5), r+shol (def 1.1, sur 0.0), r+kor (def -0.3, sur 0.0), r+shar (def -0.5, sur 0.0), r+cthar (def 1.5, sur 0.0), r+dan (def 1.5, sur 0.0)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "s",
+  "types_tested": 546,
+  "r": 0.12392733836123869,
+  "p": 0.0,
+  "line_starts_with_g": 393,
+  "of_which_g_plus_word": 251,
+  "top_pairs": "s+ain (def 3.4, sur 9.0), s+aiin (def 6.6, sur 6.6), s+oiin (def 1.3, sur 5.2), s+ar (def 4.7, sur 4.1), s+ol (def 4.2, sur 3.7), s+or (def 3.0, sur 3.7)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "d",
+  "types_tested": 546,
+  "r": 0.16818797998962812,
+  "p": 0.0,
+  "line_starts_with_g": 376,
+  "of_which_g_plus_word": 324,
+  "top_pairs": "d+aiin (def 6.6, sur 9.9), d+ain (def 3.4, sur 7.7), d+air (def 2.5, sur 6.5), d+shedy (def 6.0, sur 3.9), d+aiir (def 1.5, sur 2.4), d+sheol (def 1.6, sur 2.2)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "y",
+  "types_tested": 546,
+  "r": -0.1209192137549442,
+  "p": 0.9885,
+  "line_starts_with_g": 349,
+  "of_which_g_plus_word": 214,
+  "top_pairs": "y+tchedy (def -22.2, sur 5.3), y+teedy (def 1.3, sur 4.4), y+tchey (def -0.9, sur 3.8), y+cheo (def 0.8, sur 3.7), y+keeo (def 0.8, sur 3.6), y+teody (def 0.8, sur 3.4)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "o",
+  "types_tested": 546,
+  "r": 0.04946698465307576,
+  "p": 0.12,
+  "line_starts_with_g": 269,
+  "of_which_g_plus_word": 177,
+  "top_pairs": "o+lcheol (def -1.5, sur 2.2), o+keeo (def 0.8, sur 2.2), o+lshey (def -1.2, sur 1.6), o+kcheody (def 0.8, sur 1.3), o+lcheey (def -1.7, sur 1.2), o+lkeey (def 1.6, sur 1.2)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "t",
+  "types_tested": 546,
+  "r": 0.10089616864311403,
+  "p": 0.0,
+  "line_starts_with_g": 246,
+  "of_which_g_plus_word": 159,
+  "top_pairs": "t+chedy (def 6.7, sur 3.0), t+shod (def -1.8, sur 2.6), t+shedar (def 1.0, sur 2.1), t+ar (def 4.7, sur 2.0), t+chdor (def 1.0, sur 1.9), t+olshey (def -1.9, sur 1.9)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "k",
+  "types_tested": 546,
+  "r": -0.08152197355538965,
+  "p": 0.96,
+  "line_starts_with_g": 38,
+  "of_which_g_plus_word": 16,
+  "top_pairs": "k+cheeos (def 0.8, sur 1.2), k+olchdy (def 1.0, sur 1.0), k+chdal (def 1.5, sur 0.7), k+sheo (def 0.9, sur 0.6), k+shed (def 0.7, sur 0.6), k+olkedy (def 1.8, sur 0.6)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "p",
+  "types_tested": 546,
+  "r": 0.06658452121692343,
+  "p": 0.019,
+  "line_starts_with_g": 297,
+  "of_which_g_plus_word": 166,
+  "top_pairs": "p+chedar (def 2.0, sur 4.6), p+chedal (def 0.9, sur 3.2), p+olaiin (def 0.9, sur 3.1), p+olchedy (def 1.5, sur 2.4), p+oiin (def 1.3, sur 2.3), p+sheody (def 1.2, sur 2.2)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "q",
+  "types_tested": 546,
+  "r": -0.10491394103172672,
+  "p": 0.9985,
+  "line_starts_with_g": 314,
+  "of_which_g_plus_word": 253,
+  "top_pairs": "q+oaiin (def -3.9, sur 2.3), q+okeeor (def 0.8, sur 2.1), q+okees (def -0.0, sur 1.3), q+oeedy (def 0.8, sur 1.3), q+kor (def -0.3, sur 1.2), q+okeeey (def 1.4, sur 1.1)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "l",
+  "types_tested": 546,
+  "r": -0.051931588870857665,
+  "p": 0.906,
+  "line_starts_with_g": 59,
+  "of_which_g_plus_word": 48,
+  "top_pairs": "l+sheody (def 1.2, sur 1.0), l+shee (def 1.1, sur 0.9), l+sho (def 0.4, sur 0.8), l+shar (def 0.8, sur 0.7), l+os (def 1.0, sur 0.7), l+cheos (def 1.5, sur 0.6)"
+ },
+ {
+  "set": "Currier B",
+  "glyph": "r",
+  "types_tested": 546,
+  "r": -0.1504610688361412,
+  "p": 0.9995,
+  "line_starts_with_g": 9,
+  "of_which_g_plus_word": 5,
+  "top_pairs": "r+oraiin (def -0.4, sur 0.6), r+olkeedy (def 0.8, sur 0.5), r+cheky (def 2.3, sur 0.4), r+y (def -9.9, sur 0.0), r+ypchedy (def 0.2, sur 0.0), r+ytedy (def 0.3, sur 0.0)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "s",
+  "types_tested": 800,
+  "r": 0.11605040322223782,
+  "p": 0.0,
+  "line_starts_with_g": 592,
+  "of_which_g_plus_word": 338,
+  "top_pairs": "s+ain (def 3.4, sur 8.9), s+aiin (def 7.5, sur 5.7), s+oiin (def 1.5, sur 5.6), s+or (def 2.0, sur 5.3), s+ol (def 4.4, sur 4.2), s+ar (def 5.7, sur 3.3)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "d",
+  "types_tested": 800,
+  "r": 0.14338717801297945,
+  "p": 0.0005,
+  "line_starts_with_g": 623,
+  "of_which_g_plus_word": 552,
+  "top_pairs": "d+aiin (def 7.5, sur 8.1), d+ain (def 3.4, sur 7.5), d+air (def 2.7, sur 6.4), d+oiin (def 1.5, sur 4.5), d+shedy (def 6.4, sur 4.0), d+aiir (def 1.6, sur 3.0)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "y",
+  "types_tested": 800,
+  "r": -0.053052506488993866,
+  "p": 0.9235,
+  "line_starts_with_g": 581,
+  "of_which_g_plus_word": 403,
+  "top_pairs": "y+teedy (def 1.3, sur 5.1), y+tchedy (def -18.8, sur 4.7), y+cheo (def 2.4, sur 4.6), y+cheey (def 4.2, sur 4.4), y+cheeo (def -1.9, sur 3.8), y+keeo (def 1.1, sur 3.4)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "o",
+  "types_tested": 800,
+  "r": -0.0048957635323802215,
+  "p": 0.5145,
+  "line_starts_with_g": 538,
+  "of_which_g_plus_word": 368,
+  "top_pairs": "o+tchor (def -10.4, sur 4.7), o+tchol (def -2.8, sur 4.2), o+lcheey (def -1.4, sur 2.4), o+ksho (def -2.9, sur 2.1), o+ain (def 3.4, sur 1.9), o+kcheey (def 0.8, sur 1.6)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "t",
+  "types_tested": 800,
+  "r": 0.10214617063775658,
+  "p": 0.0,
+  "line_starts_with_g": 393,
+  "of_which_g_plus_word": 261,
+  "top_pairs": "t+ol (def 4.4, sur 3.0), t+chedy (def 7.1, sur 2.7), t+odaiin (def -0.1, sur 2.7), t+odal (def 0.4, sur 2.5), t+arar (def 0.8, sur 2.4), t+oeedy (def 0.9, sur 2.2)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "k",
+  "types_tested": 800,
+  "r": -0.07751317256652682,
+  "p": 0.998,
+  "line_starts_with_g": 105,
+  "of_which_g_plus_word": 61,
+  "top_pairs": "k+oaiin (def -5.7, sur 1.3), k+odam (def 0.9, sur 1.1), k+cheeos (def 0.9, sur 1.1), k+olchdy (def 1.0, sur 1.0), k+oar (def -3.8, sur 1.0), k+shar (def 0.4, sur 0.9)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "p",
+  "types_tested": 800,
+  "r": 0.07732010507244566,
+  "p": 0.005,
+  "line_starts_with_g": 378,
+  "of_which_g_plus_word": 226,
+  "top_pairs": "p+chedar (def 1.9, sur 4.1), p+chedal (def 1.1, sur 3.0), p+olaiin (def 0.6, sur 3.0), p+chodain (def 1.1, sur 2.7), p+ochedy (def -0.4, sur 2.4), p+olal (def 0.8, sur 2.4)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "q",
+  "types_tested": 800,
+  "r": -0.16801441430056782,
+  "p": 0.9995,
+  "line_starts_with_g": 528,
+  "of_which_g_plus_word": 418,
+  "top_pairs": "q+otchor (def -3.7, sur 7.9), q+otchy (def -0.0, sur 5.9), q+otcho (def -4.1, sur 5.1), q+okchor (def -0.7, sur 3.8), q+otor (def 0.2, sur 3.6), q+okcho (def -0.1, sur 3.3)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "l",
+  "types_tested": 800,
+  "r": -0.08677459908160794,
+  "p": 0.997,
+  "line_starts_with_g": 68,
+  "of_which_g_plus_word": 57,
+  "top_pairs": "l+shes (def 0.8, sur 1.2), l+cheod (def 0.8, sur 1.1), l+shee (def 1.3, sur 0.8), l+sheody (def 2.0, sur 0.8), l+ory (def 1.4, sur 0.6), l+sho (def -5.8, sur 0.6)"
+ },
+ {
+  "set": "Takahashi (IT)",
+  "glyph": "r",
+  "types_tested": 800,
+  "r": -0.1382966729409009,
+  "p": 0.998,
+  "line_starts_with_g": 16,
+  "of_which_g_plus_word": 11,
+  "top_pairs": "r+otcho (def -4.1, sur 1.2), r+olchy (def 1.0, sur 0.8), r+odaiin (def -0.1, sur 0.7), r+orain (def -1.3, sur 0.6), r+olkeedy (def 0.9, sur 0.4), r+air (def 2.7, sur 0.1)"
+ }
+]
