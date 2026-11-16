@@ -60,6 +60,8 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 17 | self-citation | reimplementation of Timm & Schinner's generator: distance 2.45 (best so far; Naibbe 4.54, autokey + line-start 3.92), right line cohesion and near-repeat excess, but no edge coupling (0.01 vs 0.15) and too few hapaxes (0.55 vs 0.69). Ciphers and copying fail in opposite places |
 | 18 | copying + boundary habit | the copying scribe discards, with probability p, words whose start doesn't suit the previous word's last glyph: p ≈ 0.65 gives VMS-sized edge coupling, core distance 0.98 → 0.71, line metrics unchanged. Coupling is not evidence of a cipher (but the fitted list is read off the VMS, so the pattern match is weak evidence) |
 | 19 | copying: vocabulary | more glyph changes per copy raise hapax only 0.55 → 0.59 and cost line cohesion and the near-repeat excess. The model is already more varied locally than the VMS (MATTR 0.56 vs 0.54); what it lacks is one-off words |
+| 20 | singletons | 4 in 5 one-off words are a known word with one glyph changed or two known words joined (Latin/Italian: 1 in 5); they pile up at line edges (27% first, 13-17% mid, 24-29% last; paragraph openers 47%). Line-first ones add a glyph in front, line-last ones add one at the end |
+| 21 | line-end rule | giving the copying model one extra change on line-final words fixes line-end singletons and the line-end word distribution, distance 2.39 → 1.9 (best so far); hapax ratio stays low because the model lacks a core: 87 words cover 54% of Currier B, the model's top 58 cover 30% |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

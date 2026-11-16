@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (13)
+
+### 20 singletons
+First 10k words. Singleton make-up (one edit from a 2+ word / two known joined / neither): VMS A 64/15/22, B 63/15/23, copying model 66/12/22, Naibbe 81/2/16, Latin 17/1/82, Italian 18/26/56. Singleton rate first/middle/last: A .29/.17/.29, B .27/.13/.24, model B .29/.12/.11, Latin flat .24-.26. Paragraph openers .47, labels .36 (whole MS). Line-first singletons: glyph added at start 38-40% (mid 19-22%); line-last: glyph added at end 15-19% (mid 7-11%), y d g s m. Exp 14 tested swaps only; additions do happen at line end.
+
+### 21 line-end rule
+AutoCopy(line_end_p). q 0/.2/.4/.6/.8: distance 2.39/2.32/2.06/1.89/1.86, last-word singleton rate .11/.17/.22/.27/.33, line_last_jsd .028/.036/.048/.082/.095 (VMS B .065), hapax .553/.560/.570/.590/.598. Spectrum, 10k words: VMS B types x1 1575, x2 240, x3-5 223, x6-20 177, x21+ 87 (53.5% of tokens); model q=.5: 1681, 405, 402, 296, 58 (30.4%). The gap is the core, not the tail.
+
 ## 2026-11-16 (12)
 
 ### c07 Bax 2014

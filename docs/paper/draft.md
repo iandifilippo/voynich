@@ -82,7 +82,7 @@ Currier B only; *y*, *q* and *k* go the other way. The mirror test at line end (
 rewritten as -m or -g, singly and pooled by stem; 97 tests) finds nothing: line-final words
 are shorter (4.73 vs 4.96 glyphs) and favour -m forms (*am* ×23, *dam* ×12 over expectation)
 without taking anything from their siblings. Line starts behave like a transformation; line
-ends like a choice.
+ends add rather than replace (3.6).
 
 ### 3.3 Repeats: composition vs adjacency (exp. 15)
 
@@ -103,6 +103,7 @@ Repeats avoid the first pair of a line (3.4 vs 11.1 mid-line) and line breaks (6
 | autokey Naibbe + line-start rule | 3.92 | 0.49 | 0.143 | 0.63 | – |
 | self-citation (B settings, 8 seeds) | 2.46 | 0.97 | 0.013 | 0.55 | 2.01 |
 | self-citation + boundary preference, p = 0.65 | 2.42 | 0.71 | 0.115 | 0.55 | 1.99 |
+| + line-end rule, q = 0.6 | 1.89 | 0.68 | 0.111 | 0.59 | 2.34 |
 
 The cipher models fail on line metrics (line-last −9.8, repeat rate −8.7, cohesion −5.1 in
 scaled units for the best variant); the copying model fails on word metrics (hapax −1.9,
@@ -119,7 +120,17 @@ give the size but not the pattern (r 0.02, best 0.16). Because the fitted list i
 manuscript and the pattern is stable across halves, the pattern match shows only that the
 rule can carry it.
 
-### 3.6 Rare words (exp. 19)
+### 3.6 Rare words (exp. 19-21)
+
+Four in five of the manuscript's singletons are one edit from a word that occurs at least
+twice, or two such words joined (Latin and Italian: one in five), and they concentrate at
+line edges: 27% of line-first words, 13-17% mid-line, 24-29% of line-final words.
+Line-first singletons typically add a glyph in front of a known word, line-final ones add a
+glyph at the end. A line-end rule in the copying model reproduces the line-final singleton
+rate and the line-final word distribution together (distance 2.39 → 1.9), but not the hapax
+ratio: the model has the singletons and lacks the core. In Currier B the 87 types with more
+than 20 occurrences cover 54% of a 10 000-word sample; the model's 58 such types cover 30%.
+
 
 Raising the copying model's mutation rate moves hapax only from 0.55 to 0.59 and costs line
 cohesion (1.99 → 1.66) and the near-repeat excess. The model is already more varied locally
