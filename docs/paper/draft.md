@@ -198,6 +198,15 @@ Layfield & Davis report drawings crossing the sheet. For scribe 1 (11 sheets) th
 folio wins in 9. The groups differ (Fisher p = 0.035). The split by scribe was made after
 seeing the pooled result.
 
+Two further checks (exp. 29). The conjoint leaf beats the next folio for scribes 2 and 3 at
+window sizes of 4, 5, 6 and 8 lines (all p ≤ 0.004). And a sheet written as a unit predicts
+a direction: the end of a page on the earlier leaf should resemble the start of a page on
+the later leaf more than the reverse, which cannot happen if the leaves were written many
+folios apart. In the stars quire the lifts are 1.48 and 0.77 (difference 0.71, interval
+0.26-1.24, 4 of 4 sheets); in herbal B 1.41 and 1.08; in scribe 1's herbal A 1.41 and 1.29
+(no difference). For scribe 1 all four pages of a sheet resemble each other without any
+direction, and the lean towards book order is not supported.
+
 ## 4. Discussion
 
 The two families fail in complementary places. Encipherment of a real text gives the

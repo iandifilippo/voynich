@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (20)
+
+### 29 sheet geometry
+Scribes 2+3, K=5: conjoint a_v->b_r 1.50 [1.20-1.80] (14), next folio 1.28 [0.96-1.55] (9), recto->own verso 1.11 [0.88-1.36] (16), b_v->a_r 0.74 [0.56-0.90] (14), unrelated 1.05. Conjoint - next folio: K4 0.79, K5 0.43, K6 0.42, K8 0.28 (p .000/.001/.004/.004); rare words K5 1.81 (p .005), K8 0.58 (p .11). Scribe 1: own verso 1.55, conjoint 1.38, outside 1.33, next folio 1.53, unrelated 1.13; conjoint - next -0.28 [-0.91, 0.60].
+Direction (leaf a -> b vs b -> a, 4 cross pairs each, K=6): stars 1.48 vs 0.77, diff 0.71 [0.26, 1.24], 4/4; herbal B 1.41 vs 1.08, 0.33 [-0.03, 0.68], 4/5; herbal A 1.41 vs 1.29, 0.12 [-0.11, 0.38], 7/15.
+Stars matrix: a_r->a_v 2.04, a_v->b_r 1.58, b_r->b_v 1.09, b_v->a_r 0.43.
+Consequence: f103-f116 as bound is not the writing order; exp 22/25 stars numbers read it wrongly.
+
 ## 2026-11-16 (19)
 
 ### prior work I had missed

@@ -53,6 +53,11 @@ and was written a side at a time: the two inner pages are then consecutive (leaf
 leaf 2 recto, which is where the drawings cross), and a recto is never followed by its own
 verso. Small numbers, but the pieces point the same way.
 
+## Follow-up
+
+Exp. 29 runs every transition within a sheet. The scribes 2-3 result holds at every window
+size and passes a direction test; the scribe 1 lean towards book order does not survive.
+
 ## So what
 
 - For the Currier B scribes this is independent support for sheet-at-a-time writing, from
