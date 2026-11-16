@@ -1,7 +1,8 @@
 """python -m voynich.download
 
-Fetches the transliterations from voynich.nu and the comparison corpora
-from Lindemann & Bowern's repository. Nothing third-party is stored in git.
+Fetches the transliterations from voynich.nu, the comparison corpora from
+Lindemann & Bowern's repository, and other people's published code/output we
+test in experiments/community. Nothing third-party is stored in git.
 """
 import pathlib
 import shutil
@@ -13,6 +14,10 @@ from .corpus import DATA, TRANSCRIPTIONS
 
 BASE = "https://www.voynich.nu/data/"
 CORPORA_REPO = "https://github.com/chirila/Voynich-public"
+EXTERNAL = {
+    # Greshko (2025), Cryptologia, doi:10.1080/01611194.2025.2566408 (modified MIT, cite when used)
+    "naibbe-cipher": "https://github.com/greshko/naibbe-cipher",
+}
 
 
 def transcriptions():
@@ -44,7 +49,18 @@ def corpora():
                 shutil.copy(p, wiki / p.name)
 
 
+def external():
+    root = DATA / "external"
+    root.mkdir(parents=True, exist_ok=True)
+    for name, url in EXTERNAL.items():
+        if (root / name).exists():
+            continue
+        print("clone", url)
+        subprocess.run(["git", "clone", "--depth", "1", url, str(root / name)], check=True)
+
+
 if __name__ == "__main__":
     transcriptions()
     corpora()
+    external()
     print("done:", DATA)
