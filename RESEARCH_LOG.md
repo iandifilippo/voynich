@@ -2,6 +2,11 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (9)
+
+### 18 copying + boundary habit
+AutoCopy(boundary=..., boundary_p=p). Fitted list from odd-line PMI > 0. B, 3 seeds. p 0/0.5/0.65/0.8/0.95: edge 0.013/0.057/0.115/0.227/0.508, core 0.98/0.83/0.71/0.79/1.85, distance ~2.42 until 0.95 (2.97), pattern r vs even lines 0.09/0.67/0.70/0.73/0.55. Random lists p 0.8: edge 0.18, r 0.02 (max 0.16). Odd vs even VMS r 0.98, so the hold-out is weak. Remaining misses: hapax 0.55, line_last -7, line-start d/t/q.
+
 ## 2026-11-16 (8)
 
 ### 17 self-citation (Timm & Schinner)

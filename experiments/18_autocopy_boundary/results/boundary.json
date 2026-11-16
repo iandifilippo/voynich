@@ -1,0 +1,150 @@
+{
+ "chart": {
+  "y": [
+   "d",
+   "k",
+   "l",
+   "p",
+   "q",
+   "qo",
+   "r",
+   "s",
+   "t"
+  ],
+  "n": [
+   "c",
+   "ch",
+   "o",
+   "sh",
+   "y"
+  ],
+  "l": [
+   "ch",
+   "d",
+   "k",
+   "s",
+   "sh",
+   "t"
+  ],
+  "r": [
+   "a",
+   "ch",
+   "o",
+   "sh",
+   "y"
+  ],
+  "s": [
+   "a",
+   "o",
+   "sh"
+  ],
+  "m": [
+   "ch",
+   "o"
+  ],
+  "o": [
+   "d",
+   "k",
+   "l",
+   "r"
+  ],
+  "d": [
+   "qo"
+  ]
+ },
+ "rows": [
+  {
+   "model": "VMS even lines vs odd",
+   "p": null,
+   "edge": null,
+   "pattern_r": 0.9824416085036366,
+   "words_per_line": 8.44140435835351
+  },
+  {
+   "model": "fitted chart",
+   "p": 0.0,
+   "distance": 2.43570469955192,
+   "core": 0.9759506063759423,
+   "edge": 0.013375109862737884,
+   "hapax": 0.541524249650181,
+   "h2": 2.217328720300015,
+   "words_per_line": 8.138571428571428,
+   "pattern_r": 0.09200173566577205,
+   "worst": "line_last_jsd -7.4, line_first_jsd -2.9, repeat_rate -2.0"
+  },
+  {
+   "model": "fitted chart",
+   "p": 0.5,
+   "distance": 2.413128361546696,
+   "core": 0.8345760291439762,
+   "edge": 0.05667888739889507,
+   "hapax": 0.5493796792020607,
+   "h2": 2.2315379554206722,
+   "words_per_line": 8.302857142857142,
+   "pattern_r": 0.6655092040131619,
+   "worst": "line_last_jsd -6.6, line_first_jsd -3.7, repeat_rate -3.0"
+  },
+  {
+   "model": "fitted chart",
+   "p": 0.65,
+   "distance": 2.423606966713134,
+   "core": 0.7055586344505385,
+   "edge": 0.1151684293648686,
+   "hapax": 0.5510573279074817,
+   "h2": 2.186983442002063,
+   "words_per_line": 8.143095238095238,
+   "pattern_r": 0.7006576057014066,
+   "worst": "line_last_jsd -7.0, repeat_rate -3.3, line_first_jsd -2.9"
+  },
+  {
+   "model": "fitted chart",
+   "p": 0.8,
+   "distance": 2.4452922263267096,
+   "core": 0.78956639888401,
+   "edge": 0.22694276030471403,
+   "hapax": 0.5529577710812889,
+   "h2": 2.1588530914077038,
+   "words_per_line": 8.366666666666667,
+   "pattern_r": 0.726190623037212,
+   "worst": "line_last_jsd -6.8, repeat_rate -3.4, line_first_jsd -2.9"
+  },
+  {
+   "model": "fitted chart",
+   "p": 0.95,
+   "distance": 2.9727933299191753,
+   "core": 1.8521915146214867,
+   "edge": 0.5075066578671787,
+   "hapax": 0.546357951279095,
+   "h2": 2.117319081192746,
+   "words_per_line": 7.869285714285714,
+   "pattern_r": 0.5539889181290754,
+   "worst": "line_last_jsd -7.2, edge_coupling +5.1, repeat_rate -4.4"
+  },
+  {
+   "model": "random charts (mean of 5)",
+   "p": 0.8,
+   "distance": 2.475659764922442,
+   "core": 0.7357206153860172,
+   "edge": 0.1762309149357207,
+   "hapax": 0.5485094150325845,
+   "h2": 2.142686952470897,
+   "words_per_line": 8.164380952380952,
+   "pattern_r": 0.019690323138106373,
+   "pattern_r_max": 0.16007250244894225,
+   "worst": "line_last_jsd -8.0, repeat_rate -4.7, line_first_jsd -4.3"
+  },
+  {
+   "model": "random charts (mean of 5)",
+   "p": 0.95,
+   "distance": 2.5883776328194155,
+   "core": 1.4062936331459321,
+   "edge": 0.40114102198882473,
+   "hapax": 0.551445062416093,
+   "h2": 2.1238332701133156,
+   "words_per_line": 8.05895238095238,
+   "pattern_r": -0.0260931616202062,
+   "pattern_r_max": 0.1420258010131219,
+   "worst": "line_last_jsd -7.4, repeat_rate -4.4, edge_coupling +3.7"
+  }
+ ]
+}
