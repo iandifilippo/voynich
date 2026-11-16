@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (8)
+
+### 17 self-citation (Timm & Schinner)
+voynich/autocopy.py: reimplemented from VoynichTextGenerator's procedure and tables (their repo has no license; procedure only). 8 seeds x A/B settings, 1400 lines. Distance 2.45 / 2.46 (sd 0.15 / 0.20), core 1.03 / 0.97. Edge 0.009 / 0.013. Hapax 0.54. h2 2.35 / 2.22. Cohesion 1.45 / 2.01. Near-repeats 36.8 vs 28.2 in-line null (B); exact 7.8 vs 8.6 (generator drops half of immediate duplicates). Worst: line_last_jsd -7.3, line_first -3.0 (B). Line-initial d/t/q too rare.
+
+Ciphers: right words, wrong lines. Copying: right lines, wrong words. Neither gives coupling except autokey.
+
 ## 2026-11-16 (7)
 
 ### 16 commas

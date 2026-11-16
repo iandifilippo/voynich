@@ -57,6 +57,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 14 | line-end model | no ending is rewritten as -m at line end, singly or pooled by stem (all p > 0.1, several strongly negative); line ends favour short words and -m forms (am ×23, dam ×12) without taking from their siblings. Starts rewrite, ends don't |
 | 15 | repeats | exact repeats of the same word side by side are fully explained by lines reusing their vocabulary (9.4 vs 9.3 per 1000 with words shuffled inside the line, p = 0.42); near-repeats (one glyph changed) are not (36.0 vs 30.8, p < 0.003, A and B). Natural texts avoid repeats, the VMS doesn't; repeats avoid line starts and line breaks |
 | 16 | commas | reading ZL's uncertain spaces as spaces, as joins, or joining only when the result is a known word: h2, h1, word MI and all line effects keep their extreme ranks; edge coupling does not (15th → 11th of 18 historical texts under the known-word reading) |
+| 17 | self-citation | reimplementation of Timm & Schinner's generator: distance 2.45 (best so far; Naibbe 4.54, autokey + line-start 3.92), right line cohesion and near-repeat excess, but no edge coupling (0.01 vs 0.15) and too few hapaxes (0.55 vs 0.69). Ciphers and copying fail in opposite places |
 
 Details and caveats in `RESEARCH_LOG.md`.
 
