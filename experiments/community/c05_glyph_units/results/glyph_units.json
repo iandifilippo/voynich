@@ -1,0 +1,380 @@
+[
+ {
+  "text": "VMS (ZL)",
+  "merges": 0,
+  "alphabet": 26,
+  "h1": 3.841821260675132,
+  "h2": 2.1539374785969723,
+  "h2_over_log2_alphabet": 0.4582416981721875,
+  "mean_units_per_word": 4.7144
+ },
+ {
+  "text": "VMS (ZL)",
+  "merges": 5,
+  "alphabet": 31,
+  "h1": 3.940991746319312,
+  "h2": 2.4968280842026433,
+  "h2_over_log2_alphabet": 0.5039824681488378,
+  "mean_units_per_word": 3.7904
+ },
+ {
+  "text": "VMS (ZL)",
+  "merges": 10,
+  "alphabet": 36,
+  "h1": 4.199153696187903,
+  "h2": 2.7108568958185266,
+  "h2_over_log2_alphabet": 0.5243513000792561,
+  "mean_units_per_word": 3.2574
+ },
+ {
+  "text": "VMS (ZL)",
+  "merges": 20,
+  "alphabet": 46,
+  "h1": 4.448061692978374,
+  "h2": 3.0426963873854103,
+  "h2_over_log2_alphabet": 0.5508576551855019,
+  "mean_units_per_word": 2.7177
+ },
+ {
+  "text": "VMS (ZL)",
+  "merges": 40,
+  "alphabet": 66,
+  "h1": 4.698866000502182,
+  "h2": 3.378220447483148,
+  "h2_over_log2_alphabet": 0.5589014185331961,
+  "mean_units_per_word": 2.2534
+ },
+ {
+  "text": "VMS (ZL)",
+  "merges": 80,
+  "alphabet": 106,
+  "h1": 4.964073599007997,
+  "h2": 3.6636800165430126,
+  "h2_over_log2_alphabet": 0.5445486523340402,
+  "mean_units_per_word": 1.9291
+ },
+ {
+  "text": "VMS (ZL)",
+  "merges": 120,
+  "alphabet": 146,
+  "h1": 5.114437227549574,
+  "h2": 3.810279343511761,
+  "h2_over_log2_alphabet": 0.5299544254950916,
+  "mean_units_per_word": 1.7794
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 0,
+  "alphabet": 23,
+  "h1": 3.8414668109557137,
+  "h2": 1.952089127336036,
+  "h2_over_log2_alphabet": 0.43153805481147534,
+  "mean_units_per_word": 4.9414
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 5,
+  "alphabet": 28,
+  "h1": 4.118768904677099,
+  "h2": 2.2813612160557835,
+  "h2_over_log2_alphabet": 0.4745564355126362,
+  "mean_units_per_word": 3.8921
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 10,
+  "alphabet": 33,
+  "h1": 4.273852469207284,
+  "h2": 2.5286700657523395,
+  "h2_over_log2_alphabet": 0.5012832078382361,
+  "mean_units_per_word": 3.3145
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 20,
+  "alphabet": 43,
+  "h1": 4.417200898512794,
+  "h2": 2.8952139815466555,
+  "h2_over_log2_alphabet": 0.533555606375053,
+  "mean_units_per_word": 2.6784
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 40,
+  "alphabet": 63,
+  "h1": 4.684123114198879,
+  "h2": 3.237835812468366,
+  "h2_over_log2_alphabet": 0.541690510383943,
+  "mean_units_per_word": 2.1764
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 80,
+  "alphabet": 103,
+  "h1": 4.92889168066344,
+  "h2": 3.5304107219228715,
+  "h2_over_log2_alphabet": 0.5279907939243229,
+  "mean_units_per_word": 1.8484
+ },
+ {
+  "text": "VMS Currier B",
+  "merges": 120,
+  "alphabet": 143,
+  "h1": 5.066309542390576,
+  "h2": 3.6942099071708947,
+  "h2_over_log2_alphabet": 0.5159603760188682,
+  "mean_units_per_word": 1.6823
+ },
+ {
+  "text": "Latin",
+  "merges": 0,
+  "alphabet": 27,
+  "h1": 4.040370258527991,
+  "h2": 3.3389811285316373,
+  "h2_over_log2_alphabet": 0.702220846868071,
+  "mean_units_per_word": 6.1849
+ },
+ {
+  "text": "Latin",
+  "merges": 5,
+  "alphabet": 32,
+  "h1": 4.32615002666711,
+  "h2": 3.4912941966982016,
+  "h2_over_log2_alphabet": 0.6982588393396403,
+  "mean_units_per_word": 5.6452
+ },
+ {
+  "text": "Latin",
+  "merges": 10,
+  "alphabet": 36,
+  "h1": 4.518507947099292,
+  "h2": 3.6123262811869763,
+  "h2_over_log2_alphabet": 0.6987192812621469,
+  "mean_units_per_word": 5.2416
+ },
+ {
+  "text": "Latin",
+  "merges": 20,
+  "alphabet": 46,
+  "h1": 4.839390908535232,
+  "h2": 3.763947814841054,
+  "h2_over_log2_alphabet": 0.6814348865433824,
+  "mean_units_per_word": 4.7652
+ },
+ {
+  "text": "Latin",
+  "merges": 40,
+  "alphabet": 66,
+  "h1": 5.221563228997581,
+  "h2": 3.9250005495451843,
+  "h2_over_log2_alphabet": 0.6493621150504627,
+  "mean_units_per_word": 4.2238
+ },
+ {
+  "text": "Latin",
+  "merges": 80,
+  "alphabet": 106,
+  "h1": 5.656411799759526,
+  "h2": 4.037377985826068,
+  "h2_over_log2_alphabet": 0.600093002450367,
+  "mean_units_per_word": 3.6492
+ },
+ {
+  "text": "Latin",
+  "merges": 120,
+  "alphabet": 146,
+  "h1": 5.883147781783791,
+  "h2": 4.062255346429277,
+  "h2_over_log2_alphabet": 0.5650006218040552,
+  "mean_units_per_word": 3.3603
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 0,
+  "alphabet": 25,
+  "h1": 4.012291225143717,
+  "h2": 3.254222793186077,
+  "h2_over_log2_alphabet": 0.7007587358866815,
+  "mean_units_per_word": 5.6901
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 5,
+  "alphabet": 30,
+  "h1": 4.304677174774795,
+  "h2": 3.3621083531105507,
+  "h2_over_log2_alphabet": 0.6851810301455489,
+  "mean_units_per_word": 5.176
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 10,
+  "alphabet": 34,
+  "h1": 4.4755359292402055,
+  "h2": 3.4427215450520565,
+  "h2_over_log2_alphabet": 0.6767069662185372,
+  "mean_units_per_word": 4.8176
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 20,
+  "alphabet": 44,
+  "h1": 4.811180862385468,
+  "h2": 3.619562992380329,
+  "h2_over_log2_alphabet": 0.662992641949015,
+  "mean_units_per_word": 4.3065
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 40,
+  "alphabet": 64,
+  "h1": 5.171410884342037,
+  "h2": 3.7410925415970793,
+  "h2_over_log2_alphabet": 0.6235154235995132,
+  "mean_units_per_word": 3.7814
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 80,
+  "alphabet": 104,
+  "h1": 5.523891323569219,
+  "h2": 3.847431611583647,
+  "h2_over_log2_alphabet": 0.5742058392327486,
+  "mean_units_per_word": 3.2568
+ },
+ {
+  "text": "Latin (med.)",
+  "merges": 120,
+  "alphabet": 144,
+  "h1": 5.754320680381885,
+  "h2": 3.8822793573921084,
+  "h2_over_log2_alphabet": 0.5414672198957651,
+  "mean_units_per_word": 2.9742
+ },
+ {
+  "text": "Italian",
+  "merges": 0,
+  "alphabet": 29,
+  "h1": 4.033400699854427,
+  "h2": 3.1113195095061146,
+  "h2_over_log2_alphabet": 0.6404552658041863,
+  "mean_units_per_word": 5.0672
+ },
+ {
+  "text": "Italian",
+  "merges": 5,
+  "alphabet": 34,
+  "h1": 4.279976575912323,
+  "h2": 3.228534762564884,
+  "h2_over_log2_alphabet": 0.6346060626501621,
+  "mean_units_per_word": 4.6584
+ },
+ {
+  "text": "Italian",
+  "merges": 10,
+  "alphabet": 38,
+  "h1": 4.401389293727038,
+  "h2": 3.3155711841217883,
+  "h2_over_log2_alphabet": 0.6317867721359163,
+  "mean_units_per_word": 4.3612
+ },
+ {
+  "text": "Italian",
+  "merges": 20,
+  "alphabet": 48,
+  "h1": 4.7087168087200215,
+  "h2": 3.4635639958728266,
+  "h2_over_log2_alphabet": 0.6201588632735843,
+  "mean_units_per_word": 3.9064
+ },
+ {
+  "text": "Italian",
+  "merges": 40,
+  "alphabet": 68,
+  "h1": 5.161786672428502,
+  "h2": 3.6327212646740827,
+  "h2_over_log2_alphabet": 0.5967545690887432,
+  "mean_units_per_word": 3.3704
+ },
+ {
+  "text": "Italian",
+  "merges": 80,
+  "alphabet": 108,
+  "h1": 5.52407756808001,
+  "h2": 3.801496626366731,
+  "h2_over_log2_alphabet": 0.5627771928324758,
+  "mean_units_per_word": 2.8213
+ },
+ {
+  "text": "Italian",
+  "merges": 120,
+  "alphabet": 148,
+  "h1": 5.669110621320614,
+  "h2": 3.8683034233751954,
+  "h2_over_log2_alphabet": 0.5365598787027768,
+  "mean_units_per_word": 2.5609
+ },
+ {
+  "text": "English",
+  "merges": 0,
+  "alphabet": 27,
+  "h1": 4.06567446400906,
+  "h2": 3.1854286397880225,
+  "h2_over_log2_alphabet": 0.66992723557364,
+  "mean_units_per_word": 4.6237
+ },
+ {
+  "text": "English",
+  "merges": 5,
+  "alphabet": 32,
+  "h1": 4.338424712490885,
+  "h2": 3.4077227575625537,
+  "h2_over_log2_alphabet": 0.6815445515125107,
+  "mean_units_per_word": 4.0379
+ },
+ {
+  "text": "English",
+  "merges": 10,
+  "alphabet": 37,
+  "h1": 4.508527090395571,
+  "h2": 3.488733188594783,
+  "h2_over_log2_alphabet": 0.6696927573270598,
+  "mean_units_per_word": 3.7606
+ },
+ {
+  "text": "English",
+  "merges": 20,
+  "alphabet": 47,
+  "h1": 4.756710348234805,
+  "h2": 3.6076610042213675,
+  "h2_over_log2_alphabet": 0.6494919967175888,
+  "mean_units_per_word": 3.4017
+ },
+ {
+  "text": "English",
+  "merges": 40,
+  "alphabet": 67,
+  "h1": 5.069679915415193,
+  "h2": 3.71315461999394,
+  "h2_over_log2_alphabet": 0.6121167202478489,
+  "mean_units_per_word": 3.0075
+ },
+ {
+  "text": "English",
+  "merges": 80,
+  "alphabet": 107,
+  "h1": 5.361269771049157,
+  "h2": 3.785453262984582,
+  "h2_over_log2_alphabet": 0.561517733546805,
+  "mean_units_per_word": 2.6407
+ },
+ {
+  "text": "English",
+  "merges": 120,
+  "alphabet": 147,
+  "h1": 5.519342220241212,
+  "h2": 3.806928706766179,
+  "h2_over_log2_alphabet": 0.528764160982482,
+  "mean_units_per_word": 2.4051
+ }
+]
