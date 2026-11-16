@@ -11,10 +11,10 @@ with explicit rule tables.
 ## What I think
 
 It's the only serious proposal that explains why neighbouring lines share vocabulary and why
-near-identical words cluster, which no cipher I've tested does (exp. 15). But it was tuned
-by eye on a few pages, and I haven't seen it run through a battery like ours. I also expect it
-to fail on edge coupling: copying a word from the line above shouldn't tie its first glyph to
-the last glyph of the word to its left.
+near-identical words cluster, which no cipher I've tested does (exp. 15). Rozanova & Temerev
+(2026) already report that a generator of this kind misses edge coupling and the share of
+one-off words, so part of this is a replication with our metrics; what I want on top is the
+full benchmark, the line metrics, and a model I can modify (exp. 18-19).
 
 ## What I did
 
