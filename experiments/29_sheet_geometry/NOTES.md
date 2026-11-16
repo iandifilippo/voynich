@@ -80,5 +80,18 @@ middle of a quire are kept apart (there the conjoint leaf *is* the next folio). 
 
 Four to sixteen sheets per cell. Pages in mixed-scribe quires, foldouts and missing leaves
 are left out. The split by scribe came from exp. 26, so only the direction test and the
-other window sizes count as fresh evidence. A drawing-free check would be to redo this on
-Takahashi's transliteration; the loci are the same, so I expect the same answer.
+other window sizes count as fresh evidence.
+
+## Other transliterations
+
+Same two tests on three transliterations made by other people, one of them in a different
+alphabet:
+
+| | conjoint − next folio, scribes 2-3 | stars: a → b / b → a |
+|---|---|---|
+| Zandbergen-Landini | 0.43 (p = 0.001) | 1.48 / 0.77 |
+| Takahashi | 0.31 (p = 0.02) | 1.50 / 0.85 (p < 0.001) |
+| Glen Claston, v101 | 0.34 (p = 0.02) | 1.35 / 0.92 (p = 0.004) |
+| First Study Group | 0.34 (p = 0.04) | 1.56 / 0.85 (p < 0.001) |
+
+It isn't an artefact of one reading of the text.

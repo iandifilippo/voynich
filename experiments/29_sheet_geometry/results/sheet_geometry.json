@@ -1345,6 +1345,41 @@
    "start of b_v": null
   }
  ],
+ "replication": [
+  {
+   "transliteration": "Takahashi",
+   "conjoint - next folio (scribes 2, 3)": 0.3071096928937349,
+   "ci": "0.01 to 0.61",
+   "p": 0.0225,
+   "stars: a->b": 1.4988299431090495,
+   "stars: b->a": 0.8530889794770874,
+   "stars p": 0.0,
+   "herbal A: a->b": 1.3679850270780838,
+   "herbal A: b->a": 1.319653758840302
+  },
+  {
+   "transliteration": "Glen Claston (v101)",
+   "conjoint - next folio (scribes 2, 3)": 0.3414150207775397,
+   "ci": "0.02 to 0.60",
+   "p": 0.021,
+   "stars: a->b": 1.3539459681342738,
+   "stars: b->a": 0.9192342191680856,
+   "stars p": 0.004,
+   "herbal A: a->b": 1.5306839233486422,
+   "herbal A: b->a": 1.29805718727742
+  },
+  {
+   "transliteration": "First Study Group (Friedman)",
+   "conjoint - next folio (scribes 2, 3)": 0.343698916565335,
+   "ci": "-0.05 to 0.77",
+   "p": 0.044,
+   "stars: a->b": 1.5568338880761228,
+   "stars: b->a": 0.8527879896467934,
+   "stars p": 0.0,
+   "herbal A: a->b": 1.3747161215276815,
+   "herbal A: b->a": 1.281371199695555
+  }
+ ],
  "direction": [
   {
    "block": "herbal A",

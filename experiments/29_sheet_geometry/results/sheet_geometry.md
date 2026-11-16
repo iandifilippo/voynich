@@ -98,6 +98,14 @@ End of a page on the earlier leaf against start of a page on the later leaf (4 p
 | herbal B | 5 | 1.414 | 1.080 | 0.334 | -0.03 to 0.68 | 0.031 | 4 |
 | stars B | 4 | 1.483 | 0.772 | 0.711 | 0.26 to 1.24 | 0.000 | 4 |
 
+## other transliterations
+
+| transliteration | conjoint - next folio (scribes 2, 3) | ci | p | stars: a->b | stars: b->a | stars p | herbal A: a->b | herbal A: b->a |
+|---|---|---|---|---|---|---|---|---|
+| Takahashi | 0.307 | 0.01 to 0.61 | 0.022 | 1.499 | 0.853 | 0.000 | 1.368 | 1.320 |
+| Glen Claston (v101) | 0.341 | 0.02 to 0.60 | 0.021 | 1.354 | 0.919 | 0.004 | 1.531 | 1.298 |
+| First Study Group (Friedman) | 0.344 | -0.05 to 0.77 | 0.044 | 1.557 | 0.853 | 0.000 | 1.375 | 1.281 |
+
 ## shared word types per sheet (K = 5, all words)
 
 | scribe | block | sheet | recto -> own verso | a_v -> b_r (conjoint) | b_v -> a_r (outside of sheet) | a_v -> next folio recto | previous verso -> b_r | middle of quire: a_v -> b_r |

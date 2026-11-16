@@ -246,11 +246,38 @@ md += "\n## the two deciding contrasts under every setting\n\n" + table(
     key, ["setting", "scribe", "contrast", "sheets", "difference", "ci", "p(diff <= 0)"])
 mat = matrix()
 out["matrix"] = mat
+
+# the same two tests on other people's transliterations
+replication = []
+zl_asym = list(ASYM)
+for name, label in [("IT", "Takahashi"), ("GC", "Glen Claston (v101)"), ("FG", "First Study Group (Friedman)")]:
+    v = Voynich(name)
+    del ASYM[:]
+    matrix()
+    sheets = collect(5, False)
+    _, cons = summarise(sheets, "scribes 2, 3")
+    c = next((x for x in cons if x["contrast"].startswith("a_v -> b_r (conjoint)  minus  a_v -> next")), None)
+    d = {a["block"]: a for a in ASYM}
+    replication.append({"transliteration": label,
+                        "conjoint - next folio (scribes 2, 3)": c["difference"] if c else None,
+                        "ci": c["ci"] if c else None, "p": c["p(diff <= 0)"] if c else None,
+                        "stars: a->b": d.get("stars B", {}).get("leaf a -> leaf b"),
+                        "stars: b->a": d.get("stars B", {}).get("leaf b -> leaf a"),
+                        "stars p": d.get("stars B", {}).get("p(diff <= 0)"),
+                        "herbal A: a->b": d.get("herbal A", {}).get("leaf a -> leaf b"),
+                        "herbal A: b->a": d.get("herbal A", {}).get("leaf b -> leaf a")})
+    print(replication[-1])
+v = Voynich("ZL")
+ASYM[:] = zl_asym
+out["replication"] = replication
 md += "\n## every pair of pages within a sheet, by block (K = 6, sheets not in the middle of a quire)\n\nLeaf a comes before leaf b in the book. Rows: where the text stops; columns: where it starts.\n\n"
 md += table(mat, ["block", "sheets", "end of", "start of a_r", "start of a_v", "start of b_r", "start of b_v"])
 out["direction"] = ASYM
 md += "\n## direction across the two leaves of a sheet\n\nEnd of a page on the earlier leaf against start of a page on the later leaf (4 pairs), and the reverse. A sheet written as a unit, first leaf first, gives a -> b higher; leaves written many folios apart give no difference.\n\n"
 md += table(ASYM, ["block", "sheets", "leaf a -> leaf b", "leaf b -> leaf a", "difference", "ci", "p(diff <= 0)", "sheets with a->b higher"])
+md += "\n## other transliterations\n\n" + table(
+    replication, ["transliteration", "conjoint - next folio (scribes 2, 3)", "ci", "p", "stars: a->b", "stars: b->a",
+                  "stars p", "herbal A: a->b", "herbal A: b->a"])
 md += "\n## shared word types per sheet (K = 5, all words)\n\n" + table(listing, ["scribe", "block", "sheet"] + KINDS[:6])
 save(HERE, "sheet_geometry", out)
 write_md(HERE, "sheet_geometry", md)
