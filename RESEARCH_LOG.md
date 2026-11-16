@@ -2,6 +2,20 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-15 (4)
+
+### community tests (experiments/community)
+Reran five outside claims with our data and controls; full notes in each folder.
+
+- **c01 Naibbe (Greshko's own ciphertext).** Core distance 0.94, about as far from the reference as Currier B is (0.71); my reimplementation in 05 was 2.22, so that one was my fault. h2 2.09 matches. Misses: edge coupling 0.002 vs 0.18, hapax 0.58 vs 0.68. One-word-at-a-time ciphers can't produce coupling across word boundaries.
+- **c02 uncertain spaces (Rozanova & Temerev).** Gluing across `,` gives a known word 33.7% of the time vs 3.7% for `.` and 82.8% for real word-internal cuts; edge MI 0.55 vs 0.16 and 1.70. Implies ~38% of commas are word-internal. Partly right.
+- **c03 anagram decipherments.** With a 30k-word Italian vocabulary, random strings of 4-9 letters anagram into one or two Italian words 75-90% of the time; Voynich words through an arbitrary key 83-99%. A successful anagram is expected from noise.
+- **c04 seasonal label prefixes (voynich.ninja 5817).** Prefix mix differs between signs (chi-square p < 0.001) for labels and also for ring text (p = 0.001). Ordered trend through the year: rho -0.60, p = 0.08. Page effect, not a season effect.
+- **c05 re-cutting EVA.** Byte-pair merging: VMS h2/log2(alphabet) goes 0.46 → 0.56 → 0.53 (0, 40, 120 merges) while Latin/Italian/English fall from 0.64-0.70 to 0.53-0.57. They meet around 100-150 units, where a VMS word is ~1.8 units (natural texts 2.4-3.4). Looks like a syllabary or code, not a mis-cut alphabet.
+
+### 12 scans
+PDF scans of quire 20 (~1100x1536 px). Line detector tuned on alternate pages: held-out MAE 3.2 lines, within ±1 on 7/11; fails on f112r (damaged leaf), f104r skipped (half resolution). Space test on 187 lines: b/a 1.0-1.4 across thresholds but CI roughly 0-4. Inconclusive at this resolution.
+
 ## 2026-11-15 (3)
 
 ### correction on 08
@@ -104,3 +118,7 @@ First pass with a simple parser. Baseline numbers matched Currier, Bennett, Zand
 - glyph tracings (Trace the Voynich) once released: stroke-level stats
 - f116v glyphs vs the main text's slot rules
 - web explorer (GitHub Pages)
+- parser option: decide each `,` by whether the glued form is a known word (c02), rerun benchmark
+- port Timm & Schinner's generator from Swift and score it
+- Elu-Sinhala claim once the Zenodo vocabulary is downloaded
+- full-resolution scans + word alignment for the space question
