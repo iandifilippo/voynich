@@ -2,6 +2,11 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (16)
+
+### 26 writing order
+Herbal A hand 1, sheets where next folio != conjugate: 11. Lift end-of-verso -> start of recto: book 1.52, conjugate 1.25, other rectos 1.18; diff 0.28 [-0.55, 0.91], 9/11 favour book. v -> next r inside quire 1.39 [1.08-1.72] (29), between quires 0.95 (3). Outlier f19v: 0 shared with f20r, 20 with f22r. Underpowered.
+
 ## 2026-11-16 (15)
 
 ### 24 vertical alignment

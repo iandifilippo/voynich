@@ -66,6 +66,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 23 | scorecard | the best model on 26 measures it wasn't tuned on: right on near-repeats, singleton make-up, word length; badly wrong on which words (q- words 1.4% vs 20%). The benchmark sees shape, not content |
 | 24 | vertical alignment | similar words in consecutive lines are not under each other once the margins are set aside: 1.1% closer than shuffled (p = 0.08) against 15% in the positional-copying generator. The alignment the eye sees is the line-first and line-last words (z −9 with margins in) |
 | 25 | page memory | in herbal A the last lines of one plant page share as many words with the first lines of the next plant page as neighbouring lines of one paragraph (ratio 1.00; 1.22× a shape-matched control, p = 0.001), and far-apart lines of the same page share nothing extra. Vocabulary follows writing order, not the plant. The carry-over breaks in the balneological quire |
+| 26 | writing order | using the carry-over as a clock: after a verso, the next folio in the book continues the text better than the conjugate leaf of the same sheet (lift 1.52 vs 1.25, 9 of 11 sheets), but 11 sheets are too few (p ≈ 0.07). Inconclusive, leaning leaf-by-leaf |
 
 Details and caveats in `RESEARCH_LOG.md`.
 
