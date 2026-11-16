@@ -14,6 +14,13 @@ If the second p is small, neighbouring pages share vocabulary beyond what hand a
 - verso->next recto (99 joins): mean cos 0.329
 - difference 0.086, permutation p = 0.0006
 
+Same test with measures that down-weight frequent words:
+
+| measure | same_leaf | cross_leaf | diff | p |
+|---|---|---|---|---|
+| tfidf_cosine | 0.116 | 0.085 | 0.031 | 0.015 |
+| jaccard_no_top50 | 0.094 | 0.068 | 0.026 | 0.000 |
+
 ## weakest joins in the current order
 
 | from | to | cos | hand | section |

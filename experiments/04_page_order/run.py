@@ -95,7 +95,45 @@ for _ in range(5000):
     a_, b_ = pool[:len(same_leaf)], pool[len(same_leaf):]
     if sum(a_) / len(a_) - sum(b_) / len(b_) >= diff:
         perm += 1
-leaf_test = {"same_leaf_n": len(same_leaf), "same_leaf_mean": sum(same_leaf) / len(same_leaf),
+# same test with measures that down-weight the most frequent words
+import math
+ndocs = len(order)
+dfp = Counter(w for pg in order for w in bag[pg])
+top50 = {w for w, _ in sum((bag[pg] for pg in order), Counter()).most_common(50)}
+
+
+def tfidf(a):
+    return Counter({w: c * math.log(ndocs / dfp[w]) for w, c in a.items()})
+
+
+def jacc(a, b):
+    A = {w for w in a if w not in top50 and dfp[w] >= 2}
+    B = {w for w in b if w not in top50 and dfp[w] >= 2}
+    return len(A & B) / len(A | B) if A | B else 0.0
+
+
+leaf_robust = []
+for mname, f in (("tfidf_cosine", lambda a, b: cos(tfidf(bag[a]), tfidf(bag[b]))),
+                 ("jaccard_no_top50", lambda a, b: jacc(bag[a], bag[b]))):
+    sl, cl = [], []
+    for a, b in zip(order, order[1:]):
+        (na, sa), (nb, sb) = leaf(a), leaf(b)
+        if na is None or nb is None:
+            continue
+        if na == nb and sa == "r" and sb == "v":
+            sl.append(f(a, b))
+        elif sa == "v" and sb == "r" and na != nb:
+            cl.append(f(a, b))
+    d = sum(sl) / len(sl) - sum(cl) / len(cl)
+    pool = sl + cl
+    hits = 0
+    for _ in range(5000):
+        rng.shuffle(pool)
+        if sum(pool[:len(sl)]) / len(sl) - sum(pool[len(sl):]) / len(cl) >= d:
+            hits += 1
+    leaf_robust.append({"measure": mname, "same_leaf": sum(sl) / len(sl), "cross_leaf": sum(cl) / len(cl), "diff": d, "p": hits / 5000})
+
+leaf_test = {"robustness": leaf_robust, "same_leaf_n": len(same_leaf), "same_leaf_mean": sum(same_leaf) / len(same_leaf),
              "cross_leaf_n": len(cross_leaf), "cross_leaf_mean": sum(cross_leaf) / len(cross_leaf),
              "diff": diff, "p": perm / 5000}
 
@@ -112,6 +150,7 @@ md += "## same leaf vs across leaves\n\n"
 md += f"- recto->verso of the same leaf ({leaf_test['same_leaf_n']} joins): mean cos {leaf_test['same_leaf_mean']:.3f}\n"
 md += f"- verso->next recto ({leaf_test['cross_leaf_n']} joins): mean cos {leaf_test['cross_leaf_mean']:.3f}\n"
 md += f"- difference {leaf_test['diff']:.3f}, permutation p = {leaf_test['p']:.4f}\n\n"
+md += "Same test with measures that down-weight frequent words:\n\n" + table(leaf_robust, ["measure", "same_leaf", "cross_leaf", "diff", "p"]) + "\n"
 md += "## weakest joins in the current order\n\n" + table(joins[:20], ["from", "to", "cos", "hand", "section"])
 md += "\n## strongest joins\n\n" + table(joins[-10:], ["from", "to", "cos", "hand", "section"])
 write_md(HERE, "page_order", md)

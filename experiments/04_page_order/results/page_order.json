@@ -1,5 +1,21 @@
 {
  "leaf_test": {
+  "robustness": [
+   {
+    "measure": "tfidf_cosine",
+    "same_leaf": 0.11582156116959946,
+    "cross_leaf": 0.08451900618035392,
+    "diff": 0.03130255498924554,
+    "p": 0.0148
+   },
+   {
+    "measure": "jaccard_no_top50",
+    "same_leaf": 0.09417780074336944,
+    "cross_leaf": 0.06788573590378918,
+    "diff": 0.026292064839580256,
+    "p": 0.0
+   }
+  ],
   "same_leaf_n": 98,
   "same_leaf_mean": 0.4152842713015754,
   "cross_leaf_n": 99,
