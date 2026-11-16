@@ -2,6 +2,11 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (10)
+
+### 19 copying model vocabulary
+extra_change q (one more substitution per word), boundary p 0.65, B, 3 seeds. q 0/0.3/0.6/0.9: hapax 0.551/0.561/0.594/0.593, MATTR 0.564/0.590/0.595/0.599 (VMS B 0.535), cohesion 1.99/1.95/1.66/1.67, near 34.0/29.1/28.9/28.6 vs null 27.9/25.3/27.1/27.2. Hapax deficit is a shape problem (too few singletons, not too little variety). To do: compare under comma readings.
+
 ## 2026-11-16 (9)
 
 ### 18 copying + boundary habit
