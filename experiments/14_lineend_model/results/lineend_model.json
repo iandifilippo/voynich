@@ -1,0 +1,1053 @@
+{
+ "stem_level": [
+  {
+   "set": "all",
+   "stems": 107,
+   "r": -0.12392172994609726,
+   "p": 0.8936
+  },
+  {
+   "set": "Currier A",
+   "stems": 61,
+   "r": -0.28758707621743146,
+   "p": 0.9812
+  },
+  {
+   "set": "Currier B",
+   "stems": 65,
+   "r": -0.02284361148250965,
+   "p": 0.6006
+  },
+  {
+   "set": "Takahashi",
+   "stems": 117,
+   "r": -0.1972347126380365,
+   "p": 0.9702
+  }
+ ],
+ "lengths": {
+  "line_first": 5.428430160692213,
+  "line_internal": 4.955764175741645,
+  "line_final": 4.734981458590853
+ },
+ "families": {
+  "al": {
+   "line_final": 28,
+   "expected": 28.404618850920016,
+   "ratio": 0.9857551740777218
+  },
+  "am": {
+   "line_final": 57,
+   "expected": 2.4303417198648143,
+   "ratio": 23.453491965389368
+  },
+  "ar": {
+   "line_final": 25,
+   "expected": 45.72080360495682,
+   "ratio": 0.5467970383024857
+  },
+  "ain": {
+   "line_final": 10,
+   "expected": 14.885843034171986,
+   "ratio": 0.671779218485911
+  },
+  "aiin": {
+   "line_final": 39,
+   "expected": 63.64457378895982,
+   "ratio": 0.6127780842608955
+  },
+  "dal": {
+   "line_final": 48,
+   "expected": 24.455313556139693,
+   "ratio": 1.9627636296631836
+  },
+  "dam": {
+   "line_final": 54,
+   "expected": 4.556890724746526,
+   "ratio": 11.850185414091472
+  },
+  "dar": {
+   "line_final": 43,
+   "expected": 31.13875328576793,
+   "ratio": 1.3809159154632338
+  },
+  "dain": {
+   "line_final": 26,
+   "expected": 20.50600826135937,
+   "ratio": 1.2679210731126678
+  },
+  "daiin": {
+   "line_final": 129,
+   "expected": 79.89748404055577,
+   "ratio": 1.6145689886119556
+  },
+  "otal": {
+   "line_final": 11,
+   "expected": 17.16428839654525,
+   "ratio": 0.6408654845378868
+  },
+  "otam": {
+   "line_final": 28,
+   "expected": 2.4303417198648143,
+   "ratio": 11.521013597033374
+  },
+  "otar": {
+   "line_final": 6,
+   "expected": 17.923770184003004,
+   "ratio": 0.33475100039806416
+  },
+  "otain": {
+   "line_final": 9,
+   "expected": 12.759294029290274,
+   "ratio": 0.7053681794102066
+  },
+  "otaiin": {
+   "line_final": 11,
+   "expected": 18.98704468644386,
+   "ratio": 0.5793423980222497
+  },
+  "rar": {
+   "line_final": 2,
+   "expected": 2.126549004881712,
+   "ratio": 0.9404909058802755
+  },
+  "rain": {
+   "line_final": 5,
+   "expected": 2.4303417198648143,
+   "ratio": 2.0573238566131025
+  },
+  "raiin": {
+   "line_final": 6,
+   "expected": 8.6580923770184,
+   "ratio": 0.6929932990696767
+  },
+  "ol": {
+   "line_final": 42,
+   "expected": 69.41663537363875,
+   "ratio": 0.6050422895597396
+  },
+  "or": {
+   "line_final": 17,
+   "expected": 47.999248967330075,
+   "ratio": 0.3541722082270658
+  },
+  "os": {
+   "line_final": 1,
+   "expected": 3.1898235073225685,
+   "ratio": 0.3134969686267585
+  },
+  "oiin": {
+   "line_final": 0,
+   "expected": 4.556890724746526,
+   "ratio": 0.0
+  },
+  "dol": {
+   "line_final": 6,
+   "expected": 12.911190386781826,
+   "ratio": 0.46471315349378317
+  },
+  "dor": {
+   "line_final": 6,
+   "expected": 6.227750657153586,
+   "ratio": 0.9634297084627212
+  },
+  "sal": {
+   "line_final": 10,
+   "expected": 2.886030792339467,
+   "ratio": 3.464966495348383
+  },
+  "sar": {
+   "line_final": 12,
+   "expected": 4.1012016522718735,
+   "ratio": 2.9259717071830793
+  },
+  "sain": {
+   "line_final": 7,
+   "expected": 3.3417198648141193,
+   "ratio": 2.094729744915159
+  },
+  "saiin": {
+   "line_final": 7,
+   "expected": 8.6580923770184,
+   "ratio": 0.808492182247956
+  }
+ },
+ "rows": [
+  {
+   "set": "all",
+   "rewrite": "-in -> -m",
+   "types": 96,
+   "r": -0.13106076173347952,
+   "p": 0.891,
+   "line_end_tokens_explained": 324,
+   "examples": "ain->am (57), oin->om (14), dain->dam (54), orain->oram (9), rain->ram (12)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-iin -> -m",
+   "types": 61,
+   "r": 0.00575642893031735,
+   "p": 0.5055,
+   "line_end_tokens_explained": 349,
+   "examples": "aiin->am (57), oiin->om (14), otaiin->otam (28), araiin->aram (6), daiin->dam (54)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-aiin -> -m",
+   "types": 47,
+   "r": -0.08121821748116281,
+   "p": 0.748,
+   "line_end_tokens_explained": 22,
+   "examples": "oaiin->om (14), choaiin->chom (6), laiin->lm (1), daiin->dm (1), ykaiin->ykm (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-ain -> -m",
+   "types": 32,
+   "r": 0.1062206222740683,
+   "p": 0.109,
+   "line_end_tokens_explained": 15,
+   "examples": "oain->om (14), dain->dm (1), ytain->ytm (0), shodain->shodm (0), chodain->chodm (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-n -> -m",
+   "types": 99,
+   "r": -0.6558740525975064,
+   "p": 0.9965,
+   "line_end_tokens_explained": 104,
+   "examples": "dan->dam (54), qokan->qokam (21), chan->cham (11), ain->aim (4), chekain->chekaim (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-y -> -m",
+   "types": 352,
+   "r": -0.01011147080724166,
+   "p": 0.779,
+   "line_end_tokens_explained": 22,
+   "examples": "oy->om (14), choy->chom (6), keey->keem (1), dy->dm (1), sheky->shekm (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-dy -> -m",
+   "types": 156,
+   "r": -0.17188932769693854,
+   "p": 0.96,
+   "line_end_tokens_explained": 46,
+   "examples": "ody->om (14), dody->dom (6), kody->kom (2), chody->chom (6), cheody->cheom (5)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-r -> -m",
+   "types": 124,
+   "r": -0.09342404534688027,
+   "p": 0.845,
+   "line_end_tokens_explained": 391,
+   "examples": "orar->oram (9), dar->dam (54), rar->ram (12), ar->am (57), otar->otam (28)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-l -> -m",
+   "types": 116,
+   "r": -0.5015727150829076,
+   "p": 1.0,
+   "line_end_tokens_explained": 373,
+   "examples": "al->am (57), dal->dam (54), oral->oram (9), ral->ram (12), olkal->olkam (8)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-s -> -m",
+   "types": 22,
+   "r": 0.12715104436921007,
+   "p": 0.202,
+   "line_end_tokens_explained": 88,
+   "examples": "as->am (57), os->om (14), los->lom (4), chos->chom (6), cheos->cheom (5)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-o -> -m",
+   "types": 41,
+   "r": -0.5418380250086012,
+   "p": 0.993,
+   "line_end_tokens_explained": 3,
+   "examples": "keeo->keem (1), lo->lm (1), do->dm (1), oksho->okshm (0), sho->shm (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-in -> -g",
+   "types": 96,
+   "r": -0.05363920369285958,
+   "p": 0.7365,
+   "line_end_tokens_explained": 12,
+   "examples": "oin->og (2), rain->rag (2), chokain->chokag (1), daiiin->daiig (1), dain->dag (2)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-iin -> -g",
+   "types": 61,
+   "r": -0.0025835196243075304,
+   "p": 0.524,
+   "line_end_tokens_explained": 14,
+   "examples": "oiin->og (2), araiin->arag (1), chokaiin->chokag (1), laiin->lag (1), raiin->rag (2)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-aiin -> -g",
+   "types": 47,
+   "r": -0.09971496507812333,
+   "p": 0.768,
+   "line_end_tokens_explained": 8,
+   "examples": "oaiin->og (2), choaiin->chog (1), araiin->arg (1), laiin->lg (1), daiin->dg (2)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-ain -> -g",
+   "types": 32,
+   "r": 0.18185034271260864,
+   "p": 0.041,
+   "line_end_tokens_explained": 5,
+   "examples": "oain->og (2), dain->dg (2), qokain->qokg (1), ytain->ytg (0), shodain->shodg (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-n -> -g",
+   "types": 99,
+   "r": -0.6914943380960239,
+   "p": 0.999,
+   "line_end_tokens_explained": 3,
+   "examples": "dan->dag (2), daiin->daiig (1), ykaiin->ykaiig (0), soiin->soiig (0), okaiin->okaiig (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-y -> -g",
+   "types": 352,
+   "r": -0.08535261102990283,
+   "p": 0.9405,
+   "line_end_tokens_explained": 18,
+   "examples": "oy->og (2), okcheey->okcheeg (1), okaldy->okaldg (1), ytchdy->ytchdg (1), aly->alg (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-dy -> -g",
+   "types": 156,
+   "r": -0.392993750282748,
+   "p": 0.9995,
+   "line_end_tokens_explained": 20,
+   "examples": "cthody->cthog (2), lchdy->lchg (2), daiidy->daiig (1), ldy->lg (1), dchdy->dchg (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-r -> -g",
+   "types": 124,
+   "r": -0.07120487174055563,
+   "p": 0.784,
+   "line_end_tokens_explained": 21,
+   "examples": "rar->rag (2), lr->lg (1), chokar->chokag (1), chotar->chotag (1), oteor->oteog (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-l -> -g",
+   "types": 116,
+   "r": -0.31330798504784196,
+   "p": 0.998,
+   "line_end_tokens_explained": 24,
+   "examples": "dl->dg (2), ral->rag (2), chotal->chotag (1), chokal->chokag (1), lal->lag (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-s -> -g",
+   "types": 22,
+   "r": -0.2548499882155079,
+   "p": 0.8665,
+   "line_end_tokens_explained": 10,
+   "examples": "dals->dalg (1), os->og (2), oteos->oteog (1), qokeos->qokeog (1), ls->lg (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-o -> -g",
+   "types": 41,
+   "r": -0.24159924758500556,
+   "p": 0.914,
+   "line_end_tokens_explained": 11,
+   "examples": "lcho->lchg (2), do->dg (2), dcho->dchg (1), qoko->qokg (1), oteeo->oteeg (1)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-in -> -l",
+   "types": 96,
+   "r": -0.1611700214231128,
+   "p": 0.965,
+   "line_end_tokens_explained": 208,
+   "examples": "dain->dal (48), orain->oral (4), rain->ral (5), sain->sal (10), ytain->ytal (3)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-iin -> -l",
+   "types": 61,
+   "r": -0.062042035326257634,
+   "p": 0.6585,
+   "line_end_tokens_explained": 240,
+   "examples": "araiin->aral (7), daiin->dal (48), oraiin->oral (4), saiin->sal (10), raiin->ral (5)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-aiin -> -l",
+   "types": 47,
+   "r": 0.18717740563258353,
+   "p": 0.098,
+   "line_end_tokens_explained": 69,
+   "examples": "olaiin->oll (2), daiin->dl (8), shaiin->shl (1), raiin->rl (1), okaiin->okl (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-ain -> -l",
+   "types": 32,
+   "r": -0.07658210878896027,
+   "p": 0.651,
+   "line_end_tokens_explained": 65,
+   "examples": "olain->oll (2), dain->dl (8), shain->shl (1), rain->rl (1), ytain->ytl (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-n -> -l",
+   "types": 99,
+   "r": -0.6517094243335416,
+   "p": 0.993,
+   "line_end_tokens_explained": 70,
+   "examples": "dan->dal (48), chan->chal (7), aiiin->aiiil (1), soiin->soiil (0), okaiin->okaiil (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-y -> -l",
+   "types": 352,
+   "r": -0.0249590742905263,
+   "p": 0.74,
+   "line_end_tokens_explained": 68,
+   "examples": "dy->dl (8), oly->oll (2), shy->shl (1), sheky->shekl (0), oteey->oteel (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-dy -> -l",
+   "types": 156,
+   "r": 0.06477437147744561,
+   "p": 0.157,
+   "line_end_tokens_explained": 108,
+   "examples": "oldy->oll (2), lchdy->lchl (1), shdy->shl (1), arody->arol (1), choldy->choll (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-r -> -l",
+   "types": 124,
+   "r": -0.5546681343533912,
+   "p": 1.0,
+   "line_end_tokens_explained": 310,
+   "examples": "lor->lol (16), dar->dal (48), orar->oral (4), ror->rol (6), olor->olol (6)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-l -> -l",
+   "types": 116,
+   "r": -1.0,
+   "p": 1.0,
+   "line_end_tokens_explained": 322,
+   "examples": "lol->lol (16), dl->dl (8), dal->dal (48), aral->aral (7), olol->olol (6)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-s -> -l",
+   "types": 22,
+   "r": -0.16743035197372833,
+   "p": 0.8195,
+   "line_end_tokens_explained": 110,
+   "examples": "los->lol (16), as->al (28), ols->oll (2), dals->dall (0), chees->cheel (0)"
+  },
+  {
+   "set": "all",
+   "rewrite": "-o -> -l",
+   "types": 41,
+   "r": -0.28055650803190424,
+   "p": 0.9385,
+   "line_end_tokens_explained": 13,
+   "examples": "do->dl (8), ro->rl (1), lcho->lchl (1), sho->shl (1), oksho->okshl (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-in -> -m",
+   "types": 40,
+   "r": -0.13683362784866338,
+   "p": 0.8215,
+   "line_end_tokens_explained": 46,
+   "examples": "ain->am (12), dain->dam (24), chain->cham (4), okain->okam (2), daiiin->daiim (1)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-iin -> -m",
+   "types": 36,
+   "r": -0.1289594403094507,
+   "p": 0.788,
+   "line_end_tokens_explained": 86,
+   "examples": "doiin->dom (6), choiin->chom (6), aiin->am (12), daiin->dam (24), oiin->om (4)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-aiin -> -m",
+   "types": 27,
+   "r": 0.12076904493038965,
+   "p": 0.3005,
+   "line_end_tokens_explained": 4,
+   "examples": "oaiin->om (4), ykaiin->ykm (0), daiin->dm (0), okaiin->okm (0), cthaiin->cthm (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-n -> -m",
+   "types": 42,
+   "r": -0.7306400979234704,
+   "p": 0.991,
+   "line_end_tokens_explained": 34,
+   "examples": "dan->dam (24), chan->cham (4), ain->aim (1), kaiin->kaiim (1), dain->daim (2)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-y -> -m",
+   "types": 104,
+   "r": 0.0508451668351593,
+   "p": 0.248,
+   "line_end_tokens_explained": 7,
+   "examples": "choy->chom (6), keey->keem (1), oteey->oteem (0), shody->shodm (0), chocthy->chocthm (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-dy -> -m",
+   "types": 15,
+   "r": -0.34406085678864523,
+   "p": 0.89,
+   "line_end_tokens_explained": 18,
+   "examples": "ody->om (4), chody->chom (6), okeody->okeom (2), cheody->cheom (3), cthody->cthom (2)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-r -> -m",
+   "types": 60,
+   "r": -0.5376847743297534,
+   "p": 1.0,
+   "line_end_tokens_explained": 97,
+   "examples": "dar->dam (24), ar->am (12), otar->otam (4), sar->sam (4), dor->dom (6)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-l -> -m",
+   "types": 60,
+   "r": -0.673325264662381,
+   "p": 1.0,
+   "line_end_tokens_explained": 91,
+   "examples": "dal->dam (24), al->am (12), sal->sam (4), chal->cham (4), otal->otam (4)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-s -> -m",
+   "types": 10,
+   "r": 0.20087526003033873,
+   "p": 0.2755,
+   "line_end_tokens_explained": 14,
+   "examples": "chos->chom (6), os->om (4), cheos->cheom (3), qokeos->qokeom (1), dals->dalm (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-o -> -m",
+   "types": 18,
+   "r": -0.10137412839785462,
+   "p": 0.9445,
+   "line_end_tokens_explained": 1,
+   "examples": "keeo->keem (1), oksho->okshm (0), sho->shm (0), sheo->shem (0), cho->chm (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-in -> -g",
+   "types": 40,
+   "r": -0.28059890711374524,
+   "p": 0.9615,
+   "line_end_tokens_explained": 1,
+   "examples": "daiiin->daiig (1), ykaiin->ykaig (0), soiin->soig (0), okaiin->okaig (0), cthaiin->cthaig (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-iin -> -g",
+   "types": 36,
+   "r": -0.16021865846545047,
+   "p": 0.83,
+   "line_end_tokens_explained": 3,
+   "examples": "chokaiin->chokag (1), choiin->chog (1), otaiin->otag (1), ykaiin->ykag (0), soiin->sog (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-aiin -> -g",
+   "types": 27,
+   "r": -0.02838837966232597,
+   "p": 0.628,
+   "line_end_tokens_explained": 2,
+   "examples": "qokaiin->qokg (1), daiin->dg (1), ykaiin->ykg (0), okaiin->okg (0), cthaiin->cthg (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-n -> -g",
+   "types": 42,
+   "r": -0.18804595793205664,
+   "p": 0.9395,
+   "line_end_tokens_explained": 1,
+   "examples": "daiin->daiig (1), ykaiin->ykaiig (0), soiin->soiig (0), okaiin->okaiig (0), cthaiin->cthaiig (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-y -> -g",
+   "types": 104,
+   "r": -0.13970556867151038,
+   "p": 0.921,
+   "line_end_tokens_explained": 7,
+   "examples": "daly->dalg (1), choy->chog (1), dchy->dchg (1), otchy->otchg (1), qoky->qokg (1)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-dy -> -g",
+   "types": 15,
+   "r": 0.08526866563213907,
+   "p": 0.4315,
+   "line_end_tokens_explained": 4,
+   "examples": "cthody->cthog (2), qokeody->qokeog (1), chody->chog (1), shody->shog (0), chdy->chg (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-r -> -g",
+   "types": 60,
+   "r": -0.04850652980557136,
+   "p": 0.73,
+   "line_end_tokens_explained": 7,
+   "examples": "daiir->daiig (1), otar->otag (1), qokeor->qokeog (1), cthor->cthog (2), dchor->dchog (1)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-l -> -g",
+   "types": 60,
+   "r": -0.011337954009276577,
+   "p": 0.633,
+   "line_end_tokens_explained": 6,
+   "examples": "cthol->cthog (2), otal->otag (1), dchol->dchog (1), qokeol->qokeog (1), chol->chog (1)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-s -> -g",
+   "types": 10,
+   "r": -0.38710077688148736,
+   "p": 0.859,
+   "line_end_tokens_explained": 4,
+   "examples": "dals->dalg (1), ches->cheg (1), qokeos->qokeog (1), chos->chog (1), os->og (0)"
+  },
+  {
+   "set": "Currier A",
+   "rewrite": "-o -> -g",
+   "types": 18,
+   "r": -0.3871546094581119,
+   "p": 0.924,
+   "line_end_tokens_explained": 4,
+   "examples": "dcho->dchg (1), otcho->otchg (1), do->dg (1), cheo->cheg (1), oksho->okshg (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-in -> -m",
+   "types": 73,
+   "r": -0.27597224027120354,
+   "p": 0.984,
+   "line_end_tokens_explained": 241,
+   "examples": "ain->am (44), oin->om (10), orain->oram (8), otain->otam (24), rain->ram (10)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-iin -> -m",
+   "types": 42,
+   "r": 0.07490667393988913,
+   "p": 0.322,
+   "line_end_tokens_explained": 240,
+   "examples": "oiin->om (10), aiin->am (44), otaiin->otam (24), oraiin->oram (8), shaiin->sham (4)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-aiin -> -m",
+   "types": 35,
+   "r": 0.015331341556823747,
+   "p": 0.4055,
+   "line_end_tokens_explained": 12,
+   "examples": "oaiin->om (10), laiin->lm (1), daiin->dm (1), saiin->sm (0), oraiin->orm (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-ain -> -m",
+   "types": 29,
+   "r": 0.06817061877904632,
+   "p": 0.2745,
+   "line_end_tokens_explained": 11,
+   "examples": "oain->om (10), dain->dm (1), okain->okm (0), orain->orm (0), chdain->chdm (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-n -> -m",
+   "types": 74,
+   "r": -0.08940160006524404,
+   "p": 0.923,
+   "line_end_tokens_explained": 30,
+   "examples": "qokan->qokam (19), chekain->chekaim (1), chain->chaim (1), ain->aim (3), olkain->olkaim (1)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-y -> -m",
+   "types": 262,
+   "r": -0.16088845823750586,
+   "p": 0.9855,
+   "line_end_tokens_explained": 1,
+   "examples": "dy->dm (1), ypchedy->ypchedm (0), dchey->dchem (0), chedy->chedm (0), ytedy->ytedm (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-dy -> -m",
+   "types": 131,
+   "r": -0.24388932218106343,
+   "p": 0.984,
+   "line_end_tokens_explained": 14,
+   "examples": "ody->om (10), ldy->lm (1), qotody->qotom (1), cheody->cheom (2), ypchedy->ypchem (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-r -> -m",
+   "types": 79,
+   "r": 0.11010709040622255,
+   "p": 0.1565,
+   "line_end_tokens_explained": 263,
+   "examples": "orar->oram (8), rar->ram (10), ar->am (44), otar->otam (24), dar->dam (26)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-l -> -m",
+   "types": 73,
+   "r": -0.36460655391290203,
+   "p": 0.994,
+   "line_end_tokens_explained": 239,
+   "examples": "al->am (44), ral->ram (10), olkal->olkam (8), dal->dam (26), otal->otam (24)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-s -> -m",
+   "types": 15,
+   "r": 0.14153648403915198,
+   "p": 0.377,
+   "line_end_tokens_explained": 57,
+   "examples": "as->am (44), os->om (10), cheos->cheom (2), ls->lm (1), sheos->sheom (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-o -> -m",
+   "types": 16,
+   "r": -0.9829624879463245,
+   "p": 1.0,
+   "line_end_tokens_explained": 1,
+   "examples": "lo->lm (1), sheo->shem (0), sheeo->sheem (0), okeeo->okeem (0), ykeeo->ykeem (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-in -> -g",
+   "types": 73,
+   "r": -0.11986549185457132,
+   "p": 0.886,
+   "line_end_tokens_explained": 8,
+   "examples": "rain->rag (2), oin->og (1), dain->dag (2), kain->kag (1), ain->ag (1)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-iin -> -g",
+   "types": 42,
+   "r": -0.0502307140877742,
+   "p": 0.6175,
+   "line_end_tokens_explained": 10,
+   "examples": "araiin->arag (1), laiin->lag (1), raiin->rag (2), oiin->og (1), kaiin->kag (1)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-aiin -> -g",
+   "types": 35,
+   "r": -0.060696783522191,
+   "p": 0.6995,
+   "line_end_tokens_explained": 3,
+   "examples": "oaiin->og (1), laiin->lg (1), daiin->dg (1), saiin->sg (0), oraiin->org (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-ain -> -g",
+   "types": 29,
+   "r": 0.09696533945996087,
+   "p": 0.151,
+   "line_end_tokens_explained": 2,
+   "examples": "oain->og (1), dain->dg (1), okain->okg (0), orain->org (0), chdain->chdg (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-n -> -g",
+   "types": 74,
+   "r": 0.0028135591376486904,
+   "p": 0.3135,
+   "line_end_tokens_explained": 0,
+   "examples": "oaiin->oaiig (0), aiin->aiig (0), daiin->daiig (0), saiin->saiig (0), daiiin->daiiig (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-y -> -g",
+   "types": 262,
+   "r": -0.026364783593804807,
+   "p": 0.836,
+   "line_end_tokens_explained": 5,
+   "examples": "lshey->lsheg (1), lchey->lcheg (1), dy->dg (1), qokey->qokeg (1), oteey->oteeg (1)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-dy -> -g",
+   "types": 131,
+   "r": -0.5025354698027017,
+   "p": 0.9955,
+   "line_end_tokens_explained": 9,
+   "examples": "lchdy->lchg (2), ldy->lg (1), ody->og (1), lshedy->lsheg (1), cheody->cheog (1)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-r -> -g",
+   "types": 79,
+   "r": -0.15844655135051652,
+   "p": 0.8975,
+   "line_end_tokens_explained": 11,
+   "examples": "rar->rag (2), chotar->chotag (1), lr->lg (1), cheor->cheog (1), dar->dag (2)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-l -> -g",
+   "types": 73,
+   "r": -0.4190530715090612,
+   "p": 0.998,
+   "line_end_tokens_explained": 12,
+   "examples": "ral->rag (2), lal->lag (1), aral->arag (1), dl->dg (1), kal->kag (1)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-s -> -g",
+   "types": 15,
+   "r": -0.3257075239192688,
+   "p": 0.9,
+   "line_end_tokens_explained": 4,
+   "examples": "ls->lg (1), os->og (1), as->ag (1), cheos->cheog (1), sheos->sheog (0)"
+  },
+  {
+   "set": "Currier B",
+   "rewrite": "-o -> -g",
+   "types": 16,
+   "r": -0.3141135820018182,
+   "p": 0.88,
+   "line_end_tokens_explained": 4,
+   "examples": "lcho->lchg (2), oteeo->oteeg (1), lo->lg (1), sheo->sheg (0), sheeo->sheeg (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-in -> -m",
+   "types": 95,
+   "r": -0.15715823420470162,
+   "p": 0.9255,
+   "line_end_tokens_explained": 332,
+   "examples": "ain->am (57), dain->dam (60), rain->ram (14), otain->otam (29), chain->cham (11)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-iin -> -m",
+   "types": 60,
+   "r": -0.0033975623453358582,
+   "p": 0.5075,
+   "line_end_tokens_explained": 365,
+   "examples": "aiin->am (57), oiin->om (15), otaiin->otam (29), araiin->aram (7), daiin->dam (60)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-aiin -> -m",
+   "types": 48,
+   "r": -0.12203196333707027,
+   "p": 0.7965,
+   "line_end_tokens_explained": 24,
+   "examples": "oaiin->om (15), choaiin->chom (6), laiin->lm (1), daiin->dm (2), ykaiin->ykm (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-ain -> -m",
+   "types": 34,
+   "r": 0.11358387444513293,
+   "p": 0.1585,
+   "line_end_tokens_explained": 18,
+   "examples": "oain->om (15), lain->lm (1), dain->dm (2), ytain->ytm (0), shodain->shodm (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-n -> -m",
+   "types": 98,
+   "r": -0.7147051248241996,
+   "p": 0.997,
+   "line_end_tokens_explained": 118,
+   "examples": "dan->dam (60), qokan->qokam (21), chan->cham (11), ain->aim (4), chekain->chekaim (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-y -> -m",
+   "types": 359,
+   "r": -0.09436373280796662,
+   "p": 0.951,
+   "line_end_tokens_explained": 13,
+   "examples": "choy->chom (6), ly->lm (1), okoldy->okoldm (1), dchy->dchm (1), dy->dm (2)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-dy -> -m",
+   "types": 157,
+   "r": -0.16453951710146664,
+   "p": 0.9595,
+   "line_end_tokens_explained": 58,
+   "examples": "ody->om (15), dody->dom (6), okody->okom (4), daiidy->daiim (3), cthody->cthom (4)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-r -> -m",
+   "types": 126,
+   "r": -0.16276819541472023,
+   "p": 0.9675,
+   "line_end_tokens_explained": 414,
+   "examples": "orar->oram (9), rar->ram (14), dar->dam (60), ar->am (57), otar->otam (29)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-l -> -m",
+   "types": 120,
+   "r": -0.5403237796307766,
+   "p": 1.0,
+   "line_end_tokens_explained": 398,
+   "examples": "dal->dam (60), ral->ram (14), al->am (57), oral->oram (9), otal->otam (29)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-s -> -m",
+   "types": 20,
+   "r": 0.032624054717434965,
+   "p": 0.5845,
+   "line_end_tokens_explained": 36,
+   "examples": "os->om (15), los->lom (5), cheos->cheom (6), chos->chom (6), ls->lm (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-o -> -m",
+   "types": 38,
+   "r": -0.45715636432983986,
+   "p": 0.9735,
+   "line_end_tokens_explained": 6,
+   "examples": "do->dm (2), dcho->dchm (1), lo->lm (1), otcho->otchm (1), keeo->keem (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-in -> -g",
+   "types": 95,
+   "r": -0.03280433435461381,
+   "p": 0.6395,
+   "line_end_tokens_explained": 3,
+   "examples": "ain->ag (1), okain->okag (1), dain->dag (1), ykaiin->ykaig (0), daiin->daig (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-iin -> -g",
+   "types": 60,
+   "r": 0.15423639750771276,
+   "p": 0.107,
+   "line_end_tokens_explained": 3,
+   "examples": "okaiin->okag (1), aiin->ag (1), daiin->dag (1), ykaiin->ykag (0), otaiin->otag (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-aiin -> -g",
+   "types": 48,
+   "r": -0.08127027592424191,
+   "p": 0.7345,
+   "line_end_tokens_explained": 4,
+   "examples": "araiin->arg (1), laiin->lg (1), qokaiin->qokg (1), daiin->dg (1), ykaiin->ykg (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-ain -> -g",
+   "types": 34,
+   "r": 0.13527691967375813,
+   "p": 0.1175,
+   "line_end_tokens_explained": 3,
+   "examples": "lain->lg (1), dain->dg (1), qokain->qokg (1), ytain->ytg (0), shodain->shodg (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-n -> -g",
+   "types": 98,
+   "r": -0.7392336685399407,
+   "p": 1.0,
+   "line_end_tokens_explained": 1,
+   "examples": "dan->dag (1), ykaiin->ykaiig (0), daiin->daiig (0), otaiin->otaiig (0), cthaiin->cthaiig (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-y -> -g",
+   "types": 359,
+   "r": -0.15391409953636037,
+   "p": 0.984,
+   "line_end_tokens_explained": 15,
+   "examples": "ly->lg (1), chekey->chekeg (1), chaly->chalg (1), ykchdy->ykchdg (1), okcheey->okcheeg (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-dy -> -g",
+   "types": 157,
+   "r": -0.46027671366563855,
+   "p": 0.9995,
+   "line_end_tokens_explained": 13,
+   "examples": "lchdy->lchg (2), aldy->alg (1), ldy->lg (1), daldy->dalg (1), cthody->cthog (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-r -> -g",
+   "types": 126,
+   "r": -0.3003586595462056,
+   "p": 0.9965,
+   "line_end_tokens_explained": 8,
+   "examples": "alor->alog (1), lr->lg (1), qokeor->qokeog (1), dchor->dchog (1), cthor->cthog (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-l -> -g",
+   "types": 120,
+   "r": -0.2240317281384483,
+   "p": 0.9725,
+   "line_end_tokens_explained": 9,
+   "examples": "alol->alog (1), qokl->qokg (1), dl->dg (1), dchol->dchog (1), qokeol->qokeog (1)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-s -> -g",
+   "types": 20,
+   "r": -0.09103475531983724,
+   "p": 0.7235,
+   "line_end_tokens_explained": 4,
+   "examples": "qokeos->qokeog (1), ls->lg (1), chees->cheeg (1), ches->cheg (1), oteos->oteog (0)"
+  },
+  {
+   "set": "Takahashi",
+   "rewrite": "-o -> -g",
+   "types": 38,
+   "r": -0.4505165407088964,
+   "p": 0.9785,
+   "line_end_tokens_explained": 7,
+   "examples": "lo->lg (1), qokeo->qokeg (1), qoko->qokg (1), oteeo->oteeg (1), do->dg (1)"
+  }
+ ],
+ "m_final_tokens": 627,
+ "g_final_tokens": 89,
+ "tests": 97
+}
