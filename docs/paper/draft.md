@@ -31,7 +31,11 @@ hand-executable verbose cipher applied to Latin or Italian matches the low condi
 entropy and much of the word structure. Timm & Schinner (2020) propose that there is no
 underlying text at all and that each word is a modified copy of a word nearby. Rozanova &
 Temerev (2026) show that both kinds of imitation miss the coupling of glyphs across word
-boundaries and the high share of one-off words.
+boundaries and the high share of one-off words. Schwartz (2026) fits a keyless procedure of
+frequency-weighted reuse, a little local copying and coinage and finds the published
+self-citation process too local; Zhang & Sheng (2026) find copying programs and two-key
+ciphers equally compatible with word statistics. Layfield & Davis (2026) argue from page
+similarity and drawings that many bifolia were written as separate units.
 
 We put both mechanisms through the same battery and focus on structure that sits at line
 and word boundaries, because that is where the two families make different predictions.
@@ -183,6 +187,17 @@ gives 0.97; the copying model, which has no subject, gives 1.93. Page-specific v
 in the B sections is therefore incompatible with a homophonic verbose cipher of that kind
 and compatible with either subject matter or page-bound copying.
 
+### 3.11 Order of writing (exp. 26)
+
+Carry-over gives a test of sequence. For 19 sheets where the next folio and the conjoint
+leaf are different pages by the same scribe, the last lines of the first leaf's verso were
+compared with the first lines of each. For scribes 2 and 3 (8 sheets) the conjoint leaf
+continues the text (lift 1.64) and the next folio does not (1.21, no better than other
+rectos at 1.26; difference 0.43, interval 0.12-0.73), including three pairs for which
+Layfield & Davis report drawings crossing the sheet. For scribe 1 (11 sheets) the next
+folio wins in 9. The groups differ (Fisher p = 0.035). The split by scribe was made after
+seeing the pooled result.
+
 ## 4. Discussion
 
 The two families fail in complementary places. Encipherment of a real text gives the
@@ -220,9 +235,13 @@ full space. The boundary list in 3.5 is fitted to the manuscript, and the final 
 - Greshko, M. (2025). The Naibbe cipher. *Cryptologia*. doi:10.1080/01611194.2025.2566408.
 - Lindemann, L. & Bowern, C. (2020). Character entropy in modern and historical texts. arXiv:2010.14697.
 - Rozanova, ? & Temerev, ? (2026). A glyph is not a letter, a token is not a word, a space is not a space. arXiv:2608.17096.
+- Layfield, C. & Davis, L. F. (2026). Singulion structure and the Voynich manuscript. *Digital Medievalist*. doi:10.4000/16k0a.
+- Schwartz, M. D. (2026). How the Voynich manuscript was written. Preprint, 1 October 2026.
 - Smith, E. M. (2015-2016). Posts on line-initial glyphs, *Agnostic Voynich* (blog).
 - Timm, T. (2014). How the Voynich manuscript was created. arXiv:1407.6639.
+- Timm, T. (2016). Co-occurrence patterns in the Voynich manuscript. arXiv:1601.07435.
 - Timm, T. & Schinner, A. (2020). A possible generating algorithm of the Voynich manuscript. *Cryptologia* 44(1).
+- Zhang, X. & Sheng, V. S. (2026). Does the Voynich manuscript mean anything? Calibrated tests find little trace of language. arXiv:2610.34499.
 - Zandbergen, R. Transliteration files (IVTFF), voynich.nu.
 
 *To check before submission: initials for Rozanova & Temerev; exact title/venue of Davis 2020;

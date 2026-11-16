@@ -55,6 +55,17 @@ Lift one line later:
 - Not fixed: the model's rare words are still 3-6× too local (6.8 and 13.5 vs 1.9 and 2.2),
   hapax 0.61 vs 0.68, and immediate repeats 6 vs 9 per 1000.
 
+## Someone got here first
+
+Schwartz (preprint, October 2026) fits a keyless procedure to scribes 1 and 2 with three
+branches: reuse of a word from the scribe's own vocabulary, drawn by frequency (73-77% of
+words), verbatim copying from the last ~20 words (2-5%), and coining new words from letter
+habits (18-25%). He concludes that Timm & Schinner's process, with a local copy rate of
+0.42-0.48, isn't the manuscript's. "Prefer common" below is a crude version of his reuse
+branch, reached from the other side; the locality table is my evidence for the same thing.
+What I add is small: the lift-by-frequency-band measurement, and that one change to the
+published generator is enough to move core, cohesion, MATTR and h2 together.
+
 ## So what
 
 The picture that fits: the writer works from a small set of familiar words, repeats them

@@ -48,6 +48,13 @@ Same page / across a break, at the same distance:
   subject. It rules out one thing (the homophonic cipher) and is consistent with two
   (a subject, or copying within the page).
 
+## Agreement with Schwartz (2026)
+
+He measures subject dependence differently (how much word choice tracks the illustrated
+section beyond scribe and page order) and finds it faint but present in the astronomical
+(z = 2.6) and balneological (z = 2.9) sections and absent in the herbal (z = 1.2). Same
+pattern as the table above, by a different route: B sections yes, herbal no.
+
 ## So what
 
 Where things stand after 25 and 27, stated carefully:

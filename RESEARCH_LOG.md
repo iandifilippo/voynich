@@ -2,6 +2,18 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-16 (19)
+
+### prior work I had missed
+- Schwartz, "How the Voynich Manuscript was written" (preprint, 1 Oct 2026): reuse 73/77%, local copy 2.0/4.9%, coinage 25.1/18.4% (scribes 1/2); T&S generator local copy rate .42-.48 vs .28/.38; no keyless generator reproduces boundary coupling; subject dependence astro z 2.6, balneo z 2.9, herbal z 1.2; boundary words "distinct, not edge-modified". Overlaps exp 21-22 (core/reuse) and agrees with 27; disagrees with 20 on edge words.
+- Zhang & Sheng, arXiv:2610.34499 (25 Oct 2026): copying programs fit as well as two-key ciphers; ported T&S coupling 0.078 vs 0.204 bits.
+- Layfield & Davis, Digital Medievalist 2026: singulions; conjoint > facing similarity in 8/9 quires; drawings across 78v/81r, 76v/83r, 33v/40r, 10v/15r, 58v/65r.
+- Timm, arXiv:1601.07435 (2016): positional grids for same/similar words, natural-text controls, no shuffle null.
+Notes for 18, 20, 22, 24, 25, 27 now cite these.
+
+### 26 extended to all single-scribe blocks
+19 sheets. Scribe 1: book 1.56, conjoint 1.28, other 1.21; wins 9/2. Scribes 2+3: book 1.21, conjoint 1.64, other 1.26; wins 1/5, 2 ties; conjoint - book 0.43 [0.12, 0.73]. Fisher p .035. Conjoint wins at f76v->f83r (29 vs 20), f78v->f81r (16 vs 11), f33v->f40r (20 vs 13), f103v->f116r (13 vs 3), f105v->f114r (9 vs 5). Pooled over everything: no difference (1.36 vs 1.48).
+
 ## 2026-11-16 (18)
 
 ### 28 page template

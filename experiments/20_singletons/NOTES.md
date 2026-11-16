@@ -44,6 +44,15 @@ for those one edit away, which edit and at which end of the word.
 - The copying model matches the VMS at line start (0.29) and mid-line in B (0.12 vs 0.13) and
   misses the line end completely (0.11 vs 0.24).
 
+## A disagreement to resolve
+
+Schwartz (2026) reads boundary words as distinct words, not edge-modified forms. My numbers
+say otherwise for the singletons: 38-40% of line-first singletons are a known word with one
+glyph in front (about 20% mid-line), and exp. 10's deficit/surplus correlation points the
+same way. We're measuring different things (he scores all boundary words under a fitted
+model; I count one-edit links for singletons), so both can be partly right, but it needs a
+head-to-head on the same definition.
+
 ## A correction to exp. 14
 
 In 14 I tested whether line ends *rewrite* an ending (-l → -m and so on) and found nothing.

@@ -71,6 +71,15 @@ that the page has no vocabulary of its own. For the less common words it may wel
    pages I can't reorder it from this, but the measure sees the disturbance.
 4. Whether the *rarer* words follow the subject is open, and exp. 27 is the place to look.
 
+## Prior work
+
+That consecutive pages share vocabulary is not new: Timm (2014) follows single words across
+consecutive herbal pages, my own exp. 04 showed it for whole pages, and Zhang & Sheng (2026)
+use neighbouring-page overlap as a held-out statistic. Schwartz (2026) models context within
+a page only. What's added here is the size of the carry-over at the break in herbal A
+(the same as inside a paragraph), the shape-matched control, and the use of it as a clock
+for writing order (exp. 26).
+
 ## Caveats
 
 First lines of pages are paragraph openers and last lines are paragraph ends, which is why

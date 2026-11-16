@@ -46,6 +46,14 @@ the pattern, not that it explains it. The autokey of exp. 13 had to earn its pat
 the tables (r 0.24-0.43); this one is handed it. What it does show is that coupling is not
 evidence of a cipher: a copying scribe with a habit reproduces it at no cost to anything else.
 
+## Later note
+
+Schwartz (2026) reports that no keyless generator he tested reproduces the word-boundary
+coupling (his full model: 0.009 and 0.001 bits against 0.130 and 0.243 in the manuscript),
+and Zhang & Sheng (2026) find a port of the Timm & Schinner rules too weak on it (0.078
+against 0.204 bits). The discard rule here does reach the manuscript's level in a keyless
+generator. The caveat above still applies: the list of preferences is fitted.
+
 ## So what
 
 Best model so far: copying + boundary habit, distance 2.42, core 0.71. What's left is

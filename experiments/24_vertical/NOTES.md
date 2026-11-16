@@ -14,8 +14,15 @@ Everything I've shown in favour of copying so far (near-repeats, line cohesion, 
 is about *which* words turn up near each other, not *where*. Marked-up examples can't tell
 alignment from two lines simply sharing words, and I already know the margins behave
 specially: line-first words resemble each other, and so do line-last words (exp. 10, 20).
-So the positional claim has never really been tested here. I couldn't find a test of it with
-a proper null elsewhere either.
+So the positional claim has never really been tested here.
+
+Prior work: Timm (2016, arXiv:1601.07435) tabulates how often the same or a similar word
+occurs at each word position in the preceding lines and compares with natural texts (Quran,
+German, Latin and English verse); there's no shuffled baseline, and he reports that leaving
+out line-first and line-last words in the stars quire doesn't change the picture. Schwartz
+(2026) fits local copying at 2-5% of words and reports no test of column position; Zhang &
+Sheng (2026) use "resembles the word above" as one statistic among many. I haven't found
+the test below (same line contents, positions shuffled, margins out) anywhere.
 
 ## What I did
 
@@ -46,7 +53,8 @@ copying model (where alignment exists by construction), Latin, Italian and Naibb
   line-first and line-last words resembling each other, not copying down a column. It's
   very likely what the eye picks up on a marked-up page.
 - By section and hand, only the stars section / hand 3 shows anything (3.4% closer,
-  p = 0.01).
+  p = 0.01). That's the quire Timm checked without margins, so the two agree there; it just
+  isn't typical of the book.
 
 ## Caveat
 
