@@ -113,3 +113,12 @@ def test_ranked_cuts():
     words = ["ol"] * 50 + ["or"] * 40 + ["shaiin", "shedy", "qoaiin", "qoedy", "ytaiin", "ytedy"] * 3
     seg = segment.fit_ranked(Counter(words), 2)
     assert seg["ol"] == ("ol",) and seg["shaiin"] == ("sh", "aiin") and seg["qoedy"] == ("qo", "edy")
+
+
+def test_assembler_fills_shape():
+    from voynich.assemble import Assembler, signs
+    lines = [["qokedy", "chedy", "daiin"], ["shedy", "qokaiin", "ol", "chedy"]] * 20
+    m = Assembler(order=2).fit(lines, para_starts=[0])
+    out = m.fill([(3, True), (4, False)], seed=1)
+    assert [len(l) for l in out] == [3, 4]
+    assert all(w and "".join(signs(w)) == w for l in out for w in l)
