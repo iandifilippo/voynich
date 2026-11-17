@@ -33,7 +33,10 @@ def position(i, n, para_start):
 
 
 class Assembler:
-    def __init__(self, order=2, link=True, min_count=3):
+    def __init__(self, order=2, link=True, min_count=3, recall_p=0.0, edit_p=0.0, window=20):
+        self.recall_p = recall_p
+        self.edit_p = edit_p
+        self.window = window
         self.order = order
         self.link = link
         self.min_count = min_count
@@ -99,14 +102,37 @@ class Assembler:
             if len(hist) > 15:
                 return "".join(hist)
 
+    def edit(self, rng, pos, word):
+        """Redraw one sign of a word from the chain, keeping the rest."""
+        seq = signs(word)
+        j = rng.randrange(len(seq))
+        for _ in range(10):
+            s = self._draw(rng, pos, self._ctx("#", seq[:j]))
+            if s != "$" and s != seq[j]:
+                return "".join(seq[:j] + [s] + seq[j + 1:])
+        return word
+
     def fill(self, shape, seed=0):
+        """shape is one page. With recall_p > 0 a word is, with that
+        probability, a repeat of one of the last `window` words on the page,
+        and with probability edit_p such a word with one sign redrawn (only
+        for words inside a line)."""
         rng = random.Random(seed)
         out = []
+        recent = []
         for n, para_start in shape:
             prev = "#"
             line = []
             for i in range(n):
-                w = self.word(rng, position(i, n, para_start), prev)
+                pos = position(i, n, para_start)
+                r = rng.random()
+                if pos == "middle" and recent and r < self.recall_p:
+                    w = rng.choice(recent[-self.window:])
+                elif pos == "middle" and recent and r < self.recall_p + self.edit_p:
+                    w = self.edit(rng, pos, rng.choice(recent[-self.window:]))
+                else:
+                    w = self.word(rng, pos, prev)
+                recent.append(w)
                 line.append(w)
                 prev = signs(w)[-1]
             out.append(line)

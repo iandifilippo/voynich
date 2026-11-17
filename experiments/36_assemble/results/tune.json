@@ -1,0 +1,595 @@
+{
+ "target": {
+  "adjacent exact repeats per 1000": 9.368836291913215,
+  "adjacent near repeats per 1000": 34.418145956607496,
+  "doubletons on one page": 0.08357348703170028,
+  "distinct per 1000 words": 267.39475074863486
+ },
+ "rows": [
+  {
+   "p": 0.0,
+   "edit": 0.0,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.374753451676528,
+   "adjacent near repeats per 1000": 24.70414201183432,
+   "doubletons on one page": 0.023094449047224526,
+   "distinct per 1000 words": 265.32499559626564,
+   "misfit": 1.4397723309221386
+  },
+  {
+   "p": 0.0,
+   "edit": 0.03,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.226824457593688,
+   "adjacent near repeats per 1000": 25.04930966469428,
+   "doubletons on one page": 0.04658390729498453,
+   "distinct per 1000 words": 275.4095472961071,
+   "misfit": 0.8854419352595357
+  },
+  {
+   "p": 0.0,
+   "edit": 0.03,
+   "window": 15,
+   "adjacent exact repeats per 1000": 4.733727810650888,
+   "adjacent near repeats per 1000": 22.978303747534518,
+   "doubletons on one page": 0.040512519561815334,
+   "distinct per 1000 words": 271.27003699136867,
+   "misfit": 1.0741691547496277
+  },
+  {
+   "p": 0.0,
+   "edit": 0.03,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.6351084812623276,
+   "adjacent near repeats per 1000": 23.126232741617358,
+   "doubletons on one page": 0.04392395945876421,
+   "distinct per 1000 words": 273.51594151840766,
+   "misfit": 1.0332655012768313
+  },
+  {
+   "p": 0.0,
+   "edit": 0.06,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.374753451676529,
+   "adjacent near repeats per 1000": 28.648915187376726,
+   "doubletons on one page": 0.05228343602754621,
+   "distinct per 1000 words": 285.09776290294167,
+   "misfit": 0.7526958751861689
+  },
+  {
+   "p": 0.0,
+   "edit": 0.06,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.522682445759369,
+   "adjacent near repeats per 1000": 23.126232741617358,
+   "doubletons on one page": 0.04802938001524862,
+   "distinct per 1000 words": 281.48670072221245,
+   "misfit": 0.8642311497455866
+  },
+  {
+   "p": 0.0,
+   "edit": 0.06,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.733727810650888,
+   "adjacent near repeats per 1000": 23.816568047337277,
+   "doubletons on one page": 0.04680230134244976,
+   "distinct per 1000 words": 282.3234102518936,
+   "misfit": 0.9699133349360037
+  },
+  {
+   "p": 0.0,
+   "edit": 0.1,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.0788954635108485,
+   "adjacent near repeats per 1000": 35.45364891518737,
+   "doubletons on one page": 0.06828005067441686,
+   "distinct per 1000 words": 290.6024308613704,
+   "misfit": 0.6508141837966042
+  },
+  {
+   "p": 0.0,
+   "edit": 0.1,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.177514792899409,
+   "adjacent near repeats per 1000": 26.676528599605525,
+   "doubletons on one page": 0.052088920674652844,
+   "distinct per 1000 words": 289.0611238330104,
+   "misfit": 0.8038862723741365
+  },
+  {
+   "p": 0.0,
+   "edit": 0.1,
+   "window": 50,
+   "adjacent exact repeats per 1000": 3.5009861932938855,
+   "adjacent near repeats per 1000": 24.260355029585796,
+   "doubletons on one page": 0.0751040703052729,
+   "distinct per 1000 words": 290.6464682050379,
+   "misfit": 1.0533857715329082
+  },
+  {
+   "p": 0.0,
+   "edit": 0.15,
+   "window": 5,
+   "adjacent exact repeats per 1000": 6.55818540433925,
+   "adjacent near repeats per 1000": 41.222879684418146,
+   "doubletons on one page": 0.09062541850810232,
+   "distinct per 1000 words": 304.9586048969526,
+   "misfit": 0.4284927933104385
+  },
+  {
+   "p": 0.0,
+   "edit": 0.15,
+   "window": 15,
+   "adjacent exact repeats per 1000": 4.832347140039448,
+   "adjacent near repeats per 1000": 28.007889546351088,
+   "doubletons on one page": 0.0899620596205962,
+   "distinct per 1000 words": 305.9274264576361,
+   "misfit": 0.7101720084834067
+  },
+  {
+   "p": 0.0,
+   "edit": 0.15,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.832347140039447,
+   "adjacent near repeats per 1000": 25.591715976331358,
+   "doubletons on one page": 0.09066090204197622,
+   "distinct per 1000 words": 306.1916505196407,
+   "misfit": 0.7423636675085316
+  },
+  {
+   "p": 0.005,
+   "edit": 0.0,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.276134122287969,
+   "adjacent near repeats per 1000": 24.260355029585796,
+   "doubletons on one page": 0.0649690145762416,
+   "distinct per 1000 words": 260.2607010745112,
+   "misfit": 0.7184434723963284
+  },
+  {
+   "p": 0.005,
+   "edit": 0.0,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.276134122287968,
+   "adjacent near repeats per 1000": 24.112426035502956,
+   "doubletons on one page": 0.06462756241120357,
+   "distinct per 1000 words": 264.00387528624276,
+   "misfit": 0.7229037630802189
+  },
+  {
+   "p": 0.005,
+   "edit": 0.0,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.881656804733728,
+   "adjacent near repeats per 1000": 23.668639053254438,
+   "doubletons on one page": 0.06993922393641888,
+   "distinct per 1000 words": 261.8460454465387,
+   "misfit": 0.7728767032185357
+  },
+  {
+   "p": 0.005,
+   "edit": 0.03,
+   "window": 5,
+   "adjacent exact repeats per 1000": 6.459566074950691,
+   "adjacent near repeats per 1000": 26.725838264299803,
+   "doubletons on one page": 0.06495872592345535,
+   "distinct per 1000 words": 271.27003699136867,
+   "misfit": 0.5156922138539365
+  },
+  {
+   "p": 0.005,
+   "edit": 0.03,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.128205128205128,
+   "adjacent near repeats per 1000": 23.422090729783037,
+   "doubletons on one page": 0.05409671034671035,
+   "distinct per 1000 words": 271.22599964770126,
+   "misfit": 0.8370809523937834
+  },
+  {
+   "p": 0.005,
+   "edit": 0.03,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.536489151873767,
+   "adjacent near repeats per 1000": 23.323471400394478,
+   "doubletons on one page": 0.0541371614592073,
+   "distinct per 1000 words": 272.15078386471725,
+   "misfit": 0.9307142465306274
+  },
+  {
+   "p": 0.005,
+   "edit": 0.06,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.867850098619329,
+   "adjacent near repeats per 1000": 29.339250493096646,
+   "doubletons on one page": 0.08353072504015902,
+   "distinct per 1000 words": 281.83899947155186,
+   "misfit": 0.4971816579099607
+  },
+  {
+   "p": 0.005,
+   "edit": 0.06,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.276134122287969,
+   "adjacent near repeats per 1000": 24.80276134122288,
+   "doubletons on one page": 0.09658260233918128,
+   "distinct per 1000 words": 281.0022899418707,
+   "misfit": 0.6785534408863435
+  },
+  {
+   "p": 0.005,
+   "edit": 0.06,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.733727810650887,
+   "adjacent near repeats per 1000": 23.175542406311635,
+   "doubletons on one page": 0.08888094599827243,
+   "distinct per 1000 words": 277.69948916681346,
+   "misfit": 0.7922605405247773
+  },
+  {
+   "p": 0.005,
+   "edit": 0.1,
+   "window": 5,
+   "adjacent exact repeats per 1000": 7.051282051282051,
+   "adjacent near repeats per 1000": 37.573964497041416,
+   "doubletons on one page": 0.11371432601740178,
+   "distinct per 1000 words": 285.22987493394396,
+   "misfit": 0.4329717269062666
+  },
+  {
+   "p": 0.005,
+   "edit": 0.1,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.522682445759369,
+   "adjacent near repeats per 1000": 27.564102564102566,
+   "doubletons on one page": 0.10266818591843518,
+   "distinct per 1000 words": 287.96019024132465,
+   "misfit": 0.6135860195910798
+  },
+  {
+   "p": 0.005,
+   "edit": 0.1,
+   "window": 50,
+   "adjacent exact repeats per 1000": 3.2051282051282053,
+   "adjacent near repeats per 1000": 24.16173570019724,
+   "doubletons on one page": 0.0923494983277592,
+   "distinct per 1000 words": 294.12541835476486,
+   "misfit": 1.1378853131272362
+  },
+  {
+   "p": 0.005,
+   "edit": 0.15,
+   "window": 5,
+   "adjacent exact repeats per 1000": 6.16370808678501,
+   "adjacent near repeats per 1000": 40.23668639053254,
+   "doubletons on one page": 0.11297823218997362,
+   "distinct per 1000 words": 306.3237625506429,
+   "misfit": 0.5559425064672394
+  },
+  {
+   "p": 0.005,
+   "edit": 0.15,
+   "window": 15,
+   "adjacent exact repeats per 1000": 4.191321499013807,
+   "adjacent near repeats per 1000": 27.712031558185405,
+   "doubletons on one page": 0.12280356674534487,
+   "distinct per 1000 words": 304.5622688039457,
+   "misfit": 0.9268429784607152
+  },
+  {
+   "p": 0.005,
+   "edit": 0.15,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.684418145956608,
+   "adjacent near repeats per 1000": 24.654832347140037,
+   "doubletons on one page": 0.10734024384458465,
+   "distinct per 1000 words": 307.556808173331,
+   "misfit": 0.8209564605378256
+  },
+  {
+   "p": 0.01,
+   "edit": 0.0,
+   "window": 5,
+   "adjacent exact repeats per 1000": 5.719921104536489,
+   "adjacent near repeats per 1000": 23.86587771203156,
+   "doubletons on one page": 0.08344975133115665,
+   "distinct per 1000 words": 261.89008279020607,
+   "misfit": 0.6147894986204454
+  },
+  {
+   "p": 0.01,
+   "edit": 0.0,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.226824457593688,
+   "adjacent near repeats per 1000": 23.274161735700197,
+   "doubletons on one page": 0.0875,
+   "distinct per 1000 words": 264.7084727849216,
+   "misfit": 0.7041662857505222
+  },
+  {
+   "p": 0.01,
+   "edit": 0.0,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.6351084812623276,
+   "adjacent near repeats per 1000": 23.717948717948715,
+   "doubletons on one page": 0.06970133531616941,
+   "distinct per 1000 words": 264.6644354412542,
+   "misfit": 0.8166583580130194
+  },
+  {
+   "p": 0.01,
+   "edit": 0.03,
+   "window": 5,
+   "adjacent exact repeats per 1000": 6.903353057199212,
+   "adjacent near repeats per 1000": 27.268244575936883,
+   "doubletons on one page": 0.08387679636944281,
+   "distinct per 1000 words": 270.7415888673595,
+   "misfit": 0.38425264029557676
+  },
+  {
+   "p": 0.01,
+   "edit": 0.03,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.818540433925049,
+   "adjacent near repeats per 1000": 24.06311637080868,
+   "doubletons on one page": 0.08449669078036018,
+   "distinct per 1000 words": 271.53426105337326,
+   "misfit": 0.5961132600015597
+  },
+  {
+   "p": 0.01,
+   "edit": 0.03,
+   "window": 50,
+   "adjacent exact repeats per 1000": 5.325443786982248,
+   "adjacent near repeats per 1000": 22.041420118343197,
+   "doubletons on one page": 0.06816666666666667,
+   "distinct per 1000 words": 270.78562621102697,
+   "misfit": 0.7479294655790973
+  },
+  {
+   "p": 0.01,
+   "edit": 0.06,
+   "window": 5,
+   "adjacent exact repeats per 1000": 6.607495069033531,
+   "adjacent near repeats per 1000": 29.142011834319526,
+   "doubletons on one page": 0.09523149967467,
+   "distinct per 1000 words": 282.36744759556103,
+   "misfit": 0.4118741997945971
+  },
+  {
+   "p": 0.01,
+   "edit": 0.06,
+   "window": 15,
+   "adjacent exact repeats per 1000": 6.607495069033531,
+   "adjacent near repeats per 1000": 24.45759368836292,
+   "doubletons on one page": 0.10490939676543501,
+   "distinct per 1000 words": 280.0334683811873,
+   "misfit": 0.5408142532427953
+  },
+  {
+   "p": 0.01,
+   "edit": 0.06,
+   "window": 50,
+   "adjacent exact repeats per 1000": 5.818540433925049,
+   "adjacent near repeats per 1000": 24.30966469428008,
+   "doubletons on one page": 0.0824867806130285,
+   "distinct per 1000 words": 282.41148493922844,
+   "misfit": 0.5924172539298207
+  },
+  {
+   "p": 0.01,
+   "edit": 0.1,
+   "window": 5,
+   "adjacent exact repeats per 1000": 7.692307692307692,
+   "adjacent near repeats per 1000": 35.60157790927022,
+   "doubletons on one page": 0.10458288204820376,
+   "distinct per 1000 words": 289.7657213316893,
+   "misfit": 0.3110680714421401
+  },
+  {
+   "p": 0.01,
+   "edit": 0.1,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.867850098619329,
+   "adjacent near repeats per 1000": 26.77514792899408,
+   "doubletons on one page": 0.10767834595959597,
+   "distinct per 1000 words": 286.5950325876343,
+   "misfit": 0.5924681301638102
+  },
+  {
+   "p": 0.01,
+   "edit": 0.1,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.289940828402367,
+   "adjacent near repeats per 1000": 23.076923076923077,
+   "doubletons on one page": 0.11282142906227237,
+   "distinct per 1000 words": 294.38964241676945,
+   "misfit": 0.9323309856674267
+  },
+  {
+   "p": 0.01,
+   "edit": 0.15,
+   "window": 5,
+   "adjacent exact repeats per 1000": 7.199211045364891,
+   "adjacent near repeats per 1000": 39.79289940828403,
+   "doubletons on one page": 0.13575669562535342,
+   "distinct per 1000 words": 303.153073806588,
+   "misfit": 0.5844280468427374
+  },
+  {
+   "p": 0.01,
+   "edit": 0.15,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.276134122287969,
+   "adjacent near repeats per 1000": 28.94477317554241,
+   "doubletons on one page": 0.13305994862430753,
+   "distinct per 1000 words": 303.9457459926017,
+   "misfit": 0.769678689387738
+  },
+  {
+   "p": 0.01,
+   "edit": 0.15,
+   "window": 50,
+   "adjacent exact repeats per 1000": 5.177514792899409,
+   "adjacent near repeats per 1000": 24.260355029585796,
+   "doubletons on one page": 0.14361474895537132,
+   "distinct per 1000 words": 303.769596617932,
+   "misfit": 0.8851174554586709
+  },
+  {
+   "p": 0.02,
+   "edit": 0.0,
+   "window": 5,
+   "adjacent exact repeats per 1000": 7.692307692307692,
+   "adjacent near repeats per 1000": 22.928994082840237,
+   "doubletons on one page": 0.10566564099462467,
+   "distinct per 1000 words": 261.0093359168575,
+   "misfit": 0.5093705130824329
+  },
+  {
+   "p": 0.02,
+   "edit": 0.0,
+   "window": 15,
+   "adjacent exact repeats per 1000": 6.508875739644971,
+   "adjacent near repeats per 1000": 22.879684418145956,
+   "doubletons on one page": 0.11434667628320712,
+   "distinct per 1000 words": 262.594680288885,
+   "misfit": 0.6308808156115294
+  },
+  {
+   "p": 0.02,
+   "edit": 0.0,
+   "window": 50,
+   "adjacent exact repeats per 1000": 6.06508875739645,
+   "adjacent near repeats per 1000": 22.435897435897438,
+   "doubletons on one page": 0.11090954252308674,
+   "distinct per 1000 words": 264.5323234102519,
+   "misfit": 0.6726075617714765
+  },
+  {
+   "p": 0.02,
+   "edit": 0.03,
+   "window": 5,
+   "adjacent exact repeats per 1000": 8.037475345167653,
+   "adjacent near repeats per 1000": 26.4792899408284,
+   "doubletons on one page": 0.14039358481302677,
+   "distinct per 1000 words": 275.76184604544653,
+   "misfit": 0.6018937846985378
+  },
+  {
+   "p": 0.02,
+   "edit": 0.03,
+   "window": 15,
+   "adjacent exact repeats per 1000": 6.508875739644971,
+   "adjacent near repeats per 1000": 23.274161735700197,
+   "doubletons on one page": 0.13354667957008168,
+   "distinct per 1000 words": 271.97463449004755,
+   "misfit": 0.7111384583349014
+  },
+  {
+   "p": 0.02,
+   "edit": 0.03,
+   "window": 50,
+   "adjacent exact repeats per 1000": 4.980276134122288,
+   "adjacent near repeats per 1000": 22.189349112426036,
+   "doubletons on one page": 0.12931234239760103,
+   "distinct per 1000 words": 272.89941870706355,
+   "misfit": 0.8848442967153504
+  },
+  {
+   "p": 0.02,
+   "edit": 0.06,
+   "window": 5,
+   "adjacent exact repeats per 1000": 9.023668639053255,
+   "adjacent near repeats per 1000": 31.65680473372781,
+   "doubletons on one page": 0.13307526732398278,
+   "distinct per 1000 words": 280.2096177558569,
+   "misfit": 0.4764398781326689
+  },
+  {
+   "p": 0.02,
+   "edit": 0.06,
+   "window": 15,
+   "adjacent exact repeats per 1000": 6.065088757396449,
+   "adjacent near repeats per 1000": 25.69033530571992,
+   "doubletons on one page": 0.1599400729546639,
+   "distinct per 1000 words": 281.97111150255415,
+   "misfit": 0.8359046960623121
+  },
+  {
+   "p": 0.02,
+   "edit": 0.06,
+   "window": 50,
+   "adjacent exact repeats per 1000": 5.128205128205128,
+   "adjacent near repeats per 1000": 23.668639053254438,
+   "doubletons on one page": 0.14148161342675059,
+   "distinct per 1000 words": 278.84446010216664,
+   "misfit": 0.8844588584194012
+  },
+  {
+   "p": 0.02,
+   "edit": 0.1,
+   "window": 5,
+   "adjacent exact repeats per 1000": 8.234714003944774,
+   "adjacent near repeats per 1000": 36.09467455621302,
+   "doubletons on one page": 0.1717659091919776,
+   "distinct per 1000 words": 291.43914039105164,
+   "misfit": 0.7384511689439903
+  },
+  {
+   "p": 0.02,
+   "edit": 0.1,
+   "window": 15,
+   "adjacent exact repeats per 1000": 6.706114398422091,
+   "adjacent near repeats per 1000": 25.39447731755424,
+   "doubletons on one page": 0.15126747216299455,
+   "distinct per 1000 words": 288.8849744583407,
+   "misfit": 0.7498391126311744
+  },
+  {
+   "p": 0.02,
+   "edit": 0.1,
+   "window": 50,
+   "adjacent exact repeats per 1000": 5.0295857988165675,
+   "adjacent near repeats per 1000": 24.70414201183432,
+   "doubletons on one page": 0.15644343385126233,
+   "distinct per 1000 words": 294.60982913510657,
+   "misfit": 0.9483663088591631
+  },
+  {
+   "p": 0.02,
+   "edit": 0.15,
+   "window": 5,
+   "adjacent exact repeats per 1000": 8.974358974358974,
+   "adjacent near repeats per 1000": 40.138067061143985,
+   "doubletons on one page": 0.17027513037223518,
+   "distinct per 1000 words": 303.7255592742646,
+   "misfit": 0.7404179797869703
+  },
+  {
+   "p": 0.02,
+   "edit": 0.15,
+   "window": 15,
+   "adjacent exact repeats per 1000": 5.621301775147929,
+   "adjacent near repeats per 1000": 28.698224852071007,
+   "doubletons on one page": 0.15431741918336156,
+   "distinct per 1000 words": 300.95120662321654,
+   "misfit": 0.8270856896485839
+  },
+  {
+   "p": 0.02,
+   "edit": 0.15,
+   "window": 50,
+   "adjacent exact repeats per 1000": 5.374753451676528,
+   "adjacent near repeats per 1000": 24.2603550295858,
+   "doubletons on one page": 0.17404765109705211,
+   "distinct per 1000 words": 299.4979742821913,
+   "misfit": 0.9910210948822863
+  }
+ ],
+ "best": {
+  "p": 0.01,
+  "edit": 0.1,
+  "window": 5
+ }
+}
