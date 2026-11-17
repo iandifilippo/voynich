@@ -2,6 +2,15 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-17 (1)
+
+### 36 assembled words (held-out Currier B, ZL, even pages train / odd test, 3 seeds)
+distinct/1000, hapax, unseen tokens, top-20, lexicon gain: VMS 247.7 .672 .173 .234 -.246; asm1 316.3 .796 .263 .327 -.475; asm2 262.2 .700 .179 .254 -.362; asm3 229.5 .593 .116 .231 -.097; asm2 no link 260.9 .701 .177 .256 -.368; lexicon 190.5 .404 0 .235 .386; asm2+recall 290.6 .712 .214 .237 -.365; copying 214.4 .615 .489 .263 .023.
+adjacent exact/near per 1000, q-, para-first gallows, line-last -m, doubletons one page: VMS 9.08/33.1 .180 .881 .187 .074; asm2 5.32/24.2 .179 .836 .160 .033; asm2+recall 7.61/33.7 .173 .828 .168 .105; lexicon 4.27/21.1 .178 .079 .024 .029; copying 7.17/37.0 .014 .942 .085 .236.
+Tune (training half only): target exact 9.37, near 34.4, dbl .084, distinct 267.4; best p=.01 edit=.10 window=5 (misfit .311); exact-only recall p=.03 gives dbl .16 and near 23.5.
+Robustness (knobs not refitted), unseen VMS/asm2, lexicon gain VMS/asm2, within-range asm2+recall: ZL A .241/.224, -.366/-.412, 12; IT B .185/.179, -.259/-.363, 11; GC B .199/.176, -.320/-.372, 10.
+Bug found while running: the assembler looped forever when a word-start context was unseen; fixed with a fallback to all word-initial signs.
+
 ## 2026-11-16 (28)
 
 ### c12-c14
