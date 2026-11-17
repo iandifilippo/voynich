@@ -14,6 +14,9 @@ Competitors, all filling the same shape:
   lexicon         words drawn from the training half's word frequencies (pure vocabulary, no rule)
   copying model   exp. 22's best (not fitted to text at all; its own line shapes)
 
+Run with VMS_LANG=A and/or VMS_TRANS=IT (etc.) for the robustness checks;
+the recall knobs stay as fitted on ZL Currier B.
+
 Measures: vocabulary size and novelty (share of tokens never seen in the
 training half), frequency profile, the exp. 34 lexicon gain, adjacent
 repeats, word shape at line and paragraph edges, and rare-word locality (both
@@ -21,6 +24,7 @@ occurrences of a doubleton on the same page).
 """
 import json
 import math
+import os
 import pathlib
 import random
 import statistics
@@ -34,6 +38,9 @@ from voynich.assemble import Assembler, signs
 from voynich.autocopy import AutoCopy
 
 HERE = pathlib.Path(__file__).parent
+TRANS = os.environ.get("VMS_TRANS", "ZL")
+LANG = os.environ.get("VMS_LANG", "B")
+TAG = "" if (TRANS, LANG) == ("ZL", "B") else f"_{TRANS}_{LANG}"
 SEEDS = [1, 2, 3]
 chart = {k: set(x) for k, x in json.loads(
     (HERE.parent / "18_autocopy_boundary" / "results" / "boundary.json").read_text())["chart"].items()}
@@ -118,10 +125,10 @@ def measure(pages, train_vocab):
     }
 
 
-v = Voynich("ZL")
+v = Voynich(TRANS)
 pages = defaultdict(list)
 for l in v.lines:
-    if l.unit == "P" and l.meta.get("L") == "B":
+    if l.unit == "P" and l.meta.get("L") == LANG:
         words = [w for w in l.words if "?" not in w and "'" not in w]
         if words:
             pages[l.page].append((words, l.para_start))
@@ -151,47 +158,56 @@ def fill_lexicon(seed):
 
 def fill_copy(seed):
     n_lines = sum(len(p) for p in shape)
-    g = AutoCopy(seed=seed, currier="B", boundary=chart, boundary_p=0.65, line_end_p=0.5, common_p=0.5)
+    g = AutoCopy(seed=seed, currier=LANG, boundary=chart, boundary_p=0.65, line_end_p=0.5, common_p=0.5)
     lines = g.run(n_lines)
     starts = set(g.paragraph_starts)
     rows = [(l, k in starts) for k, l in enumerate(lines) if l]
     return [rows[i:i + 29] for i in range(0, len(rows), 29)]
 
 
-models = {"held-out VMS (target)": lambda s: test,
-          "assemble 1": lambda s: fill_assemble(s, 1),
-          "assemble 2": lambda s: fill_assemble(s, 2),
-          "assemble 3": lambda s: fill_assemble(s, 3),
-          "assemble 2, no link": lambda s: fill_assemble(s, 2, link=False),
-          "lexicon": fill_lexicon,
-          "copying model": fill_copy}
-rows = []
-for name, make in models.items():
-    runs = [measure(make(s), vocab) for s in (SEEDS[:1] if name.startswith("held") else SEEDS)]
-    row = {"model": name}
-    for k in runs[0]:
-        row[k] = statistics.mean(r[k] for r in runs)
-    pg = make(SEEDS[0])
-    row["benchmark distance"] = benchmark.score([l for p in pg for l, _ in p])[0]
-    rows.append(row)
-    print(name, {k: round(x, 3) for k, x in row.items() if k != "model"}, flush=True)
+def fill_recall(seed, p, e, window):
+    m = Assembler(order=2, recall_p=p, edit_p=e, window=window).fit(tr_lines, tr_starts)
+    return [list(zip(m.fill(pg, seed=seed * 1000 + i), [ps for _, ps in pg])) for i, pg in enumerate(shape)]
 
-target = rows[0]
-keys = [k for k in rows[0] if k not in ("model", "words")]
-off = []
-for r in rows[1:]:
-    rel = {}
-    for k in keys:
-        t = target[k]
-        rel[k] = r[k] / t if t else float("nan")
-    r["measures within 0.8-1.25x"] = sum(1 for k in keys if k != "benchmark distance" and 0.8 <= rel[k] <= 1.25)
-save(HERE, "assemble", rows)
-cols = ["model", "distinct per 1000 words", "hapax share of types", "tokens unseen in training half",
-        "top word share", "top 20 share", "lexicon gain (bits)"]
-cols2 = ["model", "adjacent exact repeats per 1000", "adjacent near repeats per 1000", "mean word length",
-         "words starting q", "line-first starting q", "para-first starting p/t/k/f", "line-last ending m",
-         "doubletons on one page", "benchmark distance", "measures within 0.8-1.25x"]
-md = "# 36 assembled vs copied words, on held-out Currier B\n\nFitted on even pages, measured on odd pages (3 seeds).\n\n"
-md += "## Vocabulary\n\n" + table(rows, cols) + "\n## Sequence and edges\n\n" + table(rows, cols2)
-write_md(HERE, "assemble", md)
-print(md)
+
+if __name__ == "__main__":
+    TUNED = json.loads((HERE / "results" / "tune.json").read_text())["best"] if (HERE / "results" / "tune.json").exists() else None
+    models = {"held-out VMS (target)": lambda s: test,
+              "assemble 1": lambda s: fill_assemble(s, 1),
+              "assemble 2": lambda s: fill_assemble(s, 2),
+              "assemble 3": lambda s: fill_assemble(s, 3),
+              "assemble 2, no link": lambda s: fill_assemble(s, 2, link=False),
+              "lexicon": fill_lexicon,
+              **({f"assemble 2 + recall (exact {TUNED['p']}, edited {TUNED['edit']}, last {TUNED['window']})":
+                  (lambda s: fill_recall(s, TUNED["p"], TUNED["edit"], TUNED["window"]))} if TUNED else {}),
+              "copying model": fill_copy}
+    rows = []
+    for name, make in models.items():
+        runs = [measure(make(s), vocab) for s in (SEEDS[:1] if name.startswith("held") else SEEDS)]
+        row = {"model": name}
+        for k in runs[0]:
+            row[k] = statistics.mean(r[k] for r in runs)
+        pg = make(SEEDS[0])
+        row["benchmark distance"] = benchmark.score([l for p in pg for l, _ in p])[0]
+        rows.append(row)
+        print(name, {k: round(x, 3) for k, x in row.items() if k != "model"}, flush=True)
+
+    target = rows[0]
+    keys = [k for k in rows[0] if k not in ("model", "words")]
+    off = []
+    for r in rows[1:]:
+        rel = {}
+        for k in keys:
+            t = target[k]
+            rel[k] = r[k] / t if t else float("nan")
+        r["measures within 0.8-1.25x"] = sum(1 for k in keys if k != "benchmark distance" and 0.8 <= rel[k] <= 1.25)
+    save(HERE, "assemble" + TAG, rows)
+    cols = ["model", "distinct per 1000 words", "hapax share of types", "tokens unseen in training half",
+            "top word share", "top 20 share", "lexicon gain (bits)"]
+    cols2 = ["model", "adjacent exact repeats per 1000", "adjacent near repeats per 1000", "mean word length",
+             "words starting q", "line-first starting q", "para-first starting p/t/k/f", "line-last ending m",
+             "doubletons on one page", "benchmark distance", "measures within 0.8-1.25x"]
+    md = f"# 36 assembled vs copied words, on held-out Currier {LANG} ({TRANS})\n\nFitted on even pages, measured on odd pages (3 seeds). Recall knobs as fitted on ZL Currier B.\n\n"
+    md += "## Vocabulary\n\n" + table(rows, cols) + "\n## Sequence and edges\n\n" + table(rows, cols2)
+    write_md(HERE, "assemble" + TAG, md)
+    print(md)
