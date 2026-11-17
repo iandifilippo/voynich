@@ -59,12 +59,15 @@ class Assembler:
                     self.tab[pos][ctx][s] += 1
                     hist.append(s)
                 prev = seq[-2]
+        self.first = Counter()
         self.pooled = defaultdict(Counter)
         self.short = defaultdict(Counter)
         for p in POSITIONS:
             for ctx, c in self.tab[p].items():
                 self.pooled[ctx].update(c)
                 self.short[ctx[-1]].update(c)
+                if ctx[-1].startswith("^"):
+                    self.first.update({k: v for k, v in c.items() if k != "$"})
         return self
 
     def _draw(self, rng, pos, ctx):
@@ -73,6 +76,8 @@ class Assembler:
             c = self.pooled.get(ctx)
         if not c:
             c = self.short.get(ctx[-1])
+        if not c and ctx[-1].startswith("^"):
+            c = self.first
         if not c:
             return "$"
         r = rng.random() * sum(c.values())
