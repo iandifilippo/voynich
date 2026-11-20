@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (2)
+
+### 39 forks (pages 60+ words, 34 fork features, 2000 permutations)
+R2 / random / p / LOO acc / chance: hand1 H vs P .101/.010/<.001/.860/.840; hand2 H/B/T .313/.047/<.001/.907/.465; hand2 H vs B .305/.026/<.001/.949/.513; hand3 H vs S .141/.034/<.001/.967/.800; herbal B hands 2/3/5 .162/.064/.001/.719/.625; text hands 2/5 .294/.250/.601; herbal hand1 vs hand2 .163/.010/<.001/.971/.808.
+Halves (time only): hand2 H .085/.053/.119; hand2 B .011/.056/.998; hand3 S .063/.044/.145; hand1 H .024/.012/.029.
+Hand 2 means B/H/T: qo .243/.091/.148, -edy .264/.136/.120, -ar .049/.113/.130, -dy .042/.121/.088, -ol .115/.041/.059. Hand 2 quires: H in D-G, B in M, T in M-N.
+
 ## 2026-11-20 (1)
 
 ### 37 small machine (HMM, EM, 3 starts, 250 iters, uniform pi; even pages train, odd test)
