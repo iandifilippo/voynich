@@ -2,6 +2,20 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (6)
+
+### 44 word classes (exchange clustering, 11000 words/half, held-out MI minus shuffled-train baseline)
+First pass (all types): K=8/16/32 Naibbe .002/.007/.006, B .011/.030/.049, A -.005/.007/.026, Latin .045/.082/.078.
+Min count 5 (rare merged): K=4/8/16/32 Naibbe .036/.042/.039/.047; B .037/.087/.087/.083; A .007/.009/-.007/-.001; copy .001/.008/.008/.032; assembled .008/.027/.021/.036; Latin .079/.092/.133/.130; Italian .148/.250/.308/.317. Line-middle only: B .042/.097/.092/.091.
+Lags K=16, d=1/2/3/5/same page: B .083/.012/.010/.006/.006; A .005/-.005/-.002/-.019/-.002; Naibbe .039/.000/.002/-.005/-.000; Latin .149/.021/.002/.005/-.001; Italian .307/.029/.004/.006/.002; assembled .020/-.001/.001/.004/.002.
+Edges (d=1): B as written .083, keep first sign .006, first+last .051, first2+last2 .073, free .001; Latin .135/.001/.025/.112/-.000; Italian .305/.005/.039/.257/-.001.
+
+### 45 labels (4+ letters; text units P, R, C)
+Exact per 1000, own page / same sheet / other sheets: pharma .612/.650/.620 (225 labels); bathing 1.824/1.439/1.463 (107); zodiac 1.400/1.178/1.168 (310); cosmological 1.633/2.540/.769; astronomical .486/.467/-.
+Raw own-page hits: pharma 20, bathing 63, zodiac 35. Labels found anywhere in running text: .467/.701/.574.
+Starts: labels o .602 q .010 ch/sh .091 d .086; text o .216 q .168 ch/sh .285 d .075.
+Permutation (1000): all labels 118 vs 101.2, p .104; o- labels 57 vs 44.9, p .087; o- as qo- 76 vs 52.2, p .040.
+
 ## 2026-11-20 (5)
 
 ### 43 cipher page identity (14x8-word pages, 50 pages)
