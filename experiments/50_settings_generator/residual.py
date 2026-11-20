@@ -59,58 +59,59 @@ def analyse(sheets, rng):
     return out
 
 
-rng = random.Random(0)
-fit = __import__("json").loads((HERE / "results" / "settings.json").read_text())
-best = min(fit["grid"], key=lambda r: r["misfit"])
-texts = {"Currier B": run.B, "generator with settings": run.generate(best["sigma"], best["hold"], 7)}
-rows = []
-for name, sheets in texts.items():
-    res = analyse(sheets, rng)
-    for f, r in res.items():
-        rows.append({"text": name, "feature": f, **r,
-                     "repeat excess": r["repeats previous"] - r["repeats if order were random"]})
-        print(rows[-1], flush=True)
-save(HERE, "residual", rows)
-md = "# 50 repetition or structured transitions?\n\n" + table(
-    rows, ["text", "feature", "repeats previous", "repeats if order were random", "repeat excess", "off-diagonal CMI"])
-write_md(HERE, "residual", md)
-print(md)
+if __name__ == "__main__":
+    rng = random.Random(0)
+    fit = __import__("json").loads((HERE / "results" / "settings.json").read_text())
+    best = min(fit["grid"], key=lambda r: r["misfit"])
+    texts = {"Currier B": run.B, "generator with settings": run.generate(best["sigma"], best["hold"], 7)}
+    rows = []
+    for name, sheets in texts.items():
+        res = analyse(sheets, rng)
+        for f, r in res.items():
+            rows.append({"text": name, "feature": f, **r,
+                         "repeat excess": r["repeats previous"] - r["repeats if order were random"]})
+            print(rows[-1], flush=True)
+    save(HERE, "residual", rows)
+    md = "# 50 repetition or structured transitions?\n\n" + table(
+        rows, ["text", "feature", "repeats previous", "repeats if order were random", "repeat excess", "off-diagonal CMI"])
+    write_md(HERE, "residual", md)
+    print(md)
 
 
-# which start -> start transitions carry it (Currier B): observed against the
-# permutation expectation, summed over boundary contexts
-pairs, sheet_of = [], []
-for k, lines in enumerate(run.B):
-    for l in lines:
-        seq = [signs(w) for w in l]
-        for a, b in zip(seq, seq[1:]):
-            pairs.append((a, b))
-            sheet_of.append(k)
-g = run.FEATS["start"]
-trip = [(g(a), g(b), (a[-1], b[0])) for a, b in pairs]
-groups = defaultdict(list)
-for k, t in enumerate(trip):
-    groups[t[2], sheet_of[k]].append(k)
-from collections import Counter  # noqa: E402
-obs = Counter((x, y) for x, y, _ in trip)
-exp = Counter()
-for _ in range(50):
-    xs = [t[0] for t in trip]
-    for idx in groups.values():
-        vals = [xs[k] for k in idx]
-        rng.shuffle(vals)
-        for k, x in zip(idx, vals):
-            xs[k] = x
-    exp.update((x, t[1]) for x, t in zip(xs, trip))
-trans = []
-for key, o in obs.items():
-    e = exp[key] / 50
-    if e >= 15 and key[0] != key[1]:
-        trans.append({"word starts": "".join(key[0]), "next word starts": "".join(key[1]), "observed": o,
-                      "expected": round(e, 1), "ratio": o / e})
-trans.sort(key=lambda r: r["ratio"])
-save(HERE, "residual_transitions", trans)
-md += "\n## Start-to-start transitions in Currier B furthest from expectation (given the boundary glyphs and the sheet)\n\n"
-md += table(trans[:8] + trans[-10:], ["word starts", "next word starts", "observed", "expected", "ratio"])
-write_md(HERE, "residual", md)
-print(table(trans[:8] + trans[-10:], ["word starts", "next word starts", "observed", "expected", "ratio"]))
+    # which start -> start transitions carry it (Currier B): observed against the
+    # permutation expectation, summed over boundary contexts
+    pairs, sheet_of = [], []
+    for k, lines in enumerate(run.B):
+        for l in lines:
+            seq = [signs(w) for w in l]
+            for a, b in zip(seq, seq[1:]):
+                pairs.append((a, b))
+                sheet_of.append(k)
+    g = run.FEATS["start"]
+    trip = [(g(a), g(b), (a[-1], b[0])) for a, b in pairs]
+    groups = defaultdict(list)
+    for k, t in enumerate(trip):
+        groups[t[2], sheet_of[k]].append(k)
+    from collections import Counter
+    obs = Counter((x, y) for x, y, _ in trip)
+    exp = Counter()
+    for _ in range(50):
+        xs = [t[0] for t in trip]
+        for idx in groups.values():
+            vals = [xs[k] for k in idx]
+            rng.shuffle(vals)
+            for k, x in zip(idx, vals):
+                xs[k] = x
+        exp.update((x, t[1]) for x, t in zip(xs, trip))
+    trans = []
+    for key, o in obs.items():
+        e = exp[key] / 50
+        if e >= 15 and key[0] != key[1]:
+            trans.append({"word starts": "".join(key[0]), "next word starts": "".join(key[1]), "observed": o,
+                          "expected": round(e, 1), "ratio": o / e})
+    trans.sort(key=lambda r: r["ratio"])
+    save(HERE, "residual_transitions", trans)
+    md += "\n## Start-to-start transitions in Currier B furthest from expectation (given the boundary glyphs and the sheet)\n\n"
+    md += table(trans[:8] + trans[-10:], ["word starts", "next word starts", "observed", "expected", "ratio"])
+    write_md(HERE, "residual", md)
+    print(table(trans[:8] + trans[-10:], ["word starts", "next word starts", "observed", "expected", "ratio"]))

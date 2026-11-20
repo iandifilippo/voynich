@@ -1,0 +1,54 @@
+[
+ {
+  "text": "ZL Currier B",
+  "sheets": 20,
+  "fitted sigma, hold": "0.9, 2.5",
+  "beyond boundary: text": 0.2396970456357846,
+  "beyond boundary: generator": 0.07590331716709839,
+  "off-diag start: text / gen": "0.019 / -0.002",
+  "off-diag gallows: text / gen": "0.012 / -0.006",
+  "off-diag ending: text / gen": "0.005 / -0.004",
+  "off-diag length: text / gen": "0.003 / -0.002",
+  "off-diag sum: text": 0.03848824967195125,
+  "off-diag sum: generator": -0.014455854069133134
+ },
+ {
+  "text": "ZL Currier A",
+  "sheets": 28,
+  "fitted sigma, hold": "0.6, 2.5",
+  "beyond boundary: text": 0.18126539741631642,
+  "beyond boundary: generator": 0.05222627881833522,
+  "off-diag start: text / gen": "0.025 / 0.008",
+  "off-diag gallows: text / gen": "0.028 / -0.002",
+  "off-diag ending: text / gen": "0.019 / -0.013",
+  "off-diag length: text / gen": "0.003 / -0.001",
+  "off-diag sum: text": 0.07476866842045465,
+  "off-diag sum: generator": -0.007818543737730776
+ },
+ {
+  "text": "IT Currier B",
+  "sheets": 20,
+  "fitted sigma, hold": "0.6, 2.5",
+  "beyond boundary: text": 0.2589311208196031,
+  "beyond boundary: generator": 0.10900263784172812,
+  "off-diag start: text / gen": "0.019 / -0.008",
+  "off-diag gallows: text / gen": "0.008 / -0.007",
+  "off-diag ending: text / gen": "0.007 / 0.003",
+  "off-diag length: text / gen": "0.006 / 0.001",
+  "off-diag sum: text": 0.04060215551852009,
+  "off-diag sum: generator": -0.010170834534135809
+ },
+ {
+  "text": "IT Currier A",
+  "sheets": 28,
+  "fitted sigma, hold": "0.6, 2.5",
+  "beyond boundary: text": 0.15898119797034416,
+  "beyond boundary: generator": 0.03920485286811484,
+  "off-diag start: text / gen": "0.014 / -0.009",
+  "off-diag gallows: text / gen": "0.022 / -0.010",
+  "off-diag ending: text / gen": "0.016 / 0.004",
+  "off-diag length: text / gen": "0.001 / -0.001",
+  "off-diag sum: text": 0.052828790697989014,
+  "off-diag sum: generator": -0.015534650871433853
+ }
+]
