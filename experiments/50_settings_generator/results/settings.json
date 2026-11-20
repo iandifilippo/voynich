@@ -1,0 +1,118 @@
+{
+ "target": {
+  "sheet identity": 0.975,
+  "gallows line ratio": 1.066872926697221
+ },
+ "grid": [
+  {
+   "sigma": 0.0,
+   "hold": 1.0,
+   "sheet identity": 0.05,
+   "gallows line ratio": 1.0370203554642703,
+   "misfit": 0.9326756221471076
+  },
+  {
+   "sigma": 0.0,
+   "hold": 1.5,
+   "sheet identity": 0.05,
+   "gallows line ratio": 1.0477161702725923,
+   "misfit": 0.9281684658872013
+  },
+  {
+   "sigma": 0.0,
+   "hold": 2.5,
+   "sheet identity": 0.05,
+   "gallows line ratio": 1.0854620933054933,
+   "misfit": 0.9279837896445399
+  },
+  {
+   "sigma": 0.3,
+   "hold": 1.0,
+   "sheet identity": 0.675,
+   "gallows line ratio": 1.042973031348406,
+   "misfit": 0.31486390705025064
+  },
+  {
+   "sigma": 0.3,
+   "hold": 1.5,
+   "sheet identity": 0.775,
+   "gallows line ratio": 1.0462016216902452,
+   "misfit": 0.21641821922163285
+  },
+  {
+   "sigma": 0.3,
+   "hold": 2.5,
+   "sheet identity": 0.7125,
+   "gallows line ratio": 1.072081772778613,
+   "misfit": 0.263325584096939
+  },
+  {
+   "sigma": 0.6,
+   "hold": 1.0,
+   "sheet identity": 0.95,
+   "gallows line ratio": 1.0338043432053627,
+   "misfit": 0.13461611874708027
+  },
+  {
+   "sigma": 0.6,
+   "hold": 1.5,
+   "sheet identity": 0.975,
+   "gallows line ratio": 1.0361059562819999,
+   "misfit": 0.12306788166088456
+  },
+  {
+   "sigma": 0.6,
+   "hold": 2.5,
+   "sheet identity": 0.9875,
+   "gallows line ratio": 1.077798512310544,
+   "misfit": 0.045454864821103766
+  },
+  {
+   "sigma": 0.9,
+   "hold": 1.0,
+   "sheet identity": 1.0,
+   "gallows line ratio": 1.0320876024210048,
+   "misfit": 0.14136937631617472
+  },
+  {
+   "sigma": 0.9,
+   "hold": 1.5,
+   "sheet identity": 1.0,
+   "gallows line ratio": 1.0338310288126698,
+   "misfit": 0.134511234672089
+  },
+  {
+   "sigma": 0.9,
+   "hold": 2.5,
+   "sheet identity": 1.0,
+   "gallows line ratio": 1.0679838341284713,
+   "misfit": 0.02539184603633449
+  }
+ ],
+ "rows": [
+  {
+   "text": "Currier B",
+   "sheet identity": 0.975,
+   "gallows line ratio": 1.066872926697221,
+   "beyond the boundary (bits)": 0.2993906430382402
+  },
+  {
+   "text": "generator, no settings",
+   "sheet identity": 0.1,
+   "gallows line ratio": 1.0487790122590066,
+   "beyond the boundary (bits)": 0.07063873019338843
+  },
+  {
+   "text": "generator, sheet setting sigma=0.9, line gallows hold=2.5",
+   "sheet identity": 1.0,
+   "gallows line ratio": 1.0829989347319728,
+   "beyond the boundary (bits)": 0.1162438068350709
+  },
+  {
+   "text": "generator, strong settings sigma=0.9, hold=2.5",
+   "sheet identity": 1.0,
+   "gallows line ratio": 1.0829989347319728,
+   "beyond the boundary (bits)": 0.11733881112653559
+  }
+ ]
+}
