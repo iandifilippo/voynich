@@ -1,0 +1,50 @@
+[
+ {
+  "text": "VMS Currier B",
+  "distance 1": 0.08323707634760456,
+  "distance 2": 0.011898873388297572,
+  "distance 3": 0.010138883602584827,
+  "distance 5": 0.00620754870452098,
+  "same page, any distance": 0.005979691616417402
+ },
+ {
+  "text": "VMS Currier A",
+  "distance 1": 0.0050871458129511035,
+  "distance 2": -0.004560442385381162,
+  "distance 3": -0.0016655145011860231,
+  "distance 5": -0.018831206635208084,
+  "same page, any distance": -0.0015917223237867095
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "distance 1": 0.03882804110919173,
+  "distance 2": 0.00010258336141698993,
+  "distance 3": 0.0016172060599662016,
+  "distance 5": -0.004752247875002204,
+  "same page, any distance": -0.0004732955141631724
+ },
+ {
+  "text": "Latin, words",
+  "distance 1": 0.14899003499827557,
+  "distance 2": 0.021425436566895318,
+  "distance 3": 0.0017011383541152073,
+  "distance 5": 0.0054531911712999565,
+  "same page, any distance": -0.0008175647269887606
+ },
+ {
+  "text": "Italian, words",
+  "distance 1": 0.30668850986761464,
+  "distance 2": 0.02915914575073783,
+  "distance 3": 0.004243878461140965,
+  "distance 5": 0.006101303579750569,
+  "same page, any distance": 0.0024901770092605278
+ },
+ {
+  "text": "assembled words (exp. 36)",
+  "distance 1": 0.020061337189372155,
+  "distance 2": -0.0009379521740018049,
+  "distance 3": 0.0005205561983988895,
+  "distance 5": 0.0036674080043613347,
+  "same page, any distance": 0.002310861159540281
+ }
+]

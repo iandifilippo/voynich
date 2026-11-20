@@ -17,6 +17,12 @@ Calibration: the Naibbe cipher of Pliny. Against it: Currier A and B, the
 copying model, the exp. 36 generator, the words of Latin and Italian (words
 as tokens), and the letters of Latin (letters as tokens: what a cipher with
 one word per letter would show).
+
+Words seen fewer than 5 times in the training half are merged into one
+token: with every rare type its own item, the classes only memorise noise and
+the method fails even on the Naibbe cipher (first pass, kept in the log).
+A second version counts only pairs inside a line, so that habits at line
+starts and ends can't pass for sequence.
 """
 import json
 import pathlib
@@ -35,7 +41,8 @@ from voynich.corpus import DATA, historical
 from voynich.crack.classes import class_mi, fit
 
 HERE = pathlib.Path(__file__).parent
-KS = [2, 4, 8, 16, 24, 32]
+KS = [4, 8, 16, 32]
+MIN_COUNT = 5
 N_WORDS = 11000
 PER_LINE = 9
 chart = {k: set(x) for k, x in json.loads(
@@ -107,14 +114,26 @@ def texts():
     }
 
 
+def merge_rare(lines, keep):
+    return [[w if w in keep else "<rare>" for w in l] for l in lines]
+
+
+def middle(lines):
+    return [l[1:-1] for l in lines if len(l) > 3]
+
+
 if __name__ == "__main__":
     rows = []
     for name, (train, test) in texts().items():
         train, test = cap(train, N_WORDS), cap(test, N_WORDS)
+        f = Counter(w for l in train for w in l)
+        keep = {w for w, c in f.items() if c >= MIN_COUNT}
+        train, test = merge_rare(train, keep), merge_rare(test, keep)
         flat = [w for l in train for w in l]
         cover = Counter(w for l in test for w in l)
         seen = sum(c for w, c in cover.items() if w in set(flat)) / sum(cover.values())
-        row = {"text": name, "types (train)": len(set(flat)), "test tokens seen in train": seen}
+        row = {"text": name, "types (train)": len(set(flat)), "test tokens seen in train": seen,
+               "tokens merged as rare": sum(1 for w in flat if w == "<rare>") / len(flat)}
         shuffled = [w for l in train for w in l]
         random.Random(0).shuffle(shuffled)
         it = iter(shuffled)
@@ -125,6 +144,7 @@ if __name__ == "__main__":
             _, a0 = fit(shuf, K)
             held0 = class_mi(test, a0, unknown=K)
             row[f"K={K}"] = held - held0
+            row[f"K={K} mid"] = class_mi(middle(test), assign, unknown=K) - class_mi(middle(test), a0, unknown=K)
             row[f"K={K} train"] = mi
             row[f"K={K} raw"] = held
         rows.append(row)
@@ -132,8 +152,10 @@ if __name__ == "__main__":
     save(HERE, "classes", rows)
     md = ("# 44 word classes from neighbours\n\nHeld-out mutual information (bits) between the classes of adjacent "
           "words, minus the same with classes fitted on the training half with its words shuffled.\n\n")
-    md += table(rows, ["text", "types (train)", "test tokens seen in train"] + [f"K={k}" for k in KS])
+    md += table(rows, ["text", "types (train)", "tokens merged as rare"] + [f"K={k}" for k in KS])
+    md += "\n## Same, counting only pairs inside a line (first and last word left out)\n\n" + table(
+        rows, ["text"] + [f"K={k} mid" for k in KS])
     md += "\n## Raw held-out MI and training MI\n\n" + table(
-        rows, ["text"] + [f"K={k} raw" for k in KS] + [f"K={k} train" for k in (8, 24)])
+        rows, ["text"] + [f"K={k} raw" for k in KS] + [f"K={k} train" for k in (8, 32)])
     write_md(HERE, "classes", md)
     print(md)
