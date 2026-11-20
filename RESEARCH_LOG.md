@@ -2,6 +2,18 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (7)
+
+### 44 synthetic calibration (Latin ciphers of Voynich words, K=16 held-out MI)
+word per letter 5 homophones .460; 40 homophones .284; per syllable 1 hom. .638; 3 hom. .688; codebook .130. B .087, A -.007.
+
+### 46 features (MI next word, minus position-class shuffle, 10 shuffles)
+first->first, last->last, gallows, last->first: B .071 .016 .032 .250; A .056 .016 .029 .139; Naibbe .006 .000 .000 .003; letter cipher .081 .047 .034 .060; Latin .021 .096 .001 .040; Italian .060 .057 .006 .118.
+B boundary pairs obs/exp: s.a 6.07 (208), o.r 5.40, o.l 5.02, r.a 3.44 (738), l.k 2.96, y.q 1.72 (2999); avoided y.a .15, n.l .17, r.l .25, r.q .28, n.q .38.
+
+### 47 sheet keys (sheets 100+ words: B 20, A 28; 20 within-sheet shuffles)
+pooled/inside: first->first B .067/.074, A .051/.051, one-key .034/.032, key-per-sheet .000/.027, generator .019/.022. last->last B .014/.020, A .013/.019, one-key .005/.007, per-sheet .002/.012, gen .014/.018. last->first B .249/.260, A .137/.144, one-key .011/.008, per-sheet .002/.018, gen .233/.226. shape->shape B .297/.209, A .161/.069, one-key .154/.091, per-sheet .047/.131, gen .231/.127.
+
 ## 2026-11-20 (6)
 
 ### 44 word classes (exchange clustering, 11000 words/half, held-out MI minus shuffled-train baseline)
