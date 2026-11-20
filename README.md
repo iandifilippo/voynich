@@ -88,6 +88,8 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 45 | labels vs their page's text | labels aren't found in their own page's text more than elsewhere (pharmaceutical 0.61 vs 0.62 per 1000; all sections p 0.10). Labels are built differently (60% o-, 1% q-), and half never occur in running text |
 | 46 | where the sequence lives | the strongest link between neighbouring words is across the space: last sign → next first sign 0.25 bits in B, 0.14 in A (Latin 0.04, Italian 0.12, Naibbe cipher 0.00). Part is likely false spaces (s·aiin, o·r); the rest is a boundary rule (-y then q-, never -y then a-) |
 | 47 | attack: a key per sheet? | calibrated on ciphers of Latin made of Voynich words: a new key per sheet leaves nothing pooled and a signal inside sheets (first → first 0.000 / 0.027); one key gives the same pooled and inside. The manuscript looks like one key or none (B 0.067 / 0.074). The neighbour rules are constant across sheets; only word-building is re-set. Together with 34 and 43: no calibrated cipher family fits |
+| 48 | beyond the boundary | conditional on the glyphs at the space and with the sheet setting in the baseline, neighbouring words still share 0.30 bits (B) and 0.23 (A) of choices; generator 0.02, letter cipher of Latin 0.88, Latin letters 0.66. Part of it is a gallows choice held along the line; the rest falls off with distance like letters. What's left for a message is well under a letter per word |
+| 49 | a setting per line? | words in the same line agree on their gallows 7-12% more than words of different lines at the same positions, flat with distance (generator: gone by distance 3). Lines are a unit, much weaker than the sheet |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

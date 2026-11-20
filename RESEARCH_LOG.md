@@ -2,6 +2,16 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (8)
+
+### 48 beyond boundary (CMI given last sign i and first sign i+1; 30 perms)
+Whole-text baseline, start/gallows/ending/length same->same, sum16: B .040 .034 .038 .008, .351; A .035 .032 .033 .014, .310; generator .007 .003 .004 .002, .017; Latin cipher .068 .024 .089 .028, .898; Latin .104 .009 .171 .057, 1.178; Italian .198 .008 .278 .084, 1.832.
+Inside-sheet baseline: B .031 .033 .030 .008, .298; A .024 .028 .020 .011, .231; gen .017; cipher .878; Latin .657; Italian 1.369.
+Plain MI by distance (shuffle in sheet by position), start d1-3 / gallows / ending: B .182 .053 .028 / .032 .024 .020 / .078 .024 .021; A .137 .048 .039 / .029 .029 .020 / .078 .022 .036; gen .064 .012 .013 / .003 .002 .000 / .055 .009 .007; cipher .150 .052 .013 / .017 .003 .002 / .110 .041 .017; Latin .180 .079 .041 / .001 .000 .000 / .351 .113 .060.
+
+### 49 line setting (agreement ratio same line / other line, line-first words excluded)
+gallows d1-4: B 1.116 1.106 1.070 1.073; A 1.080 1.087 1.080 1.053; gen 1.063 1.036 .993 1.019. start: B 1.016 1.141 1.107 1.097; gen 1.058 1.106 1.068 1.148. Latin last letter 1.115 1.217 1.175 1.126.
+
 ## 2026-11-20 (7)
 
 ### 44 synthetic calibration (Latin ciphers of Voynich words, K=16 held-out MI)
