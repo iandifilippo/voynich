@@ -141,3 +141,16 @@ def test_fork_profile():
     assert len(p) == len(FEATS)
     assert abs(p.sum() - 3.0) < 1e-9
     assert p[FEATS.index(("start", "qo"))] == 1 / 3 and p[FEATS.index(("end", "aiin"))] == 1 / 3
+
+
+def test_exchange_classes_recover_alphabet():
+    pytest.importorskip("numpy")
+    import random
+    from voynich.crack.classes import fit
+    rng = random.Random(0)
+    homophones = {"a": ["x1", "x2", "x3"], "b": ["y1", "y2"]}
+    plain = "ab" * 400
+    lines = [[rng.choice(homophones[c]) for c in plain[i:i + 20]] for i in range(0, len(plain), 20)]
+    mi, cls = fit(lines, 2)
+    assert len({cls["x1"], cls["x2"], cls["x3"]}) == 1 and cls["x1"] != cls["y1"] and cls["y1"] == cls["y2"]
+    assert mi > 0.9

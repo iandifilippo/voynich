@@ -6,3 +6,4 @@ __pycache__/
 .ipynb_checkpoints/
 voynich/crack/_solver.so
 voynich/crack/_hmm.so
+voynich/crack/_classes.so
