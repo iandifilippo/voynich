@@ -1,0 +1,50 @@
+[
+ {
+  "text": "Currier B",
+  "pairs seen before": 0.17751064615180534,
+  "if words were shuffled": 0.13233298784509565,
+  "excess": 0.045177658306709695,
+  "excess / shuffled": 0.3413937752209833,
+  "reversed pair seen before: excess": -0.0021917224608096475
+ },
+ {
+  "text": "Currier A",
+  "pairs seen before": 0.10521646795918019,
+  "if words were shuffled": 0.08893815915627996,
+  "excess": 0.016278308802900224,
+  "excess / shuffled": 0.1830295225055915,
+  "reversed pair seen before: excess": -0.0009748133076684928
+ },
+ {
+  "text": "habits generator (B)",
+  "pairs seen before": 0.10046025718849401,
+  "if words were shuffled": 0.07939790822576084,
+  "excess": 0.021062348962733166,
+  "excess / shuffled": 0.26527586725388613,
+  "reversed pair seen before: excess": 0.002830962831258152
+ },
+ {
+  "text": "Naibbe cipher of Latin",
+  "pairs seen before": 0.12307154746300471,
+  "if words were shuffled": 0.10051940415523324,
+  "excess": 0.02255214330777147,
+  "excess / shuffled": 0.22435611807789813,
+  "reversed pair seen before: excess": 0.0027168611880145077
+ },
+ {
+  "text": "Latin words",
+  "pairs seen before": 0.17903204319384555,
+  "if words were shuffled": 0.11278420227361818,
+  "excess": 0.06624784092022737,
+  "excess / shuffled": 0.5873858180909763,
+  "reversed pair seen before: excess": -0.055307335818061534
+ },
+ {
+  "text": "Italian words",
+  "pairs seen before": 0.31701305094815757,
+  "if words were shuffled": 0.18024304194433555,
+  "excess": 0.13677000900382202,
+  "excess / shuffled": 0.75880881463408,
+  "reversed pair seen before: excess": -0.08642752306080947
+ }
+]

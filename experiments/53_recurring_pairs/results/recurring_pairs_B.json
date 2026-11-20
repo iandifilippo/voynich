@@ -1,0 +1,289 @@
+{
+ "top": [
+  {
+   "pair": "or aiin",
+   "observed": 44,
+   "expected": 5.6,
+   "ratio": 7.857142857142858,
+   "kind": "different"
+  },
+  {
+   "pair": "s aiin",
+   "observed": 35,
+   "expected": 1.8,
+   "ratio": 20.0,
+   "kind": "different"
+  },
+  {
+   "pair": "ar aiin",
+   "observed": 24,
+   "expected": 6.4,
+   "ratio": 3.75,
+   "kind": "different"
+  },
+  {
+   "pair": "r aiin",
+   "observed": 18,
+   "expected": 1.4,
+   "ratio": 12.413793103448276,
+   "kind": "different"
+  },
+  {
+   "pair": "ol shedy",
+   "observed": 24,
+   "expected": 9.4,
+   "ratio": 2.553191489361702,
+   "kind": "different"
+  },
+  {
+   "pair": "shey qokain",
+   "observed": 17,
+   "expected": 3.2,
+   "ratio": 5.3125,
+   "kind": "different"
+  },
+  {
+   "pair": "shedy qokedy",
+   "observed": 21,
+   "expected": 7.5,
+   "ratio": 2.8,
+   "kind": "different"
+  },
+  {
+   "pair": "chedy qokeey",
+   "observed": 19,
+   "expected": 5.8,
+   "ratio": 3.2758620689655173,
+   "kind": "different"
+  },
+  {
+   "pair": "shedy qokaiin",
+   "observed": 17,
+   "expected": 4.2,
+   "ratio": 4.096385542168674,
+   "kind": "different"
+  },
+  {
+   "pair": "qokeedy qokeedy",
+   "observed": 18,
+   "expected": 5.8,
+   "ratio": 3.130434782608696,
+   "kind": "same word"
+  },
+  {
+   "pair": "ol chedy",
+   "observed": 22,
+   "expected": 10.0,
+   "ratio": 2.2,
+   "kind": "different"
+  },
+  {
+   "pair": "o l",
+   "observed": 12,
+   "expected": 0.3,
+   "ratio": 24.0,
+   "kind": "one glyph apart"
+  },
+  {
+   "pair": "ar al",
+   "observed": 14,
+   "expected": 2.5,
+   "ratio": 5.490196078431373,
+   "kind": "one glyph apart"
+  },
+  {
+   "pair": "qol chedy",
+   "observed": 15,
+   "expected": 3.5,
+   "ratio": 4.225352112676057,
+   "kind": "different"
+  },
+  {
+   "pair": "chedy qokain",
+   "observed": 18,
+   "expected": 7.0,
+   "ratio": 2.5714285714285716,
+   "kind": "different"
+  },
+  {
+   "pair": "qokedy qokeedy",
+   "observed": 15,
+   "expected": 4.2,
+   "ratio": 3.5294117647058822,
+   "kind": "one glyph apart"
+  },
+  {
+   "pair": "r ain",
+   "observed": 11,
+   "expected": 0.7,
+   "ratio": 16.923076923076923,
+   "kind": "different"
+  },
+  {
+   "pair": "or ain",
+   "observed": 11,
+   "expected": 0.8,
+   "ratio": 12.941176470588236,
+   "kind": "different"
+  },
+  {
+   "pair": "qokain chckhy",
+   "observed": 11,
+   "expected": 2.0,
+   "ratio": 5.5,
+   "kind": "different"
+  },
+  {
+   "pair": "chedy qol",
+   "observed": 13,
+   "expected": 4.0,
+   "ratio": 3.25,
+   "kind": "different"
+  },
+  {
+   "pair": "qokal shedy",
+   "observed": 13,
+   "expected": 4.0,
+   "ratio": 3.25,
+   "kind": "different"
+  },
+  {
+   "pair": "qokedy qokedy",
+   "observed": 15,
+   "expected": 6.2,
+   "ratio": 2.4,
+   "kind": "same word"
+  },
+  {
+   "pair": "qokar shedy",
+   "observed": 11,
+   "expected": 2.5,
+   "ratio": 4.313725490196079,
+   "kind": "different"
+  },
+  {
+   "pair": "or aiiin",
+   "observed": 9,
+   "expected": 0.6,
+   "ratio": 15.0,
+   "kind": "different"
+  },
+  {
+   "pair": "s ar",
+   "observed": 9,
+   "expected": 0.8,
+   "ratio": 10.588235294117647,
+   "kind": "different"
+  },
+  {
+   "pair": "ol sheey",
+   "observed": 10,
+   "expected": 1.8,
+   "ratio": 5.555555555555555,
+   "kind": "different"
+  },
+  {
+   "pair": "shedy qokeedy",
+   "observed": 15,
+   "expected": 7.0,
+   "ratio": 2.127659574468085,
+   "kind": "different"
+  },
+  {
+   "pair": "l chedy",
+   "observed": 11,
+   "expected": 3.0,
+   "ratio": 3.6065573770491803,
+   "kind": "different"
+  },
+  {
+   "pair": "ol kaiin",
+   "observed": 9,
+   "expected": 1.1,
+   "ratio": 8.181818181818182,
+   "kind": "different"
+  },
+  {
+   "pair": "shedy qokeey",
+   "observed": 13,
+   "expected": 5.2,
+   "ratio": 2.4761904761904763,
+   "kind": "different"
+  },
+  {
+   "pair": "sheedy qokeedy",
+   "observed": 9,
+   "expected": 1.4,
+   "ratio": 6.666666666666666,
+   "kind": "different"
+  },
+  {
+   "pair": "ol cheey",
+   "observed": 10,
+   "expected": 2.4,
+   "ratio": 4.25531914893617,
+   "kind": "different"
+  },
+  {
+   "pair": "l keedy",
+   "observed": 8,
+   "expected": 0.6,
+   "ratio": 13.333333333333334,
+   "kind": "different"
+  },
+  {
+   "pair": "qokeedy qokedy",
+   "observed": 12,
+   "expected": 5.0,
+   "ratio": 2.376237623762376,
+   "kind": "one glyph apart"
+  },
+  {
+   "pair": "aiin okal",
+   "observed": 9,
+   "expected": 2.0,
+   "ratio": 4.390243902439025,
+   "kind": "different"
+  },
+  {
+   "pair": "chedy qokar",
+   "observed": 10,
+   "expected": 3.0,
+   "ratio": 3.389830508474576,
+   "kind": "different"
+  },
+  {
+   "pair": "qokeey qokeey",
+   "observed": 12,
+   "expected": 5.0,
+   "ratio": 2.4242424242424243,
+   "kind": "same word"
+  },
+  {
+   "pair": "chedy qokedy",
+   "observed": 14,
+   "expected": 7.2,
+   "ratio": 1.9444444444444444,
+   "kind": "different"
+  },
+  {
+   "pair": "aiin otar",
+   "observed": 9,
+   "expected": 2.2,
+   "ratio": 4.0,
+   "kind": "different"
+  },
+  {
+   "pair": "l keey",
+   "observed": 7,
+   "expected": 0.2,
+   "ratio": 14.0,
+   "kind": "different"
+  }
+ ],
+ "excess by kind": {
+  "different": 0.9660216073659331,
+  "same word": 0.006012006662656491,
+  "one glyph apart": 0.027966385971404936
+ }
+}
