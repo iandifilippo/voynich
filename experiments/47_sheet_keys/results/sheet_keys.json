@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Currier B",
+  "sheets": 20,
+  "first -> first: pooled": 0.06738860713225331,
+  "first -> first: inside sheets": 0.07397968375733943,
+  "last -> last: pooled": 0.013978150224520704,
+  "last -> last: inside sheets": 0.019622745853502516,
+  "first -> last: pooled": 0.007390329119998089,
+  "first -> last: inside sheets": 0.011832272939607813,
+  "last -> first: pooled": 0.24873339631958638,
+  "last -> first: inside sheets": 0.26035122838180025,
+  "shape -> shape: pooled": 0.29690054789232856,
+  "shape -> shape: inside sheets": 0.2086060987959384
+ },
+ {
+  "text": "Currier A",
+  "sheets": 28,
+  "first -> first: pooled": 0.05138676079320421,
+  "first -> first: inside sheets": 0.05090177763838888,
+  "last -> last: pooled": 0.013313854115753244,
+  "last -> last: inside sheets": 0.018798468796768608,
+  "first -> last: pooled": 0.010837744506209588,
+  "first -> last: inside sheets": 0.011309686580342815,
+  "last -> first: pooled": 0.13657121909175074,
+  "last -> first: inside sheets": 0.14437195021721982,
+  "shape -> shape: pooled": 0.16130598189540535,
+  "shape -> shape: inside sheets": 0.06946305677707265
+ },
+ {
+  "text": "cipher of Latin, one key (B's sheets)",
+  "sheets": 20,
+  "first -> first: pooled": 0.033695452363231425,
+  "first -> first: inside sheets": 0.03179779502532937,
+  "last -> last: pooled": 0.005273815809452131,
+  "last -> last: inside sheets": 0.006664782374929339,
+  "first -> last: pooled": 0.01283949138822802,
+  "first -> last: inside sheets": 0.012719340726047426,
+  "last -> first: pooled": 0.010691250574567641,
+  "last -> first: inside sheets": 0.008381586992217555,
+  "shape -> shape: pooled": 0.15385168598219098,
+  "shape -> shape: inside sheets": 0.0912711077434829
+ },
+ {
+  "text": "cipher of Latin, new key every sheet (B's sheets)",
+  "sheets": 20,
+  "first -> first: pooled": 9.531465430465125e-07,
+  "first -> first: inside sheets": 0.02674760575116275,
+  "last -> last: pooled": 0.0020238289819573298,
+  "last -> last: inside sheets": 0.011718675942872903,
+  "first -> last: pooled": 0.0011717645963794272,
+  "first -> last: inside sheets": 0.01254163039002977,
+  "last -> first: pooled": 0.002421499129995855,
+  "last -> first: inside sheets": 0.01765941282229813,
+  "shape -> shape: pooled": 0.0469395559557817,
+  "shape -> shape: inside sheets": 0.13054257469707453
+ },
+ {
+  "text": "generator (exp. 36), B's sheets",
+  "sheets": 20,
+  "first -> first: pooled": 0.01926841768920397,
+  "first -> first: inside sheets": 0.02156027316125883,
+  "last -> last: pooled": 0.013663353026704132,
+  "last -> last: inside sheets": 0.017750598224997985,
+  "first -> last: pooled": 0.0006855702764709398,
+  "first -> last: inside sheets": 0.0030842223558912446,
+  "last -> first: pooled": 0.23274984170343435,
+  "last -> first: inside sheets": 0.22556823225578207,
+  "shape -> shape: pooled": 0.23117733605666757,
+  "shape -> shape: inside sheets": 0.1272109373488739
+ }
+]
