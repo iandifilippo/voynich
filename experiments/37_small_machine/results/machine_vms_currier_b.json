@@ -1,0 +1,126 @@
+[
+ {
+  "text": "VMS Currier B",
+  "states": "held-out text",
+  "distinct per 1000": 247.6555839727195,
+  "hapax share": 0.6716006884681583,
+  "unseen in training": 0.1733162830349531,
+  "top 20 share": 0.23367433930093776,
+  "lexicon gain": -0.24646393871430453,
+  "mean length (signs)": 4.331031543052004
+ },
+ {
+  "text": "VMS Currier B",
+  "states": "sign chain, 1 back",
+  "held-out bits per sign": 2.1392100145512853
+ },
+ {
+  "text": "VMS Currier B",
+  "states": "sign chain, 2 back",
+  "held-out bits per sign": 1.9727618687270774
+ },
+ {
+  "text": "VMS Currier B",
+  "states": "sign chain, 3 back",
+  "held-out bits per sign": 2.0101433149835573
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 2,
+  "held-out bits per sign": 3.7541407460638685,
+  "distinct per 1000": 589.0878090366581,
+  "hapax share": 0.9185238784370477,
+  "unseen in training": 0.739386189258312,
+  "top 20 share": 0.2640238704177323,
+  "lexicon gain": -0.7353897024671137,
+  "mean length (signs)": 4.7947144075021315
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 4,
+  "held-out bits per sign": 3.264039042503781,
+  "distinct per 1000": 512.9582267689684,
+  "hapax share": 0.8889812198770152,
+  "unseen in training": 0.7566069906223359,
+  "top 20 share": 0.2145780051150895,
+  "lexicon gain": -0.6664271164236252,
+  "mean length (signs)": 4.462404092071611
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 6,
+  "held-out bits per sign": 2.808924603614544,
+  "distinct per 1000": 544.2455242966752,
+  "hapax share": 0.8046679197994987,
+  "unseen in training": 0.8052003410059676,
+  "top 20 share": 0.08508098891730605,
+  "lexicon gain": -0.5860073455103848,
+  "mean length (signs)": 4.370929241261722
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 8,
+  "held-out bits per sign": 2.6745326523986748,
+  "distinct per 1000": 463.9386189258312,
+  "hapax share": 0.8122013965453877,
+  "unseen in training": 0.6240409207161125,
+  "top 20 share": 0.18175618073316283,
+  "lexicon gain": -0.573038198441754,
+  "mean length (signs)": 4.341005967604433
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 12,
+  "held-out bits per sign": 2.2238734635651203,
+  "distinct per 1000": 349.61636828644504,
+  "hapax share": 0.7900512070226774,
+  "unseen in training": 0.3329923273657289,
+  "top 20 share": 0.2832907075873828,
+  "lexicon gain": -0.49324673247006384,
+  "mean length (signs)": 4.348934356351236
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 16,
+  "held-out bits per sign": 2.125849621914783,
+  "distinct per 1000": 323.01790281329926,
+  "hapax share": 0.7577197149643705,
+  "unseen in training": 0.2966751918158568,
+  "top 20 share": 0.23665814151747655,
+  "lexicon gain": -0.4433218453503415,
+  "mean length (signs)": 4.346376811594203
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 24,
+  "held-out bits per sign": 2.027952707782146,
+  "distinct per 1000": 292.0716112531969,
+  "hapax share": 0.7472270869819031,
+  "unseen in training": 0.2349531116794544,
+  "top 20 share": 0.252003410059676,
+  "lexicon gain": -0.43812376076771364,
+  "mean length (signs)": 4.357118499573742
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 32,
+  "held-out bits per sign": 2.0009417281854116,
+  "distinct per 1000": 275.1918158567775,
+  "hapax share": 0.7304832713754646,
+  "unseen in training": 0.20954816709292412,
+  "top 20 share": 0.24782608695652175,
+  "lexicon gain": -0.39076970412335427,
+  "mean length (signs)": 4.310400682011935
+ },
+ {
+  "text": "VMS Currier B",
+  "states": 48,
+  "held-out bits per sign": 1.968779583615272,
+  "distinct per 1000": 264.36487638533674,
+  "hapax share": 0.708803611738149,
+  "unseen in training": 0.1959931798806479,
+  "top 20 share": 0.23785166240409208,
+  "lexicon gain": -0.34348612256911326,
+  "mean length (signs)": 4.352600170502984
+ }
+]
