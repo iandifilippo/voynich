@@ -149,22 +149,23 @@ def generator_sheets(template, rng):
 rng = random.Random(0)
 B = vms_sheets("B")
 A = vms_sheets("A")
-texts = {"Currier B": B, "Currier A": A,
-         "cipher of Latin, one key (B's sheets)": cipher_sheets(B, False, rng),
-         "cipher of Latin, new key every sheet (B's sheets)": cipher_sheets(B, True, rng),
-         "generator (exp. 36), B's sheets": generator_sheets(B, rng)}
-rows = []
-for name, sheets in texts.items():
-    res = measure(sheets, rng)
-    row = {"text": name, "sheets": len(sheets)}
-    for f, (p, i) in res.items():
-        row[f"{f}: pooled"] = p
-        row[f"{f}: inside sheets"] = i
-    rows.append(row)
-    print({k: (round(x, 3) if isinstance(x, float) else x) for k, x in row.items()}, flush=True)
-save(HERE, "sheet_keys", rows)
-md = "# 47 is the code different on every sheet?\n\nMI between neighbouring words (bits), bias-corrected, pooled over the section vs inside each sheet.\n\n"
-for f in FEATS:
-    md += f"## {f}\n\n" + table(rows, ["text", "sheets", f"{f}: pooled", f"{f}: inside sheets"]) + "\n"
-write_md(HERE, "sheet_keys", md)
-print(md)
+if __name__ == "__main__":
+    texts = {"Currier B": B, "Currier A": A,
+             "cipher of Latin, one key (B's sheets)": cipher_sheets(B, False, rng),
+             "cipher of Latin, new key every sheet (B's sheets)": cipher_sheets(B, True, rng),
+             "generator (exp. 36), B's sheets": generator_sheets(B, rng)}
+    rows = []
+    for name, sheets in texts.items():
+        res = measure(sheets, rng)
+        row = {"text": name, "sheets": len(sheets)}
+        for f, (p, i) in res.items():
+            row[f"{f}: pooled"] = p
+            row[f"{f}: inside sheets"] = i
+        rows.append(row)
+        print({k: (round(x, 3) if isinstance(x, float) else x) for k, x in row.items()}, flush=True)
+    save(HERE, "sheet_keys", rows)
+    md = "# 47 is the code different on every sheet?\n\nMI between neighbouring words (bits), bias-corrected, pooled over the section vs inside each sheet.\n\n"
+    for f in FEATS:
+        md += f"## {f}\n\n" + table(rows, ["text", "sheets", f"{f}: pooled", f"{f}: inside sheets"]) + "\n"
+    write_md(HERE, "sheet_keys", md)
+    print(md)
