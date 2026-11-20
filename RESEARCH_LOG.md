@@ -2,6 +2,11 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (5)
+
+### 43 cipher page identity (14x8-word pages, 50 pages)
+Naibbe ciphertext own/shared-removed .000/.000; plaintext (letters in 5s, generic profile) .010/.010; chance .020.
+
 ## 2026-11-20 (4)
 
 ### 41 page dial (pages 80+ words; 30 shuffles)
