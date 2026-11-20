@@ -2,6 +2,16 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (1)
+
+### 37 small machine (HMM, EM, 3 starts, 250 iters, uniform pi; even pages train, odd test)
+Held-out bits/sign K=2,4,6,8,12,16,24,32,48: B 3.754 3.264 2.809 2.675 2.224 2.126 2.028 2.001 1.969; chain 1/2/3 back 2.139/1.973/2.010.
+A: 12 2.511, 24 2.284, 48 2.247; chain 2 back 2.247, 3 back 2.315. Latin: 12 3.275, 24 3.061, 48 2.844; chain 2/3 back 2.691/2.245. Italian: 12 3.159, 24 2.966, 48 2.711; chain 2/3 2.541/2.132. Naibbe: 12 2.378, 24 2.127, 48 2.034; chain 2/3 2.059/2.038. Copying: 12 2.396, 24 2.165, 48 2.110; chain 2/3 2.120/2.124.
+Generated vocab at K=48, distinct/1000 and unseen, real vs machine: B 247.7/264.4, .173/.196; A 348.3/344.0, .241/.246; Latin 354.5/669.1, .231/.758; Italian 263.5/532.8, .193/.655; Naibbe 275.8/323.0, .157/.281; copying 232.6/256.5, .137/.216.
+
+### 38 read the machine (K=12, 6 starts, 400 iters, all of Currier B / A)
+B states: space; o .91; k .57 t .29 p .07; e .63 ee .29; y .94; l .55 r .35 m .05; a .91; d .88; ch .67 sh .31; q .83; ii .55 i .42; n .89. Max self-transition .002. Diagram results/machine_B.svg, machine_A.svg.
+
 ## 2026-11-17 (1)
 
 ### 36 assembled words (held-out Currier B, ZL, even pages train / odd test, 3 seeds)
