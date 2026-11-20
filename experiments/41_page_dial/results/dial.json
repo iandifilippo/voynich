@@ -1,0 +1,580 @@
+{
+ "dims": [
+  {
+   "pages": "Currier A, hand 1",
+   "n": 67,
+   "PC1": "5.17 (3.40)",
+   "PC2": "3.34 (2.89)",
+   "PC3": "2.94 (2.56)",
+   "PC4": "2.76 (2.27)",
+   "PC5": "2.22 (2.06)",
+   "components above shuffled": 6
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "n": 69,
+   "PC1": "7.57 (3.85)",
+   "PC2": "3.97 (3.22)",
+   "PC3": "3.09 (2.74)",
+   "PC4": "2.20 (2.43)",
+   "PC5": "2.04 (2.20)",
+   "components above shuffled": 3
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "n": 51,
+   "PC1": "5.04 (3.67)",
+   "PC2": "3.52 (3.08)",
+   "PC3": "3.27 (2.77)",
+   "PC4": "2.45 (2.46)",
+   "PC5": "2.19 (2.22)",
+   "components above shuffled": 3
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "n": 19,
+   "PC1": "7.74 (5.67)",
+   "PC2": "4.93 (4.54)",
+   "PC3": "4.43 (3.99)",
+   "PC4": "3.42 (3.37)",
+   "PC5": "2.59 (3.04)",
+   "components above shuffled": 4
+  },
+  {
+   "pages": "hand 3 stars only",
+   "n": 24,
+   "PC1": "8.22 (5.11)",
+   "PC2": "5.69 (4.17)",
+   "PC3": "3.81 (3.56)",
+   "PC4": "2.49 (3.10)",
+   "PC5": "2.23 (2.73)",
+   "components above shuffled": 3
+  }
+ ],
+ "clusters": [
+  {
+   "pages": "Currier A, hand 1",
+   "k=2": "0.29 (-0.00)",
+   "k=3": "0.55 (0.00)",
+   "k=4": "0.55 (-0.00)",
+   "k=5": "0.35 (0.01)",
+   "k=6": "0.25 (-0.00)"
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k=2": "0.89 (0.02)",
+   "k=3": "0.59 (0.03)",
+   "k=4": "0.73 (0.00)",
+   "k=5": "0.33 (0.01)",
+   "k=6": "0.61 (0.05)"
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k=2": "0.00 (-0.01)",
+   "k=3": "0.66 (-0.01)",
+   "k=4": "0.53 (0.01)",
+   "k=5": "0.30 (-0.00)",
+   "k=6": "0.41 (0.01)"
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k=2": "0.60 (-0.02)",
+   "k=3": "0.69 (-0.03)",
+   "k=4": "0.60 (-0.02)",
+   "k=5": "0.47 (-0.00)",
+   "k=6": "0.43 (0.01)"
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k=2": "0.83 (0.02)",
+   "k=3": "0.84 (0.01)",
+   "k=4": "0.85 (-0.00)",
+   "k=5": "0.91 (0.01)",
+   "k=6": "0.59 (-0.00)"
+  }
+ ],
+ "loadings": [
+  {
+   "pages": "Currier A, hand 1",
+   "component": "PC1",
+   "main forks (sign of loading)": "-gallows k, -start qo, +end y, -start o, +gallows t, -end ol"
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "component": "PC2",
+   "main forks (sign of loading)": "+end ey, -start y, -end al, -end ar, +start ch, -end m"
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "component": "PC3",
+   "main forks (sign of loading)": "+gallows none, +end ar, -end aiin, +end m, +end s, -end dy"
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "component": "PC1",
+   "main forks (sign of loading)": "-start qo, +start a, +end ar, -end ol, -end edy, +end dy"
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "component": "PC2",
+   "main forks (sign of loading)": "+start d, -end l, -start other, +gallows none, +start s, -end al"
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "component": "PC3",
+   "main forks (sign of loading)": "+end s, -end y, +gallows p, +end o, +end r, -gallows k"
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "component": "PC1",
+   "main forks (sign of loading)": "+end al, -start ch, +start y, +end m, +start o, +gallows k"
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "component": "PC2",
+   "main forks (sign of loading)": "+gallows none, -gallows t, +end r, -end dy, +end ar, -end edy"
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "component": "PC3",
+   "main forks (sign of loading)": "+start d, -end ey, +end aiin, -end s, +end y, -start ch"
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "component": "PC1",
+   "main forks (sign of loading)": "-start ch, +start o, -end aiin, -start q, +start y, +end ain"
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "component": "PC2",
+   "main forks (sign of loading)": "-start d, +gallows t, +gallows p, -end dy, -gallows k, -end other"
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "component": "PC3",
+   "main forks (sign of loading)": "-start qo, +gallows f, -end o, +start a, +end edy, -end ain"
+  },
+  {
+   "pages": "hand 3 stars only",
+   "component": "PC1",
+   "main forks (sign of loading)": "-end ey, +end r, +start y, +gallows f, -end ain, +start a"
+  },
+  {
+   "pages": "hand 3 stars only",
+   "component": "PC2",
+   "main forks (sign of loading)": "+end y, -end other, +end al, -end o, +end m, +end ar"
+  },
+  {
+   "pages": "hand 3 stars only",
+   "component": "PC3",
+   "main forks (sign of loading)": "-start o, +start ch, +gallows none, +end s, -gallows k, -start q"
+  }
+ ],
+ "where": [
+  {
+   "pages": "Currier A, hand 1",
+   "k": 2,
+   "cluster": 1,
+   "n": 34,
+   "sections": "H 19, P 15",
+   "quires": "A 3, C 6, G 4, O 9, Q 3, S 9",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 2,
+   "cluster": 2,
+   "n": 33,
+   "sections": "H 32, T 1",
+   "quires": "A 7, B 5, C 4, D 4, E 3, F 6, G 4",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 3,
+   "cluster": 1,
+   "n": 14,
+   "sections": "P 11, H 3",
+   "quires": "G 2, O 3, S 9",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 3,
+   "cluster": 2,
+   "n": 29,
+   "sections": "H 28, T 1",
+   "quires": "A 5, B 5, C 4, D 4, E 3, F 4, G 4",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 3,
+   "cluster": 3,
+   "n": 24,
+   "sections": "H 20, P 4",
+   "quires": "A 5, C 6, F 2, G 2, O 6, Q 3",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 4,
+   "cluster": 1,
+   "n": 23,
+   "sections": "H 22, T 1",
+   "quires": "A 5, B 2, C 2, D 4, E 3, F 3, G 4",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 4,
+   "cluster": 2,
+   "n": 11,
+   "sections": "H 11",
+   "quires": "A 1, B 3, C 4, F 3",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 4,
+   "cluster": 3,
+   "n": 16,
+   "sections": "P 12, H 4",
+   "quires": "G 2, O 5, Q 1, S 8",
+   "folios": ""
+  },
+  {
+   "pages": "Currier A, hand 1",
+   "k": 4,
+   "cluster": 4,
+   "n": 17,
+   "sections": "H 14, P 3",
+   "quires": "A 4, C 4, G 2, O 4, Q 2, S 1",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 2,
+   "cluster": 1,
+   "n": 41,
+   "sections": "H 22, S 14, T 3, C 2",
+   "quires": "D 4, E 7, F 4, G 4, N 5, Q 3, T 14",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 2,
+   "cluster": 2,
+   "n": 28,
+   "sections": "B 19, S 8, T 1",
+   "quires": "M 20, T 8",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 3,
+   "cluster": 1,
+   "n": 20,
+   "sections": "S 20",
+   "quires": "T 20",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 3,
+   "cluster": 2,
+   "n": 23,
+   "sections": "B 19, S 2, H 1, T 1",
+   "quires": "D 1, M 20, T 2",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 3,
+   "cluster": 3,
+   "n": 26,
+   "sections": "H 21, T 3, C 2",
+   "quires": "D 3, E 7, F 4, G 4, N 5, Q 3",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 4,
+   "cluster": 1,
+   "n": 10,
+   "sections": "H 9, C 1",
+   "quires": "D 2, E 1, F 4, N 1, Q 2",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 4,
+   "cluster": 2,
+   "n": 16,
+   "sections": "H 12, T 3, C 1",
+   "quires": "D 1, E 6, G 4, N 4, Q 1",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 4,
+   "cluster": 3,
+   "n": 24,
+   "sections": "B 19, S 3, H 1, T 1",
+   "quires": "D 1, M 20, T 3",
+   "folios": ""
+  },
+  {
+   "pages": "Currier B, hands 2 and 3",
+   "k": 4,
+   "cluster": 4,
+   "n": 19,
+   "sections": "S 19",
+   "quires": "T 19",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 2,
+   "cluster": 1,
+   "n": 28,
+   "sections": "H 28",
+   "quires": "A 4, B 5, C 4, D 4, E 3, F 4, G 4",
+   "folios": "f2r f4v f8r f8v f9r f9v f10r f15r f16r f20r f20v f21r f22r f27r f29v f30r f32v f35r f35v f37v f42r f42v f44v f47v f49r f49v f56r f56v"
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 2,
+   "cluster": 2,
+   "n": 23,
+   "sections": "H 23",
+   "quires": "A 5, C 6, F 2, G 4, O 3, Q 3",
+   "folios": "f1v f3r f3v f6r f6v f17v f18r f23r f23v f24r f24v f45r f45v f51r f51v f54r f54v f87r f87v f90v1 f93r f93v f96r"
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 3,
+   "cluster": 1,
+   "n": 15,
+   "sections": "H 15",
+   "quires": "A 4, C 4, G 2, O 3, Q 2",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 3,
+   "cluster": 2,
+   "n": 21,
+   "sections": "H 21",
+   "quires": "A 5, B 1, C 2, D 4, E 2, F 3, G 4",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 3,
+   "cluster": 3,
+   "n": 15,
+   "sections": "H 15",
+   "quires": "B 4, C 4, E 1, F 3, G 2, Q 1",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 4,
+   "cluster": 1,
+   "n": 22,
+   "sections": "H 22",
+   "quires": "A 4, C 6, F 2, G 4, O 3, Q 3",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 4,
+   "cluster": 2,
+   "n": 10,
+   "sections": "H 10",
+   "quires": "A 1, B 4, C 3, E 1, F 1",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 4,
+   "cluster": 3,
+   "n": 2,
+   "sections": "H 2",
+   "quires": "D 1, G 1",
+   "folios": ""
+  },
+  {
+   "pages": "hand 1 herbal only",
+   "k": 4,
+   "cluster": 4,
+   "n": 17,
+   "sections": "H 17",
+   "quires": "A 4, B 1, C 1, D 3, E 2, F 3, G 3",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 2,
+   "cluster": 1,
+   "n": 13,
+   "sections": "B 13",
+   "quires": "M 13",
+   "folios": "f75r f75v f78r f78v f79r f79v f80r f80v f81r f81v f82v f84r f84v"
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 2,
+   "cluster": 2,
+   "n": 6,
+   "sections": "B 6",
+   "quires": "M 6",
+   "folios": "f76v f77r f77v f82r f83r f83v"
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 3,
+   "cluster": 1,
+   "n": 7,
+   "sections": "B 7",
+   "quires": "M 7",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 3,
+   "cluster": 2,
+   "n": 7,
+   "sections": "B 7",
+   "quires": "M 7",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 3,
+   "cluster": 3,
+   "n": 5,
+   "sections": "B 5",
+   "quires": "M 5",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 4,
+   "cluster": 1,
+   "n": 3,
+   "sections": "B 3",
+   "quires": "M 3",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 4,
+   "cluster": 2,
+   "n": 4,
+   "sections": "B 4",
+   "quires": "M 4",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 4,
+   "cluster": 3,
+   "n": 7,
+   "sections": "B 7",
+   "quires": "M 7",
+   "folios": ""
+  },
+  {
+   "pages": "hand 2 bathing only",
+   "k": 4,
+   "cluster": 4,
+   "n": 5,
+   "sections": "B 5",
+   "quires": "M 5",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 2,
+   "cluster": 1,
+   "n": 15,
+   "sections": "S 15",
+   "quires": "H 2, T 13",
+   "folios": "f58r f58v f104r f104v f105r f105v f106r f106v f107r f112v f113r f113v f114r f114v f115v"
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 2,
+   "cluster": 2,
+   "n": 9,
+   "sections": "S 9",
+   "quires": "T 9",
+   "folios": "f103r f103v f107v f108r f108v f111r f111v f112r f116r"
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 3,
+   "cluster": 1,
+   "n": 10,
+   "sections": "S 10",
+   "quires": "T 10",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 3,
+   "cluster": 2,
+   "n": 12,
+   "sections": "S 12",
+   "quires": "T 12",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 3,
+   "cluster": 3,
+   "n": 2,
+   "sections": "S 2",
+   "quires": "H 2",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 4,
+   "cluster": 1,
+   "n": 9,
+   "sections": "S 9",
+   "quires": "T 9",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 4,
+   "cluster": 2,
+   "n": 2,
+   "sections": "S 2",
+   "quires": "H 2",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 4,
+   "cluster": 3,
+   "n": 3,
+   "sections": "S 3",
+   "quires": "T 3",
+   "folios": ""
+  },
+  {
+   "pages": "hand 3 stars only",
+   "k": 4,
+   "cluster": 4,
+   "n": 10,
+   "sections": "S 10",
+   "quires": "T 10",
+   "folios": ""
+  }
+ ]
+}
