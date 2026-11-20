@@ -13,6 +13,10 @@ permuting X among words that share the boundary context (last sign of word i
 and first sign of word i+1), which keeps every boundary pair and breaks only
 the link that goes around it.
 
+Every sheet has its own setting (exp. 40-42), so two neighbours share it and
+look alike whatever the order. A second baseline permutes only inside each
+sheet (and boundary context), so the setting is in the baseline too.
+
 Features: start of word (first two signs), gallows, ending (last two signs),
 length. Texts: Currier A and B; the exp. 36 generator, whose words only see
 the boundary; the one-key cipher of Latin made of Voynich words (exp. 44/47);
@@ -32,6 +36,7 @@ from voynich.assemble import signs  # noqa: E402
 
 HERE = pathlib.Path(__file__).parent
 PERMS = 30
+SAME_SHEET = False
 GAL = ("t", "k", "p", "f", "cth", "ckh", "cph", "cfh")
 FEATS = {"start": lambda s: tuple(s[:2]), "gallows": lambda s: next((x for x in s if x in GAL), "-"),
          "ending": lambda s: tuple(s[-2:]), "length": lambda s: min(len(s), 6)}
@@ -49,9 +54,15 @@ def cmi(triples):
     return sum(c / n * math.log2(c * nz[z] / (nxz[x, z] * nyz[y, z])) for (x, y, z), c in nxyz.items())
 
 
-def run_text(lines, split, rng):
-    seqs = [[split(w) for w in l] for l in lines]
-    pairs = [(a, b) for l in seqs for a, b in zip(l, l[1:]) if a and b]
+def run_text(sheets, split, rng):
+    pairs, sheet_of = [], []
+    for k, lines in enumerate(sheets):
+        for l in lines:
+            seq = [split(w) for w in l]
+            for a, b in zip(seq, seq[1:]):
+                if a and b:
+                    pairs.append((a, b))
+                    sheet_of.append(k)
     out = {}
     for fx, gx in FEATS.items():
         for fy, gy in FEATS.items():
@@ -59,7 +70,7 @@ def run_text(lines, split, rng):
             obs = cmi(trip)
             by_z = defaultdict(list)
             for k, (_, _, z) in enumerate(trip):
-                by_z[z].append(k)
+                by_z[(z, sheet_of[k]) if SAME_SHEET else z].append(k)
             base = 0
             for _ in range(PERMS):
                 xs = [t[0] for t in trip]
@@ -83,26 +94,68 @@ _spec.loader.exec_module(r47)
 
 rng = random.Random(0)
 B, A = r47.B, r47.A
-flat = lambda sheets: [l for s in sheets for l in s]  # noqa: E731
-texts = {"Currier B": (flat(B), signs), "Currier A": (flat(A), signs),
-         "generator, boundary habit only (exp. 36)": (flat(r47.generator_sheets(B, rng)), signs),
-         "cipher of Latin, one key, Voynich words": (flat(r47.cipher_sheets(B, False, rng)), signs),
-         "Latin (letters as signs)": (synthetic.run.lines_of(synthetic.latin[:20000]), list),
-         "Italian (letters as signs)": (synthetic.run.lines_of(
-             synthetic.run.plain(synthetic.run.historical("Rettorica"))[:20000]), list)}
+def chunk(lines, size=25):
+    return [lines[i:i + size] for i in range(0, len(lines), size)]
+
+
+texts = {"Currier B": (B, signs), "Currier A": (A, signs),
+         "generator, boundary habit only (exp. 36)": (r47.generator_sheets(B, rng), signs),
+         "cipher of Latin, one key, Voynich words": (r47.cipher_sheets(B, False, rng), signs),
+         "Latin (letters as signs)": (chunk(synthetic.run.lines_of(synthetic.latin[:20000])), list),
+         "Italian (letters as signs)": (chunk(synthetic.run.lines_of(
+             synthetic.run.plain(synthetic.run.historical("Rettorica"))[:20000])), list)}
 rows, full = [], {}
-for name, (lines, split) in texts.items():
-    res = run_text(lines, split, rng)
-    full[name] = {f"{a} -> {b}": x for (a, b), x in res.items()}
-    row = {"text": name, "pairs": sum(max(0, len(l) - 1) for l in lines)}
-    for f in FEATS:
-        row[f"{f} -> {f}"] = res[f, f]
-    row["sum of all 16"] = sum(res.values())
-    rows.append(row)
-    print({k: (round(x, 4) if isinstance(x, float) else x) for k, x in row.items()}, flush=True)
+for SAME_SHEET in (False, True):
+    for name, (sheets, split) in texts.items():
+        res = run_text(sheets, split, rng)
+        full[f"{name}, same sheet={SAME_SHEET}"] = {f"{a} -> {b}": x for (a, b), x in res.items()}
+        row = {"text": name, "baseline": "inside the sheet" if SAME_SHEET else "whole text",
+               "pairs": sum(max(0, len(l) - 1) for s_ in sheets for l in s_)}
+        for f in FEATS:
+            row[f"{f} -> {f}"] = res[f, f]
+        row["sum of all 16"] = sum(res.values())
+        rows.append(row)
+        print({k: (round(x, 4) if isinstance(x, float) else x) for k, x in row.items()}, flush=True)
 save(HERE, "beyond_boundary", {"rows": rows, "full": full})
 md = ("# 48 links between neighbouring words beyond the boundary glyphs\n\nConditional MI (bits) given the last sign "
       "of the first word and the first sign of the second, minus a permutation baseline.\n\n")
-md += table(rows, ["text", "pairs"] + [f"{f} -> {f}" for f in FEATS] + ["sum of all 16"])
+md += table(rows, ["text", "baseline", "pairs"] + [f"{f} -> {f}" for f in FEATS] + ["sum of all 16"])
 write_md(HERE, "beyond_boundary", md)
 print(md)
+
+
+# Does it fall off with distance (sequence) or stay flat along the line (a
+# setting per line)? Plain MI between features at distance 1, 2, 3 in the
+# same line, baseline: words shuffled inside the sheet among words at the
+# same line position.
+def mi(pairs):
+    N = Counter(pairs)
+    tot = sum(N.values())
+    L, R = Counter(), Counter()
+    for (a, b), c in N.items():
+        L[a] += c
+        R[b] += c
+    return sum(c / tot * math.log2(c * tot / (L[a] * R[b])) for (a, b), c in N.items())
+
+
+def lag_mi(sheets, split, g, d):
+    return mi([(g(split(l[i])), g(split(l[i + d]))) for s_ in sheets for l in s_ for i in range(len(l) - d)])
+
+
+lag_rows = []
+for name in ("Currier B", "Currier A", "generator, boundary habit only (exp. 36)",
+             "cipher of Latin, one key, Voynich words", "Latin (letters as signs)"):
+    sheets, split = texts[name]
+    base_sheets = [r47.shuffle_in_sheet(sheets, rng) for _ in range(10)]
+    row = {"text": name}
+    for f in ("start", "gallows", "ending"):
+        for d in (1, 2, 3):
+            obs = lag_mi(sheets, split, FEATS[f], d)
+            b = sum(lag_mi(bs, split, FEATS[f], d) for bs in base_sheets) / len(base_sheets)
+            row[f"{f} d={d}"] = obs - b
+    lag_rows.append(row)
+    print({k: (round(x, 4) if isinstance(x, float) else x) for k, x in row.items()}, flush=True)
+save(HERE, "beyond_boundary_lags", lag_rows)
+md += "\n## By distance (plain MI, baseline shuffled inside the sheet by line position)\n\n" + table(
+    lag_rows, ["text"] + [f"{f} d={d}" for f in ("start", "gallows", "ending") for d in (1, 2, 3)])
+write_md(HERE, "beyond_boundary", md)

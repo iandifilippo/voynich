@@ -2,6 +2,7 @@
  "rows": [
   {
    "text": "Currier B",
+   "baseline": "whole text",
    "pairs": 20580,
    "start -> start": 0.04003416370342061,
    "gallows -> gallows": 0.03427627382212915,
@@ -11,6 +12,7 @@
   },
   {
    "text": "Currier A",
+   "baseline": "whole text",
    "pairs": 9674,
    "start -> start": 0.03475506415113583,
    "gallows -> gallows": 0.03203231093955329,
@@ -20,6 +22,7 @@
   },
   {
    "text": "generator, boundary habit only (exp. 36)",
+   "baseline": "whole text",
    "pairs": 20580,
    "start -> start": 0.006795567602944863,
    "gallows -> gallows": 0.0026022344482393364,
@@ -29,6 +32,7 @@
   },
   {
    "text": "cipher of Latin, one key, Voynich words",
+   "baseline": "whole text",
    "pairs": 20580,
    "start -> start": 0.0684912942643378,
    "gallows -> gallows": 0.023700104809185978,
@@ -38,6 +42,7 @@
   },
   {
    "text": "Latin (letters as signs)",
+   "baseline": "whole text",
    "pairs": 17777,
    "start -> start": 0.1042341423981884,
    "gallows -> gallows": 0.008831879624535528,
@@ -47,16 +52,77 @@
   },
   {
    "text": "Italian (letters as signs)",
+   "baseline": "whole text",
    "pairs": 17777,
    "start -> start": 0.1980191286501598,
    "gallows -> gallows": 0.00768786093282672,
    "ending -> ending": 0.27769585871027513,
    "length -> length": 0.08363283346714727,
    "sum of all 16": 1.8321525076498495
+  },
+  {
+   "text": "Currier B",
+   "baseline": "inside the sheet",
+   "pairs": 20580,
+   "start -> start": 0.03133543233848479,
+   "gallows -> gallows": 0.03303980240634885,
+   "ending -> ending": 0.03006111081811691,
+   "length -> length": 0.00806185386998004,
+   "sum of all 16": 0.29763936129586027
+  },
+  {
+   "text": "Currier A",
+   "baseline": "inside the sheet",
+   "pairs": 9674,
+   "start -> start": 0.024317511333546427,
+   "gallows -> gallows": 0.02759760795763018,
+   "ending -> ending": 0.019668450089647016,
+   "length -> length": 0.011433016228052012,
+   "sum of all 16": 0.23137751231983522
+  },
+  {
+   "text": "generator, boundary habit only (exp. 36)",
+   "baseline": "inside the sheet",
+   "pairs": 20580,
+   "start -> start": 0.007021501605892211,
+   "gallows -> gallows": 0.002009985269045722,
+   "ending -> ending": 0.002560437562681095,
+   "length -> length": 0.0012929370230283233,
+   "sum of all 16": 0.017042604749065986
+  },
+  {
+   "text": "cipher of Latin, one key, Voynich words",
+   "baseline": "inside the sheet",
+   "pairs": 20580,
+   "start -> start": 0.06619272365037546,
+   "gallows -> gallows": 0.022228484428668822,
+   "ending -> ending": 0.08847701075085884,
+   "length -> length": 0.027289540929034642,
+   "sum of all 16": 0.8779285624335724
+  },
+  {
+   "text": "Latin (letters as signs)",
+   "baseline": "inside the sheet",
+   "pairs": 17777,
+   "start -> start": 0.06221604216332055,
+   "gallows -> gallows": 0.004684663877842943,
+   "ending -> ending": 0.09259058671029863,
+   "length -> length": 0.032846093909148236,
+   "sum of all 16": 0.6565135163411029
+  },
+  {
+   "text": "Italian (letters as signs)",
+   "baseline": "inside the sheet",
+   "pairs": 17777,
+   "start -> start": 0.14391565497278225,
+   "gallows -> gallows": 0.006514942482449142,
+   "ending -> ending": 0.20834123803170146,
+   "length -> length": 0.06487076707157086,
+   "sum of all 16": 1.3692269017435574
   }
  ],
  "full": {
-  "Currier B": {
+  "Currier B, same sheet=False": {
    "start -> start": 0.04003416370342061,
    "start -> gallows": 0.032387892582818406,
    "start -> ending": 0.041326330769938524,
@@ -74,7 +140,7 @@
    "length -> ending": 0.01827511091064904,
    "length -> length": 0.008453162098630757
   },
-  "Currier A": {
+  "Currier A, same sheet=False": {
    "start -> start": 0.03475506415113583,
    "start -> gallows": 0.030118980647598492,
    "start -> ending": 0.03520230591862594,
@@ -92,7 +158,7 @@
    "length -> ending": 0.01948054426824075,
    "length -> length": 0.013635377121245379
   },
-  "generator, boundary habit only (exp. 36)": {
+  "generator, boundary habit only (exp. 36), same sheet=False": {
    "start -> start": 0.006795567602944863,
    "start -> gallows": -0.002426280655962898,
    "start -> ending": -0.0054008715779925165,
@@ -110,7 +176,7 @@
    "length -> ending": -1.8938473380469834e-05,
    "length -> length": 0.0018971834061032172
   },
-  "cipher of Latin, one key, Voynich words": {
+  "cipher of Latin, one key, Voynich words, same sheet=False": {
    "start -> start": 0.0684912942643378,
    "start -> gallows": 0.05013788183196236,
    "start -> ending": 0.18842722984813082,
@@ -128,7 +194,7 @@
    "length -> ending": 0.08768943414982788,
    "length -> length": 0.02801582777755935
   },
-  "Latin (letters as signs)": {
+  "Latin (letters as signs), same sheet=False": {
    "start -> start": 0.1042341423981884,
    "start -> gallows": 0.050479714054798175,
    "start -> ending": 0.19408067805795337,
@@ -146,7 +212,7 @@
    "length -> ending": 0.15439104012167248,
    "length -> length": 0.0570556339302678
   },
-  "Italian (letters as signs)": {
+  "Italian (letters as signs), same sheet=False": {
    "start -> start": 0.1980191286501598,
    "start -> gallows": 0.04859789683659527,
    "start -> ending": 0.2593144013130846,
@@ -163,6 +229,114 @@
    "length -> gallows": 0.023011413807787776,
    "length -> ending": 0.1791662583536096,
    "length -> length": 0.08363283346714727
+  },
+  "Currier B, same sheet=True": {
+   "start -> start": 0.03133543233848479,
+   "start -> gallows": 0.02930609926126468,
+   "start -> ending": 0.030900447032868872,
+   "start -> length": 0.012190862074783038,
+   "gallows -> start": 0.02503437160308747,
+   "gallows -> gallows": 0.03303980240634885,
+   "gallows -> ending": 0.016443100818509,
+   "gallows -> length": 0.004424263005703838,
+   "ending -> start": 0.017652560163829545,
+   "ending -> gallows": 0.00927191132962469,
+   "ending -> ending": 0.03006111081811691,
+   "ending -> length": 0.011186833501863391,
+   "length -> start": 0.014859466905765825,
+   "length -> gallows": 0.0062575858516297905,
+   "length -> ending": 0.017613660313999524,
+   "length -> length": 0.00806185386998004
+  },
+  "Currier A, same sheet=True": {
+   "start -> start": 0.024317511333546427,
+   "start -> gallows": 0.02527789080050613,
+   "start -> ending": 0.02456835081467479,
+   "start -> length": 0.007548656563369449,
+   "gallows -> start": 0.02027543242242788,
+   "gallows -> gallows": 0.02759760795763018,
+   "gallows -> ending": 0.006406844175897597,
+   "gallows -> length": 0.002717562032027915,
+   "ending -> start": 0.01641736402851135,
+   "ending -> gallows": 0.0058604097225241625,
+   "ending -> ending": 0.019668450089647016,
+   "ending -> length": 0.005962680448081209,
+   "length -> start": 0.010811865892062511,
+   "length -> gallows": 0.00640349131220036,
+   "length -> ending": 0.016110378498676248,
+   "length -> length": 0.011433016228052012
+  },
+  "generator, boundary habit only (exp. 36), same sheet=True": {
+   "start -> start": 0.007021501605892211,
+   "start -> gallows": -0.002581959828454161,
+   "start -> ending": -0.0048857555787746865,
+   "start -> length": 0.0021954927012929892,
+   "gallows -> start": 0.003214048016043608,
+   "gallows -> gallows": 0.002009985269045722,
+   "gallows -> ending": -0.0007284999500707934,
+   "gallows -> length": -0.0001276610795788169,
+   "ending -> start": 0.003196574444300909,
+   "ending -> gallows": 0.0009493130090743457,
+   "ending -> ending": 0.002560437562681095,
+   "ending -> length": -0.00030966689940772896,
+   "length -> start": 0.0009459480366751372,
+   "length -> gallows": 0.0008082507792347773,
+   "length -> ending": 0.001481659638083055,
+   "length -> length": 0.0012929370230283233
+  },
+  "cipher of Latin, one key, Voynich words, same sheet=True": {
+   "start -> start": 0.06619272365037546,
+   "start -> gallows": 0.04883029355232761,
+   "start -> ending": 0.18614106287590956,
+   "start -> length": 0.0645764609105606,
+   "gallows -> start": 0.029986010407700256,
+   "gallows -> gallows": 0.022228484428668822,
+   "gallows -> ending": 0.09318132421345152,
+   "gallows -> length": 0.035127161030190764,
+   "ending -> start": 0.028514808395294945,
+   "ending -> gallows": 0.020880153928588822,
+   "ending -> ending": 0.08847701075085884,
+   "ending -> length": 0.03255311937158743,
+   "length -> start": 0.02842954770300853,
+   "length -> gallows": 0.020904279539510608,
+   "length -> ending": 0.084616580746504,
+   "length -> length": 0.027289540929034642
+  },
+  "Latin (letters as signs), same sheet=True": {
+   "start -> start": 0.06221604216332055,
+   "start -> gallows": 0.02860588392126523,
+   "start -> ending": 0.10363705376179322,
+   "start -> length": 0.05990841867027896,
+   "gallows -> start": 0.01139563855258982,
+   "gallows -> gallows": 0.004684663877842943,
+   "gallows -> ending": 0.030032225911895527,
+   "gallows -> length": 0.011396266514004438,
+   "ending -> start": 0.03825705312675759,
+   "ending -> gallows": 0.013358718553422244,
+   "ending -> ending": 0.09259058671029863,
+   "ending -> length": 0.033447595140439074,
+   "length -> start": 0.031968202773212745,
+   "length -> gallows": 0.01159001398132084,
+   "length -> ending": 0.0905790587735128,
+   "length -> length": 0.032846093909148236
+  },
+  "Italian (letters as signs), same sheet=True": {
+   "start -> start": 0.14391565497278225,
+   "start -> gallows": 0.039269257123563106,
+   "start -> ending": 0.1905316334280709,
+   "start -> length": 0.11533243440888985,
+   "gallows -> start": 0.024913649740097077,
+   "gallows -> gallows": 0.006514942482449142,
+   "gallows -> ending": 0.03910969639288864,
+   "gallows -> length": 0.02332241806992505,
+   "ending -> start": 0.13710221242701937,
+   "ending -> gallows": 0.03287684806373481,
+   "ending -> ending": 0.20834123803170146,
+   "ending -> length": 0.10023662753467269,
+   "length -> start": 0.08962541112875883,
+   "length -> gallows": 0.017656061967118872,
+   "length -> ending": 0.13560804890031453,
+   "length -> length": 0.06487076707157086
   }
  }
 }
