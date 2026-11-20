@@ -1,0 +1,200 @@
+{
+ "rows": [
+  {
+   "what varies": "subject, same hand",
+   "comparison": "hand 1: herbal vs pharmaceutical",
+   "pages": "herbal 84 / pharmaceutical 16",
+   "R2": 0.1012191932866684,
+   "R2 if random": 0.010249149026131924,
+   "p": 0.0004997501249375312,
+   "pages told apart": 0.86,
+   "chance": 0.84
+  },
+  {
+   "what varies": "subject, same hand",
+   "comparison": "hand 2: herbal vs balneological vs text",
+   "pages": "balneological 19 / herbal 20 / text only 4",
+   "R2": 0.31342273845202395,
+   "R2 if random": 0.04715142528902137,
+   "p": 0.0004997501249375312,
+   "pages told apart": 0.9069767441860465,
+   "chance": 0.46511627906976744
+  },
+  {
+   "what varies": "subject, same hand",
+   "comparison": "hand 3: herbal vs stars",
+   "pages": "herbal 6 / stars 24",
+   "R2": 0.14077557623141723,
+   "R2 if random": 0.034094358010440334,
+   "p": 0.0004997501249375312,
+   "pages told apart": 0.9666666666666667,
+   "chance": 0.8
+  },
+  {
+   "what varies": "hand, same subject",
+   "comparison": "herbal, Currier B: hand 2 vs 3 vs 5",
+   "pages": "hand 2 20 / hand 3 6 / hand 5 6",
+   "R2": 0.16229078364564076,
+   "R2 if random": 0.0642938127768985,
+   "p": 0.0009995002498750624,
+   "pages told apart": 0.71875,
+   "chance": 0.625
+  },
+  {
+   "what varies": "hand, same subject",
+   "comparison": "text only: hand 2 vs 5",
+   "pages": "hand 2 4 / hand 5 1",
+   "R2": 0.29440085080275724,
+   "R2 if random": 0.2501607886571902,
+   "p": 0.6006996501749126,
+   "pages told apart": 0.6,
+   "chance": 0.8
+  },
+  {
+   "what varies": "hand, same subject",
+   "comparison": "herbal: hand 1 (A) vs hand 2 (B)",
+   "pages": "hand 1 84 / hand 2 20",
+   "R2": 0.16281397298311173,
+   "R2 if random": 0.009679412625582822,
+   "p": 0.0004997501249375312,
+   "pages told apart": 0.9711538461538461,
+   "chance": 0.8076923076923077
+  },
+  {
+   "what varies": "time only (control)",
+   "comparison": "hand 2 herbal: first vs second half",
+   "pages": "10 / 10",
+   "R2": 0.08451057930791905,
+   "R2 if random": 0.052646820992993115,
+   "p": 0.11944027986006997,
+   "pages told apart": 0.6,
+   "chance": 0.5
+  },
+  {
+   "what varies": "time only (control)",
+   "comparison": "hand 2 balneological: first vs second half",
+   "pages": "10 / 9",
+   "R2": 0.011094344065099015,
+   "R2 if random": 0.055858227183622745,
+   "p": 0.9980009995002499,
+   "pages told apart": 0.05263157894736842,
+   "chance": 0.5
+  },
+  {
+   "what varies": "time only (control)",
+   "comparison": "hand 3 stars: first vs second half",
+   "pages": "12 / 12",
+   "R2": 0.0629219961286499,
+   "R2 if random": 0.0438001058856562,
+   "p": 0.1454272863568216,
+   "pages told apart": 0.5833333333333334,
+   "chance": 0.5
+  },
+  {
+   "what varies": "time only (control)",
+   "comparison": "hand 1 herbal: first vs second half",
+   "pages": "42 / 42",
+   "R2": 0.02427787933988801,
+   "R2 if random": 0.011973993340007677,
+   "p": 0.02948525737131434,
+   "pages told apart": 0.5595238095238095,
+   "chance": 0.5
+  },
+  {
+   "what varies": "subject, same hand",
+   "comparison": "hand 2: herbal vs balneological",
+   "pages": "herbal 20 / balneological 19",
+   "R2": 0.3054638958019745,
+   "R2 if random": 0.026126005476160247,
+   "p": 0.0004997501249375312,
+   "pages told apart": 0.9487179487179487,
+   "chance": 0.5128205128205128
+  }
+ ],
+ "detail": [
+  {
+   "comparison": "hand 2, by subject",
+   "fork": "start qo",
+   "balneological": 0.24334296621803006,
+   "herbal": 0.09119510010324597,
+   "text only": 0.14796099339112578
+  },
+  {
+   "comparison": "hand 2, by subject",
+   "fork": "end edy",
+   "balneological": 0.26358765435828835,
+   "herbal": 0.13564627218772274,
+   "text only": 0.1197625410383719
+  },
+  {
+   "comparison": "hand 2, by subject",
+   "fork": "end ar",
+   "balneological": 0.04917717927486983,
+   "herbal": 0.11340846305449362,
+   "text only": 0.12995933097982454
+  },
+  {
+   "comparison": "hand 2, by subject",
+   "fork": "gallows k",
+   "balneological": 0.32236606189171846,
+   "herbal": 0.324751837080928,
+   "text only": 0.24471727492471704
+  },
+  {
+   "comparison": "hand 2, by subject",
+   "fork": "end dy",
+   "balneological": 0.04209254339523112,
+   "herbal": 0.12102185431992991,
+   "text only": 0.08824448621104994
+  },
+  {
+   "comparison": "hand 2, by subject",
+   "fork": "end ol",
+   "balneological": 0.1148008549893851,
+   "herbal": 0.04076701792010666,
+   "text only": 0.059373903994479046
+  },
+  {
+   "comparison": "herbal B, by hand",
+   "fork": "gallows none",
+   "hand 2": 0.4848566053922763,
+   "hand 3": 0.39155930177204157,
+   "hand 5": 0.36482543724574973
+  },
+  {
+   "comparison": "herbal B, by hand",
+   "fork": "end edy",
+   "hand 2": 0.13564627218772274,
+   "hand 3": 0.08425635544380351,
+   "hand 5": 0.17323715937279663
+  },
+  {
+   "comparison": "herbal B, by hand",
+   "fork": "end aiin",
+   "hand 2": 0.11609292101470217,
+   "hand 3": 0.14996488615098735,
+   "hand 5": 0.06189308604664296
+  },
+  {
+   "comparison": "herbal B, by hand",
+   "fork": "gallows t",
+   "hand 2": 0.1287137079150742,
+   "hand 3": 0.20809643236234776,
+   "hand 5": 0.21322968999952155
+  },
+  {
+   "comparison": "herbal B, by hand",
+   "fork": "start o",
+   "hand 2": 0.23859569127957,
+   "hand 3": 0.29410881255161925,
+   "hand 5": 0.21350554129190266
+  },
+  {
+   "comparison": "herbal B, by hand",
+   "fork": "end ar",
+   "hand 2": 0.11340846305449362,
+   "hand 3": 0.10963573429210877,
+   "hand 5": 0.044250647067997084
+  }
+ ]
+}
