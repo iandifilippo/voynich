@@ -1,3 +1,4 @@
+import pytest
 import pathlib
 import sys
 
@@ -122,3 +123,12 @@ def test_assembler_fills_shape():
     out = m.fill([(3, True), (4, False)], seed=1)
     assert [len(l) for l in out] == [3, 4]
     assert all(w and "".join(signs(w)) == w for l in out for w in l)
+
+
+def test_hmm_sample_words():
+    np = pytest.importorskip("numpy")
+    from voynich.crack.hmm import sample_words
+    A = np.array([[0.0, 1.0], [1.0, 0.0]])
+    B = np.array([[1.0, 0.0], [0.0, 1.0]])
+    words = sample_words(A, np.array([1.0, 0.0]), B, ["a", "$"], 5, np.random.default_rng(0))
+    assert words == [["a"]] * 5

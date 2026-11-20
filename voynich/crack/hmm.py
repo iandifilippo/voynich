@@ -72,3 +72,25 @@ def loglik(obs, V, A, pi, B):
 def read(B, pi):
     """Most likely letter for each symbol."""
     return (B * np.asarray(pi)[:, None]).argmax(0)
+
+
+def sample_words(A, pi, B, symbols, n_words, rng, sep="$", max_len=30):
+    """Run the model forward from pi until n_words words (separated by the
+    symbol `sep`) have come out. Returns the words as lists of symbols."""
+    A, pi, B = np.asarray(A), np.asarray(pi), np.asarray(B)
+    K = len(pi)
+    state = rng.choice(K, p=pi)
+    words, cur = [], []
+    while len(words) < n_words:
+        s = symbols[rng.choice(len(symbols), p=B[state])]
+        if s == sep:
+            if cur:
+                words.append(cur)
+                cur = []
+        else:
+            cur.append(s)
+            if len(cur) >= max_len:
+                words.append(cur)
+                cur = []
+        state = rng.choice(K, p=A[state])
+    return words
