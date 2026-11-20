@@ -109,7 +109,7 @@
  },
  {
   "text": "Latin",
-  "feature": "has a stop (b c d g p t)",
+  "feature": "has a stop (b c d t g p)",
   "d=1: same line / other line": "0.676 / 0.675",
   "d=1 ratio": 1.0020930000374249,
   "d=2: same line / other line": "0.677 / 0.677",

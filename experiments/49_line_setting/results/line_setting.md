@@ -13,7 +13,7 @@ Share of word pairs that agree on a feature: same line vs different lines of the
 | generator (exp. 36) | gallows | 1.063 | 1.036 | 0.993 | 1.019 |
 | generator (exp. 36) | start | 1.058 | 1.106 | 1.068 | 1.148 |
 | generator (exp. 36) | ending | 1.044 | 1.036 | 1.050 | 1.032 |
-| Latin | has a stop (b c d g p t) | 1.002 | 1.000 | 1.003 | 1.015 |
+| Latin | has a stop (b c d t g p) | 1.002 | 1.000 | 1.003 | 1.015 |
 | Latin | start | 0.717 | 0.980 | 0.985 | 1.067 |
 | Latin | ending | 1.115 | 1.217 | 1.175 | 1.126 |
 
@@ -30,6 +30,6 @@ Share of word pairs that agree on a feature: same line vs different lines of the
 | generator (exp. 36) | gallows | 0.358 / 0.337 | 0.349 / 0.337 | 0.337 / 0.340 | 0.345 / 0.339 |
 | generator (exp. 36) | start | 0.143 / 0.135 | 0.148 / 0.134 | 0.143 / 0.134 | 0.154 / 0.134 |
 | generator (exp. 36) | ending | 0.282 / 0.270 | 0.279 / 0.270 | 0.285 / 0.271 | 0.281 / 0.273 |
-| Latin | has a stop (b c d g p t) | 0.676 / 0.675 | 0.677 / 0.677 | 0.677 / 0.675 | 0.686 / 0.676 |
+| Latin | has a stop (b c d t g p) | 0.676 / 0.675 | 0.677 / 0.677 | 0.677 / 0.675 | 0.686 / 0.676 |
 | Latin | start | 0.058 / 0.081 | 0.079 / 0.081 | 0.080 / 0.081 | 0.086 / 0.080 |
 | Latin | ending | 0.145 / 0.130 | 0.157 / 0.129 | 0.152 / 0.129 | 0.147 / 0.130 |

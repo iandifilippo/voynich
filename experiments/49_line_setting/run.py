@@ -32,7 +32,7 @@ HERE = pathlib.Path(__file__).parent
 GAL = ("t", "k", "p", "f", "cth", "ckh", "cph", "cfh")
 VMS_FEATS = {"gallows": lambda w: next((x for x in signs(w) if x in GAL), "-"),
              "start": lambda w: signs(w)[0], "ending": lambda w: signs(w)[-1]}
-LAT_FEATS = {"has a stop (b c d g p t)": lambda w: any(c in "bcdgpt" for c in w),
+LAT_FEATS = {"has a stop (b c d t g p)": lambda w: any(c in "bcdtgp" for c in w),
              "start": lambda w: w[0], "ending": lambda w: w[-1]}
 
 
