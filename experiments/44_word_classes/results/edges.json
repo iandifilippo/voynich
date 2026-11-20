@@ -1,0 +1,26 @@
+[
+ {
+  "text": "VMS Currier B",
+  "as written": 0.08323707634760456,
+  "shuffled, keeping first sign only": 0.00637603162020796,
+  "shuffled, keeping first and last sign": 0.051320532431735774,
+  "shuffled, keeping first two and last two signs": 0.07261228107752822,
+  "shuffled freely": 0.0008065572773884585
+ },
+ {
+  "text": "Latin, words",
+  "as written": 0.13499198765465392,
+  "shuffled, keeping first sign only": 0.001007010872559552,
+  "shuffled, keeping first and last sign": 0.025083084322970996,
+  "shuffled, keeping first two and last two signs": 0.11171976611869645,
+  "shuffled freely": -1.682315972952736e-06
+ },
+ {
+  "text": "Italian, words",
+  "as written": 0.30486993260629675,
+  "shuffled, keeping first sign only": 0.004812313539955098,
+  "shuffled, keeping first and last sign": 0.03887728327212449,
+  "shuffled, keeping first two and last two signs": 0.2572171185864754,
+  "shuffled freely": -0.0013252210346087832
+ }
+]
