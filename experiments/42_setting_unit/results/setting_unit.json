@@ -1,0 +1,130 @@
+{
+ "rows": [
+  {
+   "pages": "hand 1 herbal (A)",
+   "n pages": 81,
+   "same leaf": "0.64 [0.56, 0.72] n=39",
+   "same side of a sheet": "0.66 [0.57, 0.76] n=25",
+   "opposite sides of a sheet": "0.64 [0.55, 0.75] n=25",
+   "binding neighbours, other sheet": "0.85 [0.71, 1.02] n=21"
+  },
+  {
+   "pages": "hand 1 pharmaceutical (A)",
+   "n pages": 8,
+   "same leaf": "0.63 [0.42, 0.86] n=4",
+   "same side of a sheet": "-",
+   "opposite sides of a sheet": "-",
+   "binding neighbours, other sheet": "2.30 [2.30, 2.30] n=1"
+  },
+  {
+   "pages": "hand 2 herbal (B)",
+   "n pages": 20,
+   "same leaf": "0.60 [0.46, 0.76] n=10",
+   "same side of a sheet": "0.78 [0.62, 1.01] n=10",
+   "opposite sides of a sheet": "0.73 [0.55, 0.93] n=10",
+   "binding neighbours, other sheet": "0.63 [0.33, 0.92] n=2"
+  },
+  {
+   "pages": "hand 2 bathing (B)",
+   "n pages": 19,
+   "same leaf": "0.62 [0.42, 0.83] n=10",
+   "same side of a sheet": "0.52 [0.36, 0.68] n=8",
+   "opposite sides of a sheet": "0.81 [0.57, 1.05] n=8",
+   "binding neighbours, other sheet": "0.88 [0.71, 1.00] n=8"
+  },
+  {
+   "pages": "hand 3 stars (B)",
+   "n pages": 24,
+   "same leaf": "0.55 [0.42, 0.73] n=12",
+   "same side of a sheet": "0.61 [0.49, 0.71] n=11",
+   "opposite sides of a sheet": "0.69 [0.55, 0.84] n=11",
+   "binding neighbours, other sheet": "0.82 [0.73, 0.92] n=10"
+  }
+ ],
+ "contrasts": [
+  {
+   "pages": "hand 1 herbal (A)",
+   "contrast": "same side of a sheet  minus  opposite sides of a sheet",
+   "difference": 0.012772302755559961,
+   "95% interval": "[-0.07, 0.10]",
+   "share of resamples > 0": 0.6225
+  },
+  {
+   "pages": "hand 1 herbal (A)",
+   "contrast": "same side of a sheet  minus  binding neighbours, other sheet",
+   "difference": -0.1956365189106416,
+   "95% interval": "[-0.36, -0.05]",
+   "share of resamples > 0": 0.0035
+  },
+  {
+   "pages": "hand 1 herbal (A)",
+   "contrast": "same leaf  minus  same side of a sheet",
+   "difference": -0.0167434687835728,
+   "95% interval": "[-0.11, 0.08]",
+   "share of resamples > 0": 0.3465
+  },
+  {
+   "pages": "hand 2 herbal (B)",
+   "contrast": "same side of a sheet  minus  opposite sides of a sheet",
+   "difference": 0.05657291791983299,
+   "95% interval": "[-0.15, 0.25]",
+   "share of resamples > 0": 0.7125
+  },
+  {
+   "pages": "hand 2 herbal (B)",
+   "contrast": "same side of a sheet  minus  binding neighbours, other sheet",
+   "difference": 0.15683664552073784,
+   "95% interval": "[-0.21, 0.55]",
+   "share of resamples > 0": 0.7365853658536585
+  },
+  {
+   "pages": "hand 2 herbal (B)",
+   "contrast": "same leaf  minus  same side of a sheet",
+   "difference": -0.18397190252540907,
+   "95% interval": "[-0.41, 0.01]",
+   "share of resamples > 0": 0.0375
+  },
+  {
+   "pages": "hand 2 bathing (B)",
+   "contrast": "same side of a sheet  minus  opposite sides of a sheet",
+   "difference": -0.28699358164466726,
+   "95% interval": "[-0.69, 0.06]",
+   "share of resamples > 0": 0.074
+  },
+  {
+   "pages": "hand 2 bathing (B)",
+   "contrast": "same side of a sheet  minus  binding neighbours, other sheet",
+   "difference": -0.3565134192888867,
+   "95% interval": "[-0.58, -0.13]",
+   "share of resamples > 0": 0.0035
+  },
+  {
+   "pages": "hand 2 bathing (B)",
+   "contrast": "same leaf  minus  same side of a sheet",
+   "difference": 0.1010653867167789,
+   "95% interval": "[-0.22, 0.42]",
+   "share of resamples > 0": 0.7105
+  },
+  {
+   "pages": "hand 3 stars (B)",
+   "contrast": "same side of a sheet  minus  opposite sides of a sheet",
+   "difference": -0.08254079041536588,
+   "95% interval": "[-0.23, 0.03]",
+   "share of resamples > 0": 0.095
+  },
+  {
+   "pages": "hand 3 stars (B)",
+   "contrast": "same side of a sheet  minus  binding neighbours, other sheet",
+   "difference": -0.21304959533555923,
+   "95% interval": "[-0.32, -0.12]",
+   "share of resamples > 0": 0.0
+  },
+  {
+   "pages": "hand 3 stars (B)",
+   "contrast": "same leaf  minus  same side of a sheet",
+   "difference": -0.060183467632359156,
+   "95% interval": "[-0.22, 0.17]",
+   "share of resamples > 0": 0.268
+  }
+ ]
+}
