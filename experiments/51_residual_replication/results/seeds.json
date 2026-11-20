@@ -1,0 +1,16 @@
+[
+ {
+  "text": "ZL Currier B",
+  "text: beyond boundary": 0.2396970456357846,
+  "generator runs: beyond boundary (min-max)": "0.064 - 0.116",
+  "text: off-diagonal": 0.03848824967195125,
+  "generator runs: off-diagonal (min-max)": "-0.023 - 0.001"
+ },
+ {
+  "text": "ZL Currier A",
+  "text: beyond boundary": 0.18126539741631642,
+  "generator runs: beyond boundary (min-max)": "0.010 - 0.086",
+  "text: off-diagonal": 0.07476866842045465,
+  "generator runs: off-diagonal (min-max)": "-0.042 - 0.003"
+ }
+]
