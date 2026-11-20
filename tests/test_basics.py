@@ -132,3 +132,12 @@ def test_hmm_sample_words():
     B = np.array([[1.0, 0.0], [0.0, 1.0]])
     words = sample_words(A, np.array([1.0, 0.0]), B, ["a", "$"], 5, np.random.default_rng(0))
     assert words == [["a"]] * 5
+
+
+def test_fork_profile():
+    pytest.importorskip("numpy")
+    from voynich.forks import FEATS, profile
+    p = profile(["qokedy", "chol", "daiin"])
+    assert len(p) == len(FEATS)
+    assert abs(p.sum() - 3.0) < 1e-9
+    assert p[FEATS.index(("start", "qo"))] == 1 / 3 and p[FEATS.index(("end", "aiin"))] == 1 / 3

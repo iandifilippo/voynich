@@ -32,44 +32,13 @@ import numpy as np
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from _common import save, table, write_md
 from voynich import Voynich
+from voynich.forks import FEATS, profile
 
 HERE = pathlib.Path(__file__).parent
 MIN_WORDS = 60
 PERMS = 2000
 SECTIONS = {"H": "herbal", "P": "pharmaceutical", "B": "balneological", "S": "stars", "T": "text only",
             "C": "cosmological"}
-
-
-def start(w):
-    for p in ("qo", "q", "ch", "sh", "o", "d", "y", "s", "a"):
-        if w.startswith(p):
-            return p
-    return "other"
-
-
-def end(w):
-    for e in ("edy", "eedy", "dy", "ey", "y", "aiin", "ain", "iin", "in", "al", "ol", "ar", "or", "l", "r", "m",
-              "s", "o"):
-        if w.endswith(e):
-            return e
-    return "other"
-
-
-FEATS = [("start", s) for s in ("qo", "q", "ch", "sh", "o", "d", "y", "s", "a", "other")] + \
-        [("gallows", g) for g in ("t", "k", "p", "f", "none")] + \
-        [("end", e) for e in ("edy", "eedy", "dy", "ey", "y", "aiin", "ain", "iin", "in", "al", "ol", "ar", "or",
-                              "l", "r", "m", "s", "o", "other")]
-
-
-def profile(words):
-    c = Counter()
-    for w in words:
-        c[("start", start(w))] += 1
-        g = next((x for x in w if x in "tkpf"), "none")
-        c[("gallows", g)] += 1
-        c[("end", end(w))] += 1
-    n = len(words)
-    return np.array([c[f] / n for f in FEATS])
 
 
 def r2(X, labels):
