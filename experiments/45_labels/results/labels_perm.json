@@ -1,0 +1,23 @@
+[
+ {
+  "probes": "all labels, as written",
+  "n": 642,
+  "own-page hits": 118,
+  "if pages were random (mean)": 101.163,
+  "p": 0.1038961038961039
+ },
+ {
+  "probes": "o- labels, as written",
+  "n": 350,
+  "own-page hits": 57,
+  "if pages were random (mean)": 44.859,
+  "p": 0.08691308691308691
+ },
+ {
+  "probes": "o- labels read as qo-",
+  "n": 350,
+  "own-page hits": 76,
+  "if pages were random (mean)": 52.157,
+  "p": 0.03996003996003996
+ }
+]

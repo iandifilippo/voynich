@@ -1,0 +1,134 @@
+[
+ {
+  "section": "pharmaceutical",
+  "probes": "labels",
+  "n": 225,
+  "same page: exact": 0.6123136270397698,
+  "same sheet, other page: exact": 0.6504902392584411,
+  "same section, other sheets: exact": 0.6201898371558685,
+  "same page: near": 4.929124697670146,
+  "same sheet, other page: near": 4.939660254368787,
+  "same section, other sheets: near": 4.415160983562016
+ },
+ {
+  "section": "pharmaceutical",
+  "probes": "words from other pages' text (control)",
+  "n": 2250,
+  "same page: exact": 3.9189447524373926,
+  "same sheet, other page: exact": 4.039887110914761,
+  "same section, other sheets: exact": 4.197314282493518,
+  "same page: near": 14.186518336714746,
+  "same sheet, other page: near": 13.97393453036741,
+  "same section, other sheets: near": 14.366803817683087
+ },
+ {
+  "section": "bathing",
+  "probes": "labels",
+  "n": 107,
+  "same page: exact": 1.8236554159671163,
+  "same sheet, other page: exact": 1.4385294174438588,
+  "same section, other sheets: exact": 1.4634901691228124,
+  "same page: near": 9.81300295258496,
+  "same sheet, other page: near": 9.625596169070652,
+  "same section, other sheets: near": 8.456140615912199
+ },
+ {
+  "section": "bathing",
+  "probes": "words from other pages' text (control)",
+  "n": 1070,
+  "same page: exact": 8.362518762061326,
+  "same sheet, other page: exact": 8.389305648087952,
+  "same section, other sheets: exact": 8.159180137020076,
+  "same page: near": 27.068829962118503,
+  "same sheet, other page: near": 27.18573818039825,
+  "same section, other sheets: near": 26.812270419934528
+ },
+ {
+  "section": "zodiac",
+  "probes": "labels",
+  "n": 310,
+  "same page: exact": 1.3996081097292759,
+  "same sheet, other page: exact": 1.1780611801168575,
+  "same section, other sheets: exact": 1.1683229638805215,
+  "same page: near": 7.078018154916624,
+  "same sheet, other page: near": 6.997209022841736,
+  "same section, other sheets: near": 8.487936713493426
+ },
+ {
+  "section": "zodiac",
+  "probes": "words from other pages' text (control)",
+  "n": 3100,
+  "same page: exact": 2.419537042742416,
+  "same sheet, other page: exact": 3.8084671039469207,
+  "same section, other sheets: exact": 3.5250943873931275,
+  "same page: near": 10.877647010495615,
+  "same sheet, other page: near": 11.450110914231376,
+  "same section, other sheets: near": 10.388177718176077
+ },
+ {
+  "section": "cosmological",
+  "probes": "labels",
+  "n": 170,
+  "same page: exact": 1.6327603032805345,
+  "same sheet, other page: exact": 2.539813289401428,
+  "same section, other sheets: exact": 0.7690942436253919,
+  "same page: near": 9.965468057953608,
+  "same sheet, other page: near": 10.090609555189456,
+  "same section, other sheets: near": 5.30601076731941
+ },
+ {
+  "section": "cosmological",
+  "probes": "words from other pages' text (control)",
+  "n": 1700,
+  "same page: exact": 1.5642837411010562,
+  "same sheet, other page: exact": 2.317519556493415,
+  "same section, other sheets: exact": 2.200684674771691,
+  "same page: near": 8.32731472390392,
+  "same sheet, other page: near": 8.98523259486619,
+  "same section, other sheets: near": 8.376472935241113
+ },
+ {
+  "section": "astronomical",
+  "probes": "labels",
+  "n": 126,
+  "same page: exact": 0.48567265662943176,
+  "same sheet, other page: exact": 0.46736443356660556,
+  "same section, other sheets: exact": NaN,
+  "same page: near": 5.633802816901408,
+  "same sheet, other page: near": 3.5790276359969004,
+  "same section, other sheets: near": NaN
+ },
+ {
+  "section": "astronomical",
+  "probes": "words from other pages' text (control)",
+  "n": 1260,
+  "same page: exact": 1.4269507569043145,
+  "same sheet, other page: exact": 2.89594517873684,
+  "same section, other sheets: exact": NaN,
+  "same page: near": 7.595632289857128,
+  "same sheet, other page: near": 7.615862707795895,
+  "same section, other sheets: near": NaN
+ },
+ {
+  "section": "text",
+  "probes": "labels",
+  "n": 19,
+  "same page: exact": 1.7901897601145722,
+  "same sheet, other page: exact": NaN,
+  "same section, other sheets: exact": 1.0843692144935202,
+  "same page: near": 10.204081632653061,
+  "same sheet, other page: near": NaN,
+  "same section, other sheets: near": 9.838667019307062
+ },
+ {
+  "section": "text",
+  "probes": "words from other pages' text (control)",
+  "n": 190,
+  "same page: exact": 3.4904013961605584,
+  "same sheet, other page: exact": 5.129756215594943,
+  "same section, other sheets: exact": 5.134023135416143,
+  "same page: near": 19.444558958925946,
+  "same sheet, other page: near": 20.010888633476497,
+  "same section, other sheets: near": 20.808949715295082
+ }
+]

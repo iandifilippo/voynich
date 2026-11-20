@@ -1,0 +1,74 @@
+[
+ {
+  "labels starting with o-": "as written",
+  "section": "pharmaceutical",
+  "n": 95,
+  "same page: exact": 0.28188865398167723,
+  "same sheet, other page: exact": 0.29693995561529085,
+  "same section, other sheets: exact": 0.13485315201498999
+ },
+ {
+  "labels starting with o-": "as written",
+  "section": "bathing",
+  "n": 58,
+  "same page: exact": 1.683867463335144,
+  "same sheet, other page: exact": 1.2470428579288084,
+  "same section, other sheets: exact": 1.2319149009796493
+ },
+ {
+  "labels starting with o-": "as written",
+  "section": "zodiac",
+  "n": 197,
+  "same page: exact": 1.3826912199107535,
+  "same sheet, other page: exact": 1.2610189032738452,
+  "same section, other sheets: exact": 1.0757364216886773
+ },
+ {
+  "labels starting with o-": "o- removed",
+  "section": "pharmaceutical",
+  "n": 95,
+  "same page: exact": 0.0,
+  "same sheet, other page: exact": 0.09377051229956553,
+  "same section, other sheets: exact": 0.04258520589947053
+ },
+ {
+  "labels starting with o-": "o- removed",
+  "section": "bathing",
+  "n": 58,
+  "same page: exact": 0.5975013579576317,
+  "same sheet, other page: exact": 0.49514937005996806,
+  "same section, other sheets: exact": 0.481000481000481
+ },
+ {
+  "labels starting with o-": "o- removed",
+  "section": "zodiac",
+  "n": 197,
+  "same page: exact": 0.502796807240274,
+  "same sheet, other page: exact": 0.5164172651502414,
+  "same section, other sheets: exact": 0.29754411663729374
+ },
+ {
+  "labels starting with o-": "o- read as qo-",
+  "section": "pharmaceutical",
+  "n": 95,
+  "same page: exact": 0.3523608174770965,
+  "same sheet, other page: exact": 0.15628418716594256,
+  "same section, other sheets: exact": 0.22002356381393104
+ },
+ {
+  "labels starting with o-": "o- read as qo-",
+  "section": "bathing",
+  "n": 58,
+  "same page: exact": 3.747963063552417,
+  "same sheet, other page: exact": 2.8608630270131488,
+  "same section, other sheets: exact": 2.4188441454628506
+ },
+ {
+  "labels starting with o-": "o- read as qo-",
+  "section": "zodiac",
+  "n": 197,
+  "same page: exact": 0.1256992018100685,
+  "same sheet, other page: exact": 0.024019407681406577,
+  "same section, other sheets: exact": 0.06866402691629855
+ }
+]

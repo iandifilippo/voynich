@@ -1,0 +1,47 @@
+{
+ "counts": [
+  {
+   "section": "pharmaceutical",
+   "label tokens": 225,
+   "hits on own page": 20,
+   "hits elsewhere in section": 306,
+   "labels found anywhere in running text": 0.4666666666666667
+  },
+  {
+   "section": "bathing",
+   "label tokens": 107,
+   "hits on own page": 63,
+   "hits elsewhere in section": 924,
+   "labels found anywhere in running text": 0.7009345794392523
+  },
+  {
+   "section": "zodiac",
+   "label tokens": 310,
+   "hits on own page": 35,
+   "hits elsewhere in section": 315,
+   "labels found anywhere in running text": 0.5741935483870968
+  }
+ ],
+ "shape": [
+  {
+   "words": "labels",
+   "n": 965,
+   "start o": 0.6020725388601036,
+   "start q": 0.010362694300518135,
+   "start ch/sh": 0.09119170984455958,
+   "start d": 0.08601036269430051,
+   "end y": 0.43626943005181346,
+   "end n": 0.08186528497409326
+  },
+  {
+   "words": "running text (4+ letters)",
+   "n": 30341,
+   "start o": 0.21578062687452623,
+   "start q": 0.16779275567713656,
+   "start ch/sh": 0.28456543950430113,
+   "start d": 0.07507992485415774,
+   "end y": 0.4503477143139646,
+   "end n": 0.19195148478955867
+  }
+ ]
+}
