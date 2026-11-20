@@ -1,0 +1,35 @@
+digraph M {
+rankdir=LR; node [shape=box, fontname=monospace, fontsize=10];
+S1 [label="S1\n$ 1.00"];
+S2 [label="S2\no 0.91\ny 0.05"];
+S3 [label="S3\nk 0.57\nt 0.29\np 0.07"];
+S4 [label="S4\ne 0.63\nee 0.29"];
+S5 [label="S5\ny 0.94"];
+S6 [label="S6\nl 0.55\nr 0.35\nm 0.05"];
+S7 [label="S7\na 0.91\no 0.09"];
+S8 [label="S8\nd 0.88"];
+S9 [label="S9\nch 0.67\nsh 0.31"];
+S10 [label="S10\nq 0.83"];
+S11 [label="S11\nii 0.55\ni 0.42"];
+S12 [label="S12\nn 0.89\nr 0.10"];
+S1 -> S9 [label="0.25", penwidth=2.0];
+S1 -> S2 [label="0.28", penwidth=2.1];
+S1 -> S10 [label="0.22", penwidth=1.9];
+S2 -> S6 [label="0.27", penwidth=2.1];
+S2 -> S3 [label="0.61", penwidth=3.5];
+S3 -> S9 [label="0.16", penwidth=1.6];
+S3 -> S7 [label="0.39", penwidth=2.6];
+S3 -> S4 [label="0.39", penwidth=2.6];
+S4 -> S5 [label="0.30", penwidth=2.2];
+S4 -> S8 [label="0.52", penwidth=3.1];
+S5 -> S1 [label="0.97", penwidth=4.9];
+S6 -> S1 [label="0.65", penwidth=3.6];
+S7 -> S6 [label="0.54", penwidth=3.2];
+S7 -> S11 [label="0.45", penwidth=2.8];
+S8 -> S5 [label="0.67", penwidth=3.7];
+S8 -> S7 [label="0.25", penwidth=2.0];
+S9 -> S4 [label="0.72", penwidth=3.9];
+S10 -> S2 [label="0.99", penwidth=4.9];
+S11 -> S12 [label="0.96", penwidth=4.9];
+S12 -> S1 [label="0.98", penwidth=4.9];
+}
