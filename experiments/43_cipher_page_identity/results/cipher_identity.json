@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Naibbe cipher of Pliny (fixed tables)",
+  "pages": 50,
+  "own half closest": 0.0,
+  "shared words removed": 0.0,
+  "chance": 0.02
+ },
+ {
+  "text": "its plaintext, letters in 5s",
+  "pages": 50,
+  "own half closest": 0.01,
+  "shared words removed": 0.01,
+  "chance": 0.02
+ },
+ {
+  "text": "manuscript, hand 1 herbal (A) (exp. 40)",
+  "pages": 51,
+  "own half closest": 0.38235294117647056,
+  "shared words removed": 0.3137254901960784,
+  "chance": 0.0196078431372549
+ },
+ {
+  "text": "manuscript, hand 2 herbal (B) (exp. 40)",
+  "pages": 19,
+  "own half closest": 0.34210526315789475,
+  "shared words removed": 0.3157894736842105,
+  "chance": 0.05263157894736842
+ },
+ {
+  "text": "manuscript, hand 2 bathing (B) (exp. 40)",
+  "pages": 19,
+  "own half closest": 0.6052631578947368,
+  "shared words removed": 0.5263157894736842,
+  "chance": 0.05263157894736842
+ },
+ {
+  "text": "manuscript, hand 3 stars (B) (exp. 40)",
+  "pages": 24,
+  "own half closest": 0.7291666666666666,
+  "shared words removed": 0.625,
+  "chance": 0.041666666666666664
+ }
+]
