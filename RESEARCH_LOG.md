@@ -2,6 +2,15 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (9)
+
+### 50 habits-only generator (B sheets 100+ words; sheet identity = half-sheet own closest; gallows ratio d=2-4, nearby lines)
+Target: identity .975, gallows ratio 1.067. Grid sigma 0/.3/.6/.9 x hold 1/1.5/2.5: identity .05/.68-.78/.95-.99/1.00; ratio 1.03-1.09. Best sigma .9 hold 2.5 (misfit .025).
+Beyond boundary (15 perms): B .299; gen none .071; gen fitted .116; strong .117.
+Residual (20 perms): B repeat obs/base start .076/.072 gallows .379/.346 ending .135/.117 length .234/.228; off-diag CMI .028 .010 .014 .008. Gen fitted: repeats .087/.080 .391/.374 .108/.097 .251/.233; off-diag -.006 -.006 .006 -.004.
+Top B start transitions vs expectation: yt->ot 1.69 (33 vs 19.6), or->aii 1.50, che->al 1.48, ot->ar 1.44; che->op .12, ai->ot .45, or->al .46.
+Spacing: split .299; 3+ signs .236; join .256; join 3+ .237; generator 3+ .069.
+
 ## 2026-11-20 (8)
 
 ### 48 beyond boundary (CMI given last sign i and first sign i+1; 30 perms)
