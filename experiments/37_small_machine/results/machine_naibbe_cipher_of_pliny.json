@@ -1,0 +1,126 @@
+[
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": "held-out text",
+  "distinct per 1000": 275.8333333333333,
+  "hapax share": 0.5622356495468278,
+  "unseen in training": 0.15725,
+  "top 20 share": 0.2305,
+  "lexicon gain": 0.11690226132475072,
+  "mean length (signs)": 4.4485
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": "sign chain, 1 back",
+  "held-out bits per sign": 2.270724056406605
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": "sign chain, 2 back",
+  "held-out bits per sign": 2.0589008955928114
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": "sign chain, 3 back",
+  "held-out bits per sign": 2.03839397344699
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 2,
+  "held-out bits per sign": 3.7994893796760554,
+  "distinct per 1000": 562.0833333333334,
+  "hapax share": 0.9163825055596738,
+  "unseen in training": 0.9020833333333333,
+  "top 20 share": 0.30466666666666664,
+  "lexicon gain": -0.7291099851494461,
+  "mean length (signs)": 4.469833333333334
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 4,
+  "held-out bits per sign": 3.23455141290114,
+  "distinct per 1000": 666.6666666666666,
+  "hapax share": 0.857125,
+  "unseen in training": 0.8684166666666666,
+  "top 20 share": 0.05925,
+  "lexicon gain": -0.696677829740084,
+  "mean length (signs)": 4.482083333333334
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 6,
+  "held-out bits per sign": 3.108704549599983,
+  "distinct per 1000": 490.0833333333333,
+  "hapax share": 0.9008671994558749,
+  "unseen in training": 0.8050833333333334,
+  "top 20 share": 0.26475,
+  "lexicon gain": -0.6582969755484713,
+  "mean length (signs)": 4.491333333333333
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 8,
+  "held-out bits per sign": 2.6530452021397295,
+  "distinct per 1000": 563.5833333333334,
+  "hapax share": 0.7790921188821529,
+  "unseen in training": 0.8074166666666667,
+  "top 20 share": 0.06175,
+  "lexicon gain": -0.5450438503600793,
+  "mean length (signs)": 4.474333333333333
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 12,
+  "held-out bits per sign": 2.377541097292563,
+  "distinct per 1000": 449.8333333333333,
+  "hapax share": 0.7486105965172286,
+  "unseen in training": 0.5845,
+  "top 20 share": 0.124,
+  "lexicon gain": -0.45126552919290647,
+  "mean length (signs)": 4.452083333333333
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 16,
+  "held-out bits per sign": 2.1876748004509676,
+  "distinct per 1000": 356.8333333333333,
+  "hapax share": 0.7188229799159271,
+  "unseen in training": 0.3775833333333333,
+  "top 20 share": 0.16258333333333333,
+  "lexicon gain": -0.4213924955546196,
+  "mean length (signs)": 4.441583333333333
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 24,
+  "held-out bits per sign": 2.1268748058946194,
+  "distinct per 1000": 338.3333333333333,
+  "hapax share": 0.6615763546798029,
+  "unseen in training": 0.3491666666666667,
+  "top 20 share": 0.14358333333333334,
+  "lexicon gain": -0.31873999482963217,
+  "mean length (signs)": 4.450833333333334
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 32,
+  "held-out bits per sign": 2.0764191153847436,
+  "distinct per 1000": 312.5,
+  "hapax share": 0.6245333333333334,
+  "unseen in training": 0.301,
+  "top 20 share": 0.182,
+  "lexicon gain": -0.2723114110678313,
+  "mean length (signs)": 4.440916666666666
+ },
+ {
+  "text": "Naibbe cipher of Pliny",
+  "states": 48,
+  "held-out bits per sign": 2.0342975742801883,
+  "distinct per 1000": 323.0,
+  "hapax share": 0.6493808049535603,
+  "unseen in training": 0.28125,
+  "top 20 share": 0.21716666666666667,
+  "lexicon gain": -0.18729276607992262,
+  "mean length (signs)": 4.458916666666667
+ }
+]

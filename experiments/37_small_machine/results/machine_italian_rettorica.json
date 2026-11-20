@@ -1,0 +1,126 @@
+[
+ {
+  "text": "Italian (Rettorica)",
+  "states": "held-out text",
+  "distinct per 1000": 263.5,
+  "hapax share": 0.7245414294750158,
+  "unseen in training": 0.19266666666666668,
+  "top 20 share": 0.3119166666666667,
+  "lexicon gain": 2.178232044623231,
+  "mean length (signs)": 5.130416666666667
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": "sign chain, 1 back",
+  "held-out bits per sign": 3.0913457435944918
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": "sign chain, 2 back",
+  "held-out bits per sign": 2.540748925959195
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": "sign chain, 3 back",
+  "held-out bits per sign": 2.1323873676144527
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 2,
+  "held-out bits per sign": 3.7488705221771044,
+  "distinct per 1000": 642.8333333333334,
+  "hapax share": 0.935053150116671,
+  "unseen in training": 0.7815833333333333,
+  "top 20 share": 0.21375,
+  "lexicon gain": -0.7729595461350206,
+  "mean length (signs)": 5.78025
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 4,
+  "held-out bits per sign": 3.4279446577493577,
+  "distinct per 1000": 593.3333333333334,
+  "hapax share": 0.9254213483146068,
+  "unseen in training": 0.7543333333333333,
+  "top 20 share": 0.23425,
+  "lexicon gain": -0.7426484833647652,
+  "mean length (signs)": 5.366083333333333
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 6,
+  "held-out bits per sign": 3.366186159710927,
+  "distinct per 1000": 585.25,
+  "hapax share": 0.9171294318667236,
+  "unseen in training": 0.7724166666666666,
+  "top 20 share": 0.20558333333333334,
+  "lexicon gain": -0.7257411166556679,
+  "mean length (signs)": 5.131166666666667
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 8,
+  "held-out bits per sign": 3.2913788211528643,
+  "distinct per 1000": 658.6666666666666,
+  "hapax share": 0.8882844129554656,
+  "unseen in training": 0.82425,
+  "top 20 share": 0.13833333333333334,
+  "lexicon gain": -0.7101957439864031,
+  "mean length (signs)": 5.16675
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 12,
+  "held-out bits per sign": 3.159497910252927,
+  "distinct per 1000": 615.5833333333334,
+  "hapax share": 0.8799241911466089,
+  "unseen in training": 0.79025,
+  "top 20 share": 0.15641666666666668,
+  "lexicon gain": -0.6783660419775018,
+  "mean length (signs)": 5.197666666666667
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 16,
+  "held-out bits per sign": 3.070746296605533,
+  "distinct per 1000": 608.5,
+  "hapax share": 0.8848260750479321,
+  "unseen in training": 0.7643333333333333,
+  "top 20 share": 0.17741666666666667,
+  "lexicon gain": -0.6566881034360995,
+  "mean length (signs)": 5.199916666666667
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 24,
+  "held-out bits per sign": 2.9664685362696166,
+  "distinct per 1000": 572.0,
+  "hapax share": 0.8822843822843823,
+  "unseen in training": 0.7403333333333333,
+  "top 20 share": 0.19433333333333333,
+  "lexicon gain": -0.5886102488308146,
+  "mean length (signs)": 5.110916666666666
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 32,
+  "held-out bits per sign": 2.84105527081703,
+  "distinct per 1000": 555.75,
+  "hapax share": 0.8882890988154146,
+  "unseen in training": 0.6840833333333334,
+  "top 20 share": 0.24575,
+  "lexicon gain": -0.5983246390448985,
+  "mean length (signs)": 5.14125
+ },
+ {
+  "text": "Italian (Rettorica)",
+  "states": 48,
+  "held-out bits per sign": 2.7108650363110525,
+  "distinct per 1000": 532.75,
+  "hapax share": 0.8864382918817456,
+  "unseen in training": 0.6548333333333334,
+  "top 20 share": 0.24141666666666667,
+  "lexicon gain": -0.5215107596991801,
+  "mean length (signs)": 5.127833333333333
+ }
+]

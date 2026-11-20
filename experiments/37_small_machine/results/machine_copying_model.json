@@ -1,0 +1,126 @@
+[
+ {
+  "text": "copying model",
+  "states": "held-out text",
+  "distinct per 1000": 232.58671203099897,
+  "hapax share": 0.6241365298659082,
+  "unseen in training": 0.13713259616293355,
+  "top 20 share": 0.21652017767696816,
+  "lexicon gain": 0.027074597744259132,
+  "mean length (signs)": 4.079009545411587
+ },
+ {
+  "text": "copying model",
+  "states": "sign chain, 1 back",
+  "held-out bits per sign": 2.452692510896518
+ },
+ {
+  "text": "copying model",
+  "states": "sign chain, 2 back",
+  "held-out bits per sign": 2.1201666280701796
+ },
+ {
+  "text": "copying model",
+  "states": "sign chain, 3 back",
+  "held-out bits per sign": 2.1243101745705655
+ },
+ {
+  "text": "copying model",
+  "states": 2,
+  "held-out bits per sign": 3.7971069190068354,
+  "distinct per 1000": 544.2774784991967,
+  "hapax share": 0.9159576315332523,
+  "unseen in training": 0.8298837538984973,
+  "top 20 share": 0.32473301200264626,
+  "lexicon gain": -0.7086779975878352,
+  "mean length (signs)": 4.145449390416784
+ },
+ {
+  "text": "copying model",
+  "states": 4,
+  "held-out bits per sign": 3.3967262651012895,
+  "distinct per 1000": 540.8751535771667,
+  "hapax share": 0.8829285339856718,
+  "unseen in training": 0.7713826670447028,
+  "top 20 share": 0.20706927511577355,
+  "lexicon gain": -0.681622828791727,
+  "mean length (signs)": 4.151781495132785
+ },
+ {
+  "text": "copying model",
+  "states": 6,
+  "held-out bits per sign": 2.909378780132422,
+  "distinct per 1000": 578.3952367451092,
+  "hapax share": 0.7803921568627451,
+  "unseen in training": 0.8544561005576032,
+  "top 20 share": 0.06095832151970513,
+  "lexicon gain": -0.5488944584617781,
+  "mean length (signs)": 4.078442491257915
+ },
+ {
+  "text": "copying model",
+  "states": 8,
+  "held-out bits per sign": 2.687928297978558,
+  "distinct per 1000": 447.4057272469521,
+  "hapax share": 0.8062948880439375,
+  "unseen in training": 0.5789622908987808,
+  "top 20 share": 0.16255552405254703,
+  "lexicon gain": -0.5475917998891536,
+  "mean length (signs)": 4.128815801909083
+ },
+ {
+  "text": "copying model",
+  "states": 12,
+  "held-out bits per sign": 2.396133923880067,
+  "distinct per 1000": 361.6860410169171,
+  "hapax share": 0.7528089887640449,
+  "unseen in training": 0.4535488139117286,
+  "top 20 share": 0.17682638691995087,
+  "lexicon gain": -0.4585702281262643,
+  "mean length (signs)": 4.088460447972781
+ },
+ {
+  "text": "copying model",
+  "states": 16,
+  "held-out bits per sign": 2.290306353943355,
+  "distinct per 1000": 336.5466402041395,
+  "hapax share": 0.7402415051951698,
+  "unseen in training": 0.3921179472639637,
+  "top 20 share": 0.18589925337869767,
+  "lexicon gain": -0.418786144591897,
+  "mean length (signs)": 4.079009545411587
+ },
+ {
+  "text": "copying model",
+  "states": 24,
+  "held-out bits per sign": 2.1653451991223376,
+  "distinct per 1000": 283.0545317077781,
+  "hapax share": 0.7128547579298832,
+  "unseen in training": 0.26160098289386635,
+  "top 20 share": 0.21264530762687836,
+  "lexicon gain": -0.3362219995454974,
+  "mean length (signs)": 4.065305736697854
+ },
+ {
+  "text": "copying model",
+  "states": 32,
+  "held-out bits per sign": 2.1420442528894332,
+  "distinct per 1000": 276.4388999149419,
+  "hapax share": 0.6998290598290599,
+  "unseen in training": 0.2468575748984028,
+  "top 20 share": 0.21793781306114735,
+  "lexicon gain": -0.3073589791053442,
+  "mean length (signs)": 4.072488422644363
+ },
+ {
+  "text": "copying model",
+  "states": 48,
+  "held-out bits per sign": 2.109842945884707,
+  "distinct per 1000": 256.4974955108213,
+  "hapax share": 0.6812822402358143,
+  "unseen in training": 0.2159531235232965,
+  "top 20 share": 0.2178433040355354,
+  "lexicon gain": -0.23174946023849133,
+  "mean length (signs)": 4.053681126547585
+ }
+]

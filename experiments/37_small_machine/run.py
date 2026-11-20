@@ -14,7 +14,8 @@ K = 2 ... 20 states. For each K:
     exp. 36 did: vocabulary size, one-off words, share of words never seen in
     the training half, top words, lexicon gain, word length, q- words.
 
-The same is done on a Latin and an Italian text. If a small machine is enough
+The same is done on a Latin and an Italian text, and on the two content-free
+controls (the Naibbe cipher of Pliny and the copying model). If a small machine is enough
 for Voynich words but not for words of a language, that is the difference
 between a rule and a vocabulary, measured in states.
 """
@@ -146,6 +147,23 @@ def split_vms(lang):
     return ([l for p in order[0::2] for l in pages[p]], [l for p in order[1::2] for l in pages[p]])
 
 
+def naibbe_lines(n_words=24000, per_line=8):
+    from voynich.corpus import DATA
+    ws = open(DATA / "external" / "naibbe-cipher" / "encrypted" / "nathist_output_ciphertext.txt",
+              encoding="utf-8-sig").read().split()[:n_words]
+    ws = [signs(w) for w in ws]
+    return [ws[i:i + per_line] for i in range(0, len(ws), per_line)]
+
+
+def copy_lines(n_lines=2700):
+    import json
+    from voynich.autocopy import AutoCopy
+    chart = {k: set(x) for k, x in json.loads(
+        (HERE.parent / "18_autocopy_boundary" / "results" / "boundary.json").read_text())["chart"].items()}
+    lines = AutoCopy(seed=1, boundary=chart, boundary_p=0.65, line_end_p=0.5, common_p=0.5).run(n_lines)
+    return [[signs(w) for w in l] for l in lines if l]
+
+
 def split_text(lines):
     return lines[0::2], lines[1::2]
 
@@ -179,7 +197,9 @@ if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     jobs = {"VMS Currier B": lambda: split_vms("B"), "VMS Currier A": lambda: split_vms("A"),
             "Latin (Secreta secretorum)": lambda: split_text(plain_lines("Secreta_Secretorum_LAT")),
-            "Italian (Rettorica)": lambda: split_text(plain_lines("Rettorica"))}
+            "Italian (Rettorica)": lambda: split_text(plain_lines("Rettorica")),
+            "Naibbe cipher of Pliny": lambda: split_text(naibbe_lines()),
+            "copying model": lambda: split_text(copy_lines())}
     for name, make in jobs.items():
         if which != "all" and which not in name:
             continue
