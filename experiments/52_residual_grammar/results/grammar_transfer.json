@@ -1,0 +1,20 @@
+[
+ {
+  "text": "Currier B",
+  "learned on half the sheets, scored on the rest (bits/pair)": 0.0029872835686672048,
+  "learned on odd lines, scored on even lines, all sheets pooled": 0.0019851627782808815,
+  "learned and scored inside each sheet separately": 0.004200680006967231
+ },
+ {
+  "text": "Currier A",
+  "learned on half the sheets, scored on the rest (bits/pair)": 0.0007861442493926878,
+  "learned on odd lines, scored on even lines, all sheets pooled": -0.0035568129552479445,
+  "learned and scored inside each sheet separately": -0.0010024593563425727
+ },
+ {
+  "text": "habits generator (B)",
+  "learned on half the sheets, scored on the rest (bits/pair)": 0.004454159504050127,
+  "learned on odd lines, scored on even lines, all sheets pooled": 0.002554033876038243,
+  "learned and scored inside each sheet separately": 0.0017953983765967533
+ }
+]
