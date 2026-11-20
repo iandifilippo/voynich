@@ -1,0 +1,27 @@
+[
+ {
+  "Currier B": "doubtful spaces read as spaces",
+  "words": 23047,
+  "beyond the boundary (bits)": 0.2993906430382402
+ },
+ {
+  "Currier B": "doubtful spaces read as spaces, words of 3+ signs only",
+  "words": 20713,
+  "beyond the boundary (bits)": 0.23556561013692665
+ },
+ {
+  "Currier B": "doubtful spaces read as no space",
+  "words": 21417,
+  "beyond the boundary (bits)": 0.256451034498386
+ },
+ {
+  "Currier B": "doubtful spaces read as no space, words of 3+ signs only",
+  "words": 20070,
+  "beyond the boundary (bits)": 0.2368145171883694
+ },
+ {
+  "Currier B": "generator with settings, words of 3+ signs only",
+  "words": 20331,
+  "beyond the boundary (bits)": 0.06910124434211126
+ }
+]

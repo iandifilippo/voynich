@@ -1,0 +1,66 @@
+[
+ {
+  "text": "Currier B",
+  "feature": "start",
+  "repeats previous": 0.07643343051506317,
+  "repeats if order were random": 0.0720505344995141,
+  "off-diagonal CMI": 0.0276369704130095,
+  "repeat excess": 0.004382896015549073
+ },
+ {
+  "text": "Currier B",
+  "feature": "gallows",
+  "repeats previous": 0.378620019436346,
+  "repeats if order were random": 0.34648931000971817,
+  "off-diagonal CMI": 0.009808924393155005,
+  "repeat excess": 0.032130709426627824
+ },
+ {
+  "text": "Currier B",
+  "feature": "ending",
+  "repeats previous": 0.13498542274052477,
+  "repeats if order were random": 0.11735179786200194,
+  "off-diagonal CMI": 0.01413197087458612,
+  "repeat excess": 0.01763362487852284
+ },
+ {
+  "text": "Currier B",
+  "feature": "length",
+  "repeats previous": 0.23411078717201167,
+  "repeats if order were random": 0.2278474246841594,
+  "off-diagonal CMI": 0.008206865273424846,
+  "repeat excess": 0.006263362487852281
+ },
+ {
+  "text": "generator with settings",
+  "feature": "start",
+  "repeats previous": 0.09159378036929057,
+  "repeats if order were random": 0.0816326530612245,
+  "off-diagonal CMI": 0.001441708240653039,
+  "repeat excess": 0.009961127308066073
+ },
+ {
+  "text": "generator with settings",
+  "feature": "gallows",
+  "repeats previous": 0.36370262390670555,
+  "repeats if order were random": 0.34475218658892126,
+  "off-diagonal CMI": -0.005622826866038322,
+  "repeat excess": 0.018950437317784286
+ },
+ {
+  "text": "generator with settings",
+  "feature": "ending",
+  "repeats previous": 0.10777453838678329,
+  "repeats if order were random": 0.09758017492711371,
+  "off-diagonal CMI": 0.0014038653555372704,
+  "repeat excess": 0.010194363459669578
+ },
+ {
+  "text": "generator with settings",
+  "feature": "length",
+  "repeats previous": 0.25145772594752186,
+  "repeats if order were random": 0.22931729834791054,
+  "off-diagonal CMI": 0.0005961176615689179,
+  "repeat excess": 0.022140427599611323
+ }
+]

@@ -1,0 +1,1472 @@
+[
+ {
+  "word starts": "che",
+  "next word starts": "op",
+  "observed": 2,
+  "expected": 16.1,
+  "ratio": 0.12391573729863692
+ },
+ {
+  "word starts": "ai",
+  "next word starts": "ot",
+  "observed": 7,
+  "expected": 15.7,
+  "ratio": 0.44642857142857145
+ },
+ {
+  "word starts": "or",
+  "next word starts": "al",
+  "observed": 9,
+  "expected": 19.7,
+  "ratio": 0.4563894523326572
+ },
+ {
+  "word starts": "sa",
+  "next word starts": "ot",
+  "observed": 9,
+  "expected": 18.1,
+  "ratio": 0.496141124586549
+ },
+ {
+  "word starts": "or",
+  "next word starts": "ar",
+  "observed": 15,
+  "expected": 27.3,
+  "ratio": 0.5502567865003668
+ },
+ {
+  "word starts": "al",
+  "next word starts": "ok",
+  "observed": 10,
+  "expected": 17.7,
+  "ratio": 0.5662514156285391
+ },
+ {
+  "word starts": "che",
+  "next word starts": "chd",
+  "observed": 10,
+  "expected": 16.3,
+  "ratio": 0.6142506142506142
+ },
+ {
+  "word starts": "ka",
+  "next word starts": "ot",
+  "observed": 10,
+  "expected": 15.5,
+  "ratio": 0.6435006435006435
+ },
+ {
+  "word starts": "aii",
+  "next word starts": "ol",
+  "observed": 22,
+  "expected": 32.7,
+  "ratio": 0.6727828746177369
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "cho",
+  "observed": 11,
+  "expected": 16.3,
+  "ratio": 0.6731946144430845
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "or",
+  "observed": 17,
+  "expected": 25.0,
+  "ratio": 0.68
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "chee",
+  "observed": 12,
+  "expected": 17.1,
+  "ratio": 0.7001166861143524
+ },
+ {
+  "word starts": "che",
+  "next word starts": "ar",
+  "observed": 14,
+  "expected": 19.8,
+  "ratio": 0.7063572149344097
+ },
+ {
+  "word starts": "chd",
+  "next word starts": "che",
+  "observed": 13,
+  "expected": 18.0,
+  "ratio": 0.7222222222222222
+ },
+ {
+  "word starts": "da",
+  "next word starts": "aii",
+  "observed": 13,
+  "expected": 17.7,
+  "ratio": 0.7344632768361582
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "ar",
+  "observed": 12,
+  "expected": 16.3,
+  "ratio": 0.7361963190184049
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "cho",
+  "observed": 17,
+  "expected": 23.1,
+  "ratio": 0.7365684575389948
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "aii",
+  "observed": 18,
+  "expected": 24.1,
+  "ratio": 0.7462686567164178
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "aii",
+  "observed": 20,
+  "expected": 26.6,
+  "ratio": 0.7524454477050414
+ },
+ {
+  "word starts": "chee",
+  "next word starts": "ot",
+  "observed": 15,
+  "expected": 19.9,
+  "ratio": 0.7552870090634441
+ },
+ {
+  "word starts": "lk",
+  "next word starts": "che",
+  "observed": 26,
+  "expected": 34.1,
+  "ratio": 0.7624633431085044
+ },
+ {
+  "word starts": "or",
+  "next word starts": "che",
+  "observed": 22,
+  "expected": 28.7,
+  "ratio": 0.766016713091922
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "al",
+  "observed": 24,
+  "expected": 31.3,
+  "ratio": 0.7662835249042146
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "chee",
+  "observed": 55,
+  "expected": 69.8,
+  "ratio": 0.7881914588707366
+ },
+ {
+  "word starts": "ar",
+  "next word starts": "ot",
+  "observed": 17,
+  "expected": 21.5,
+  "ratio": 0.7892293407613742
+ },
+ {
+  "word starts": "ar",
+  "next word starts": "aii",
+  "observed": 26,
+  "expected": 32.7,
+  "ratio": 0.7951070336391437
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "l",
+  "observed": 20,
+  "expected": 25.0,
+  "ratio": 0.7987220447284346
+ },
+ {
+  "word starts": "da",
+  "next word starts": "chee",
+  "observed": 17,
+  "expected": 21.1,
+  "ratio": 0.804162724692526
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "ok",
+  "observed": 88,
+  "expected": 108.0,
+  "ratio": 0.8148148148148148
+ },
+ {
+  "word starts": "lk",
+  "next word starts": "ol",
+  "observed": 15,
+  "expected": 18.2,
+  "ratio": 0.8250825082508251
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "chee",
+  "observed": 17,
+  "expected": 20.4,
+  "ratio": 0.8325171400587659
+ },
+ {
+  "word starts": "ar",
+  "next word starts": "ol",
+  "observed": 18,
+  "expected": 21.5,
+  "ratio": 0.8364312267657993
+ },
+ {
+  "word starts": "da",
+  "next word starts": "cho",
+  "observed": 16,
+  "expected": 19.0,
+  "ratio": 0.8412197686645636
+ },
+ {
+  "word starts": "yk",
+  "next word starts": "ot",
+  "observed": 13,
+  "expected": 15.3,
+  "ratio": 0.8485639686684073
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "aii",
+  "observed": 14,
+  "expected": 16.4,
+  "ratio": 0.851581508515815
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "cho",
+  "observed": 26,
+  "expected": 30.5,
+  "ratio": 0.8535784635587655
+ },
+ {
+  "word starts": "che",
+  "next word starts": "ot",
+  "observed": 74,
+  "expected": 86.7,
+  "ratio": 0.8539118393722595
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "or",
+  "observed": 55,
+  "expected": 64.3,
+  "ratio": 0.8548336959900528
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "lch",
+  "observed": 19,
+  "expected": 21.8,
+  "ratio": 0.8723599632690542
+ },
+ {
+  "word starts": "che",
+  "next word starts": "aii",
+  "observed": 18,
+  "expected": 20.3,
+  "ratio": 0.8875739644970414
+ },
+ {
+  "word starts": "che",
+  "next word starts": "she",
+  "observed": 45,
+  "expected": 50.6,
+  "ratio": 0.8900316455696202
+ },
+ {
+  "word starts": "shee",
+  "next word starts": "ot",
+  "observed": 14,
+  "expected": 15.6,
+  "ratio": 0.8962868117797695
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "ot",
+  "observed": 59,
+  "expected": 65.7,
+  "ratio": 0.8974749011256465
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "ok",
+  "observed": 59,
+  "expected": 65.7,
+  "ratio": 0.898021308980213
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ra",
+  "observed": 34,
+  "expected": 37.5,
+  "ratio": 0.9066666666666666
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "yk",
+  "observed": 14,
+  "expected": 15.4,
+  "ratio": 0.9067357512953368
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "yt",
+  "observed": 23,
+  "expected": 25.4,
+  "ratio": 0.9069400630914827
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "ol",
+  "observed": 77,
+  "expected": 84.7,
+  "ratio": 0.9093056211620216
+ },
+ {
+  "word starts": "da",
+  "next word starts": "chckh",
+  "observed": 14,
+  "expected": 15.4,
+  "ratio": 0.9102730819245773
+ },
+ {
+  "word starts": "ka",
+  "next word starts": "ol",
+  "observed": 14,
+  "expected": 15.3,
+  "ratio": 0.9126466753585398
+ },
+ {
+  "word starts": "shd",
+  "next word starts": "qo",
+  "observed": 18,
+  "expected": 19.6,
+  "ratio": 0.9164969450101833
+ },
+ {
+  "word starts": "che",
+  "next word starts": "chee",
+  "observed": 18,
+  "expected": 19.6,
+  "ratio": 0.9193054136874362
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "lk",
+  "observed": 23,
+  "expected": 25.0,
+  "ratio": 0.92
+ },
+ {
+  "word starts": "da",
+  "next word starts": "or",
+  "observed": 15,
+  "expected": 16.3,
+  "ratio": 0.9213759213759213
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "lk",
+  "observed": 17,
+  "expected": 18.4,
+  "ratio": 0.9259259259259259
+ },
+ {
+  "word starts": "she",
+  "next word starts": "ok",
+  "observed": 53,
+  "expected": 57.1,
+  "ratio": 0.9275463773188659
+ },
+ {
+  "word starts": "po",
+  "next word starts": "she",
+  "observed": 14,
+  "expected": 15.1,
+  "ratio": 0.9296148738379814
+ },
+ {
+  "word starts": "ych",
+  "next word starts": "qo",
+  "observed": 22,
+  "expected": 23.6,
+  "ratio": 0.9329940627650553
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "or",
+  "observed": 24,
+  "expected": 25.7,
+  "ratio": 0.933852140077821
+ },
+ {
+  "word starts": "aii",
+  "next word starts": "ot",
+  "observed": 43,
+  "expected": 46.0,
+  "ratio": 0.9355961705831157
+ },
+ {
+  "word starts": "shee",
+  "next word starts": "ok",
+  "observed": 18,
+  "expected": 19.2,
+  "ratio": 0.9394572025052192
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "s",
+  "observed": 16,
+  "expected": 17.0,
+  "ratio": 0.9411764705882353
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ka",
+  "observed": 19,
+  "expected": 20.1,
+  "ratio": 0.9433962264150944
+ },
+ {
+  "word starts": "al",
+  "next word starts": "che",
+  "observed": 22,
+  "expected": 23.3,
+  "ratio": 0.944206008583691
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ol",
+  "observed": 213,
+  "expected": 224.4,
+  "ratio": 0.9490286936374978
+ },
+ {
+  "word starts": "op",
+  "next word starts": "qo",
+  "observed": 43,
+  "expected": 45.2,
+  "ratio": 0.9521700620017716
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "she",
+  "observed": 62,
+  "expected": 65.1,
+  "ratio": 0.9526736324523664
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "da",
+  "observed": 160,
+  "expected": 167.8,
+  "ratio": 0.9535160905840285
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "she",
+  "observed": 225,
+  "expected": 235.1,
+  "ratio": 0.9572024164043222
+ },
+ {
+  "word starts": "sa",
+  "next word starts": "ok",
+  "observed": 20,
+  "expected": 20.9,
+  "ratio": 0.9578544061302683
+ },
+ {
+  "word starts": "od",
+  "next word starts": "qo",
+  "observed": 16,
+  "expected": 16.6,
+  "ratio": 0.9615384615384615
+ },
+ {
+  "word starts": "ar",
+  "next word starts": "ai",
+  "observed": 16,
+  "expected": 16.5,
+  "ratio": 0.9673518742442564
+ },
+ {
+  "word starts": "so",
+  "next word starts": "qo",
+  "observed": 19,
+  "expected": 19.6,
+  "ratio": 0.9674134419551934
+ },
+ {
+  "word starts": "da",
+  "next word starts": "ot",
+  "observed": 49,
+  "expected": 50.6,
+  "ratio": 0.9679968391939945
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "shee",
+  "observed": 50,
+  "expected": 51.6,
+  "ratio": 0.9697439875872769
+ },
+ {
+  "word starts": "aii",
+  "next word starts": "che",
+  "observed": 40,
+  "expected": 41.0,
+  "ratio": 0.975609756097561
+ },
+ {
+  "word starts": "chee",
+  "next word starts": "qo",
+  "observed": 85,
+  "expected": 87.0,
+  "ratio": 0.9767869455297633
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "chd",
+  "observed": 42,
+  "expected": 42.9,
+  "ratio": 0.9781089892873778
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "lch",
+  "observed": 58,
+  "expected": 59.2,
+  "ratio": 0.9797297297297297
+ },
+ {
+  "word starts": "cho",
+  "next word starts": "che",
+  "observed": 35,
+  "expected": 35.7,
+  "ratio": 0.9809417040358744
+ },
+ {
+  "word starts": "lch",
+  "next word starts": "qo",
+  "observed": 67,
+  "expected": 68.3,
+  "ratio": 0.9815411661295048
+ },
+ {
+  "word starts": "da",
+  "next word starts": "she",
+  "observed": 76,
+  "expected": 77.3,
+  "ratio": 0.9831824062095731
+ },
+ {
+  "word starts": "da",
+  "next word starts": "qo",
+  "observed": 56,
+  "expected": 56.9,
+  "ratio": 0.9838369641602248
+ },
+ {
+  "word starts": "lsh",
+  "next word starts": "qo",
+  "observed": 43,
+  "expected": 43.6,
+  "ratio": 0.9853345554537122
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "qo",
+  "observed": 213,
+  "expected": 215.9,
+  "ratio": 0.9866592551417455
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ok",
+  "observed": 251,
+  "expected": 254.2,
+  "ratio": 0.9873338053654315
+ },
+ {
+  "word starts": "da",
+  "next word starts": "shee",
+  "observed": 22,
+  "expected": 22.3,
+  "ratio": 0.9874326750448833
+ },
+ {
+  "word starts": "da",
+  "next word starts": "ol",
+  "observed": 65,
+  "expected": 65.7,
+  "ratio": 0.9887435351384242
+ },
+ {
+  "word starts": "chckh",
+  "next word starts": "qo",
+  "observed": 35,
+  "expected": 35.4,
+  "ratio": 0.9898190045248869
+ },
+ {
+  "word starts": "she",
+  "next word starts": "qo",
+  "observed": 439,
+  "expected": 441.5,
+  "ratio": 0.9942474068034606
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "sho",
+  "observed": 35,
+  "expected": 35.2,
+  "ratio": 0.9943181818181818
+ },
+ {
+  "word starts": "aii",
+  "next word starts": "she",
+  "observed": 20,
+  "expected": 20.1,
+  "ratio": 0.9970089730807578
+ },
+ {
+  "word starts": "sho",
+  "next word starts": "qo",
+  "observed": 59,
+  "expected": 59.1,
+  "ratio": 0.9976327358809605
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "che",
+  "observed": 368,
+  "expected": 368.9,
+  "ratio": 0.9976684921108279
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "ol",
+  "observed": 73,
+  "expected": 73.1,
+  "ratio": 0.99835886214442
+ },
+ {
+  "word starts": "yt",
+  "next word starts": "qo",
+  "observed": 37,
+  "expected": 37.0,
+  "ratio": 0.9989200863930886
+ },
+ {
+  "word starts": "cho",
+  "next word starts": "ok",
+  "observed": 23,
+  "expected": 23.0,
+  "ratio": 0.9991311902693311
+ },
+ {
+  "word starts": "shee",
+  "next word starts": "qo",
+  "observed": 120,
+  "expected": 120.0,
+  "ratio": 1.000333444481494
+ },
+ {
+  "word starts": "cho",
+  "next word starts": "qo",
+  "observed": 71,
+  "expected": 70.8,
+  "ratio": 1.002258610954263
+ },
+ {
+  "word starts": "ar",
+  "next word starts": "ok",
+  "observed": 24,
+  "expected": 23.9,
+  "ratio": 1.0025062656641603
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "cha",
+  "observed": 27,
+  "expected": 26.9,
+  "ratio": 1.0029717682020802
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "qo",
+  "observed": 216,
+  "expected": 215.0,
+  "ratio": 1.0044642857142858
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "da",
+  "observed": 40,
+  "expected": 39.8,
+  "ratio": 1.0045203415369162
+ },
+ {
+  "word starts": "kch",
+  "next word starts": "qo",
+  "observed": 17,
+  "expected": 16.9,
+  "ratio": 1.0059171597633136
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "che",
+  "observed": 98,
+  "expected": 97.4,
+  "ratio": 1.0065735414954806
+ },
+ {
+  "word starts": "che",
+  "next word starts": "qo",
+  "observed": 372,
+  "expected": 369.2,
+  "ratio": 1.0076931411853938
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "lk",
+  "observed": 72,
+  "expected": 71.4,
+  "ratio": 1.007838745800672
+ },
+ {
+  "word starts": "tsh",
+  "next word starts": "qo",
+  "observed": 19,
+  "expected": 18.8,
+  "ratio": 1.0117145899893503
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "che",
+  "observed": 123,
+  "expected": 121.5,
+  "ratio": 1.0120125061708078
+ },
+ {
+  "word starts": "dy",
+  "next word starts": "qo",
+  "observed": 25,
+  "expected": 24.7,
+  "ratio": 1.0121457489878543
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "qo",
+  "observed": 155,
+  "expected": 153.0,
+  "ratio": 1.0130718954248366
+ },
+ {
+  "word starts": "pch",
+  "next word starts": "qo",
+  "observed": 32,
+  "expected": 31.5,
+  "ratio": 1.0171646535282899
+ },
+ {
+  "word starts": "ke",
+  "next word starts": "qo",
+  "observed": 22,
+  "expected": 21.6,
+  "ratio": 1.0175763182238668
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "shee",
+  "observed": 16,
+  "expected": 15.7,
+  "ratio": 1.0178117048346056
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "chckh",
+  "observed": 17,
+  "expected": 16.7,
+  "ratio": 1.0179640718562875
+ },
+ {
+  "word starts": "shckh",
+  "next word starts": "qo",
+  "observed": 24,
+  "expected": 23.6,
+  "ratio": 1.0186757215619695
+ },
+ {
+  "word starts": "lk",
+  "next word starts": "qo",
+  "observed": 51,
+  "expected": 50.0,
+  "ratio": 1.0191846522781776
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "or",
+  "observed": 25,
+  "expected": 24.5,
+  "ratio": 1.0195758564437194
+ },
+ {
+  "word starts": "kee",
+  "next word starts": "qo",
+  "observed": 37,
+  "expected": 36.3,
+  "ratio": 1.0198456449834619
+ },
+ {
+  "word starts": "tch",
+  "next word starts": "qo",
+  "observed": 24,
+  "expected": 23.5,
+  "ratio": 1.0204081632653061
+ },
+ {
+  "word starts": "she",
+  "next word starts": "da",
+  "observed": 35,
+  "expected": 34.3,
+  "ratio": 1.0210035005834306
+ },
+ {
+  "word starts": "dch",
+  "next word starts": "qo",
+  "observed": 24,
+  "expected": 23.5,
+  "ratio": 1.0212765957446808
+ },
+ {
+  "word starts": "or",
+  "next word starts": "ol",
+  "observed": 23,
+  "expected": 22.5,
+  "ratio": 1.0213143872113677
+ },
+ {
+  "word starts": "dsh",
+  "next word starts": "qo",
+  "observed": 37,
+  "expected": 36.2,
+  "ratio": 1.022099447513812
+ },
+ {
+  "word starts": "ai",
+  "next word starts": "che",
+  "observed": 17,
+  "expected": 16.6,
+  "ratio": 1.022864019253911
+ },
+ {
+  "word starts": "she",
+  "next word starts": "che",
+  "observed": 51,
+  "expected": 49.8,
+  "ratio": 1.0245078344716754
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "she",
+  "observed": 48,
+  "expected": 46.8,
+  "ratio": 1.0252029047415634
+ },
+ {
+  "word starts": "chd",
+  "next word starts": "qo",
+  "observed": 33,
+  "expected": 32.2,
+  "ratio": 1.0254816656308265
+ },
+ {
+  "word starts": "yk",
+  "next word starts": "qo",
+  "observed": 44,
+  "expected": 42.8,
+  "ratio": 1.0270774976657329
+ },
+ {
+  "word starts": "che",
+  "next word starts": "ka",
+  "observed": 22,
+  "expected": 21.4,
+  "ratio": 1.0270774976657329
+ },
+ {
+  "word starts": "do",
+  "next word starts": "qo",
+  "observed": 16,
+  "expected": 15.6,
+  "ratio": 1.0282776349614395
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "da",
+  "observed": 57,
+  "expected": 55.2,
+  "ratio": 1.0318609703113686
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "ka",
+  "observed": 23,
+  "expected": 22.3,
+  "ratio": 1.0323159784560143
+ },
+ {
+  "word starts": "yk",
+  "next word starts": "che",
+  "observed": 28,
+  "expected": 27.0,
+  "ratio": 1.0355029585798816
+ },
+ {
+  "word starts": "ka",
+  "next word starts": "che",
+  "observed": 25,
+  "expected": 24.1,
+  "ratio": 1.035625517812759
+ },
+ {
+  "word starts": "s",
+  "next word starts": "aii",
+  "observed": 35,
+  "expected": 33.8,
+  "ratio": 1.0361160449970397
+ },
+ {
+  "word starts": "so",
+  "next word starts": "she",
+  "observed": 23,
+  "expected": 22.1,
+  "ratio": 1.0407239819004523
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "che",
+  "observed": 88,
+  "expected": 83.5,
+  "ratio": 1.0541447053186392
+ },
+ {
+  "word starts": "che",
+  "next word starts": "lk",
+  "observed": 44,
+  "expected": 41.5,
+  "ratio": 1.0612638687891944
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "lch",
+  "observed": 19,
+  "expected": 17.9,
+  "ratio": 1.0614525139664805
+ },
+ {
+  "word starts": "da",
+  "next word starts": "ok",
+  "observed": 55,
+  "expected": 51.8,
+  "ratio": 1.0621861722672847
+ },
+ {
+  "word starts": "cho",
+  "next word starts": "ot",
+  "observed": 28,
+  "expected": 26.4,
+  "ratio": 1.062215477996965
+ },
+ {
+  "word starts": "chee",
+  "next word starts": "ok",
+  "observed": 21,
+  "expected": 19.7,
+  "ratio": 1.0649087221095335
+ },
+ {
+  "word starts": "che",
+  "next word starts": "lch",
+  "observed": 37,
+  "expected": 34.7,
+  "ratio": 1.065668202764977
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "al",
+  "observed": 19,
+  "expected": 17.8,
+  "ratio": 1.0662177328843996
+ },
+ {
+  "word starts": "che",
+  "next word starts": "da",
+  "observed": 91,
+  "expected": 85.2,
+  "ratio": 1.0685767966181305
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ot",
+  "observed": 270,
+  "expected": 252.5,
+  "ratio": 1.0693069306930694
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "she",
+  "observed": 70,
+  "expected": 65.4,
+  "ratio": 1.0703363914373087
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "dy",
+  "observed": 32,
+  "expected": 29.9,
+  "ratio": 1.07095046854083
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "chd",
+  "observed": 17,
+  "expected": 15.9,
+  "ratio": 1.0718789407313998
+ },
+ {
+  "word starts": "lk",
+  "next word starts": "ot",
+  "observed": 33,
+  "expected": 30.6,
+  "ratio": 1.0770234986945169
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "yk",
+  "observed": 30,
+  "expected": 27.8,
+  "ratio": 1.079913606911447
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "al",
+  "observed": 27,
+  "expected": 24.7,
+  "ratio": 1.0931174089068827
+ },
+ {
+  "word starts": "cho",
+  "next word starts": "ol",
+  "observed": 19,
+  "expected": 17.4,
+  "ratio": 1.0944700460829493
+ },
+ {
+  "word starts": "da",
+  "next word starts": "che",
+  "observed": 109,
+  "expected": 98.8,
+  "ratio": 1.103015583889901
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "sa",
+  "observed": 36,
+  "expected": 32.6,
+  "ratio": 1.1036174126302882
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "ot",
+  "observed": 99,
+  "expected": 89.6,
+  "ratio": 1.1051574012056262
+ },
+ {
+  "word starts": "yk",
+  "next word starts": "ol",
+  "observed": 17,
+  "expected": 15.3,
+  "ratio": 1.1096605744125325
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "od",
+  "observed": 19,
+  "expected": 17.1,
+  "ratio": 1.111111111111111
+ },
+ {
+  "word starts": "she",
+  "next word starts": "ol",
+  "observed": 48,
+  "expected": 43.1,
+  "ratio": 1.1136890951276102
+ },
+ {
+  "word starts": "or",
+  "next word starts": "she",
+  "observed": 19,
+  "expected": 17.1,
+  "ratio": 1.1137162954279016
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "lsh",
+  "observed": 23,
+  "expected": 20.6,
+  "ratio": 1.1175898931000974
+ },
+ {
+  "word starts": "che",
+  "next word starts": "lo",
+  "observed": 17,
+  "expected": 15.2,
+  "ratio": 1.1198945981554678
+ },
+ {
+  "word starts": "sa",
+  "next word starts": "she",
+  "observed": 35,
+  "expected": 31.1,
+  "ratio": 1.12540192926045
+ },
+ {
+  "word starts": "chckh",
+  "next word starts": "da",
+  "observed": 19,
+  "expected": 16.8,
+  "ratio": 1.1296076099881094
+ },
+ {
+  "word starts": "che",
+  "next word starts": "sa",
+  "observed": 17,
+  "expected": 15.0,
+  "ratio": 1.1303191489361704
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "y",
+  "observed": 21,
+  "expected": 18.5,
+  "ratio": 1.1339092872570196
+ },
+ {
+  "word starts": "da",
+  "next word starts": "ar",
+  "observed": 23,
+  "expected": 20.3,
+  "ratio": 1.1352418558736426
+ },
+ {
+  "word starts": "she",
+  "next word starts": "ot",
+  "observed": 64,
+  "expected": 56.1,
+  "ratio": 1.1400071250445316
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "da",
+  "observed": 40,
+  "expected": 35.0,
+  "ratio": 1.1422044545973729
+ },
+ {
+  "word starts": "so",
+  "next word starts": "che",
+  "observed": 18,
+  "expected": 15.7,
+  "ratio": 1.1464968152866242
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "op",
+  "observed": 45,
+  "expected": 38.9,
+  "ratio": 1.1556240369799693
+ },
+ {
+  "word starts": "op",
+  "next word starts": "ot",
+  "observed": 19,
+  "expected": 16.4,
+  "ratio": 1.1557177615571774
+ },
+ {
+  "word starts": "or",
+  "next word starts": "ok",
+  "observed": 18,
+  "expected": 15.6,
+  "ratio": 1.1568123393316194
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "do",
+  "observed": 22,
+  "expected": 19.0,
+  "ratio": 1.1578947368421053
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ro",
+  "observed": 23,
+  "expected": 19.9,
+  "ratio": 1.1581067472306144
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "lo",
+  "observed": 33,
+  "expected": 28.5,
+  "ratio": 1.1595221363316937
+ },
+ {
+  "word starts": "che",
+  "next word starts": "ok",
+  "observed": 105,
+  "expected": 89.9,
+  "ratio": 1.167964404894327
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "chckh",
+  "observed": 52,
+  "expected": 44.4,
+  "ratio": 1.1711711711711712
+ },
+ {
+  "word starts": "che",
+  "next word starts": "or",
+  "observed": 27,
+  "expected": 23.0,
+  "ratio": 1.171875
+ },
+ {
+  "word starts": "l",
+  "next word starts": "che",
+  "observed": 19,
+  "expected": 16.1,
+  "ratio": 1.1830635118306352
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "chcth",
+  "observed": 25,
+  "expected": 21.1,
+  "ratio": 1.1859582542694498
+ },
+ {
+  "word starts": "sa",
+  "next word starts": "che",
+  "observed": 30,
+  "expected": 25.2,
+  "ratio": 1.1914217633042097
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "ar",
+  "observed": 20,
+  "expected": 16.6,
+  "ratio": 1.2077294685990339
+ },
+ {
+  "word starts": "yk",
+  "next word starts": "ok",
+  "observed": 22,
+  "expected": 18.2,
+  "ratio": 1.208791208791209
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "lk",
+  "observed": 42,
+  "expected": 34.3,
+  "ratio": 1.2252042007001167
+ },
+ {
+  "word starts": "y",
+  "next word starts": "che",
+  "observed": 24,
+  "expected": 19.5,
+  "ratio": 1.2282497441146367
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "cho",
+  "observed": 99,
+  "expected": 80.1,
+  "ratio": 1.2356465302046928
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "shckh",
+  "observed": 20,
+  "expected": 16.1,
+  "ratio": 1.2391573729863692
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "op",
+  "observed": 26,
+  "expected": 20.8,
+  "ratio": 1.25
+ },
+ {
+  "word starts": "che",
+  "next word starts": "ol",
+  "observed": 78,
+  "expected": 62.2,
+  "ratio": 1.2540192926045015
+ },
+ {
+  "word starts": "lk",
+  "next word starts": "ok",
+  "observed": 35,
+  "expected": 27.9,
+  "ratio": 1.2544802867383513
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "chee",
+  "observed": 24,
+  "expected": 18.2,
+  "ratio": 1.3201320132013201
+ },
+ {
+  "word starts": "che",
+  "next word starts": "cho",
+  "observed": 39,
+  "expected": 29.2,
+  "ratio": 1.3356164383561644
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "yk",
+  "observed": 27,
+  "expected": 20.1,
+  "ratio": 1.345962113659023
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "yt",
+  "observed": 22,
+  "expected": 16.3,
+  "ratio": 1.346389228886169
+ },
+ {
+  "word starts": "sa",
+  "next word starts": "ol",
+  "observed": 31,
+  "expected": 22.8,
+  "ratio": 1.3596491228070176
+ },
+ {
+  "word starts": "aii",
+  "next word starts": "ok",
+  "observed": 59,
+  "expected": 43.2,
+  "ratio": 1.3651087459509488
+ },
+ {
+  "word starts": "qo",
+  "next word starts": "ar",
+  "observed": 40,
+  "expected": 29.3,
+  "ratio": 1.366120218579235
+ },
+ {
+  "word starts": "ka",
+  "next word starts": "ok",
+  "observed": 24,
+  "expected": 17.4,
+  "ratio": 1.3793103448275863
+ },
+ {
+  "word starts": "da",
+  "next word starts": "al",
+  "observed": 27,
+  "expected": 19.3,
+  "ratio": 1.3960703205791107
+ },
+ {
+  "word starts": "ar",
+  "next word starts": "al",
+  "observed": 33,
+  "expected": 23.6,
+  "ratio": 1.3994910941475829
+ },
+ {
+  "word starts": "ok",
+  "next word starts": "chd",
+  "observed": 25,
+  "expected": 17.7,
+  "ratio": 1.4108352144469527
+ },
+ {
+  "word starts": "or",
+  "next word starts": "ai",
+  "observed": 22,
+  "expected": 15.6,
+  "ratio": 1.4120667522464698
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "aii",
+  "observed": 23,
+  "expected": 16.1,
+  "ratio": 1.4250309789343245
+ },
+ {
+  "word starts": "ol",
+  "next word starts": "shee",
+  "observed": 23,
+  "expected": 16.1,
+  "ratio": 1.4285714285714284
+ },
+ {
+  "word starts": "ot",
+  "next word starts": "ar",
+  "observed": 36,
+  "expected": 25.1,
+  "ratio": 1.4354066985645935
+ },
+ {
+  "word starts": "che",
+  "next word starts": "al",
+  "observed": 23,
+  "expected": 15.5,
+  "ratio": 1.481958762886598
+ },
+ {
+  "word starts": "or",
+  "next word starts": "aii",
+  "observed": 49,
+  "expected": 32.6,
+  "ratio": 1.5030674846625767
+ },
+ {
+  "word starts": "yt",
+  "next word starts": "ot",
+  "observed": 33,
+  "expected": 19.6,
+  "ratio": 1.687116564417178
+ }
+]
