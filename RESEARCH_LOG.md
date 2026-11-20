@@ -2,6 +2,17 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (4)
+
+### 41 page dial (pages 80+ words; 30 shuffles)
+Eigenvalues PC1-5 (shuffled): A hand1 5.17(3.40) 3.34(2.89) 2.94(2.56) 2.76(2.27) 2.22(2.06), 6 real; B hands 2+3 7.57(3.85) 3.97(3.22) 3.09(2.74), 3 real; hand1 H 3 real; hand2 B 4; hand3 S 3.
+Split-half ARI k=2..6: A .29 .55 .55 .35 .25; B .89 .59/.68 .73/.60 .33/.64 .61/.50 (two runs; k-means starts); hand1 H .00 .66 .53 .30 .41; hand2 B .60 .69 .60 .47 .43; hand3 S .83 .84 .85 .91 .59. Shuffled all within +-0.05.
+Stars k=2: {f58r f58v f104r f104v f105r f105v f106r f106v f107r f112v f113r f113v f114r f114v f115v} vs {f103r f103v f107v f108r f108v f111r f111v f112r f116r}. Bathing k=2: {f75 f78 f79 f80 f81 r/v, f82v, f84r/v} vs {f76v f77r f77v f82r f83r f83v}.
+
+### 42 setting unit (pages 60+, distances relative to group mean pair, 2000 sheet resamples)
+same leaf / same side / opposite sides / facing other sheet: hand1 H .64/.66/.64/.85 (n 39/25/25/21); hand2 H .60/.78/.73/.63 (10/10/10/2); hand2 B .62/.52/.81/.88 (10/8/8/8); hand3 S .55/.61/.69/.82 (12/11/11/10).
+same side - facing: hand1 H -.196 [-.36,-.05]; hand2 B -.357 [-.58,-.13]; hand3 S -.213 [-.32,-.12]. same side - opposite: hand2 B -.287 (p .074), hand3 S -.083 (.095), hand1 H +.013.
+
 ## 2026-11-20 (3)
 
 ### 40 page identity (pages 80+ words, halves = odd/even lines)
