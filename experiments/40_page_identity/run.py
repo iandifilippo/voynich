@@ -113,7 +113,9 @@ def shuffle_lines(pages, rng):
     return out
 
 
-v = Voynich("ZL")
+import os
+TRANS = os.environ.get("VMS_TRANS", "ZL")
+v = Voynich(TRANS)
 book = defaultdict(list)
 meta = {}
 for l in v.lines:
@@ -159,10 +161,11 @@ for name, (hand, sec) in groups.items():
     for r in rows[-4:]:
         print(r, flush=True)
 
-save(HERE, "page_identity", rows)
-md = "# 40 page identity inside a section\n\n" + table(
+TAG = "" if TRANS == "ZL" else "_" + TRANS
+save(HERE, "page_identity" + TAG, rows)
+md = f"# 40 page identity inside a section ({TRANS})\n\n" + table(
     rows, ["pages", "text", "n pages", "own half closest", "own half, mean rank (0 best, 0.5 chance)",
            "neighbour / far distance", "own half closest, shared words removed",
            "mean rank, shared words removed"])
-write_md(HERE, "page_identity", md)
+write_md(HERE, "page_identity" + TAG, md)
 print(md)

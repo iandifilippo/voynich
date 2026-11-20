@@ -1,0 +1,154 @@
+[
+ {
+  "pages": "hand 1 herbal (A)",
+  "text": "manuscript",
+  "n pages": 49,
+  "own half closest": 0.3673469387755102,
+  "own half, mean rank (0 best, 0.5 chance)": 0.11500850340136055,
+  "neighbour / far distance": 0.8468547011428873,
+  "own half closest, shared words removed": 0.2653061224489796,
+  "mean rank, shared words removed": 0.15837585034013602
+ },
+ {
+  "pages": "hand 1 herbal (A)",
+  "text": "lines shuffled between pages",
+  "n pages": 49,
+  "own half closest": 0.025714285714285717,
+  "own half, mean rank (0 best, 0.5 chance)": 0.48317176870748296,
+  "neighbour / far distance": 0.9968523313889058,
+  "own half closest, shared words removed": 0.028571428571428567,
+  "mean rank, shared words removed": 0.48407738095238095
+ },
+ {
+  "pages": "hand 1 herbal (A)",
+  "text": "generator with echo (exp. 36)",
+  "n pages": 49,
+  "own half closest": 0.0326530612244898,
+  "own half, mean rank (0 best, 0.5 chance)": 0.4627551020408164,
+  "neighbour / far distance": 1.0021255999338903
+ },
+ {
+  "pages": "hand 1 herbal (A)",
+  "text": "copying model (copies from its own page)",
+  "n pages": 49,
+  "own half closest": 0.30272108843537415,
+  "own half, mean rank (0 best, 0.5 chance)": 0.09580498866213154,
+  "neighbour / far distance": 0.9245926515282553,
+  "own half closest, shared words removed": 0.08163265306122448,
+  "mean rank, shared words removed": 0.2800453514739229
+ },
+ {
+  "pages": "hand 2 herbal (B)",
+  "text": "manuscript",
+  "n pages": 19,
+  "own half closest": 0.34210526315789475,
+  "own half, mean rank (0 best, 0.5 chance)": 0.12573099415204675,
+  "neighbour / far distance": 0.806718488909296,
+  "own half closest, shared words removed": 0.2894736842105263,
+  "mean rank, shared words removed": 0.14766081871345027
+ },
+ {
+  "pages": "hand 2 herbal (B)",
+  "text": "lines shuffled between pages",
+  "n pages": 19,
+  "own half closest": 0.06578947368421052,
+  "own half, mean rank (0 best, 0.5 chance)": 0.4923099415204678,
+  "neighbour / far distance": 0.9954376537606727,
+  "own half closest, shared words removed": 0.07368421052631578,
+  "mean rank, shared words removed": 0.47616959064327474
+ },
+ {
+  "pages": "hand 2 herbal (B)",
+  "text": "generator with echo (exp. 36)",
+  "n pages": 19,
+  "own half closest": 0.08421052631578947,
+  "own half, mean rank (0 best, 0.5 chance)": 0.46900584795321637,
+  "neighbour / far distance": 0.9575862493965956
+ },
+ {
+  "pages": "hand 2 herbal (B)",
+  "text": "copying model (copies from its own page)",
+  "n pages": 19,
+  "own half closest": 0.5526315789473685,
+  "own half, mean rank (0 best, 0.5 chance)": 0.08284600389863547,
+  "neighbour / far distance": 0.8705900427051761,
+  "own half closest, shared words removed": 0.23684210526315788,
+  "mean rank, shared words removed": 0.24269005847953218
+ },
+ {
+  "pages": "hand 2 bathing (B)",
+  "text": "manuscript",
+  "n pages": 19,
+  "own half closest": 0.6842105263157895,
+  "own half, mean rank (0 best, 0.5 chance)": 0.03362573099415205,
+  "neighbour / far distance": 0.7990294251598332,
+  "own half closest, shared words removed": 0.5789473684210527,
+  "mean rank, shared words removed": 0.04970760233918129
+ },
+ {
+  "pages": "hand 2 bathing (B)",
+  "text": "lines shuffled between pages",
+  "n pages": 19,
+  "own half closest": 0.0536842105263158,
+  "own half, mean rank (0 best, 0.5 chance)": 0.5023684210526316,
+  "neighbour / far distance": 1.0096462366038272,
+  "own half closest, shared words removed": 0.06578947368421054,
+  "mean rank, shared words removed": 0.4720760233918129
+ },
+ {
+  "pages": "hand 2 bathing (B)",
+  "text": "generator with echo (exp. 36)",
+  "n pages": 19,
+  "own half closest": 0.06315789473684211,
+  "own half, mean rank (0 best, 0.5 chance)": 0.4880116959064328,
+  "neighbour / far distance": 1.0255472116189117
+ },
+ {
+  "pages": "hand 2 bathing (B)",
+  "text": "copying model (copies from its own page)",
+  "n pages": 19,
+  "own half closest": 0.5526315789473685,
+  "own half, mean rank (0 best, 0.5 chance)": 0.08284600389863547,
+  "neighbour / far distance": 0.8705900427051761,
+  "own half closest, shared words removed": 0.23684210526315788,
+  "mean rank, shared words removed": 0.24269005847953218
+ },
+ {
+  "pages": "hand 3 stars (B)",
+  "text": "manuscript",
+  "n pages": 24,
+  "own half closest": 0.7708333333333334,
+  "own half, mean rank (0 best, 0.5 chance)": 0.024456521739130432,
+  "neighbour / far distance": 0.7161320093106643,
+  "own half closest, shared words removed": 0.6666666666666666,
+  "mean rank, shared words removed": 0.05797101449275361
+ },
+ {
+  "pages": "hand 3 stars (B)",
+  "text": "lines shuffled between pages",
+  "n pages": 24,
+  "own half closest": 0.042083333333333334,
+  "own half, mean rank (0 best, 0.5 chance)": 0.4951086956521739,
+  "neighbour / far distance": 0.9942108515124666,
+  "own half closest, shared words removed": 0.03958333333333333,
+  "mean rank, shared words removed": 0.49465579710144925
+ },
+ {
+  "pages": "hand 3 stars (B)",
+  "text": "generator with echo (exp. 36)",
+  "n pages": 24,
+  "own half closest": 0.020833333333333332,
+  "own half, mean rank (0 best, 0.5 chance)": 0.4641304347826087,
+  "neighbour / far distance": 0.955063769698414
+ },
+ {
+  "pages": "hand 3 stars (B)",
+  "text": "copying model (copies from its own page)",
+  "n pages": 24,
+  "own half closest": 0.3819444444444444,
+  "own half, mean rank (0 best, 0.5 chance)": 0.11805555555555554,
+  "neighbour / far distance": 0.9129439781795045,
+  "own half closest, shared words removed": 0.125,
+  "mean rank, shared words removed": 0.2738526570048309
+ }
+]
