@@ -2,6 +2,20 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (10)
+
+### 51 replication (3+ signs; habits generator refit per text, grid sigma .3-1.2 x hold 1-4)
+beyond boundary text/gen, off-diag text/gen: ZL B .240/.076, .038/-.014 (sigma .9 hold 2.5); ZL A .181/.052, .075/-.008 (.6, 2.5); IT B .259/.109, .041/-.010 (.6, 2.5); IT A .159/.039, .053/-.016 (.6, 2.5).
+8 seeds: ZL B beyond .064-.116, off-diag -.023-.001; ZL A .010-.086, -.042-.003.
+
+### 52 grammar (classes start x end, 40 perms, cells exp >= 10, off-diagonal)
+corr log ratios: B halves -.019 (153 cells); A halves .073 (46); A vs B -.033 (151); ZL vs IT B .826 (339); B vs gen -.043 (283).
+Transfer bits/pair (across sheets / odd-even lines pooled / per sheet): B .0030/.0020/.0042; A .0008/-.0036/-.0010; gen .0045/.0026/.0018.
+
+### 53 recurring pairs (alternate sheets, 20 shuffles)
+seen before / shuffled / excess / reversed excess: B .178/.132/.045/-.002; A .105/.089/.016/-.001; gen .092/.076/.016/.001; Naibbe .123/.101/.023/.003; Latin .179/.113/.066/-.055; Italian .317/.180/.137/-.086.
+B top: or aiin 44/5.6, s aiin 35/1.8, ar aiin 24/6.4, r aiin 18/1.4, ol shedy 24/9.4, shey qokain 17/3.2, shedy qokedy 21/7.5, chedy qokeey 19/5.8, shedy qokaiin 17/4.2, qokeedy qokeedy 18/5.8. Excess by kind: different .97, one glyph apart .03, same word .01.
+
 ## 2026-11-20 (9)
 
 ### 50 habits-only generator (B sheets 100+ words; sheet identity = half-sheet own closest; gallows ratio d=2-4, nearby lines)
