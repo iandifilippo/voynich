@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-20 (3)
+
+### 40 page identity (pages 80+ words, halves = odd/even lines)
+Own half closest / mean rank / neighbour-far, ZL: hand1 H .382/.104/.818; hand2 H .342/.126/.772; hand2 B .605/.032/.783; hand3 S .729/.031/.705.
+Shared words removed: .314 .316 .526 .625. Lines shuffled: .021 .055 .054 .048. Echo generator: .020 .037 .068 .067. Copying (page_lines 20): .291 .553 .553 .382, shared removed .078 .237 .237 .125.
+IT: .367 .342 .684 .771, shared removed .265 .289 .579 .667. FG not applicable (alphabet).
+Generic profile (15 starts + 15 ends), own / shared removed: Casebook .114/.136 (22 pages), AlphabetOfTales .040/.040, Cirurgie .070/.020, Secreta LAT .080/.030, Picatrix .050/.070, Rettorica .070/.040; VMS hand1 H .284/.206, hand2 H .316/.289, hand2 B .526/.474, hand3 S .729/.479.
+
 ## 2026-11-20 (2)
 
 ### 39 forks (pages 60+ words, 34 fork features, 2000 permutations)
