@@ -1,0 +1,37 @@
+[
+ {
+  "cipher of Latin": "one word per letter, ~5 homophones each",
+  "frequent types": 111,
+  "held-out MI, K=16": 0.4604647449509098
+ },
+ {
+  "cipher of Latin": "one word per letter, ~40 homophones each",
+  "frequent types": 381,
+  "held-out MI, K=16": 0.28359787906054695
+ },
+ {
+  "cipher of Latin": "one word per syllable, 1 homophone",
+  "frequent types": 235,
+  "held-out MI, K=16": 0.6377944962244574
+ },
+ {
+  "cipher of Latin": "one word per syllable, ~3 homophones",
+  "frequent types": 360,
+  "held-out MI, K=16": 0.6875042859674417
+ },
+ {
+  "cipher of Latin": "one word per Latin word (codebook)",
+  "frequent types": 366,
+  "held-out MI, K=16": 0.12961078267828907
+ },
+ {
+  "cipher of Latin": "VMS Currier B (run.py)",
+  "frequent types": "",
+  "held-out MI, K=16": 0.08746677619475074
+ },
+ {
+  "cipher of Latin": "VMS Currier A (run.py)",
+  "frequent types": "",
+  "held-out MI, K=16": -0.006578851526436995
+ }
+]
