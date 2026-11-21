@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-21 (3)
+
+### 56 handwriting per sheet (boxes; pages >= 40 boxes; z-scored 4 measures)
+same leaf / other leaf same sheet / facing other sheet: hand1 H .77 (45) / .71 (62) / .85 (26); hand1 P too few; hand2 H .83 / .97 / .55 (2); hand2 B 1.07 / .94 / .89; hand3 S .64 / .86 / .86.
+Mantel handwriting vs fork profile (2000 perms): hand1 H r .097 p .044; hand2 H .090 .231; hand2 B .058 .324; hand3 S .085 .251.
+Other image sources checked: digitalgoldfisj79/voynich-images has 6 bathing pages at 1856 px wide; not enough for a manuscript-wide pixel study.
+
 ## 2026-11-21 (2)
 
 ### 55 spaces from boxes (lrozanova/voynich-units word boxes, 223 folios, 37 464 boxes, 30 305 in-line gaps; gap / folio median box height)
