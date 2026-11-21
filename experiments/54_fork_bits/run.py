@@ -43,7 +43,16 @@ src = (HERE.parent / "51_residual_replication" / "run.py").read_text()
 ns = {"__file__": str(HERE.parent / "51_residual_replication" / "run.py")}
 exec(compile(src[:src.index("rng = random.Random(0)\nrows = []")], "r51", "exec"), ns)
 KMAX = 8
-SYMBOLS = {"start (4)": lambda w: start_cls(w), "end (4)": lambda w: end_cls(w),
+GAL = ("t", "k", "p", "f", "cth", "ckh", "cph", "cfh")
+
+
+def gal_cls(w):
+    g = next((x for x in signs(w) if x in GAL), "-")
+    return 0 if g in ("t", "cth") else 1 if g in ("k", "ckh") else 2 if g != "-" else 3
+
+
+SYMBOLS = {"starts with qo (2)": lambda w: int(w.startswith("qo")), "gallows (4)": lambda w: gal_cls(w),
+           "start (4)": lambda w: start_cls(w), "end (4)": lambda w: end_cls(w),
            "start and end (16)": lambda w: fork(w)}
 
 
@@ -114,7 +123,11 @@ def cipher(template_sheets, bits_per_word, rng, machine):
             for _ in l:
                 chunk = stream[pos:pos + bits_per_word]
                 pos += bits_per_word
-                if bits_per_word == 2:
+                if bits_per_word == 1:
+                    q = int(chunk)
+                    keys = [k for k in pools if (k[0] == 0) == bool(q)]
+                    sc, ec = rng.choices(keys, [len(pools[k]) for k in keys])[0]
+                elif bits_per_word == 2:
                     sc = int(chunk, 2)
                     ec = rng.choices(range(4), [len(pools[(sc, e)]) for e in range(4)])[0]
                 else:
@@ -130,7 +143,8 @@ SB, SA = ns["load"]("ZL", "B"), ns["load"]("ZL", "A")
 B = [[w for w, _ in s] for s in SB]
 A = [[w for w, _ in s] for s in SA]
 machine = Assembler(order=2).fit([l for s in B for l in s])
-texts = {"cipher of Latin, 2 bits per word (start)": cipher(B, 2, rng, machine),
+texts = {"cipher of Latin, 1 bit per word (qo or not)": cipher(B, 1, rng, machine),
+         "cipher of Latin, 2 bits per word (start)": cipher(B, 2, rng, machine),
          "cipher of Latin, 4 bits per word (start + end)": cipher(B, 4, rng, machine),
          "habits generator (B)": ns["generator"](SB, 0.9, 2.5, 7),
          "Currier B": B, "Currier A": A}
@@ -147,7 +161,7 @@ for sym, f in SYMBOLS.items():
 save(HERE, "fork_bits", rows)
 md = ("# 54 bits hidden in the forks\n\nHeld-out bits per symbol, n-gram looking k symbols back, "
       "trained on half the sheets, tested on the other half.\n\n") + table(
-    rows, ["symbol", "text"] + [f"k={k}" for k in (0, 1, 2, 3, 4, 6, 8)] +
+    rows, ["symbol", "text"] + [f"k={k}" for k in (0, 1, 2, 3, 4, 6, 8) ] +
     ["gain k=1 over k=0", "gain from looking further than 1 back", "best k"])
 write_md(HERE, "fork_bits", md)
 print(md)
