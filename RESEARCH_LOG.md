@@ -2,6 +2,15 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-21 (2)
+
+### 55 spaces from boxes (lrozanova/voynich-units word boxes, 223 folios, 37 464 boxes, 30 305 in-line gaps; gap / folio median box height)
+Gap quantiles 1/5/10/20/30/50/70/90/99%: -.143 0 0 .125 .143 .286 .333 .5 2.857.
+Lexicon gain as boxed / touching joined / <=.125 / <=.143 (random-merge control): B -.216 / -.355 (-.386) / -.370 (-.410) / -.511 (-.579), closed .155 .181 .381; A -.317 / -.403 (-.443) / -.543 (-.585) / -.577 (-.596).
+Coupling last->first by gap tertile (20 shuffles): B .421 .212 .081 (7670/6139/6333 pairs); A .247 .093 .029.
+Residual beyond boundary by tertile (inside-sheet perms, 20): B .291 .241 .247 (all .295); A .137 .029 .134 (all .171).
+Literature added: Rozanova & Temerev arXiv:2608.17096; Smith & Ponzi 2019; Parisel 2025-26.
+
 ## 2026-11-21 (1)
 
 ### 54 fork bits (WB n-gram, train half sheets / test other half, both ways)

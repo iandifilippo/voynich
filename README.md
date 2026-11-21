@@ -102,6 +102,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 52 | a grammar? | the transition pattern is the same for two transcribers (r = 0.83) but not between halves of B (−0.02), A and B (−0.03), or odd and even lines; learned transitions predict nothing held-out (0.003 bits/pair, generator 0.004). No grammar at the level of kinds of word |
 | 53 | recurring word pairs | B repeats pairs more than controls (+34% vs +21-22%; Latin +59%, Italian +76%): false word breaks (or aiin, s aiin), a ch/sh-…-y → qo- rhythm, ol → ch/sh. Reversed pairs occur at chance in B (Latin −0.055, Italian −0.086 below chance): no word order |
 | 54 | attack: bits in the forks | Latin ciphers carrying 1, 2 or 4 bits per word in qo-/start/end are found from half the book (0.09, 0.18, 0.31 bits gained by looking 3-8 words back). Currier A and B: ≤0.009 in every channel, less than the habits generator. Every calibrated way of hiding a language in Voynich words is now excluded |
+| 55 | spaces from the page | with Rozanova & Temerev's word boxes (223 folios): words re-cut by physical gaps still have no lexicon (B −0.22 to −0.51). The coupling across the space is 0.42 bits at the narrowest third of gaps and 0.08 at the widest (Latin 0.04, Italian 0.12): mostly words split by the transcription. The residual of exps. 48-51 is the same at wide gaps (0.25) as narrow (0.29): it's between real words |
 
 Details and caveats in `RESEARCH_LOG.md`.
 
