@@ -1,0 +1,112 @@
+{
+ "lexicon": [
+  {
+   "Currier": "B",
+   "spacing": "as boxed",
+   "boundaries closed": 0.0,
+   "words": 23202,
+   "distinct per 1000": 212.2661839496595,
+   "lexicon gain": -0.21649181192712288
+  },
+  {
+   "Currier": "B",
+   "spacing": "touching boxes joined (gap <= 0)",
+   "boundaries closed": 0.1546519710058584,
+   "words": 20087,
+   "distinct per 1000": 319.16164683626226,
+   "lexicon gain": -0.35452303134651997,
+   "lexicon gain, same number closed at random": -0.38612285453332773
+  },
+  {
+   "Currier": "B",
+   "spacing": "gap <= 0.125 joined",
+   "boundaries closed": 0.18061761493396883,
+   "words": 19564,
+   "distinct per 1000": 337.3032099775097,
+   "lexicon gain": -0.3700532113604038,
+   "lexicon gain, same number closed at random": -0.4103896249619151
+  },
+  {
+   "Currier": "B",
+   "spacing": "gap <= 0.143 joined",
+   "boundaries closed": 0.380796345943799,
+   "words": 15532,
+   "distinct per 1000": 491.69456605717227,
+   "lexicon gain": -0.5110894714059002,
+   "lexicon gain, same number closed at random": -0.5786761974807708
+  },
+  {
+   "Currier": "A",
+   "spacing": "as boxed",
+   "boundaries closed": 0.0,
+   "words": 10983,
+   "distinct per 1000": 303.0137485204407,
+   "lexicon gain": -0.3171471118682141
+  },
+  {
+   "Currier": "A",
+   "spacing": "touching boxes joined (gap <= 0)",
+   "boundaries closed": 0.13006628273389112,
+   "words": 9786,
+   "distinct per 1000": 392.90823625587575,
+   "lexicon gain": -0.40306312851483755,
+   "lexicon gain, same number closed at random": -0.4429749885315531
+  },
+  {
+   "Currier": "A",
+   "spacing": "gap <= 0.125 joined",
+   "boundaries closed": 0.3112028686297946,
+   "words": 8119,
+   "distinct per 1000": 531.7157285379973,
+   "lexicon gain": -0.5430236357696645,
+   "lexicon gain, same number closed at random": -0.5852727152220113
+  },
+  {
+   "Currier": "A",
+   "spacing": "gap <= 0.143 joined",
+   "boundaries closed": 0.3411930892100402,
+   "words": 7843,
+   "distinct per 1000": 559.0972842024736,
+   "lexicon gain": -0.5766413682523865,
+   "lexicon gain, same number closed at random": -0.5958542863551982
+  }
+ ],
+ "coupling": [
+  {
+   "Currier": "B",
+   "gaps": "narrowest third",
+   "pairs": 7670,
+   "last sign -> next first sign (bits)": 0.42056477090770905
+  },
+  {
+   "Currier": "B",
+   "gaps": "middle third",
+   "pairs": 6139,
+   "last sign -> next first sign (bits)": 0.21223709715285644
+  },
+  {
+   "Currier": "B",
+   "gaps": "widest third",
+   "pairs": 6333,
+   "last sign -> next first sign (bits)": 0.08117960852557404
+  },
+  {
+   "Currier": "A",
+   "gaps": "narrowest third",
+   "pairs": 3140,
+   "last sign -> next first sign (bits)": 0.247138383254311
+  },
+  {
+   "Currier": "A",
+   "gaps": "middle third",
+   "pairs": 3140,
+   "last sign -> next first sign (bits)": 0.09334162523727227
+  },
+  {
+   "Currier": "A",
+   "gaps": "widest third",
+   "pairs": 2923,
+   "last sign -> next first sign (bits)": 0.028640151042868107
+  }
+ ]
+}
