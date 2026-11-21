@@ -15,14 +15,16 @@ experiment's NOTES.md.
   forks weighted differently. A few dozen states describe the words fully; for Latin or Italian no
   small machine does.
 - **There's no lexicon.** Remembering whole words helps predict held-out words in every language
-  tested, by 0.7-3.8 bits per word, and not at all in the manuscript (exp. 34).
+  tested, by 0.7-3.8 bits per word, and not at all in the manuscript (exp. 34), however the words are
+  cut, including by the physical gaps on the page (exp. 55).
 - **The setting belongs to the sheet.** Each page has its own weighting of the forks, held to the
   end of the page (exp. 40); it survives removing shared words, unlike copying, and real texts
   barely show it. Pages of the same folded sheet share it even when fifteen folios apart, more
   than pages that face each other in the binding (exps. 41-42). The sheets were written as units,
   before the present binding (cf. Davis's singulions).
-- **Habits between words.** A strong rule at the space (exp. 46: last sign → next first sign, 0.25
-  bits in B), a favoured gallows along a line (exp. 49), echoes of recent words (exp. 36), a
+- **Habits between words.** A link across the space (exp. 46: last sign → next first sign, 0.25
+  bits in B) that turns out to be mostly the inside of words split by the transcription: measured on
+  the page it is 0.42 bits at the narrowest gaps and 0.08 at the widest (exp. 55); a favoured gallows along a line (exp. 49), echoes of recent words (exp. 36), a
   *ch-/sh-…-y* → *qo-* rhythm and pairs without word order (exp. 53).
 
 ## What has been excluded, with calibration
@@ -40,7 +42,7 @@ experiment's NOTES.md.
 ## What is left
 
 - A residual link between neighbouring words that no habit I can model makes, in A and B and in
-  two transcriptions (exps. 48-51). It doesn't form a consistent grammar (exp. 52) and decomposes
+  two transcriptions (exps. 48-51), and between physically separate words too (exp. 55). It doesn't form a consistent grammar (exp. 52) and decomposes
   into false spaces, a rhythm, and repeated pairs without word order (exp. 53).
 - Channels not calibrated: line position, combinations of channels; text written with a plaintext
   that is itself near random (numbers, heavy abbreviation).

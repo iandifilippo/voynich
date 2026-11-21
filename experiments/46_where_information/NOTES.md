@@ -42,3 +42,9 @@ and Italian have across their spaces. The most favoured pairs in B are *s·a*, *
    ending, which is easy for a writer and hard to explain as part of a cipher.
 4. First sign → next first sign is about the same in B (0.071) as in a word-per-letter cipher
    (0.081). It's the one link that looks like what an encoded sequence would leave.
+
+**Later (exp. 55):** measured on the page with Rozanova and Temerev's word boxes, the coupling across
+the space is 0.42 bits at the narrowest third of gaps and 0.08 at the widest, about what Latin and
+Italian have. Most of what this note calls a rule at the boundary is the inside of words split by the
+transcription. The link between word endings and starts was first described by Smith and Ponzi
+(Cryptologia 43, 2019), which I should have cited here from the start.
