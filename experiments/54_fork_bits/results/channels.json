@@ -1,0 +1,86 @@
+[
+ {
+  "channel": "gallows (4)",
+  "text": "cipher of Latin in this channel (2 bit/word)",
+  "k=0": 1.8402008712601898,
+  "gain from looking further than 1 back": 0.17865278193705159,
+  "best k": 5
+ },
+ {
+  "channel": "gallows (4)",
+  "text": "habits generator (B)",
+  "k=0": 1.8698789832878737,
+  "gain from looking further than 1 back": 0.01713917787798991,
+  "best k": 2
+ },
+ {
+  "channel": "gallows (4)",
+  "text": "Currier B",
+  "k=0": 1.6978780602563175,
+  "gain from looking further than 1 back": 0.009082672117997515,
+  "best k": 2
+ },
+ {
+  "channel": "gallows (4)",
+  "text": "Currier A",
+  "k=0": 1.630883048092258,
+  "gain from looking further than 1 back": 0.009911266022076148,
+  "best k": 2
+ },
+ {
+  "channel": "length parity (2)",
+  "text": "cipher of Latin in this channel (1 bit/word)",
+  "k=0": 0.9259092617488096,
+  "gain from looking further than 1 back": 0.09727475257499307,
+  "best k": 9
+ },
+ {
+  "channel": "length parity (2)",
+  "text": "habits generator (B)",
+  "k=0": 0.9997916269955953,
+  "gain from looking further than 1 back": 0.0002307302628861141,
+  "best k": 2
+ },
+ {
+  "channel": "length parity (2)",
+  "text": "Currier B",
+  "k=0": 0.999755482606963,
+  "gain from looking further than 1 back": 0.0,
+  "best k": 0
+ },
+ {
+  "channel": "length parity (2)",
+  "text": "Currier A",
+  "k=0": 0.9998923505094643,
+  "gain from looking further than 1 back": 0.0,
+  "best k": 1
+ },
+ {
+  "channel": "has e-run (2)",
+  "text": "cipher of Latin in this channel (1 bit/word)",
+  "k=0": 0.9259092617488096,
+  "gain from looking further than 1 back": 0.09727475257499307,
+  "best k": 9
+ },
+ {
+  "channel": "has e-run (2)",
+  "text": "habits generator (B)",
+  "k=0": 0.9883461763166186,
+  "gain from looking further than 1 back": 0.0,
+  "best k": 1
+ },
+ {
+  "channel": "has e-run (2)",
+  "text": "Currier B",
+  "k=0": 0.9897525133524017,
+  "gain from looking further than 1 back": 0.0074036737031468736,
+  "best k": 6
+ },
+ {
+  "channel": "has e-run (2)",
+  "text": "Currier A",
+  "k=0": 0.7936529250054063,
+  "gain from looking further than 1 back": 0.022408966926709017,
+  "best k": 5
+ }
+]

@@ -56,3 +56,19 @@ putting a language into Voynich words that I've been able to calibrate is now ex
   half the sheets as training. Exp. 47 found no sign of per-sheet keys in the neighbour links.
 - Plaintext letters' own redundancy is what the test feeds on. A plaintext that is itself close to
   random (numbers, a compressed or abbreviated text) would leave almost nothing to find.
+
+## Later: the remaining channels (`channels.py`)
+
+Same test with ciphers that put their bits in the gallows (2 bits per word), the length parity
+(1 bit) and whether the word has an *e*-run (1 bit):
+
+| channel | cipher in that channel | habits generator | Currier B | Currier A |
+|---|---|---|---|---|
+| gallows | 0.179 (k = 5) | 0.012 | 0.009 | 0.010 |
+| length parity | 0.097 (k = 9) | 0.000 | 0.000 | 0.000 |
+| *e*-run | 0.097 (k = 9) | 0.001 | 0.007 | **0.022** (k = 5) |
+
+All calibrated, all empty in B. Currier A's *e*-run channel is above the generator, in both ZL
+(0.022) and IT (0.026), but most of it survives putting each sheet's lines in random order (0.014,
+0.019): it lives inside lines, a habit of *e*-heavy and *e*-free stretches, not a sequence running
+through the text. It's a quarter of what a 1-bit cipher leaves. I note it and don't count it.

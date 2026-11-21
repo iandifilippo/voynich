@@ -1,0 +1,14 @@
+[
+ {
+  "text": "Currier A (ZL)",
+  "gain": 0.022408966926709017,
+  "best k": 5,
+  "gain, lines in random order": 0.014435094614227761
+ },
+ {
+  "text": "Currier A (IT)",
+  "gain": 0.025699017544943747,
+  "best k": 5,
+  "gain, lines in random order": 0.018608624190449063
+ }
+]

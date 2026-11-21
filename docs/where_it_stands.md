@@ -35,15 +35,15 @@ experiment's NOTES.md.
 | homophones, one word per letter or syllable | exp. 44 | Latin ciphers of Voynich words (0.28-0.69 bits) | 0.09, mostly the boundary habit |
 | fixed tables of any kind | exp. 43 | Naibbe cipher (0% page identity) | 34-73% page identity |
 | a new key on every sheet | exp. 47 | Latin ciphers, one key vs key per sheet | same rules on every sheet |
-| a few bits per word in the forks | exp. 54 | Latin at 1, 2, 4 bits per word | nothing in any channel |
+| a few bits per word in the forks | exp. 54 | Latin at 1, 2, 4 bits per word in qo-, start, end, gallows, length, e-run | nothing in B; in A a weak e-run habit inside lines |
 
 ## What is left
 
 - A residual link between neighbouring words that no habit I can model makes, in A and B and in
   two transcriptions (exps. 48-51). It doesn't form a consistent grammar (exp. 52) and decomposes
   into false spaces, a rhythm, and repeated pairs without word order (exp. 53).
-- Channels not calibrated: the gallows, word length, *e*-runs, line position; text written with a
-  plaintext that is itself near random.
+- Channels not calibrated: line position, combinations of channels; text written with a plaintext
+  that is itself near random (numbers, heavy abbreviation).
 - Labels behave like a separate vocabulary (exp. 45), and ring/circle text has hardly been looked
   at on its own.
 
