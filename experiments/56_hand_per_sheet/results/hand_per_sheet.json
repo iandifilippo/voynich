@@ -1,0 +1,58 @@
+{
+ "rows": [
+  {
+   "pages": "hand 1 herbal (A)",
+   "n": 91,
+   "same leaf": "0.77 (n=45)",
+   "other leaf of the same sheet": "0.71 (n=62)",
+   "facing in the binding, other sheet": "0.85 (n=26)"
+  },
+  {
+   "pages": "hand 2 herbal (B)",
+   "n": 20,
+   "same leaf": "0.83 (n=10)",
+   "other leaf of the same sheet": "0.97 (n=20)",
+   "facing in the binding, other sheet": "0.55 (n=2)"
+  },
+  {
+   "pages": "hand 2 bathing (B)",
+   "n": 19,
+   "same leaf": "1.07 (n=9)",
+   "other leaf of the same sheet": "0.94 (n=14)",
+   "facing in the binding, other sheet": "0.89 (n=7)"
+  },
+  {
+   "pages": "hand 3 stars (B)",
+   "n": 24,
+   "same leaf": "0.64 (n=11)",
+   "other leaf of the same sheet": "0.86 (n=20)",
+   "facing in the binding, other sheet": "0.86 (n=9)"
+  }
+ ],
+ "mantel": [
+  {
+   "pages": "hand 1 herbal (A)",
+   "n": 91,
+   "r (handwriting vs fork setting)": 0.09669148085553857,
+   "p": 0.04397801099450275
+  },
+  {
+   "pages": "hand 2 herbal (B)",
+   "n": 20,
+   "r (handwriting vs fork setting)": 0.089642296958139,
+   "p": 0.23088455772113944
+  },
+  {
+   "pages": "hand 2 bathing (B)",
+   "n": 19,
+   "r (handwriting vs fork setting)": 0.0583826564813055,
+   "p": 0.3243378310844578
+  },
+  {
+   "pages": "hand 3 stars (B)",
+   "n": 24,
+   "r (handwriting vs fork setting)": 0.08482346794548758,
+   "p": 0.25087456271864067
+  }
+ ]
+}
