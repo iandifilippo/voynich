@@ -15,6 +15,9 @@ The goal is to actually read it. The rule is that nothing counts until it beats 
   - `cisiojanus.py` the medieval syllable-per-day calendar, syllabified (365/365)
   - `naibbe.py` Greshko's Naibbe cipher from his published tables, plus an autokey variant and Smith's line-start rule
   - `scan.py` line and gap measurements on page images (numpy/scipy/scikit-image, only needed for experiment 12)
+  - `assemble.py` words built sign by sign (exp. 36), with optional per-sheet setting and per-line gallows habit
+  - `forks.py` a page's fork profile: how its words start, which gallows, how they end (exps. 39-43)
+  - `crack/` solvers: simulated annealing over a letter model, EM over an HMM (`hmm.py`), exchange clustering of words by their neighbours (`classes.py`)
 - **`experiments/`** – each one is a `run.py` plus its `results/`; `experiments/community/` tests other people's claims
 - **`docs/`** – state of the field, notes on f116v, GitHub landscape, and a paper draft (`docs/paper/draft.md`) on line and word-boundary structure
 - **`RESEARCH_LOG.md`** – what we tried and what came out
@@ -35,6 +38,10 @@ v.text_lines(language="B", hand="2")      # Currier B, scribe 2
 
 dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines of words)
 ```
+
+## Where it stands
+
+[`docs/where_it_stands.md`](docs/where_it_stands.md): how the text seems to be made, which cipher families have been excluded (and how each test was calibrated), and what is left.
 
 ## Results so far
 
@@ -94,6 +101,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 51 | residual replicates | beyond-boundary link, text vs refitted habits generator: ZL B 0.24 / 0.08, ZL A 0.18 / 0.05, IT B 0.26 / 0.11, IT A 0.16 / 0.04; text outside eight generator runs in every case |
 | 52 | a grammar? | the transition pattern is the same for two transcribers (r = 0.83) but not between halves of B (−0.02), A and B (−0.03), or odd and even lines; learned transitions predict nothing held-out (0.003 bits/pair, generator 0.004). No grammar at the level of kinds of word |
 | 53 | recurring word pairs | B repeats pairs more than controls (+34% vs +21-22%; Latin +59%, Italian +76%): false word breaks (or aiin, s aiin), a ch/sh-…-y → qo- rhythm, ol → ch/sh. Reversed pairs occur at chance in B (Latin −0.055, Italian −0.086 below chance): no word order |
+| 54 | attack: bits in the forks | Latin ciphers carrying 1, 2 or 4 bits per word in qo-/start/end are found from half the book (0.09, 0.18, 0.31 bits gained by looking 3-8 words back). Currier A and B: ≤0.009 in every channel, less than the habits generator. Every calibrated way of hiding a language in Voynich words is now excluded |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

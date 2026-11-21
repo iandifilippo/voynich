@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-21 (1)
+
+### 54 fork bits (WB n-gram, train half sheets / test other half, both ways)
+Gain from looking further than 1 back (best k): qo channel: 1-bit cipher .085 (8), 2-bit .005, 4-bit .000, gen .017, B .005, A .000. start: 1-bit .008, 2-bit .179 (5), 4-bit .006, gen .064, B .003, A .000. end: 4-bit .009, B .004, A .002. start+end: 4-bit .307 (3), 2-bit .000, gen .000, B .000, A .000. gallows: B .009, A .010, gen .018, ciphers .000.
+k=0 bits: qo B .677 A .457 gen .640; start B 1.952 A 1.803; start+end B 3.702 A 3.704.
+Added docs/where_it_stands.md.
+
 ## 2026-11-20 (10)
 
 ### 51 replication (3+ signs; habits generator refit per text, grid sigma .3-1.2 x hold 1-4)
