@@ -34,9 +34,7 @@ from voynich import Voynich  # noqa: E402
 from voynich.assemble import signs  # noqa: E402
 
 HERE = pathlib.Path(__file__).parent
-BOXES = pathlib.Path("/home/claude/lrozanova/voynich-units/data/voynich-units/morphometry_voynichese/voynichese_boxes")
-if not BOXES.exists():
-    BOXES = HERE.parent.parent / "data" / "external" / "voynich-units-boxes"
+BOXES = HERE.parent.parent / "data" / "external" / "voynich-units-boxes"  # see data/README.md
 
 
 def load_lines():

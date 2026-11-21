@@ -1,0 +1,50 @@
+[
+ {
+  "Currier": "B",
+  "gaps": "narrowest third",
+  "pairs": 7670,
+  "beyond the boundary (bits)": 0.29105547412813404
+ },
+ {
+  "Currier": "B",
+  "gaps": "middle third",
+  "pairs": 6139,
+  "beyond the boundary (bits)": 0.24123179597411926
+ },
+ {
+  "Currier": "B",
+  "gaps": "widest third",
+  "pairs": 6333,
+  "beyond the boundary (bits)": 0.24712120627823733
+ },
+ {
+  "Currier": "B",
+  "gaps": "all",
+  "pairs": 20142,
+  "beyond the boundary (bits)": 0.29478441218398155
+ },
+ {
+  "Currier": "A",
+  "gaps": "narrowest third",
+  "pairs": 3140,
+  "beyond the boundary (bits)": 0.13686003916664174
+ },
+ {
+  "Currier": "A",
+  "gaps": "middle third",
+  "pairs": 3140,
+  "beyond the boundary (bits)": 0.0285256388448393
+ },
+ {
+  "Currier": "A",
+  "gaps": "widest third",
+  "pairs": 2923,
+  "beyond the boundary (bits)": 0.1336160866316162
+ },
+ {
+  "Currier": "A",
+  "gaps": "all",
+  "pairs": 9203,
+  "beyond the boundary (bits)": 0.17098206110596145
+ }
+]
