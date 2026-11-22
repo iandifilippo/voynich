@@ -59,5 +59,5 @@ Coupling across certain spaces by ink width: 0.21 bits (narrowest third), 0.19, 
   than *i* or *e*, so some boundaries pick up a neighbouring gap. That blurs the coupling-by-width
   gradient, it doesn't create it.
 - Only 26 pages could be matched line by line; the gap histogram uses all 227.
-- The ink masks are the project's stage-1 masks; the paper's resolution is that of the published display
-  images (x-height about 8-10 px).
+- The ink masks are the project's stage-1 masks at the resolution of its display images (x-height about
+  8-10 px), so gaps are measured in steps of about 1/16 of an x-height.
