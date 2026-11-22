@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-22 (1)
+
+### 57 spaces in the ink (daniilvaino/VoynichManuscriptOCR stage-1 ink masks + row lines; band +-0.9 xh, 0.5 px step)
+115 976 gaps; share per 0.1 xh bin from 0: 3.2 21.5 19.9 14.6 8.7 4.3 3.7 2.3 1.6 1.5 1.2 1.2 1.4 1.4 1.5 1.3 1.2 1.3 1.4 1.2 1.0 ...
+Matched 26 pages, 499 P lines. Ink words/line at T .6/.8/1.0/1.2: 9.13/7.37/6.43/5.85; ZL split 7.88, join 7.38; exact match split .263/.395/.265/.170, join .208/.453/.367/.236; r .84/.90/.85/.80.
+Boundaries placed by glyph count (tol 1.5 glyphs): 3435; certain mean 1.353 median 1.363 >=.8 .727; doubtful .943 / .843 / .528. Coupling certain by ink tertile: .212 .193 .117.
+
 ## 2026-11-21 (3)
 
 ### 56 handwriting per sheet (boxes; pages >= 40 boxes; z-scored 4 measures)
