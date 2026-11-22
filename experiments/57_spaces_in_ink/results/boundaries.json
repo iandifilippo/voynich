@@ -1,0 +1,36 @@
+{
+ "widths": [
+  {
+   "ZL separator": "certain space",
+   "boundaries": 3183,
+   "mean ink gap (x-heights)": 1.35334462515592,
+   "median": 1.3631944444444446,
+   "share wider than 0.8": 0.7269871190700596
+  },
+  {
+   "ZL separator": "doubtful space",
+   "boundaries": 252,
+   "mean ink gap (x-heights)": 0.9425980455079706,
+   "median": 0.8426470588235295,
+   "share wider than 0.8": 0.5277777777777778
+  }
+ ],
+ "coupling": [
+  {
+   "certain spaces, ink gap": "narrowest third",
+   "pairs": 1064,
+   "last sign -> next first sign (bits)": 0.2118251931278503
+  },
+  {
+   "certain spaces, ink gap": "middle third",
+   "pairs": 1068,
+   "last sign -> next first sign (bits)": 0.1927061046196645
+  },
+  {
+   "certain spaces, ink gap": "widest third",
+   "pairs": 1051,
+   "last sign -> next first sign (bits)": 0.11703984485965528
+  }
+ ],
+ "n": 3435
+}
