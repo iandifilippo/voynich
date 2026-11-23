@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-23 (1)
+
+### 58 zodiac labels (first word of each L unit, 10 signs, 294 labels)
+Reuse in >1 sign .228, distinct/all .837; label machine (order-2 chain on all labels, 20 runs) .277 (max .323), .814. Same-index agreement / other / ratio, 5 signs with 30: start .343/.329/1.04 (rev .83); gallows 1.02 (.85); ending 1.01 (1.02); length 1.02 (1.11).
+
+### 59 detection limits (start channel, 2 bits/word, k up to 10)
+Gain: Latin full .179 (k5); no vowels .354 (5); first 3 letters .120 (4); initials .033 (3); word lengths as digits .143 (4); random digits .024 (3). B .003.
+
 ## 2026-11-22 (1)
 
 ### 57 spaces in the ink (daniilvaino/VoynichManuscriptOCR stage-1 ink masks + row lines; band +-0.9 xh, 0.5 px step)
