@@ -64,3 +64,7 @@ words, but with the classes of word that follow each other.
   (±0.006 per feature pair).
 - The settings model is one specific way to have per-sheet and per-line habits. A richer habit
   model could close more of the gap; that's the next thing to try to break this result.
+
+**Later (exp. 61):** the generator used here reset its echo of recent words at every line (a bug in
+`fill_sheet`). Fixed in exp. 61. Exp. 61 also shows that copying short runs within a sheet (one in 10-15
+words) makes the beyond-the-boundary link on its own.

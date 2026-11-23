@@ -126,43 +126,44 @@ def measure(sheets, rng):
     }
 
 
-rng = random.Random(0)
+if __name__ == "__main__":
+    rng = random.Random(0)
 
-# choose sigma and hold on the training sheets only: the generator fills the
-# training sheets' shapes and is scored against the training text itself
-train_text = [[w for w, _ in s] for s in train]
-t_target = measure(train_text, rng)
-best, best_n = (0.9, 2.5), -1
-grid = []
-for sigma in (0.0, 0.3, 0.6, 0.9):
-    for hold in (1.0, 2.5):
-        r = measure(final_generator(5, sigma, hold, shapes=train), rng)
-        n = sum(1 for k in t_target if t_target[k] and 0.8 <= r[k] / t_target[k] <= 1.25)
-        grid.append({"sigma": sigma, "hold": hold, "within range on training sheets": n})
-        print(grid[-1], flush=True)
-        if n > best_n:
-            best, best_n = (sigma, hold), n
+    # choose sigma and hold on the training sheets only: the generator fills the
+    # training sheets' shapes and is scored against the training text itself
+    train_text = [[w for w, _ in s] for s in train]
+    t_target = measure(train_text, rng)
+    best, best_n = (0.9, 2.5), -1
+    grid = []
+    for sigma in (0.0, 0.3, 0.6, 0.9):
+        for hold in (1.0, 2.5):
+            r = measure(final_generator(5, sigma, hold, shapes=train), rng)
+            n = sum(1 for k in t_target if t_target[k] and 0.8 <= r[k] / t_target[k] <= 1.25)
+            grid.append({"sigma": sigma, "hold": hold, "within range on training sheets": n})
+            print(grid[-1], flush=True)
+            if n > best_n:
+                best, best_n = (sigma, hold), n
 
-models = {"Currier B, odd sheets": test_text,
-          f"final generator (sigma {best[0]}, hold {best[1]}, chosen on even sheets)": final_generator(1, *best),
-          "final generator (sigma 0.9, hold 2.5, exp. 50)": final_generator(1),
-          "copying model": copying(1), "Naibbe cipher of Pliny": naibbe()}
-rows = []
-for name, sheets in models.items():
-    r = measure(sheets, rng)
-    rows.append({"model": name, **r})
-    print({k: (round(x, 3) if isinstance(x, float) else x) for k, x in rows[-1].items()}, flush=True)
-target = rows[0]
-keys = [k for k in target if k != "model"]
-for r in rows[1:]:
-    r["within 0.8-1.25x of B"] = sum(1 for k in keys if target[k] and 0.8 <= r[k] / target[k] <= 1.25)
-save(HERE, "scorecard", {"rows": rows, "grid": grid})
-cols1 = ["model", "distinct per 1000", "hapax share", "new words vs training half", "lexicon gain (bits)",
-         "mean signs per word", "qo- words"]
-cols2 = ["model", "sheet identity", "gallows same line / other", "beyond the boundary (bits)",
-         "recurring pairs excess", "class sequence (bits)", "within 0.8-1.25x of B"]
-md = "# 60 scorecard (fitted on B's even sheets, measured on its odd sheets)\n\n## Words\n\n" + table(rows, cols1)
-md += "\n## Pages, lines and sequence\n\n" + table(rows, cols2)
-md += "\n## Choice of settings on the training sheets\n\n" + table(grid, ["sigma", "hold", "within range on training sheets"])
-write_md(HERE, "scorecard", md)
-print(md)
+    models = {"Currier B, odd sheets": test_text,
+              f"final generator (sigma {best[0]}, hold {best[1]}, chosen on even sheets)": final_generator(1, *best),
+              "final generator (sigma 0.9, hold 2.5, exp. 50)": final_generator(1),
+              "copying model": copying(1), "Naibbe cipher of Pliny": naibbe()}
+    rows = []
+    for name, sheets in models.items():
+        r = measure(sheets, rng)
+        rows.append({"model": name, **r})
+        print({k: (round(x, 3) if isinstance(x, float) else x) for k, x in rows[-1].items()}, flush=True)
+    target = rows[0]
+    keys = [k for k in target if k != "model"]
+    for r in rows[1:]:
+        r["within 0.8-1.25x of B"] = sum(1 for k in keys if target[k] and 0.8 <= r[k] / target[k] <= 1.25)
+    save(HERE, "scorecard", {"rows": rows, "grid": grid})
+    cols1 = ["model", "distinct per 1000", "hapax share", "new words vs training half", "lexicon gain (bits)",
+             "mean signs per word", "qo- words"]
+    cols2 = ["model", "sheet identity", "gallows same line / other", "beyond the boundary (bits)",
+             "recurring pairs excess", "class sequence (bits)", "within 0.8-1.25x of B"]
+    md = "# 60 scorecard (fitted on B's even sheets, measured on its odd sheets)\n\n## Words\n\n" + table(rows, cols1)
+    md += "\n## Pages, lines and sequence\n\n" + table(rows, cols2)
+    md += "\n## Choice of settings on the training sheets\n\n" + table(grid, ["sigma", "hold", "within range on training sheets"])
+    write_md(HERE, "scorecard", md)
+    print(md)
