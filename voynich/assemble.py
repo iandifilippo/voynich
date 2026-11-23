@@ -36,7 +36,8 @@ def position(i, n, para_start):
 
 class Assembler:
     def __init__(self, order=2, link=True, min_count=3, recall_p=0.0, edit_p=0.0, window=20,
-                 sheet_sigma=0.0, hold=1.0):
+                 sheet_sigma=0.0, hold=1.0, follow_p=0.0):
+        self.follow_p = follow_p
         self.sheet_sigma = sheet_sigma
         self.hold = hold
         self.weights = None
@@ -153,28 +154,39 @@ class Assembler:
         rng = random.Random(seed)
         self.new_setting(rng)
         out = []
+        history = []
         for n, para_start in shape:
             self.line_gallows = rng.choice(GALLOWS[:4]) if self.hold != 1.0 else None
-            out += self.fill([(n, para_start)], seed=rng.randrange(10 ** 9))
+            out += self.fill([(n, para_start)], seed=rng.randrange(10 ** 9), history=history)
         self.weights = None
         self.line_gallows = None
         return out
 
-    def fill(self, shape, seed=0):
+    def fill(self, shape, seed=0, history=None):
         """shape is one page. With recall_p > 0 a word is, with that
         probability, a repeat of one of the last `window` words on the page,
         and with probability edit_p such a word with one sign redrawn (only
-        for words inside a line)."""
+        for words inside a line). With follow_p > 0, if the previous word
+        already occurred on the page, the word that followed it there is
+        written again (possibly with a sign redrawn, edit_p), i.e. a short
+        run is copied. `history` carries the page's words across calls."""
         rng = random.Random(seed)
         out = []
-        recent = []
+        recent = history if history is not None else []
         for n, para_start in shape:
             prev = "#"
             line = []
             for i in range(n):
                 pos = position(i, n, para_start)
                 r = rng.random()
-                if pos == "middle" and recent and r < self.recall_p:
+                follow = None
+                if self.follow_p and line and rng.random() < self.follow_p:
+                    starts = [k for k in range(len(recent) - 1) if recent[k] == line[-1]]
+                    if starts:
+                        follow = recent[rng.choice(starts) + 1]
+                if follow is not None:
+                    w = follow if rng.random() >= self.edit_p else self.edit(rng, pos, follow)
+                elif pos == "middle" and recent and r < self.recall_p:
                     w = rng.choice(recent[-self.window:])
                 elif pos == "middle" and recent and r < self.recall_p + self.edit_p:
                     w = self.edit(rng, pos, rng.choice(recent[-self.window:]))

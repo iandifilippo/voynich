@@ -162,3 +162,12 @@ def test_assembler_sheet_setting():
     m = Assembler(order=2, sheet_sigma=0.5, hold=3.0).fit(lines)
     out = m.fill_sheet([(4, False)] * 5, seed=2)
     assert [len(l) for l in out] == [4] * 5 and m.weights is None and m.line_gallows is None
+
+
+def test_assembler_follow_copies_runs():
+    from voynich.assemble import Assembler
+    lines = [["qokedy", "chedy", "daiin", "qotedy"], ["shedy", "qokaiin", "ol", "chedy"]] * 30
+    m = Assembler(order=2, follow_p=1.0).fit(lines)
+    out = m.fill_sheet([(6, False)] * 8, seed=3)
+    pairs = [(a, b) for l in out for a, b in zip(l, l[1:])]
+    assert len(set(pairs)) < len(pairs)
