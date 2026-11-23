@@ -148,20 +148,21 @@ texts = {"cipher of Latin, 1 bit per word (qo or not)": cipher(B, 1, rng, machin
          "cipher of Latin, 4 bits per word (start + end)": cipher(B, 4, rng, machine),
          "habits generator (B)": ns["generator"](SB, 0.9, 2.5, 7),
          "Currier B": B, "Currier A": A}
-rows = []
-for sym, f in SYMBOLS.items():
-    V = 16 if "16" in sym else 4
-    kmax = 4 if V == 16 else KMAX
-    for name, sheets in texts.items():
-        r = evaluate(sheets, f, V, kmax)
-        rows.append({"symbol": sym, "text": name, **{f"k={k}": r[k] for k in r}, "gain k=1 over k=0": r[0] - r[1],
-                     "gain from looking further than 1 back": r[1] - min(r[k] for k in range(1, kmax + 1)),
-                     "best k": min(r, key=r.get)})
-        print({k: (round(x, 4) if isinstance(x, float) else x) for k, x in rows[-1].items()}, flush=True)
-save(HERE, "fork_bits", rows)
-md = ("# 54 bits hidden in the forks\n\nHeld-out bits per symbol, n-gram looking k symbols back, "
-      "trained on half the sheets, tested on the other half.\n\n") + table(
-    rows, ["symbol", "text"] + [f"k={k}" for k in (0, 1, 2, 3, 4, 6, 8) ] +
-    ["gain k=1 over k=0", "gain from looking further than 1 back", "best k"])
-write_md(HERE, "fork_bits", md)
-print(md)
+if __name__ == "__main__":
+    rows = []
+    for sym, f in SYMBOLS.items():
+        V = 16 if "16" in sym else 4
+        kmax = 4 if V == 16 else KMAX
+        for name, sheets in texts.items():
+            r = evaluate(sheets, f, V, kmax)
+            rows.append({"symbol": sym, "text": name, **{f"k={k}": r[k] for k in r}, "gain k=1 over k=0": r[0] - r[1],
+                         "gain from looking further than 1 back": r[1] - min(r[k] for k in range(1, kmax + 1)),
+                         "best k": min(r, key=r.get)})
+            print({k: (round(x, 4) if isinstance(x, float) else x) for k, x in rows[-1].items()}, flush=True)
+    save(HERE, "fork_bits", rows)
+    md = ("# 54 bits hidden in the forks\n\nHeld-out bits per symbol, n-gram looking k symbols back, "
+          "trained on half the sheets, tested on the other half.\n\n") + table(
+        rows, ["symbol", "text"] + [f"k={k}" for k in (0, 1, 2, 3, 4, 6, 8) ] +
+        ["gain k=1 over k=0", "gain from looking further than 1 back", "best k"])
+    write_md(HERE, "fork_bits", md)
+    print(md)

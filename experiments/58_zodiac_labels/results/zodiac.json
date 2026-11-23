@@ -1,0 +1,89 @@
+{
+ "signs": {
+  "Pisces": 29,
+  "Aries": 30,
+  "Taurus": 30,
+  "Gemini": 29,
+  "Cancer": 29,
+  "Leo": 30,
+  "Virgo": 30,
+  "Libra": 28,
+  "Scorpio": 30,
+  "Sagittarius": 29
+ },
+ "reuse": [
+  {
+   "labels": "zodiac labels",
+   "share in more than one sign": 0.22789115646258504,
+   "distinct / all": 0.8367346938775511
+  },
+  {
+   "labels": "drawn from the label machine (20 runs, mean)",
+   "share in more than one sign": 0.27721088435374147,
+   "distinct / all": 0.8139455782312925
+  },
+  {
+   "labels": "machine, highest of 20 runs",
+   "share in more than one sign": 0.3231292517006803,
+   "distinct / all": 0.8605442176870748
+  }
+ ],
+ "position": [
+  {
+   "feature": "start",
+   "index": "same order",
+   "agree at same index": 0.3433333333333333,
+   "agree at other indices": 0.3293103448275862,
+   "ratio": 1.0425828970331588
+  },
+  {
+   "feature": "start",
+   "index": "reversed",
+   "agree at same index": 0.27666666666666667,
+   "agree at other indices": 0.33160919540229883,
+   "ratio": 0.834315424610052
+  },
+  {
+   "feature": "gallows",
+   "index": "same order",
+   "agree at same index": 0.25666666666666665,
+   "agree at other indices": 0.25264367816091954,
+   "ratio": 1.0159235668789808
+  },
+  {
+   "feature": "gallows",
+   "index": "reversed",
+   "agree at same index": 0.21666666666666667,
+   "agree at other indices": 0.2540229885057471,
+   "ratio": 0.8529411764705883
+  },
+  {
+   "feature": "ending",
+   "index": "same order",
+   "agree at same index": 0.31333333333333335,
+   "agree at other indices": 0.3102298850574713,
+   "ratio": 1.010003705075954
+  },
+  {
+   "feature": "ending",
+   "index": "reversed",
+   "agree at same index": 0.31666666666666665,
+   "agree at other indices": 0.3101149425287356,
+   "ratio": 1.0211267605633803
+  },
+  {
+   "feature": "length",
+   "index": "same order",
+   "agree at same index": 0.3566666666666667,
+   "agree at other indices": 0.3508045977011494,
+   "ratio": 1.0167103538663174
+  },
+  {
+   "feature": "length",
+   "index": "reversed",
+   "agree at same index": 0.38666666666666666,
+   "agree at other indices": 0.34977011494252874,
+   "ratio": 1.105488005257969
+  }
+ ]
+}
