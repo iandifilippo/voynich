@@ -2,6 +2,16 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-23 (3)
+
+### 62 rhythm (obs/exp, shuffle in sheet by position, 30)
+qo->ch/sh, ch/sh->qo, qo->qo, ch/sh->ch/sh, alternation: B 1.137 1.470 1.060 .742 1.508; A 1.107 1.275 1.274 .911 1.245; B herbal 1.517; bathing 1.850; stars 1.362; text 1.340. Along line, pair at word 1-7: 1.39 1.50 1.43 1.59 1.47 1.37 1.48. Boxes: B all 1.474, widest third 1.299 (ch/sh->qo 1.42); A 1.021, .960.
+ch/sh ending -> next qo ratio: y 1.887 (3116), l .958, r .563, n .796, other .751. P(q next | prev ends): ch/sh-dy .412, qo-dy .375, o-dy .351, other-dy .315; ch/sh-ey .361, qo-ey .332, o-ey .286.
+Generator (exp 61 hybrid): ch/sh-y->qo .246 / base .155 = 1.59; B odd .405/.207 = 1.96.
+
+### 63 link two signs
+Train grid follow 0/.05/.1/.15: within 8/7/7/5, rhythm 1.55/1.42/1.45/1.54. Test: link1+follow.05: rhythm 1.564, class seq -.000, 6/11; link2+follow0: 1.606, .020, 5/11.
+
 ## 2026-11-23 (2)
 
 ### 60 scorecard (B sheets 100+ words; train even, test odd)

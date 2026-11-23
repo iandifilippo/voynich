@@ -1,0 +1,73 @@
+{
+ "grid": [
+  {
+   "follow_p": 0.0,
+   "within range on training sheets": 8,
+   "rhythm": 1.544742302917292
+  },
+  {
+   "follow_p": 0.05,
+   "within range on training sheets": 7,
+   "rhythm": 1.418691280337922
+  },
+  {
+   "follow_p": 0.1,
+   "within range on training sheets": 7,
+   "rhythm": 1.4531221108029302
+  },
+  {
+   "follow_p": 0.15,
+   "within range on training sheets": 5,
+   "rhythm": 1.5437625478386348
+  }
+ ],
+ "rows": [
+  {
+   "model": "Currier B, odd sheets",
+   "distinct per 1000": 248.94763428186565,
+   "hapax share": 0.6773757186337505,
+   "new words vs training half": 0.18269068866812593,
+   "lexicon gain (bits)": -0.2634908693274156,
+   "mean signs per word": 4.376746927092103,
+   "qo- words": 0.19531907728573833,
+   "sheet identity": 1.0,
+   "gallows same line / other": 1.0640514442947373,
+   "beyond the boundary (bits)": 0.2316887725629251,
+   "recurring pairs excess": 0.05307599517490953,
+   "class sequence (bits)": 0.06342072724501094,
+   "rhythm (ch/sh-y -> qo)": 1.9599467158197477
+  },
+  {
+   "model": "link on 1 sign, run copying 0.05 (exp. 61)",
+   "distinct per 1000": 283.21266206432057,
+   "hapax share": 0.7000594530321046,
+   "new words vs training half": 0.2199865297188079,
+   "lexicon gain (bits)": -0.3398346101761229,
+   "mean signs per word": 4.216955716450581,
+   "qo- words": 0.12468429028455968,
+   "sheet identity": 0.8,
+   "gallows same line / other": 1.0182950548356375,
+   "beyond the boundary (bits)": 0.05365858080781341,
+   "recurring pairs excess": 0.01816948130277444,
+   "class sequence (bits)": -0.0003554363351182463,
+   "rhythm (ch/sh-y -> qo)": 1.5637415123037064,
+   "within 0.8-1.25x of B": 6
+  },
+  {
+   "model": "link on 2 signs, run copying 0.0 (chosen on even sheets)",
+   "distinct per 1000": 290.95807374978955,
+   "hapax share": 0.7089120370370371,
+   "new words vs training half": 0.22032328674861087,
+   "lexicon gain (bits)": -0.3642964474889613,
+   "mean signs per word": 4.249536959084021,
+   "qo- words": 0.1298198349890554,
+   "sheet identity": 0.6,
+   "gallows same line / other": 1.051650553540527,
+   "beyond the boundary (bits)": 0.12920492191562138,
+   "recurring pairs excess": 0.029297346200241242,
+   "class sequence (bits)": 0.019710536575028276,
+   "rhythm (ch/sh-y -> qo)": 1.6059718023768825,
+   "within 0.8-1.25x of B": 5
+  }
+ ]
+}
