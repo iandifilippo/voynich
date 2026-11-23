@@ -38,6 +38,7 @@ experiment's NOTES.md.
 | fixed tables of any kind | exp. 43 | Naibbe cipher (0% page identity) | 34-73% page identity |
 | a new key on every sheet | exp. 47 | Latin ciphers, one key vs key per sheet | same rules on every sheet |
 | a few bits per word in the forks (plaintext down to random digits, exp. 59) | exp. 54 | Latin at 1, 2, 4 bits per word in qo-, start, end, gallows, length, e-run | nothing in B; in A a weak e-run habit inside lines |
+| pharma labels are the plant names used in the herbal text | exp. 64 | label planted once in its twin page, exact or one sign off (p .002) | 0 of 41 labels in the twin page, not nearer than chance |
 
 ## What is left
 

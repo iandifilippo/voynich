@@ -1,0 +1,603 @@
+{
+ "rows": [
+  {
+   "set": "labels by the twin plant",
+   "n": 41,
+   "score": "exact",
+   "twin percentile": 0.5020708697653015,
+   "null": 0.5000579843534285,
+   "p": 1.0,
+   "twin hits": 0
+  },
+  {
+   "set": "labels by the twin plant",
+   "n": 41,
+   "score": "near",
+   "twin percentile": 0.49742729167191285,
+   "null": 0.4998852856511336,
+   "p": 0.4992503748125937,
+   "twin hits": 3
+  },
+  {
+   "set": "labels by the twin plant",
+   "n": 41,
+   "score": "sim",
+   "twin percentile": 0.44197990045952595,
+   "null": 0.5013781651920055,
+   "p": 0.0704647676161919,
+   "twin hits": 0
+  },
+  {
+   "set": "labels by the twin plant (o-/y- removed)",
+   "n": 41,
+   "score": "exact",
+   "twin percentile": 0.5027488330813228,
+   "null": 0.5000590321149169,
+   "p": 1.0,
+   "twin hits": 0
+  },
+  {
+   "set": "labels by the twin plant (o-/y- removed)",
+   "n": 41,
+   "score": "near",
+   "twin percentile": 0.5008261562192483,
+   "null": 0.49960966305749,
+   "p": 0.5997001499250375,
+   "twin hits": 4
+  },
+  {
+   "set": "labels by the twin plant (o-/y- removed)",
+   "n": 41,
+   "score": "sim",
+   "twin percentile": 0.4727072123880532,
+   "null": 0.5004221331885561,
+   "p": 0.2543728135932034,
+   "twin hits": 0
+  },
+  {
+   "set": "all labels on the pharma sheet",
+   "n": 111,
+   "score": "exact",
+   "twin percentile": 0.5037229531965655,
+   "null": 0.5000461544193907,
+   "p": 0.6541729135432284,
+   "twin hits": 2
+  },
+  {
+   "set": "all labels on the pharma sheet",
+   "n": 111,
+   "score": "near",
+   "twin percentile": 0.4932550676075473,
+   "null": 0.49981736808955723,
+   "p": 0.34132933533233384,
+   "twin hits": 19
+  },
+  {
+   "set": "all labels on the pharma sheet",
+   "n": 111,
+   "score": "sim",
+   "twin percentile": 0.47301283065493305,
+   "null": 0.4991007701788657,
+   "p": 0.1469265367316342,
+   "twin hits": 0
+  },
+  {
+   "set": "all labels on the pharma sheet (o-/y- removed)",
+   "n": 111,
+   "score": "exact",
+   "twin percentile": 0.49906697783372655,
+   "null": 0.5001512736451245,
+   "p": 0.48825587206396803,
+   "twin hits": 4
+  },
+  {
+   "set": "all labels on the pharma sheet (o-/y- removed)",
+   "n": 111,
+   "score": "near",
+   "twin percentile": 0.4819500325392328,
+   "null": 0.5005553409322877,
+   "p": 0.08245877061469266,
+   "twin hits": 28
+  },
+  {
+   "set": "all labels on the pharma sheet (o-/y- removed)",
+   "n": 111,
+   "score": "sim",
+   "twin percentile": 0.4630484332572879,
+   "null": 0.5003690703259454,
+   "p": 0.062468765617191405,
+   "twin hits": 0
+  }
+ ],
+ "power": [
+  {
+   "planted": "label planted once",
+   "score": "exact",
+   "twin percentile": 0.0027508274861597465,
+   "p (mean of 5)": 0.001996007984031936
+  },
+  {
+   "planted": "label planted once",
+   "score": "near",
+   "twin percentile": 0.03469261524642976,
+   "p (mean of 5)": 0.001996007984031936
+  },
+  {
+   "planted": "label planted once",
+   "score": "sim",
+   "twin percentile": 0.0027508274861597465,
+   "p (mean of 5)": 0.001996007984031936
+  },
+  {
+   "planted": "one-sign variant planted once",
+   "score": "exact",
+   "twin percentile": 0.4801196502531063,
+   "p (mean of 5)": 0.20199600798403194
+  },
+  {
+   "planted": "one-sign variant planted once",
+   "score": "near",
+   "twin percentile": 0.037131639636673666,
+   "p (mean of 5)": 0.001996007984031936
+  },
+  {
+   "planted": "one-sign variant planted once",
+   "score": "sim",
+   "twin percentile": 0.03939809154647578,
+   "p (mean of 5)": 0.001996007984031936
+  }
+ ],
+ "detail": [
+  {
+   "pair": "01",
+   "herbal": "f1v",
+   "pharma": "f102r1",
+   "label": "ddardsh",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.3125,
+   "pool": 72
+  },
+  {
+   "pair": "02",
+   "herbal": "f18v",
+   "pharma": "f102r2",
+   "label": "loeekadag",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.375,
+   "percentile": 0.39285714285714285,
+   "pool": 56
+  },
+  {
+   "pair": "02",
+   "herbal": "f18v",
+   "pharma": "f102r2",
+   "label": "osheal",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.5178571428571429,
+   "pool": 56
+  },
+  {
+   "pair": "02",
+   "herbal": "f18v",
+   "pharma": "f102r2",
+   "label": "sodch",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.5178571428571429,
+   "pool": 56
+  },
+  {
+   "pair": "02",
+   "herbal": "f18v",
+   "pharma": "f102r2",
+   "label": "koldarod",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.21428571428571427,
+   "pool": 56
+  },
+  {
+   "pair": "02",
+   "herbal": "f18v",
+   "pharma": "f102r2",
+   "label": "odalydary",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.33333333333333337,
+   "percentile": 0.5892857142857143,
+   "pool": 56
+  },
+  {
+   "pair": "03",
+   "herbal": "f19r",
+   "pharma": "f102v1",
+   "label": "ypcholdy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.7142857142857143,
+   "percentile": 0.13043478260869565,
+   "pool": 69
+  },
+  {
+   "pair": "03",
+   "herbal": "f19r",
+   "pharma": "f102v1",
+   "label": "loralody",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.625,
+   "percentile": 0.06521739130434782,
+   "pool": 69
+  },
+  {
+   "pair": "03",
+   "herbal": "f19r",
+   "pharma": "f102v1",
+   "label": "opchdard",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4285714285714286,
+   "percentile": 0.5869565217391305,
+   "pool": 69
+  },
+  {
+   "pair": "04",
+   "herbal": "f23r",
+   "pharma": "f102r2",
+   "label": "loeekadag",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.375,
+   "percentile": 0.46226415094339623,
+   "pool": 53
+  },
+  {
+   "pair": "04",
+   "herbal": "f23r",
+   "pharma": "f102r2",
+   "label": "osheal",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.6,
+   "percentile": 0.36792452830188677,
+   "pool": 53
+  },
+  {
+   "pair": "04",
+   "herbal": "f23r",
+   "pharma": "f102r2",
+   "label": "sodch",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.33333333333333337,
+   "percentile": 1.0,
+   "pool": 53
+  },
+  {
+   "pair": "04",
+   "herbal": "f23r",
+   "pharma": "f102r2",
+   "label": "koldarod",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.2641509433962264,
+   "pool": 53
+  },
+  {
+   "pair": "04",
+   "herbal": "f23r",
+   "pharma": "f102r2",
+   "label": "odalydary",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5555555555555556,
+   "percentile": 0.03773584905660377,
+   "pool": 53
+  },
+  {
+   "pair": "05",
+   "herbal": "f32v",
+   "pharma": "f102r2",
+   "label": "kodaiig",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.625,
+   "percentile": 0.5563380281690141,
+   "pool": 71
+  },
+  {
+   "pair": "06",
+   "herbal": "f37v",
+   "pharma": "f102r1",
+   "label": "ddardsh",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.33333333333333337,
+   "percentile": 0.8169014084507042,
+   "pool": 71
+  },
+  {
+   "pair": "08",
+   "herbal": "f47v",
+   "pharma": "f102r2",
+   "label": "kodaiig",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5714285714285714,
+   "percentile": 0.5821917808219178,
+   "pool": 73
+  },
+  {
+   "pair": "09",
+   "herbal": "f48r",
+   "pharma": "f89v2",
+   "label": "opaloiiry",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.625,
+   "percentile": 0.025,
+   "pool": 20
+  },
+  {
+   "pair": "09",
+   "herbal": "f48r",
+   "pharma": "f89v2",
+   "label": "otaram",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.8,
+   "pool": 20
+  },
+  {
+   "pair": "09",
+   "herbal": "f48r",
+   "pharma": "f89v2",
+   "label": "chtchy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.6,
+   "percentile": 0.425,
+   "pool": 20
+  },
+  {
+   "pair": "09",
+   "herbal": "f48r",
+   "pharma": "f89v2",
+   "label": "sada",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4,
+   "percentile": 0.875,
+   "pool": 20
+  },
+  {
+   "pair": "09",
+   "herbal": "f48r",
+   "pharma": "f89v2",
+   "label": "daseky",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.4,
+   "pool": 20
+  },
+  {
+   "pair": "10",
+   "herbal": "f48v",
+   "pharma": "f89v1",
+   "label": "okoraldy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.625,
+   "percentile": 0.2826086956521739,
+   "pool": 23
+  },
+  {
+   "pair": "10",
+   "herbal": "f48v",
+   "pharma": "f89v1",
+   "label": "otoikhy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5714285714285714,
+   "percentile": 0.10869565217391304,
+   "pool": 23
+  },
+  {
+   "pair": "10",
+   "herbal": "f48v",
+   "pharma": "f89v1",
+   "label": "otchar",
+   "exact": 0,
+   "near": 1,
+   "sim": 0.8,
+   "percentile": 0.21739130434782608,
+   "pool": 23
+  },
+  {
+   "pair": "10",
+   "herbal": "f48v",
+   "pharma": "f89v1",
+   "label": "darshody",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5714285714285714,
+   "percentile": 0.41304347826086957,
+   "pool": 23
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "chosaroshol",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.33333333333333337,
+   "percentile": 0.5849056603773585,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "sochorcfhy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4285714285714286,
+   "percentile": 0.6981132075471698,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "otear",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4285714285714286,
+   "percentile": 0.839622641509434,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "chofary",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.6666666666666667,
+   "percentile": 0.12264150943396226,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "sar",
+   "exact": 0,
+   "near": 1,
+   "sim": 0.6666666666666667,
+   "percentile": 0.4056603773584906,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "char",
+   "exact": 0,
+   "near": 1,
+   "sim": 0.6666666666666667,
+   "percentile": 0.6037735849056604,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "daiindy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.6666666666666667,
+   "percentile": 0.5094339622641509,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "oraro",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4,
+   "percentile": 0.6509433962264151,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "chalsain",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4285714285714286,
+   "percentile": 0.5754716981132075,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "soity",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.5,
+   "percentile": 0.7264150943396226,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "sosam",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.6,
+   "percentile": 0.1509433962264151,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "dakocth",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4,
+   "percentile": 0.6320754716981132,
+   "pool": 53
+  },
+  {
+   "pair": "11",
+   "herbal": "f90v2",
+   "pharma": "f100r",
+   "label": "sofam",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.6,
+   "percentile": 0.12264150943396226,
+   "pool": 53
+  },
+  {
+   "pair": "12",
+   "herbal": "f96v",
+   "pharma": "f99r",
+   "label": "yteoldy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.7142857142857143,
+   "percentile": 0.09259259259259259,
+   "pool": 27
+  },
+  {
+   "pair": "12",
+   "herbal": "f96v",
+   "pharma": "f99r",
+   "label": "tolsasy",
+   "exact": 0,
+   "near": 0,
+   "sim": 0.4285714285714286,
+   "percentile": 0.4444444444444444,
+   "pool": 27
+  }
+ ]
+}

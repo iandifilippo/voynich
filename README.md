@@ -111,6 +111,7 @@ dist, z, profile = benchmark.score(my_lines)   # score any text (list of lines o
 | 61 | words built, runs copied | the hybrid: words from the rule, and now and then a short run copied from earlier on the sheet. One run in 10-15 words makes the beyond-boundary link (0.19 at follow_p 0.10; B 0.23): the residual of exps. 48-51 needs no message. Still unmade by anything: pairs recurring across sheets and the class-level ch/sh-…-y → qo- rhythm. Best scorecard so far, 7 of 11. Fixed a bug in the generator's echo (reset per line in exps. 50-60) |
 | 62 | the rhythm | in B consecutive words switch between qo- and ch/sh- 50% more than they stay (ch/sh→qo 1.47, ch/sh→ch/sh 0.74), in every section, all along the line, and at physically wide spaces (1.30). It is words ending in -y: ch/sh-…-y → qo 1.89×, ch/sh words ending -l/-r/-n don't prefer qo. A has a weaker version that vanishes at wide spaces |
 | 63 | a two-sign link | linking a word's start to the previous word's last two signs doesn't make the rhythm (1.61 vs B 1.96) and scores worse (5 of 11). The qo after -dy also depends on the family of the -dy word: the last piece of word-to-word structure no generator makes |
+| 64 | twin plants | the label next to a pharma plant that is redrawn from a herbal page (11 pairs from the literature, 41 labels) never occurs in the twin page, and isn't nearer to it than to a length-matched herbal page (percentile 0.50; similarity 0.44, p .07). A single mention, even one sign off, would have been found (p .002) |
 
 Details and caveats in `RESEARCH_LOG.md`.
 

@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-23 (4)
+
+### 64 twin plant labels (ZL; pool = same language, words within 30%; 2000 draws)
+Twin labels (41): exact 0 hits pct .502; near 3 hits .497 p .50; sim .442 p .070. o-/y- removed: near 4 .501; sim .473 p .254.
+All sheet labels (111): exact 2 hits .504; near 19 .493 p .34; sim .473 p .147. Removed: exact 4; near 28 .482 p .082; sim .463 p .062.
+Power, planted once (5 seeds): label exact .003, near .035, sim .003, p .002; one-sign variant near .037, sim .039, p .002.
+
 ## 2026-11-23 (3)
 
 ### 62 rhythm (obs/exp, shuffle in sheet by position, 30)
