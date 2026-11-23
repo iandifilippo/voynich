@@ -1,0 +1,37 @@
+[
+ {
+  "ch/sh word ends in": "y",
+  "pairs": 3116,
+  "next is qo": 0.3591142490372272,
+  "if shuffled": 0.19030245969165588,
+  "ratio": 1.887070979634706
+ },
+ {
+  "ch/sh word ends in": "l",
+  "pairs": 607,
+  "next is qo": 0.17792421746293247,
+  "if shuffled": 0.18579595426561127,
+  "ratio": 0.9576323562383631
+ },
+ {
+  "ch/sh word ends in": "r",
+  "pairs": 437,
+  "next is qo": 0.10297482837528604,
+  "if shuffled": 0.18276125095347062,
+  "ratio": 0.5634390651085143
+ },
+ {
+  "ch/sh word ends in": "n",
+  "pairs": 328,
+  "next is qo": 0.14939024390243902,
+  "if shuffled": 0.18760162601626015,
+  "ratio": 0.7963163596966414
+ },
+ {
+  "ch/sh word ends in": "other",
+  "pairs": 494,
+  "next is qo": 0.12550607287449392,
+  "if shuffled": 0.16710535196058582,
+  "ratio": 0.7510595645320582
+ }
+]

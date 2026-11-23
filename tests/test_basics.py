@@ -171,3 +171,11 @@ def test_assembler_follow_copies_runs():
     out = m.fill_sheet([(6, False)] * 8, seed=3)
     pairs = [(a, b) for l in out for a, b in zip(l, l[1:])]
     assert len(set(pairs)) < len(pairs)
+
+
+def test_assembler_link_two_signs():
+    from voynich.assemble import Assembler
+    lines = [["chedy", "qokedy", "chol", "daiin"]] * 40
+    m = Assembler(order=2, link_signs=2).fit(lines)
+    assert any(k[0] == "^dy" for k in m.pooled)
+    assert len(m.fill([(4, False)], seed=1)[0]) == 4

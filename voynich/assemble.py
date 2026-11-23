@@ -36,8 +36,9 @@ def position(i, n, para_start):
 
 class Assembler:
     def __init__(self, order=2, link=True, min_count=3, recall_p=0.0, edit_p=0.0, window=20,
-                 sheet_sigma=0.0, hold=1.0, follow_p=0.0):
+                 sheet_sigma=0.0, hold=1.0, follow_p=0.0, link_signs=1):
         self.follow_p = follow_p
+        self.link_signs = link_signs
         self.sheet_sigma = sheet_sigma
         self.hold = hold
         self.weights = None
@@ -69,7 +70,7 @@ class Assembler:
                     ctx = self._ctx(prev, hist)
                     self.tab[pos][ctx][s] += 1
                     hist.append(s)
-                prev = seq[-2]
+                prev = "".join(seq[:-1][-self.link_signs:])
         self.first = Counter()
         self.pooled = defaultdict(Counter)
         self.short = defaultdict(Counter)
@@ -194,6 +195,6 @@ class Assembler:
                     w = self.word(rng, pos, prev)
                 recent.append(w)
                 line.append(w)
-                prev = signs(w)[-1]
+                prev = "".join(signs(w)[-self.link_signs:])
             out.append(line)
         return out
