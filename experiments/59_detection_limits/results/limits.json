@@ -1,0 +1,44 @@
+[
+ {
+  "plaintext": "Latin, full letters",
+  "bits per plaintext symbol": 5,
+  "gain from looking further than 1 back": 0.17865278193705159,
+  "best k": 5
+ },
+ {
+  "plaintext": "Latin, no vowels",
+  "bits per plaintext symbol": 5,
+  "gain from looking further than 1 back": 0.35353190795488953,
+  "best k": 5
+ },
+ {
+  "plaintext": "Latin, first 3 letters of each word",
+  "bits per plaintext symbol": 5,
+  "gain from looking further than 1 back": 0.11967049060918189,
+  "best k": 4
+ },
+ {
+  "plaintext": "Latin, word initials",
+  "bits per plaintext symbol": 5,
+  "gain from looking further than 1 back": 0.03341924231579885,
+  "best k": 3
+ },
+ {
+  "plaintext": "numbers: word lengths of the Latin",
+  "bits per plaintext symbol": 4,
+  "gain from looking further than 1 back": 0.14302167420869716,
+  "best k": 4
+ },
+ {
+  "plaintext": "random digits",
+  "bits per plaintext symbol": 4,
+  "gain from looking further than 1 back": 0.02446151807374841,
+  "best k": 3
+ },
+ {
+  "plaintext": "Currier B (exp. 54)",
+  "bits per plaintext symbol": "",
+  "gain from looking further than 1 back": 0.003,
+  "best k": ""
+ }
+]
