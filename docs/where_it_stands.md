@@ -44,8 +44,10 @@ experiment's NOTES.md.
 
 - A residual link between neighbouring words, in A and B and in two transcriptions (exps. 48-51) and
   between physically separate words (exp. 55). Copying short runs within a sheet, one in 10-15 words,
-  makes it (exp. 61): it needs no message. What nothing makes yet is a ch/sh-…-y → qo- rhythm that
-  holds across sheets (exps. 53, 61).
+  makes it (exp. 61): it needs no message. The ch/sh-…-y → qo- rhythm is a table of the next word's
+  family by the previous word's family and ending, small enough to keep on a card; drawing word
+  starts from it gets most of the rhythm and two thirds of the link (exp. 65). Still unmade:
+  neighbouring lines of a page share their qo- and ending shares over two or three lines (exp. 65).
 - The best single model (exp. 61: rule + sheet setting + echo + copied runs) passes 7 of 11 held-out
   statistics (exp. 60 scorecard). It doesn't form a consistent grammar (exp. 52) and decomposes
   into false spaces, a rhythm, and repeated pairs without word order (exp. 53).

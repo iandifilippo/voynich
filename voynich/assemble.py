@@ -26,6 +26,20 @@ def signs(word):
     return UNIT.findall(word)
 
 
+FAMILIES = ("q", "c", "o", "x")
+
+
+def family(word):
+    """qo-, ch/sh- (and the bench gallows), o-, anything else."""
+    if word.startswith("q"):
+        return "q"
+    if word[:2] in ("ch", "sh") or word[:3] in ("cth", "ckh", "cph", "cfh"):
+        return "c"
+    if word.startswith("o"):
+        return "o"
+    return "x"
+
+
 def position(i, n, para_start):
     if i == 0:
         return "para_first" if para_start else "line_first"
@@ -36,7 +50,13 @@ def position(i, n, para_start):
 
 class Assembler:
     def __init__(self, order=2, link=True, min_count=3, recall_p=0.0, edit_p=0.0, window=20,
-                 sheet_sigma=0.0, hold=1.0, follow_p=0.0, link_signs=1):
+                 sheet_sigma=0.0, hold=1.0, follow_p=0.0, link_signs=1, link_by="last",
+                 line_sigma=0.0, echo_fits=False, line_drift=0.0):
+        self.line_drift = line_drift
+        self.echo_fits = echo_fits
+        self.link_by = link_by
+        self.line_sigma = line_sigma
+        self.line_family = None
         self.follow_p = follow_p
         self.link_signs = link_signs
         self.sheet_sigma = sheet_sigma
@@ -50,6 +70,14 @@ class Assembler:
         self.link = link
         self.min_count = min_count
         self.tab = {p: defaultdict(Counter) for p in POSITIONS}
+
+    def key(self, word):
+        """What the next word's start is drawn given: the previous word's last
+        `link_signs` signs, or (link_by="family") its family and last sign."""
+        seq = signs(word)
+        if self.link_by == "family":
+            return family(word) + ":" + seq[-1]
+        return "".join(seq[-self.link_signs:])
 
     def _ctx(self, prev_last, history):
         h = tuple(history[-self.order:])
@@ -70,7 +98,7 @@ class Assembler:
                     ctx = self._ctx(prev, hist)
                     self.tab[pos][ctx][s] += 1
                     hist.append(s)
-                prev = "".join(seq[:-1][-self.link_signs:])
+                prev = self.key(w)
         self.first = Counter()
         self.pooled = defaultdict(Counter)
         self.short = defaultdict(Counter)
@@ -93,7 +121,7 @@ class Assembler:
         if not c:
             return "$"
         w = self.weights
-        if w is not None or self.line_gallows is not None:
+        if w is not None or self.line_gallows is not None or (start and self.line_family is not None):
             items = []
             for s, n in c.items():
                 f = 1.0
@@ -106,6 +134,11 @@ class Assembler:
                         f *= w["end"].get(ctx[-1], 1.0)
                 if self.line_gallows is not None and s in GALLOWS:
                     f *= self.hold if s == self.line_gallows else 1.0
+                if self.line_family is not None:
+                    if start and s != "$":
+                        f *= self.line_family["start"][family(s)]
+                    if s == "$":
+                        f *= self.line_family["end"].get(ctx[-1], 1.0)
                 items.append((s, n * f))
         else:
             items = list(c.items())
@@ -149,18 +182,53 @@ class Assembler:
         self.weights = {"start": {s: draw() for s in signs_}, "gallows": {g: draw() for g in GALLOWS},
                         "end": {s: draw() for s in signs_}}
 
+    def line_setting(self, rng, before=None):
+        """A line's own setting, on top of the sheet's: a weight for each
+        family of word starts and for ending a word after each sign. With
+        line_drift = rho > 0 the log weights follow the line before,
+        rho * previous + sqrt(1 - rho^2) * N(0, line_sigma), so the setting
+        wanders down the sheet instead of being drawn afresh."""
+        rho = self.line_drift if before else 0.0
+        keep = math.sqrt(1 - rho * rho)
+        ends = {s for c in self.pooled.values() for s in c if s != "$"}
+        out = {}
+        for part, keys in (("start", FAMILIES), ("end", ends)):
+            out[part] = {}
+            for k in keys:
+                old = math.log(before[part][k]) if before else 0.0
+                out[part][k] = math.exp(rho * old + keep * rng.gauss(0, self.line_sigma))
+        return out
+
+    def pick_recent(self, rng, pos, prev, words):
+        """A recent word to repeat. With echo_fits, words whose first sign is
+        likely after `prev` are picked more often (weight: how often that
+        first sign follows `prev` in the fitted tables, plus one)."""
+        if not self.echo_fits:
+            return rng.choice(words)
+        c = self.tab[pos].get(self._ctx(prev, [])) or self.pooled.get(self._ctx(prev, [])) or Counter()
+        ws = [c.get(signs(w)[0], 0) + 1 for w in words]
+        r = rng.random() * sum(ws)
+        for w, x in zip(words, ws):
+            r -= x
+            if r <= 0:
+                return w
+        return words[-1]
+
     def fill_sheet(self, shape, seed=0):
         """Like fill, for a whole sheet: one setting for the sheet, and with
         hold > 1 one favoured gallows per line (weight `hold`)."""
         rng = random.Random(seed)
         self.new_setting(rng)
+        self.line_family = None
         out = []
         history = []
         for n, para_start in shape:
             self.line_gallows = rng.choice(GALLOWS[:4]) if self.hold != 1.0 else None
+            self.line_family = self.line_setting(rng, self.line_family) if self.line_sigma else None
             out += self.fill([(n, para_start)], seed=rng.randrange(10 ** 9), history=history)
         self.weights = None
         self.line_gallows = None
+        self.line_family = None
         return out
 
     def fill(self, shape, seed=0, history=None):
@@ -188,13 +256,13 @@ class Assembler:
                 if follow is not None:
                     w = follow if rng.random() >= self.edit_p else self.edit(rng, pos, follow)
                 elif pos == "middle" and recent and r < self.recall_p:
-                    w = rng.choice(recent[-self.window:])
+                    w = self.pick_recent(rng, pos, prev, recent[-self.window:])
                 elif pos == "middle" and recent and r < self.recall_p + self.edit_p:
-                    w = self.edit(rng, pos, rng.choice(recent[-self.window:]))
+                    w = self.edit(rng, pos, self.pick_recent(rng, pos, prev, recent[-self.window:]))
                 else:
                     w = self.word(rng, pos, prev)
                 recent.append(w)
                 line.append(w)
-                prev = "".join(signs(w)[-self.link_signs:])
+                prev = self.key(w)
             out.append(line)
         return out

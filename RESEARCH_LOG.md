@@ -2,6 +2,16 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-23 (5)
+
+### 65 family link (all B sheets for anatomy; train even / test odd, 5 seeds)
+Next family / base: ch/sh-y q 1.90 c .59; qo-y q 1.82; o-y q 1.64; other-y q 1.45; qo-n q .41 c 1.74; o-r q .26.
+qo lag k real / line shuffle / sheet shuffle: 1 1.190 1.207 1.118; 2 1.371 1.270 1.124; 3 1.217 1.210 1.104; 4 1.194 1.232 1.142. Line spread 1.41.
+(family,ending) chain lag2 over own shuffle: q 1.098 (B 1.136), c 1.121 (1.147); family-only chain ~1.00.
+Neighbouring lines r (qo, -y, -n): sheet mean removed 1 .159, 2 .131, 3 .101, 5 .065, 8 .018; page mean removed .086 .066 .033 .002 -.048; shuffled -.036..-.041. Across paragraph start -y .211 vs within .202.
+Test: B rhythm 1.927, lag2 1.098, spread 1.424, neigh .128, beyond .231, recurring .054, class .063. exp61: 1.573 .981 1.266 .008 .097 .021 .005 (7/11). family: 1.786 1.035 1.243 .004 .152 .025 .010 (6/11). family+echo 25/.2/fits: 1.862 1.016 1.184 .058 .113 .021 .012 (5/11; distinct 309 vs 249).
+Train, line setting .6 drift .9: neigh .105, spread 1.813 (B 1.313).
+
 ## 2026-11-23 (4)
 
 ### 64 twin plant labels (ZL; pool = same language, words within 30%; 2000 draws)

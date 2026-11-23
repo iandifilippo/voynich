@@ -1,0 +1,563 @@
+{
+ "anatomy": [
+  {
+   "previous": "qo-...-y",
+   "n": 1995,
+   "next q": 1.8164818140689052,
+   "next c": 0.691442946425062,
+   "next o": 0.8410753749436779,
+   "next x": 0.8916255757467445
+  },
+  {
+   "previous": "qo-...-l",
+   "n": 514,
+   "next q": 0.43803965648479715,
+   "next c": 1.7118951653914445,
+   "next o": 0.8242825032795544,
+   "next x": 0.8775312998655339
+  },
+  {
+   "previous": "qo-...-r",
+   "n": 374,
+   "next q": 0.3153394725954982,
+   "next c": 1.5718989748115964,
+   "next o": 1.4244589730789103,
+   "next x": 0.6115025673236363
+  },
+  {
+   "previous": "qo-...-n",
+   "n": 773,
+   "next q": 0.40916622382054946,
+   "next c": 1.744746856906015,
+   "next o": 1.3566828695121584,
+   "next x": 0.46434025981442284
+  },
+  {
+   "previous": "qo-...-other",
+   "n": 222,
+   "next q": 0.7727237526664461,
+   "next c": 0.7961770583129807,
+   "next o": 0.8314143740152709,
+   "next x": 1.4308180691881882
+  },
+  {
+   "previous": "ch/sh-...-y",
+   "n": 3194,
+   "next q": 1.8965783558420544,
+   "next c": 0.5942878333769022,
+   "next o": 0.7958945648447545,
+   "next x": 0.9586929034152342
+  },
+  {
+   "previous": "ch/sh-...-l",
+   "n": 620,
+   "next q": 0.9338117285247335,
+   "next c": 0.9791972825170445,
+   "next o": 0.8389726865063188,
+   "next x": 1.178347913108853
+  },
+  {
+   "previous": "ch/sh-...-r",
+   "n": 449,
+   "next q": 0.5492103954781283,
+   "next c": 1.223755054381906,
+   "next o": 1.2612618338346662,
+   "next x": 0.8843029269481563
+  },
+  {
+   "previous": "ch/sh-...-n",
+   "n": 334,
+   "next q": 0.7864604211738024,
+   "next c": 1.633603591919969,
+   "next o": 1.168030836004306,
+   "next x": 0.47551139425116423
+  },
+  {
+   "previous": "ch/sh-...-other",
+   "n": 501,
+   "next q": 0.6634087906500102,
+   "next c": 0.6749160379763253,
+   "next o": 0.795433185809384,
+   "next x": 1.6230788923773074
+  },
+  {
+   "previous": "o-...-y",
+   "n": 1787,
+   "next q": 1.6439297855062458,
+   "next c": 0.6386114469575931,
+   "next o": 0.9953117489610497,
+   "next x": 0.9207518449041124
+  },
+  {
+   "previous": "o-...-l",
+   "n": 804,
+   "next q": 0.3333812832166337,
+   "next c": 1.3285978620712717,
+   "next o": 1.0434983663013915,
+   "next x": 1.090411501682819
+  },
+  {
+   "previous": "o-...-r",
+   "n": 773,
+   "next q": 0.26353078822340475,
+   "next c": 0.9643330206261166,
+   "next o": 1.3295492121219152,
+   "next x": 1.2163249283634439
+  },
+  {
+   "previous": "o-...-n",
+   "n": 803,
+   "next q": 0.33379645293421356,
+   "next c": 1.4498794196892348,
+   "next o": 1.5933167458557114,
+   "next x": 0.5735745161540196
+  },
+  {
+   "previous": "o-...-other",
+   "n": 336,
+   "next q": 0.5105496222974732,
+   "next c": 0.6632748319641524,
+   "next o": 0.6866591928251121,
+   "next x": 1.8056413026701652
+  },
+  {
+   "previous": "other-...-y",
+   "n": 2380,
+   "next q": 1.4460567243307847,
+   "next c": 0.7733273294381233,
+   "next o": 0.7755209707201266,
+   "next x": 1.093060839091
+  },
+  {
+   "previous": "other-...-l",
+   "n": 1028,
+   "next q": 0.32852974236359783,
+   "next c": 1.2895280175983588,
+   "next o": 0.8079600774720386,
+   "next x": 1.3039373540255468
+  },
+  {
+   "previous": "other-...-r",
+   "n": 1422,
+   "next q": 0.19603382121970495,
+   "next c": 1.121381281452561,
+   "next o": 1.1416400480940414,
+   "next x": 1.2687794321543866
+  },
+  {
+   "previous": "other-...-n",
+   "n": 1708,
+   "next q": 0.3075852232693794,
+   "next c": 1.6130064031146318,
+   "next o": 1.3827330869527443,
+   "next x": 0.6137103732361046
+  },
+  {
+   "previous": "other-...-other",
+   "n": 563,
+   "next q": 0.3808718319093051,
+   "next c": 0.7302644931333131,
+   "next o": 0.8494039632479604,
+   "next x": 1.7038679685728755
+  }
+ ],
+ "lags": [
+  {
+   "lag": 1,
+   "real": 1.1898271276595744,
+   "shuffled in line": 1.2072887681631903,
+   "shuffled in sheet": 1.1182783262429774
+  },
+  {
+   "lag": 2,
+   "real": 1.3712092524431636,
+   "shuffled in line": 1.2700940613714826,
+   "shuffled in sheet": 1.123716902422451
+  },
+  {
+   "lag": 3,
+   "real": 1.2167635150758591,
+   "shuffled in line": 1.209810332716515,
+   "shuffled in sheet": 1.1043551784791512
+  },
+  {
+   "lag": 4,
+   "real": 1.1943816664440148,
+   "shuffled in line": 1.2321618549213689,
+   "shuffled in sheet": 1.1421112551663954
+  }
+ ],
+ "spread": 1.4067664976662748,
+ "near": [
+  {
+   "lines apart": 1,
+   "sheet mean removed": 0.15937066952781287,
+   "page mean removed": 0.08585169920727315,
+   "page, lines shuffled": -0.036120241031053484
+  },
+  {
+   "lines apart": 2,
+   "sheet mean removed": 0.13113686920798898,
+   "page mean removed": 0.06586493755184897,
+   "page, lines shuffled": -0.040584615281643574
+  },
+  {
+   "lines apart": 3,
+   "sheet mean removed": 0.1010870421258873,
+   "page mean removed": 0.03281314575369898,
+   "page, lines shuffled": -0.03874542911855713
+  },
+  {
+   "lines apart": 5,
+   "sheet mean removed": 0.06507502662217507,
+   "page mean removed": 0.001855956377950431,
+   "page, lines shuffled": -0.036385280533677386
+  },
+  {
+   "lines apart": 8,
+   "sheet mean removed": 0.017501140133923426,
+   "page mean removed": -0.047593729225459604,
+   "page, lines shuffled": -0.03852125624854888
+  }
+ ],
+ "train_target": {
+  "rhythm": 1.8730814383895686,
+  "lag 2": 1.1313459311335792,
+  "line spread": 1.3131525174985472,
+  "neighbours": 0.1939182189341845
+ },
+ "grid": [
+  {
+   "model": "last sign",
+   "within (of 11)": 6,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.6355223531763414,
+   "lag 2": 0.9849056048754509,
+   "line spread": 1.2053204478155628,
+   "neighbours": 0.01909497543639469
+  },
+  {
+   "model": "family",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.7707661998727187,
+   "lag 2": 1.0144931798494026,
+   "line spread": 1.3150681509975615,
+   "neighbours": 0.0018346315924210918
+  },
+  {
+   "model": "family, line setting 0.3 drift 0.0",
+   "within (of 11)": 6,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.7244911265777256,
+   "lag 2": 1.0726209142426217,
+   "line spread": 1.3803519841137843,
+   "neighbours": 0.022717679359149943
+  },
+  {
+   "model": "family, line setting 0.4 drift 0.9",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.7229092589193604,
+   "lag 2": 1.0181058661052638,
+   "line spread": 1.5075588598085172,
+   "neighbours": 0.06135409986932447
+  },
+  {
+   "model": "family, line setting 0.6 drift 0.9",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 2,
+   "rhythm": 1.6207320757832502,
+   "lag 2": 1.001321676815126,
+   "line spread": 1.8129600403706283,
+   "neighbours": 0.10540382965678051
+  },
+  {
+   "model": "family, echo window 15 edit 0.1",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.743263756537773,
+   "lag 2": 1.00844315991871,
+   "line spread": 1.217561341714479,
+   "neighbours": 0.028328042579252765
+  },
+  {
+   "model": "family, echo window 15 edit 0.2",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.6838759924270792,
+   "lag 2": 0.979833605031606,
+   "line spread": 1.2431691541667156,
+   "neighbours": 0.04730460647947913
+  },
+  {
+   "model": "family, echo window 15 edit 0.2 fits",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.7926921285272925,
+   "lag 2": 1.0376807868918592,
+   "line spread": 1.2848127610052085,
+   "neighbours": 0.0851528421305147
+  },
+  {
+   "model": "family, echo window 25 edit 0.2 fits",
+   "within (of 11)": 7,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.8279513258980722,
+   "lag 2": 1.0344792037401431,
+   "line spread": 1.2091212341461568,
+   "neighbours": 0.0499210585843795
+  },
+  {
+   "model": "family, echo window 25 edit 0.3 fits",
+   "within (of 11)": 5,
+   "rhythm measures within (of 4)": 3,
+   "rhythm": 1.8654633552093496,
+   "lag 2": 0.9988130832607762,
+   "line spread": 1.286034854314492,
+   "neighbours": 0.08106498308905294
+  }
+ ],
+ "rows": [
+  {
+   "model": "Currier B, odd sheets",
+   "distinct per 1000": 248.94763428186565,
+   "hapax share": 0.6773757186337505,
+   "new words vs training half": 0.18269068866812593,
+   "lexicon gain (bits)": -0.2634908693274156,
+   "mean signs per word": 4.376746927092103,
+   "qo- words": 0.19531907728573833,
+   "sheet identity": 1.0,
+   "gallows same line / other": 1.0640514442947373,
+   "beyond the boundary (bits)": 0.2312402827238741,
+   "recurring pairs excess": 0.053769601930036194,
+   "class sequence (bits)": 0.06342072724501094,
+   "rhythm": 1.9273106979827943,
+   "lag 2": 1.0975303304970305,
+   "line spread": 1.4238139780673051,
+   "neighbours": 0.12802399681608728
+  },
+  {
+   "model": "exp. 61 (last sign)",
+   "distinct per 1000": 282.42128304428354,
+   "hapax share": 0.6942431345523553,
+   "new words vs training half": 0.21650109446034685,
+   "lexicon gain (bits)": -0.31092192777954497,
+   "mean signs per word": 4.300084189257451,
+   "qo- words": 0.15628893753157097,
+   "sheet identity": 0.76,
+   "gallows same line / other": 1.031853493967251,
+   "beyond the boundary (bits)": 0.09667443430262454,
+   "recurring pairs excess": 0.020557901085645352,
+   "class sequence (bits)": 0.005481257881099827,
+   "rhythm": 1.5727131659833278,
+   "lag 2": 0.9806287299416994,
+   "line spread": 1.2660194582023374,
+   "neighbours": 0.007876360629409166,
+   "within (of 11)": 7,
+   "rhythm within (of 4)": 3
+  },
+  {
+   "model": "family link (chosen)",
+   "distinct per 1000": 284.492338777572,
+   "hapax share": 0.6968786490815161,
+   "new words vs training half": 0.2199865297188079,
+   "lexicon gain (bits)": -0.32746670389172855,
+   "mean signs per word": 4.314177470954706,
+   "qo- words": 0.15482404445192793,
+   "sheet identity": 0.77,
+   "gallows same line / other": 1.0153881480601121,
+   "beyond the boundary (bits)": 0.15214944225227126,
+   "recurring pairs excess": 0.025244270205066345,
+   "class sequence (bits)": 0.009981200222959436,
+   "rhythm": 1.785866551059331,
+   "lag 2": 1.0346728332121788,
+   "line spread": 1.2425259740317889,
+   "neighbours": 0.004441754651610872,
+   "within (of 11)": 6,
+   "rhythm within (of 4)": 3
+  },
+  {
+   "model": "family link, echo from above (window 25, edit 0.2, fits)",
+   "distinct per 1000": 309.07560195319076,
+   "hapax share": 0.6966472206134685,
+   "new words vs training half": 0.2623505640680249,
+   "lexicon gain (bits)": -0.3019441471538637,
+   "mean signs per word": 4.339602626704832,
+   "qo- words": 0.15531234214514228,
+   "sheet identity": 0.74,
+   "gallows same line / other": 1.0062778105532764,
+   "beyond the boundary (bits)": 0.11260082135501998,
+   "recurring pairs excess": 0.020895657418576602,
+   "class sequence (bits)": 0.012214130917450506,
+   "rhythm": 1.8615447770741493,
+   "lag 2": 1.0159254125766881,
+   "line spread": 1.184352758668421,
+   "neighbours": 0.05767012771931078,
+   "within (of 11)": 5,
+   "rhythm within (of 4)": 3
+  }
+ ],
+ "generator_anatomy": [
+  {
+   "previous": "qo-...-y",
+   "n": 995,
+   "next q": 1.7117534661258098,
+   "next c": 0.8048527699472975,
+   "next o": 0.8204870506378045,
+   "next x": 0.8474782611132048
+  },
+  {
+   "previous": "qo-...-l",
+   "n": 275,
+   "next q": 0.7067583789704271,
+   "next c": 1.3530986696230598,
+   "next o": 0.8292378013048404,
+   "next x": 1.0221101452213803
+  },
+  {
+   "previous": "qo-...-r",
+   "n": 265,
+   "next q": 0.6755262559672652,
+   "next c": 1.35837120340543,
+   "next o": 1.1531099237012592,
+   "next x": 0.8262141590965278
+  },
+  {
+   "previous": "qo-...-n",
+   "n": 369,
+   "next q": 0.8316583406797923,
+   "next c": 1.4030008592768854,
+   "next o": 1.3348706069785234,
+   "next x": 0.5853333665759295
+  },
+  {
+   "previous": "qo-...-other",
+   "n": 203,
+   "next q": 0.8314534987239598,
+   "next c": 1.195444851616004,
+   "next o": 0.8088132249180217,
+   "next x": 1.0785554293624624
+  },
+  {
+   "previous": "ch/sh-...-y",
+   "n": 1655,
+   "next q": 1.7553769883158008,
+   "next c": 0.694056259671358,
+   "next o": 0.8377556518318389,
+   "next x": 0.8920913638289324
+  },
+  {
+   "previous": "ch/sh-...-l",
+   "n": 206,
+   "next q": 0.9186594923382851,
+   "next c": 1.1387676118872838,
+   "next o": 0.6863351704974529,
+   "next x": 1.1490252015774332
+  },
+  {
+   "previous": "ch/sh-...-r",
+   "n": 177,
+   "next q": 0.6068286706146621,
+   "next c": 1.5310023942400441,
+   "next o": 1.1079928814044901,
+   "next x": 0.768938051564107
+  },
+  {
+   "previous": "ch/sh-...-n",
+   "n": 150,
+   "next q": 0.6478618473895582,
+   "next c": 1.5369435975609755,
+   "next o": 1.2770262140094544,
+   "next x": 0.6311978440665366
+  },
+  {
+   "previous": "ch/sh-...-other",
+   "n": 287,
+   "next q": 0.9623475085009026,
+   "next c": 0.7046321279850429,
+   "next o": 0.826348470986705,
+   "next x": 1.3505049690665771
+  },
+  {
+   "previous": "o-...-y",
+   "n": 854,
+   "next q": 1.4254078609520044,
+   "next c": 0.6109507090021135,
+   "next o": 1.1909369593681345,
+   "next x": 0.9146455878598818
+  },
+  {
+   "previous": "o-...-l",
+   "n": 415,
+   "next q": 0.41903556394251706,
+   "next c": 1.3157094842785777,
+   "next o": 1.1759191471515629,
+   "next x": 0.9909996271677175
+  },
+  {
+   "previous": "o-...-r",
+   "n": 318,
+   "next q": 0.30559521103281045,
+   "next c": 0.8012863840312932,
+   "next o": 1.405531996551286,
+   "next x": 1.2839814634608202
+  },
+  {
+   "previous": "o-...-n",
+   "n": 353,
+   "next q": 0.5361015734325404,
+   "next c": 1.203064542596559,
+   "next o": 1.6020968285832893,
+   "next x": 0.7292078492447152
+  },
+  {
+   "previous": "o-...-other",
+   "n": 191,
+   "next q": 0.4820134990222671,
+   "next c": 0.7623308006640276,
+   "next o": 0.6686001120468346,
+   "next x": 1.6884955416374137
+  },
+  {
+   "previous": "other-...-y",
+   "n": 1242,
+   "next q": 1.350741710804571,
+   "next c": 0.9020539378853932,
+   "next o": 0.712396726241759,
+   "next x": 1.0553315403135404
+  },
+  {
+   "previous": "other-...-l",
+   "n": 585,
+   "next q": 0.4284106683142827,
+   "next c": 1.161522826766729,
+   "next o": 0.9901241097631299,
+   "next x": 1.218899682852847
+  },
+  {
+   "previous": "other-...-r",
+   "n": 733,
+   "next q": 0.2511993951248377,
+   "next c": 1.070464055169201,
+   "next o": 0.976871543556248,
+   "next x": 1.3966221055189822
+  },
+  {
+   "previous": "other-...-n",
+   "n": 977,
+   "next q": 0.4083382866162706,
+   "next c": 1.4696303860748432,
+   "next o": 1.3677755545575745,
+   "next x": 0.7601266258030035
+  },
+  {
+   "previous": "other-...-other",
+   "n": 363,
+   "next q": 0.5636031730226692,
+   "next c": 0.8802272307330511,
+   "next o": 0.8041093830834816,
+   "next x": 1.4671437491215984
+  }
+ ]
+}

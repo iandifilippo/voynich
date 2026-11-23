@@ -179,3 +179,14 @@ def test_assembler_link_two_signs():
     m = Assembler(order=2, link_signs=2).fit(lines)
     assert any(k[0] == "^dy" for k in m.pooled)
     assert len(m.fill([(4, False)], seed=1)[0]) == 4
+
+
+def test_assembler_family_link_and_line_setting():
+    from voynich.assemble import Assembler, family
+    assert [family(w) for w in ("qokedy", "chedy", "cthy", "ol", "daiin")] == ["q", "c", "c", "o", "x"]
+    lines = [["chedy", "qokedy", "chol", "daiin"]] * 40
+    m = Assembler(order=2, link_by="family", line_sigma=0.4, line_drift=0.9, echo_fits=True,
+                  recall_p=0.1, edit_p=0.1).fit(lines)
+    assert any(k[0] == "^c:y" for k in m.pooled)
+    out = m.fill_sheet([(4, False)] * 6, seed=4)
+    assert [len(l) for l in out] == [4] * 6 and m.line_family is None
