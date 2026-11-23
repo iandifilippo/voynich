@@ -2,6 +2,16 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-23 (2)
+
+### 60 scorecard (B sheets 100+ words; train even, test odd)
+B odd: distinct 248.9, hapax .677, new .183, lexgain -.263, signs/word 4.38, qo .195, identity 1.00, gallows ratio 1.064, beyond .225-.244, recurring .052-.053, class seq .063.
+Generator sigma .3 hold 1 (chosen on train, 7/11 there): 289.9 .714 .220 -.366 4.28 .146 .85 1.044 .072 .023 .013 -> 6/11. sigma .9 hold 2.5: 298.5 .719 .238 -.340 4.26 .136 1.00 1.054 .043 .034 .029 -> 5. Copying: 202.9 .596 .510 +.084 4.08 .016 .95 1.036 .207 .028 .002 -> 6. Naibbe: 277.9 .553 .353 +.133 4.45 .179 .15 .996 .082 .018 .024 -> 5.
+
+### 61 run copying (follow_p; echo now keeps sheet history)
+Train grid follow_p 0/.05/.1/.2/.3/.45: within 6/7/7/6/6/6; beyond .004/.109/.185/.366/.521/.935; recurring .029/.025/.021/.021/.018/.016; distinct 282.8/286.1/282.8/273.6/265.2/251.6.
+Test: no run copying 283.8 .700 .215 -.364 4.27 .159 .65 1.039 .040 .020 .012 -> 6; follow .05: 280.6 .689 .214 -.323 4.29 .163 .65 1.011 .051 .015 .011 -> 7; copying model 6.
+
 ## 2026-11-23 (1)
 
 ### 58 zodiac labels (first word of each L unit, 10 signs, 294 labels)

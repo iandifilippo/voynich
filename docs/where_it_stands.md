@@ -41,8 +41,12 @@ experiment's NOTES.md.
 
 ## What is left
 
-- A residual link between neighbouring words that no habit I can model makes, in A and B and in
-  two transcriptions (exps. 48-51), and between physically separate words too (exp. 55). It doesn't form a consistent grammar (exp. 52) and decomposes
+- A residual link between neighbouring words, in A and B and in two transcriptions (exps. 48-51) and
+  between physically separate words (exp. 55). Copying short runs within a sheet, one in 10-15 words,
+  makes it (exp. 61): it needs no message. What nothing makes yet is a ch/sh-…-y → qo- rhythm that
+  holds across sheets (exps. 53, 61).
+- The best single model (exp. 61: rule + sheet setting + echo + copied runs) passes 7 of 11 held-out
+  statistics (exp. 60 scorecard). It doesn't form a consistent grammar (exp. 52) and decomposes
   into false spaces, a rhythm, and repeated pairs without word order (exp. 53).
 - Channels not calibrated: line position, combinations of channels. Abbreviated text and numbers
   would have shown (exp. 59); only a code made statistically flat would not.
