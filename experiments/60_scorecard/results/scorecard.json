@@ -1,61 +1,120 @@
-[
- {
-  "model": "Currier B, odd sheets",
-  "distinct per 1000": 248.94763428186565,
-  "hapax share": 0.6773757186337505,
-  "new words vs training half": 0.18269068866812593,
-  "lexicon gain (bits)": -0.2634908693274156,
-  "mean signs per word": 4.376746927092103,
-  "qo- words": 0.19531907728573833,
-  "sheet identity": 1.0,
-  "gallows same line / other": 1.0640514442947373,
-  "beyond the boundary (bits)": 0.24368606360240347,
-  "recurring pairs excess": 0.05291013268998794,
-  "class sequence (bits)": 0.06342072724501094
- },
- {
-  "model": "final generator",
-  "distinct per 1000": 309.5638996464051,
-  "hapax share": 0.7310307315746533,
-  "new words vs training half": 0.23850816635797273,
-  "lexicon gain (bits)": -0.4043008480332151,
-  "mean signs per word": 4.350816635797273,
-  "qo- words": 0.11197171240949655,
-  "sheet identity": 1.0,
-  "gallows same line / other": 1.0782369614629557,
-  "beyond the boundary (bits)": 0.0005402682165011469,
-  "recurring pairs excess": 0.01004221954161641,
-  "class sequence (bits)": 0.002296798241482406,
-  "within 0.8-1.25x of B": 5
- },
- {
-  "model": "copying model",
-  "distinct per 1000": 202.9367088607595,
-  "hapax share": 0.596307385229541,
-  "new words vs training half": 0.5097721518987341,
-  "lexicon gain (bits)": 0.08352734767317277,
-  "mean signs per word": 4.076354430379747,
-  "qo- words": 0.015898734177215188,
-  "sheet identity": 0.95,
-  "gallows same line / other": 1.0357275300813824,
-  "beyond the boundary (bits)": 0.20384840569976087,
-  "recurring pairs excess": 0.028706326723323905,
-  "class sequence (bits)": 0.0020761873743846485,
-  "within 0.8-1.25x of B": 6
- },
- {
-  "model": "Naibbe cipher of Pliny",
-  "distinct per 1000": 277.9087388449234,
-  "hapax share": 0.5534686458648894,
-  "new words vs training half": 0.3527529887186395,
-  "lexicon gain (bits)": 0.13303189796867287,
-  "mean signs per word": 4.447634281865634,
-  "qo- words": 0.1788179828253915,
-  "sheet identity": 0.15,
-  "gallows same line / other": 0.9963665455500583,
-  "beyond the boundary (bits)": 0.07862016504712718,
-  "recurring pairs excess": 0.016827503015681547,
-  "class sequence (bits)": 0.024301771063533827,
-  "within 0.8-1.25x of B": 5
- }
-]
+{
+ "rows": [
+  {
+   "model": "Currier B, odd sheets",
+   "distinct per 1000": 248.94763428186565,
+   "hapax share": 0.6773757186337505,
+   "new words vs training half": 0.18269068866812593,
+   "lexicon gain (bits)": -0.2634908693274156,
+   "mean signs per word": 4.376746927092103,
+   "qo- words": 0.19531907728573833,
+   "sheet identity": 1.0,
+   "gallows same line / other": 1.0640514442947373,
+   "beyond the boundary (bits)": 0.22458760233627478,
+   "recurring pairs excess": 0.05218636911942098,
+   "class sequence (bits)": 0.06342072724501094
+  },
+  {
+   "model": "final generator (sigma 0.3, hold 1.0, chosen on even sheets)",
+   "distinct per 1000": 289.8636134029298,
+   "hapax share": 0.7136218414173686,
+   "new words vs training half": 0.22040747600606161,
+   "lexicon gain (bits)": -0.36581947744953824,
+   "mean signs per word": 4.276224953695908,
+   "qo- words": 0.14623674019195151,
+   "sheet identity": 0.85,
+   "gallows same line / other": 1.044022490983289,
+   "beyond the boundary (bits)": 0.07163934991191764,
+   "recurring pairs excess": 0.023115199034981895,
+   "class sequence (bits)": 0.0134415874871643,
+   "within 0.8-1.25x of B": 6
+  },
+  {
+   "model": "final generator (sigma 0.9, hold 2.5, exp. 50)",
+   "distinct per 1000": 298.53510692035695,
+   "hapax share": 0.7188381274675691,
+   "new words vs training half": 0.23800303081326823,
+   "lexicon gain (bits)": -0.340116936941968,
+   "mean signs per word": 4.2548408823034185,
+   "qo- words": 0.13554470449570635,
+   "sheet identity": 1.0,
+   "gallows same line / other": 1.0537361238479848,
+   "beyond the boundary (bits)": 0.04312621580600347,
+   "recurring pairs excess": 0.03388118214716525,
+   "class sequence (bits)": 0.02874259578018899,
+   "within 0.8-1.25x of B": 5
+  },
+  {
+   "model": "copying model",
+   "distinct per 1000": 202.9367088607595,
+   "hapax share": 0.596307385229541,
+   "new words vs training half": 0.5097721518987341,
+   "lexicon gain (bits)": 0.08352734767317277,
+   "mean signs per word": 4.076354430379747,
+   "qo- words": 0.015898734177215188,
+   "sheet identity": 0.95,
+   "gallows same line / other": 1.0357275300813824,
+   "beyond the boundary (bits)": 0.2072196173934025,
+   "recurring pairs excess": 0.028177525967894246,
+   "class sequence (bits)": 0.0020761873743846485,
+   "within 0.8-1.25x of B": 6
+  },
+  {
+   "model": "Naibbe cipher of Pliny",
+   "distinct per 1000": 277.9087388449234,
+   "hapax share": 0.5534686458648894,
+   "new words vs training half": 0.3527529887186395,
+   "lexicon gain (bits)": 0.13303189796867287,
+   "mean signs per word": 4.447634281865634,
+   "qo- words": 0.1788179828253915,
+   "sheet identity": 0.15,
+   "gallows same line / other": 0.9963665455500583,
+   "beyond the boundary (bits)": 0.08202841129546466,
+   "recurring pairs excess": 0.017566344993968634,
+   "class sequence (bits)": 0.024301771063533827,
+   "within 0.8-1.25x of B": 5
+  }
+ ],
+ "grid": [
+  {
+   "sigma": 0.0,
+   "hold": 1.0,
+   "within range on training sheets": 6
+  },
+  {
+   "sigma": 0.0,
+   "hold": 2.5,
+   "within range on training sheets": 5
+  },
+  {
+   "sigma": 0.3,
+   "hold": 1.0,
+   "within range on training sheets": 7
+  },
+  {
+   "sigma": 0.3,
+   "hold": 2.5,
+   "within range on training sheets": 6
+  },
+  {
+   "sigma": 0.6,
+   "hold": 1.0,
+   "within range on training sheets": 6
+  },
+  {
+   "sigma": 0.6,
+   "hold": 2.5,
+   "within range on training sheets": 6
+  },
+  {
+   "sigma": 0.9,
+   "hold": 1.0,
+   "within range on training sheets": 6
+  },
+  {
+   "sigma": 0.9,
+   "hold": 2.5,
+   "within range on training sheets": 6
+  }
+ ]
+}
