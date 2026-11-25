@@ -1,0 +1,203 @@
+{
+ "distributions": [
+  {
+   "gap": "letters inside a word (ligatures left out)",
+   "n": 87363,
+   "quantiles": [
+    -0.13,
+    0.04,
+    0.17,
+    0.29,
+    0.45
+   ]
+  },
+  {
+   "gap": "doubtful space (ZL ',')",
+   "n": 1304,
+   "quantiles": [
+    0.33,
+    0.5,
+    0.64,
+    0.81,
+    1.0
+   ]
+  },
+  {
+   "gap": "certain space (ZL '.'), all words",
+   "n": 21983,
+   "quantiles": [
+    -0.92,
+    0.45,
+    1.22,
+    1.67,
+    2.19
+   ]
+  },
+  {
+   "gap": "certain space, machine-drafted words, gap > 0",
+   "n": 8461,
+   "quantiles": [
+    0.72,
+    1.0,
+    1.36,
+    1.77,
+    2.35
+   ]
+  }
+ ],
+ "negative_share_by_trust": {
+  "auto": 0.083,
+  "auto-checked": 0.085,
+  "auto-placed": 0.306,
+  "owner-answered": 0.587,
+  "owner-traced": 0.175
+ },
+ "link": [
+  {
+   "boundary": "doubtful space",
+   "n": 1304,
+   "median gap": 0.6363636363636364,
+   "link (bits)": 0.6379267519201584
+  },
+  {
+   "boundary": "certain space, narrow",
+   "n": 2844,
+   "median gap": 0.8709677419354839,
+   "link (bits)": 0.24380099485038498,
+   "sd": 0.013283163650772369
+  },
+  {
+   "boundary": "certain space, mid",
+   "n": 2816,
+   "median gap": 1.36,
+   "link (bits)": 0.18542811899777856,
+   "sd": 0.012452775890726681
+  },
+  {
+   "boundary": "certain space, wide",
+   "n": 2801,
+   "median gap": 2.0,
+   "link (bits)": 0.06881509891343877,
+   "sd": 0.009152213407157469
+  }
+ ],
+ "rhythm": [
+  {
+   "space": "narrow",
+   "n": 2844,
+   "P(qo)": 0.14662447257383968,
+   "after ch/sh-y": 1.781515157267326,
+   "after -n/-l/-r": 0.4245652484634808
+  },
+  {
+   "space": "mid",
+   "n": 2816,
+   "P(qo)": 0.18927556818181818,
+   "after ch/sh-y": 1.757439355938418,
+   "after -n/-l/-r": 0.44027517198248906
+  },
+  {
+   "space": "wide",
+   "n": 2801,
+   "P(qo)": 0.12495537308104249,
+   "after ch/sh-y": 1.6569792322215229,
+   "after -n/-l/-r": 0.5716326530612245
+  }
+ ],
+ "by_language": [
+  {
+   "language": "A",
+   "space": "narrow",
+   "n": 1427,
+   "median gap": 0.8214285714285714,
+   "link (bits)": 0.16769042416200666
+  },
+  {
+   "language": "A",
+   "space": "mid",
+   "n": 1385,
+   "median gap": 1.2857142857142858,
+   "link (bits)": 0.1170923460806651
+  },
+  {
+   "language": "A",
+   "space": "wide",
+   "n": 1405,
+   "median gap": 1.9215686274509804,
+   "link (bits)": 0.0354936041740504
+  },
+  {
+   "language": "B",
+   "space": "narrow",
+   "n": 1353,
+   "median gap": 0.9166666666666666,
+   "link (bits)": 0.3667587168229393
+  },
+  {
+   "language": "B",
+   "space": "mid",
+   "n": 1357,
+   "median gap": 1.4222222222222223,
+   "link (bits)": 0.2734855883688998
+  },
+  {
+   "language": "B",
+   "space": "wide",
+   "n": 1337,
+   "median gap": 2.0434782608695654,
+   "link (bits)": 0.1292175231598146
+  }
+ ],
+ "wide_inside_words": [
+  {
+   "letters": "q-o",
+   "wide (>= 0.6)": 332,
+   "all": 4150,
+   "share wide": 0.08
+  },
+  {
+   "letters": "o-k",
+   "wide (>= 0.6)": 216,
+   "all": 4363,
+   "share wide": 0.04950721980288792
+  },
+  {
+   "letters": "o-r",
+   "wide (>= 0.6)": 161,
+   "all": 1874,
+   "share wide": 0.08591248665955176
+  },
+  {
+   "letters": "d-y",
+   "wide (>= 0.6)": 144,
+   "all": 4507,
+   "share wide": 0.03195029953405813
+  },
+  {
+   "letters": "d-a",
+   "wide (>= 0.6)": 139,
+   "all": 2729,
+   "share wide": 0.05093440820813485
+  },
+  {
+   "letters": "o-t",
+   "wide (>= 0.6)": 136,
+   "all": 2576,
+   "share wide": 0.052795031055900624
+  },
+  {
+   "letters": "h-e",
+   "wide (>= 0.6)": 134,
+   "all": 5005,
+   "share wide": 0.026773226773226775
+  },
+  {
+   "letters": "o-l",
+   "wide (>= 0.6)": 130,
+   "all": 3646,
+   "share wide": 0.03565551289083928
+  }
+ ],
+ "wide_share": 0.0422032210432334,
+ "matched_tokens": 26912
+}

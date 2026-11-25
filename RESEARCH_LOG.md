@@ -2,6 +2,14 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-25
+
+### 66 glyph gaps (glyph map 22 Nov 2026; band ±0.6 xh; MI excess at n=1304, 20 subsamples)
+Gaps (10/25/50/75/90): letters -0.13 .04 .17 .29 .45 (87363); comma .33 .50 .64 .81 1.00 (1304); certain all -0.92 .45 1.22 1.67 2.19 (21983); certain machine-drafted >0 .72 1.00 1.36 1.77 2.35 (8461).
+Negative certain gaps by trust: auto .083, auto-checked .085, auto-placed .306, owner-answered .587, owner-traced .175.
+Link: comma .638; certain narrow .244 (.013), mid .185 (.012), wide .069 (.009). A .168/.117/.035; B .367/.273/.129.
+Rhythm ch/sh-y -> qo: narrow 1.78, mid 1.76, wide 1.66; -n/l/r -> qo .43 .44 .57. Wide (>=.6) letter gaps 4.2%, q-o 8.0%.
+
 ## 2026-11-23 (5)
 
 ### 65 family link (all B sheets for anatomy; train even / test odd, 5 seeds)
