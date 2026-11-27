@@ -2,6 +2,13 @@
 
 Newest first. Numbers come from the `results/` folder of each experiment; rerun to check.
 
+## 2026-11-27
+
+### 66 correction: no third gap size
+Gaps 0.5-0.9 xh: inside words 5929, doubtful 741, certain 1190 (doubtful .094); 0.4-1.0: 11519 / 980 / 1789 (.069).
+Unlabelled Gaussian mixture on all gaps (-1..4): k=2 BIC 56150, means .16 .85; k=3 BIC 53450, means .16 .19 .93 (splits the letter peak, no middle mode).
+Figure panel a redrawn as counts stacked by label (log). Raised by Daniil Vaino.
+
 ## 2026-11-25
 
 ### 66 glyph gaps (glyph map 22 Nov 2026; band ±0.6 xh; MI excess at n=1304, 20 subsamples)

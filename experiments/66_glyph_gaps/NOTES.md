@@ -27,6 +27,8 @@ at equal n (1,304 pairs, 20 subsamples).
 
 ![](results/glyph_gaps.png)
 
+Panel a: counts stacked by the transcription's label, log scale.
+
 | | n | median gap (x-heights) | 10th-90th percentile |
 |---|---|---|---|
 | letters inside a word | 87,363 | 0.17 | −0.13 to 0.45 |
@@ -45,10 +47,14 @@ of exp. 62 barely changes with width (after *ch/sh-…-y*: 1.78, 1.76, 1.66 time
 
 ## So what
 
-1. **There are three kinds of gap, not two.** The transcribers' doubtful spaces aren't a mix of
-   spaces and non-spaces. They form their own population, about four times a gap between letters and
-   half a space. Exp. 57 saw them as narrower spaces. With letters measured one by one they are a
-   separate size the scribe made.
+1. **Two populations, not three (corrected).** I first read the doubtful spaces as a third size of
+   gap. That was wrong. Daniil Vaino questioned it, and the unlabelled data agree with him. Between
+   0.5 and 0.9 x-heights there are 7,860 gaps: 5,929 inside words, 1,190 certain spaces and only
+   741 doubtful ones (9%). A mixture fitted to all gaps without labels doesn't find a middle peak
+   either: with three parts it splits the letter peak (means 0.16, 0.19, 0.93). So there are letter
+   gaps and spaces, overlapping continuously in the middle. The doubtful spaces are the part of
+   that middle the transcribers flagged, and their own peak at 0.64 comes from how they were picked,
+   not from a size the scribe chose.
 2. **The link between neighbouring words lives in the narrow spaces.** Across a doubtful space the
    end and the start are tied as tightly as letters inside a word. Across the widest third of the
    real spaces, almost nothing is left (0.07 bits, 0.03 in A). Boxes (exp. 55) and ink (exp. 57)

@@ -53,7 +53,7 @@ experiment's NOTES.md.
   into false spaces, a rhythm, and repeated pairs without word order (exp. 53).
 - Channels not calibrated: line position, combinations of channels. Abbreviated text and numbers
   would have shown (exp. 59); only a code made statistically flat would not.
-- Measured letter by letter (exp. 66), the transcribers' doubtful spaces are a third size of gap between letters and spaces, the end-start link sits in narrow spaces (0.64 bits across doubtful ones, 0.07 across the widest real spaces), and the qo- rhythm crosses wide spaces unchanged.
+- Measured letter by letter (exp. 66), letter gaps and spaces overlap continuously and the transcribers' doubtful spaces are a slice of that middle, the end-start link sits in narrow spaces (0.64 bits across doubtful ones, 0.07 across the widest real spaces), and the qo- rhythm crosses wide spaces unchanged.
 - Zodiac labels carry no calendar that shows in word shape (exp. 58).
 - Labels behave like a separate vocabulary (exp. 45), and ring/circle text has hardly been looked
   at on its own.
